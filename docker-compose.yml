@@ -1,0 +1,8 @@
+services:
+  312mmo:
+    image: 312mmo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
