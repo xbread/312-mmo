@@ -53,7 +53,7 @@ def registration(http_request: request, handler):
         user_collection.insert_one(
             {"id": user_id, "username": username, "password": password_hash, "imageURL": image_URL})
 
-    handler.request.sendall(registration_response)
+    return registration_response
 
 def login(http_request: request, handler):
     # Make response obj
@@ -88,7 +88,7 @@ def login(http_request: request, handler):
             login_response = Response(response="Incorrect password", mimetype="text/plain", status=400)
             login_response.headers["Content-Type"] = "text/plain; charset=utf-8"
 
-    handler.request.sendall(login_response)
+    return login_response
 
 def logout(http_request: request, handler):
     logout_response = None
@@ -116,7 +116,7 @@ def logout(http_request: request, handler):
             logout_response.set_cookie("auth-token", value=dummy_cookie, max_age=0, httponly=True)
             logout_response.headers["Location"] = "/"
 
-    handler.request.sendall(logout_response)
+    return logout_response
 
 
 def validate_password(password: str) -> bool:
