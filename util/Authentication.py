@@ -14,7 +14,7 @@ user_collection = db['users']
 
 #code for authentication here:
 
-def registration(http_request: request, handler):
+def registration(http_request: request):
     #Make response obj
     registration_response = None
     #Get requested credentials
@@ -55,7 +55,7 @@ def registration(http_request: request, handler):
 
     return registration_response
 
-def login(http_request: request, handler):
+def login(http_request: request):
     # Make response obj
     login_response = None
     # Get requested credentials
@@ -90,7 +90,7 @@ def login(http_request: request, handler):
 
     return login_response
 
-def logout(http_request: request, handler):
+def logout(http_request: request):
     logout_response = None
 
     #Check auth token is in cookies
