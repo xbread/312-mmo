@@ -1,0 +1,158 @@
+[2025-04-15 12:44:39] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 12:44:39] [33mPress CTRL+C to quit[0m
+[2025-04-15 12:44:39]  * Restarting with watchdog (windowsapi)
+[2025-04-15 12:44:39]  * Debugger is active!
+[2025-04-15 12:44:39]  * Debugger PIN: 381-323-932
+[2025-04-15 12:44:43] 127.0.0.1 - GET /drawing-board
+[2025-04-15 12:44:43] 127.0.0.1 - - [15/Apr/2025 12:44:43] "[33mGET /drawing-board HTTP/1.1[0m" 404 -
+[2025-04-15 12:44:43] 127.0.0.1 - GET /favicon.ico
+[2025-04-15 12:44:43] 127.0.0.1 - - [15/Apr/2025 12:44:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-15 12:44:54] 127.0.0.1 - GET /gameboard
+[2025-04-15 12:44:54] 127.0.0.1 - - [15/Apr/2025 12:44:54] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 12:48:37]  * Detected change in 'C:\\Users\\trmdo\\anaconda3\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+[2025-04-15 12:48:37]  * Detected change in 'C:\\Users\\trmdo\\anaconda3\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+[2025-04-15 12:48:37]  * Detected change in 'C:\\Users\\trmdo\\anaconda3\\Lib\\site-packages\\werkzeug\\user_agent.py', reloading
+[2025-04-15 12:48:37]  * Detected change in 'C:\\Users\\trmdo\\anaconda3\\Lib\\site-packages\\werkzeug\\datastructures\\auth.py', reloading
+[2025-04-15 12:48:38]  * Restarting with watchdog (windowsapi)
+[2025-04-15 12:48:38]  * Debugger is active!
+[2025-04-15 12:48:38]  * Debugger PIN: 381-323-932
+[2025-04-15 12:48:41]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:41]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:41]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:41]  * Restarting with watchdog (windowsapi)
+[2025-04-15 12:48:42]  * Debugger is active!
+[2025-04-15 12:48:42]  * Debugger PIN: 381-323-932
+[2025-04-15 12:48:45]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:45]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:45]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:46]  * Restarting with watchdog (windowsapi)
+[2025-04-15 12:48:46]  * Debugger is active!
+[2025-04-15 12:48:46]  * Debugger PIN: 381-323-932
+[2025-04-15 12:48:51]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:51]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:51]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:52]  * Restarting with watchdog (windowsapi)
+[2025-04-15 12:48:52]  * Debugger is active!
+[2025-04-15 12:48:52]  * Debugger PIN: 381-323-932
+[2025-04-15 12:48:53]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:53]  * Detected change in 'c:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 12:48:54]  * Restarting with watchdog (windowsapi)
+[2025-04-15 16:59:58] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 16:59:58] [33mPress CTRL+C to quit[0m
+[2025-04-15 16:59:58]  * Restarting with stat
+[2025-04-15 16:59:58]  * Debugger is active!
+[2025-04-15 16:59:58]  * Debugger PIN: 139-042-295
+[2025-04-15 17:04:23] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 17:04:23] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:04:23]  * Restarting with stat
+[2025-04-15 17:04:24]  * Debugger is active!
+[2025-04-15 17:04:24]  * Debugger PIN: 116-549-301
+[2025-04-15 13:04:51] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 13:04:51] [33mPress CTRL+C to quit[0m
+[2025-04-15 13:04:51]  * Restarting with watchdog (windowsapi)
+[2025-04-15 13:04:51]  * Debugger is active!
+[2025-04-15 13:04:51]  * Debugger PIN: 381-323-932
+[2025-04-15 13:05:10]  * Detected change in 'C:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 13:05:10]  * Detected change in 'C:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 13:05:10]  * Detected change in 'C:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\app.py', reloading
+[2025-04-15 13:05:10]  * Restarting with watchdog (windowsapi)
+[2025-04-15 13:05:11]  * Debugger is active!
+[2025-04-15 13:05:11]  * Debugger PIN: 381-323-932
+[2025-04-15 17:05:23] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 17:05:23] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:05:23]  * Restarting with stat
+[2025-04-15 17:05:23]  * Debugger is active!
+[2025-04-15 17:05:23]  * Debugger PIN: 570-837-641
+[2025-04-15 13:05:28] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 13:05:28] [33mPress CTRL+C to quit[0m
+[2025-04-15 13:05:28]  * Restarting with watchdog (windowsapi)
+[2025-04-15 13:05:28]  * Debugger is active!
+[2025-04-15 13:05:28]  * Debugger PIN: 381-323-932
+[2025-04-15 13:06:58]  * Detected change in 'C:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\snake-game\\snake.py', reloading
+[2025-04-15 13:06:59]  * Restarting with watchdog (windowsapi)
+[2025-04-15 13:06:59]  * Debugger is active!
+[2025-04-15 13:06:59]  * Debugger PIN: 381-323-932
+[2025-04-15 13:07:24] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 13:07:24] [33mPress CTRL+C to quit[0m
+[2025-04-15 13:07:24]  * Restarting with watchdog (windowsapi)
+[2025-04-15 13:07:25]  * Debugger is active!
+[2025-04-15 13:07:25]  * Debugger PIN: 381-323-932
+[2025-04-15 17:10:42] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 17:10:42] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:10:42]  * Restarting with stat
+[2025-04-15 17:10:42]  * Debugger is active!
+[2025-04-15 17:10:42]  * Debugger PIN: 802-801-822
+[2025-04-15 17:21:42] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 17:21:42] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:21:42]  * Restarting with stat
+[2025-04-15 17:21:42]  * Debugger is active!
+[2025-04-15 17:21:42]  * Debugger PIN: 958-640-096
+[2025-04-15 17:23:14]  * Detected change in '/app/app.py', reloading
+[2025-04-15 17:23:14]  * Restarting with stat
+[2025-04-15 17:23:14]  * Debugger is active!
+[2025-04-15 17:23:14]  * Debugger PIN: 958-640-096
+[2025-04-15 17:23:25]  * Detected change in '/app/app.py', reloading
+[2025-04-15 17:23:26]  * Restarting with stat
+[2025-04-15 17:23:26]  * Debugger is active!
+[2025-04-15 17:23:26]  * Debugger PIN: 958-640-096
+[2025-04-15 17:23:27]  * Detected change in '/app/app.py', reloading
+[2025-04-15 17:23:28]  * Restarting with stat
+[2025-04-15 17:23:28]  * Debugger is active!
+[2025-04-15 17:23:28]  * Debugger PIN: 958-640-096
+[2025-04-15 17:23:34]  * Detected change in '/app/app.py', reloading
+[2025-04-15 17:23:35]  * Restarting with stat
+[2025-04-15 17:23:42] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 17:23:42] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:23:42]  * Restarting with stat
+[2025-04-15 17:23:42]  * Debugger is active!
+[2025-04-15 17:23:42]  * Debugger PIN: 287-922-905
+[2025-04-15 13:24:55] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 13:24:55] [33mPress CTRL+C to quit[0m
+[2025-04-15 13:24:55]  * Restarting with watchdog (windowsapi)
+[2025-04-15 13:24:56]  * Debugger is active!
+[2025-04-15 13:24:56]  * Debugger PIN: 381-323-932
+[2025-04-15 13:25:02] 127.0.0.1 - GET /gameboard
+[2025-04-15 13:25:02] 127.0.0.1 - - [15/Apr/2025 13:25:02] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 13:27:15] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 13:27:15] [33mPress CTRL+C to quit[0m
+[2025-04-15 13:27:15]  * Restarting with watchdog (windowsapi)
+[2025-04-15 13:27:15]  * Debugger is active!
+[2025-04-15 13:27:15]  * Debugger PIN: 381-323-932
+[2025-04-15 13:27:21] 127.0.0.1 - GET /gameboard
+[2025-04-15 13:27:21] 127.0.0.1 - - [15/Apr/2025 13:27:21] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 13:38:00] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-04-15 13:38:00] [33mPress CTRL+C to quit[0m
+[2025-04-15 13:38:00]  * Restarting with watchdog (windowsapi)
+[2025-04-15 13:38:00]  * Debugger is active!
+[2025-04-15 13:38:00]  * Debugger PIN: 381-323-932
+[2025-04-15 13:38:04] 127.0.0.1 - GET /gameboard
+[2025-04-15 13:38:04] 127.0.0.1 - - [15/Apr/2025 13:38:04] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 14:09:25]  * Detected change in 'C:\\Users\\trmdo\\Downloads\\CSE_312\\312-mmo\\util\\Authentication.py', reloading
+[2025-04-15 14:09:26]  * Restarting with watchdog (windowsapi)
+[2025-04-15 14:09:27]  * Debugger is active!
+[2025-04-15 14:09:27]  * Debugger PIN: 381-323-932
+[2025-04-15 18:12:54] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.19.0.2:8080
+[2025-04-15 18:12:54] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:12:54]  * Restarting with stat
+[2025-04-15 18:12:54]  * Debugger is active!
+[2025-04-15 18:12:54]  * Debugger PIN: 384-845-482
+[2025-04-15 18:13:14] 172.19.0.1 - GET /gameboard
+[2025-04-15 18:13:14] 172.19.0.1 - - [15/Apr/2025 18:13:14] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 18:13:36] 172.19.0.1 - GET /gameboard
+[2025-04-15 18:13:36] 172.19.0.1 - - [15/Apr/2025 18:13:36] "GET /gameboard HTTP/1.1" 200 -

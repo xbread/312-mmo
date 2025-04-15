@@ -1,8 +1,10 @@
+version: '3.8'
+
 services:
-  312mmo:
-    image: 312mmo
-    build:
-      context: .
-      dockerfile: ./Dockerfile
+  snake:
+    build: .
     ports:
-      - 8080:8080
+      - "8080:8080"
+    volumes:
+      - .:/app  
+      - ./logs:/app/logs
