@@ -1,6 +1,7 @@
 # Imports
 from flask import request, make_response, Response
 from pymongo import MongoClient
+from util.database import user_collection
 import bcrypt                #Used to encrypt passwords
 import uuid                  #Used to generate user ids
 import secrets               #Used to generate auth tokens
@@ -8,9 +9,9 @@ import hashlib               #Used to hash auth tokens
 
 # Mongo DB info
 # DB structure not set yet
-mongo_client = MongoClient('localhost')
-db = mongo_client['<name>']
-user_collection = db['users']
+# mongo_client = MongoClient('localhost')
+
+
 
 #code for authentication here:
 
@@ -18,9 +19,10 @@ def registration(http_request: request):
     #Make response obj
     registration_response = None
     #Get requested credentials
-    requested_credentials = http_request.args
-    username = requested_credentials[0]
-    password = requested_credentials[1]
+    requested_credentials = http_request.form
+    username = requested_credentials.get("0")
+    password = requested_credentials.get("1")
+    
     password_isValid = validate_password(password)
 
     #Find if username is taken
@@ -28,12 +30,12 @@ def registration(http_request: request):
 
     #Check lookup first if username is taken or not
     if (user_lookup is not None) and (user_lookup["username"] == username):
-        registration_response = Response(response="Username already taken", mimetype="text/plain", status=400)
+        registration_response = Response("USERNAME_TAKEN", mimetype="text/plain", status=400)
         registration_response.headers["Content-Type"] = "text/plain; charset=utf-8"
 
     #Check password is strong enough
     elif not password_isValid:
-        registration_response = Response(response="Password is not strong enough", mimetype="text/plain", status=400)
+        registration_response = Response("WEAK_PASSWORD", mimetype="text/plain", status=400)
         registration_response.headers["Content-Type"] = "text/plain; charset=utf-8"
 
     #Otherwise, register user
@@ -52,16 +54,19 @@ def registration(http_request: request):
         #Insert user in DB
         user_collection.insert_one(
             {"id": user_id, "username": username, "password": password_hash, "imageURL": image_URL})
+        registration_response = Response(response="Registration successful", status=200)
+        registration_response.headers["Content-Type"] = "text/plain; charset=utf-8"
 
     return registration_response
 
 def login(http_request: request):
+    print(list(user_collection.find({})))
     # Make response obj
     login_response = None
     # Get requested credentials
-    requested_credentials = http_request.args
-    username = requested_credentials[0]
-    password = requested_credentials[1]
+    requested_credentials = http_request.form
+    username = requested_credentials.get("0")
+    password = requested_credentials.get("1")
 
     #Find user
     user_lookup = user_collection.find_one({"username" : username})
@@ -87,7 +92,9 @@ def login(http_request: request):
         else:
             login_response = Response(response="Incorrect password", mimetype="text/plain", status=400)
             login_response.headers["Content-Type"] = "text/plain; charset=utf-8"
-
+    
+    registration_response = Response(response="Login successful", status=200)
+    registration_response.headers["Content-Type"] = "text/plain; charset=utf-8"
     return login_response
 
 def logout(http_request: request):

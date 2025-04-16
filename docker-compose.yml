@@ -1,8 +1,13 @@
 version: '3.8'
 
 services:
+  mongo:
+    image: mongo:4.2.5
   snake:
     build: .
+    environment:
+      WAIT_HOSTS: mongo:27017
+      DOCKER_DB: true
     ports:
       - "8080:8080"
     volumes:
