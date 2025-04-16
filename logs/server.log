@@ -1255,3 +1255,33 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connecti
 [2025-04-15 21:00:52] 127.0.0.1 - - [15/Apr/2025 21:00:52] "GET /gameboard HTTP/1.1" 200 -
 [2025-04-15 21:00:55] 127.0.0.1 - GET /favicon.ico
 [2025-04-15 21:00:55] 127.0.0.1 - - [15/Apr/2025 21:00:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-15 21:07:05] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 21:07:05] [33mPress CTRL+C to quit[0m
+[2025-04-15 21:07:05]  * Restarting with stat
+[2025-04-15 21:07:06]  * Debugger is active!
+[2025-04-15 21:07:06]  * Debugger PIN: 138-512-773
+[2025-04-15 21:07:15] 127.0.0.1 - GET /register
+[2025-04-15 21:07:15] 127.0.0.1 - - [15/Apr/2025 21:07:15] "GET /register HTTP/1.1" 200 -
+[2025-04-15 21:07:16] 127.0.0.1 - GET /register
+[2025-04-15 21:07:16] 127.0.0.1 - - [15/Apr/2025 21:07:16] "GET /register HTTP/1.1" 200 -
+[2025-04-15 21:07:22] 127.0.0.1 - GET /
+[2025-04-15 21:07:22] 127.0.0.1 - - [15/Apr/2025 21:07:22] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-15 21:07:31] 127.0.0.1 - GET /login
+[2025-04-15 21:07:31] 127.0.0.1 - - [15/Apr/2025 21:07:31] "GET /login HTTP/1.1" 200 -
+[2025-04-15 21:08:37] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 21:08:37] [33mPress CTRL+C to quit[0m
+[2025-04-15 21:08:37]  * Restarting with stat
+[2025-04-15 21:08:37]  * Debugger is active!
+[2025-04-15 21:08:37]  * Debugger PIN: 138-512-773
+[2025-04-15 21:08:50] 127.0.0.1 - GET /register
+[2025-04-15 21:08:50] 127.0.0.1 - - [15/Apr/2025 21:08:50] "GET /register HTTP/1.1" 200 -
+[2025-04-15 21:08:53] 127.0.0.1 - GET /
+[2025-04-15 21:08:53] 127.0.0.1 - - [15/Apr/2025 21:08:53] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-15 21:08:53] 127.0.0.1 - GET /register
+[2025-04-15 21:08:53] 127.0.0.1 - - [15/Apr/2025 21:08:53] "GET /register HTTP/1.1" 200 -

@@ -12,6 +12,10 @@ def log_incoming_request():
     path = request.path
     log_request(ip, method, path)
     
+@app.route('/')
+def start():
+    return redirect("/register")
+    
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
