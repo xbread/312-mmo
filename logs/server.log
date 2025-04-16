@@ -156,3 +156,1102 @@
 [2025-04-15 18:13:14] 172.19.0.1 - - [15/Apr/2025 18:13:14] "GET /gameboard HTTP/1.1" 200 -
 [2025-04-15 18:13:36] 172.19.0.1 - GET /gameboard
 [2025-04-15 18:13:36] 172.19.0.1 - - [15/Apr/2025 18:13:36] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 17:49:52] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-15 17:49:52] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:50:14] 127.0.0.1 - GET /
+[2025-04-15 17:50:14] 127.0.0.1 - - [15/Apr/2025 17:50:14] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-15 17:50:14] 127.0.0.1 - GET /favicon.ico
+[2025-04-15 17:50:14] 127.0.0.1 - - [15/Apr/2025 17:50:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-15 17:51:16] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-15 17:51:16] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:51:43] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-15 17:51:43] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:53:22] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-15 17:53:22] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:53:22]  * Restarting with stat
+[2025-04-15 17:53:22]  * Debugger is active!
+[2025-04-15 17:53:22]  * Debugger PIN: 138-512-773
+[2025-04-15 17:54:41] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-15 17:54:41] [33mPress CTRL+C to quit[0m
+[2025-04-15 17:54:41]  * Restarting with stat
+[2025-04-15 17:54:41]  * Debugger is active!
+[2025-04-15 17:54:41]  * Debugger PIN: 138-512-773
+[2025-04-15 17:56:58]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 17:56:58]  * Restarting with stat
+[2025-04-15 17:56:58]  * Debugger is active!
+[2025-04-15 17:56:58]  * Debugger PIN: 138-512-773
+[2025-04-15 17:57:42] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-15 17:57:42] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:00:27] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:00:27] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:00:27]  * Restarting with stat
+[2025-04-15 18:00:27]  * Debugger is active!
+[2025-04-15 18:00:27]  * Debugger PIN: 138-512-773
+[2025-04-15 18:00:42] 127.0.0.1 - GET /
+[2025-04-15 18:00:42] 127.0.0.1 - - [15/Apr/2025 18:00:42] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-15 18:00:42] 127.0.0.1 - GET /favicon.ico
+[2025-04-15 18:00:42] 127.0.0.1 - - [15/Apr/2025 18:00:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-15 18:03:47] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:03:47] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:03:47]  * Restarting with stat
+[2025-04-15 18:03:47]  * Debugger is active!
+[2025-04-15 18:03:47]  * Debugger PIN: 138-512-773
+[2025-04-15 18:04:00] 127.0.0.1 - GET /
+[2025-04-15 18:04:00] 127.0.0.1 - - [15/Apr/2025 18:04:00] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-15 18:04:01] 127.0.0.1 - GET /
+[2025-04-15 18:04:01] 127.0.0.1 - - [15/Apr/2025 18:04:01] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-15 18:05:14] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:05:14] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:05:14]  * Restarting with stat
+[2025-04-15 18:05:15]  * Debugger is active!
+[2025-04-15 18:05:15]  * Debugger PIN: 138-512-773
+[2025-04-15 18:05:45] 127.0.0.1 - GET /register
+[2025-04-15 18:05:45] 127.0.0.1 - - [15/Apr/2025 18:05:45] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:05:51] 127.0.0.1 - GET /
+[2025-04-15 18:05:51] 127.0.0.1 - - [15/Apr/2025 18:05:51] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-15 18:05:52] 127.0.0.1 - GET /gameboard
+[2025-04-15 18:05:52] 127.0.0.1 - - [15/Apr/2025 18:05:52] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 18:05:59] 127.0.0.1 - GET /favicon.ico
+[2025-04-15 18:05:59] 127.0.0.1 - - [15/Apr/2025 18:05:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-15 18:11:07] 127.0.0.1 - GET /
+[2025-04-15 18:11:07] 127.0.0.1 - - [15/Apr/2025 18:11:07] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-15 18:11:11] 127.0.0.1 - GET /register
+[2025-04-15 18:11:11] 127.0.0.1 - - [15/Apr/2025 18:11:11] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:11:17] 127.0.0.1 - POST /register
+[2025-04-15 18:11:17] 127.0.0.1 - - [15/Apr/2025 18:11:17] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 18:11:17] 127.0.0.1 - - [15/Apr/2025 18:11:17] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-04-15 18:11:17] 127.0.0.1 - - [15/Apr/2025 18:11:17] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-04-15 18:11:17] 127.0.0.1 - - [15/Apr/2025 18:11:17] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=ZOQsJRuFP8npEigdz8GE HTTP/1.1" 200 -
+[2025-04-15 18:11:17] 127.0.0.1 - - [15/Apr/2025 18:11:17] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-04-15 18:22:15] 127.0.0.1 - GET /register
+[2025-04-15 18:22:15] 127.0.0.1 - - [15/Apr/2025 18:22:15] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:22:15] 127.0.0.1 - GET /favicon.ico
+[2025-04-15 18:22:15] 127.0.0.1 - - [15/Apr/2025 18:22:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-15 18:25:29]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 18:25:29]  * Restarting with stat
+[2025-04-15 18:25:30]  * Debugger is active!
+[2025-04-15 18:25:30]  * Debugger PIN: 138-512-773
+[2025-04-15 18:25:41] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:25:41] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:25:41]  * Restarting with stat
+[2025-04-15 18:25:41]  * Debugger is active!
+[2025-04-15 18:25:41]  * Debugger PIN: 138-512-773
+[2025-04-15 18:26:21] 127.0.0.1 - GET /register
+[2025-04-15 18:26:21] 127.0.0.1 - - [15/Apr/2025 18:26:21] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:26:27] 127.0.0.1 - POST /register
+[2025-04-15 18:26:30] 127.0.0.1 - POST /register
+[2025-04-15 18:26:57] 127.0.0.1 - - [15/Apr/2025 18:26:57] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 18:27:00] 127.0.0.1 - - [15/Apr/2025 18:27:00] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 18:27:00] 127.0.0.1 - - [15/Apr/2025 18:27:00] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-15 18:27:00] 127.0.0.1 - - [15/Apr/2025 18:27:00] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-15 18:27:00] 127.0.0.1 - - [15/Apr/2025 18:27:00] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=qkmoPjTYO6V3lP5Asla3 HTTP/1.1" 200 -
+[2025-04-15 18:27:00] 127.0.0.1 - - [15/Apr/2025 18:27:00] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-15 18:36:27] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:36:27] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:36:36] 127.0.0.1 - GET /register
+[2025-04-15 18:36:36] 127.0.0.1 - - [15/Apr/2025 18:36:36] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:36:37] 127.0.0.1 - GET /register
+[2025-04-15 18:36:37] 127.0.0.1 - - [15/Apr/2025 18:36:37] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:36:44] 127.0.0.1 - POST /register
+[2025-04-15 18:37:58] Exception on /register [POST]
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 18, in register
+    response = registration(request)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py", line 28, in registration
+    user_lookup = user_collection.find_one({"username": username})
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/collection.py", line 1755, in find_one
+    for result in cursor.limit(-1):
+                  ~~~~~~~~~~~~^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1284, in __next__
+    return self.next()
+           ~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1260, in next
+    if len(self._data) or self._refresh():
+                          ~~~~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1208, in _refresh
+    self._send_message(q)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1102, in _send_message
+    response = client._run_operation(
+        operation, self._unpack_response, address=self._address
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1896, in _run_operation
+    return self._retryable_read(
+           ~~~~~~~~~~~~~~~~~~~~^
+        _cmd,
+        ^^^^^
+    ...<4 lines>...
+        operation=operation.name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2005, in _retryable_read
+    return self._retry_internal(
+           ~~~~~~~~~~~~~~~~~~~~^
+        func,
+        ^^^^^
+    ...<7 lines>...
+        operation_id=operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+           ~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2854, in _read
+    self._server = self._get_server()
+                   ~~~~~~~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._server_selector,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=self._operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+        server_selector,
+    ...<2 lines>...
+        operation_id=operation_id,
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 409, in select_server
+    server = self._select_server(
+        selector,
+    ...<4 lines>...
+        operation_id=operation_id,
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 387, in _select_server
+    servers = self.select_servers(
+        selector, operation, server_selection_timeout, address, operation_id
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+        selector, server_timeout, operation, operation_id, address
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+        f"{self._error_message(selector)}, Timeout: {timeout}s, Topology Description: {self.description!r}"
+    )
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67fedf6b124e7ab602b57bcc, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2025-04-15 18:37:58] 127.0.0.1 - - [15/Apr/2025 18:37:58] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 18:42:13] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:42:13] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:42:16] 127.0.0.1 - POST /register
+[2025-04-15 18:42:27] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:42:27] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:42:43] 127.0.0.1 - GET /register
+[2025-04-15 18:42:43] 127.0.0.1 - - [15/Apr/2025 18:42:43] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:43:39] 127.0.0.1 - POST /register
+[2025-04-15 18:44:17] Exception on /register [POST]
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 18, in register
+    response = registration(request)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py", line 29, in registration
+    user_lookup = user_collection.find_one({"username": username})
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/collection.py", line 1755, in find_one
+    for result in cursor.limit(-1):
+                  ~~~~~~~~~~~~^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1284, in __next__
+    return self.next()
+           ~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1260, in next
+    if len(self._data) or self._refresh():
+                          ~~~~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1208, in _refresh
+    self._send_message(q)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1102, in _send_message
+    response = client._run_operation(
+        operation, self._unpack_response, address=self._address
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1896, in _run_operation
+    return self._retryable_read(
+           ~~~~~~~~~~~~~~~~~~~~^
+        _cmd,
+        ^^^^^
+    ...<4 lines>...
+        operation=operation.name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2005, in _retryable_read
+    return self._retry_internal(
+           ~~~~~~~~~~~~~~~~~~~~^
+        func,
+        ^^^^^
+    ...<7 lines>...
+        operation_id=operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+           ~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2854, in _read
+    self._server = self._get_server()
+                   ~~~~~~~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._server_selector,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=self._operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+        server_selector,
+    ...<2 lines>...
+        operation_id=operation_id,
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 409, in select_server
+    server = self._select_server(
+        selector,
+    ...<4 lines>...
+        operation_id=operation_id,
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 387, in _select_server
+    servers = self.select_servers(
+        selector, operation, server_selection_timeout, address, operation_id
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+        selector, server_timeout, operation, operation_id, address
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+        f"{self._error_message(selector)}, Timeout: {timeout}s, Topology Description: {self.description!r}"
+    )
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67fee0d3f421fbd9fc676c8d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2025-04-15 18:44:17] 127.0.0.1 - - [15/Apr/2025 18:44:17] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 18:52:45] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:52:45] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:52:51] 127.0.0.1 - GET /register
+[2025-04-15 18:52:51] 127.0.0.1 - - [15/Apr/2025 18:52:51] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:52:56] 127.0.0.1 - POST /register
+[2025-04-15 18:53:38] Exception on /register [POST]
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 18, in register
+    response = registration(request)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py", line 29, in registration
+    result = user_collection.find_one({"username": username})
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/collection.py", line 1755, in find_one
+    for result in cursor.limit(-1):
+                  ~~~~~~~~~~~~^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1284, in __next__
+    return self.next()
+           ~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1260, in next
+    if len(self._data) or self._refresh():
+                          ~~~~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1208, in _refresh
+    self._send_message(q)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1102, in _send_message
+    response = client._run_operation(
+        operation, self._unpack_response, address=self._address
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1896, in _run_operation
+    return self._retryable_read(
+           ~~~~~~~~~~~~~~~~~~~~^
+        _cmd,
+        ^^^^^
+    ...<4 lines>...
+        operation=operation.name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2005, in _retryable_read
+    return self._retry_internal(
+           ~~~~~~~~~~~~~~~~~~~~^
+        func,
+        ^^^^^
+    ...<7 lines>...
+        operation_id=operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+           ~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2854, in _read
+    self._server = self._get_server()
+                   ~~~~~~~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._server_selector,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=self._operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+        server_selector,
+    ...<2 lines>...
+        operation_id=operation_id,
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 409, in select_server
+    server = self._select_server(
+        selector,
+    ...<4 lines>...
+        operation_id=operation_id,
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 387, in _select_server
+    servers = self.select_servers(
+        selector, operation, server_selection_timeout, address, operation_id
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+        selector, server_timeout, operation, operation_id, address
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+        f"{self._error_message(selector)}, Timeout: {timeout}s, Topology Description: {self.description!r}"
+    )
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67fee33da9e6e4e1666bd3c7, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2025-04-15 18:53:38] 127.0.0.1 - - [15/Apr/2025 18:53:38] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 18:54:19] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:54:19] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:54:21] 127.0.0.1 - GET /register
+[2025-04-15 18:54:21] 127.0.0.1 - - [15/Apr/2025 18:54:21] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:54:27] 127.0.0.1 - POST /register
+[2025-04-15 18:55:16] Exception on /register [POST]
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 18, in register
+    response = registration(request)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py", line 29, in registration
+    user_lookup = user_collection.find_one({"username": username})
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/collection.py", line 1755, in find_one
+    for result in cursor.limit(-1):
+                  ~~~~~~~~~~~~^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1284, in __next__
+    return self.next()
+           ~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1260, in next
+    if len(self._data) or self._refresh():
+                          ~~~~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1208, in _refresh
+    self._send_message(q)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/cursor.py", line 1102, in _send_message
+    response = client._run_operation(
+        operation, self._unpack_response, address=self._address
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1896, in _run_operation
+    return self._retryable_read(
+           ~~~~~~~~~~~~~~~~~~~~^
+        _cmd,
+        ^^^^^
+    ...<4 lines>...
+        operation=operation.name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2005, in _retryable_read
+    return self._retry_internal(
+           ~~~~~~~~~~~~~~~~~~~~^
+        func,
+        ^^^^^
+    ...<7 lines>...
+        operation_id=operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+           ~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2854, in _read
+    self._server = self._get_server()
+                   ~~~~~~~~~~~~~~~~^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._server_selector,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=self._operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+        server_selector,
+    ...<2 lines>...
+        operation_id=operation_id,
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 409, in select_server
+    server = self._select_server(
+        selector,
+    ...<4 lines>...
+        operation_id=operation_id,
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 387, in _select_server
+    servers = self.select_servers(
+        selector, operation, server_selection_timeout, address, operation_id
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+        selector, server_timeout, operation, operation_id, address
+    )
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/pymongo/synchronous/topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+        f"{self._error_message(selector)}, Timeout: {timeout}s, Topology Description: {self.description!r}"
+    )
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67fee39bbdf898ebf4c5e7da, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2025-04-15 18:55:16] 127.0.0.1 - - [15/Apr/2025 18:55:16] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 18:56:01] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:56:01] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:56:01]  * Restarting with stat
+[2025-04-15 18:56:01]  * Debugger is active!
+[2025-04-15 18:56:01]  * Debugger PIN: 138-512-773
+[2025-04-15 18:56:10] 127.0.0.1 - GET /register
+[2025-04-15 18:56:10] 127.0.0.1 - - [15/Apr/2025 18:56:10] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:56:15] 127.0.0.1 - POST /register
+[2025-04-15 18:56:45] 127.0.0.1 - - [15/Apr/2025 18:56:45] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 18:56:45] 127.0.0.1 - - [15/Apr/2025 18:56:45] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-04-15 18:56:45] 127.0.0.1 - - [15/Apr/2025 18:56:45] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-04-15 18:56:45] 127.0.0.1 - - [15/Apr/2025 18:56:45] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=6HKymake3U5DLp8svV3K HTTP/1.1" 200 -
+[2025-04-15 18:56:45] 127.0.0.1 - - [15/Apr/2025 18:56:45] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-04-15 18:58:17] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:58:17] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:58:22] 127.0.0.1 - POST /register
+[2025-04-15 18:59:05] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:59:05] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:59:09] 127.0.0.1 - GET /register
+[2025-04-15 18:59:09] 127.0.0.1 - - [15/Apr/2025 18:59:09] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:59:19] 127.0.0.1 - POST /register
+[2025-04-15 18:59:31] 127.0.0.1 - GET /register
+[2025-04-15 18:59:31] 127.0.0.1 - - [15/Apr/2025 18:59:31] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:59:44] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 18:59:44] [33mPress CTRL+C to quit[0m
+[2025-04-15 18:59:48] 127.0.0.1 - GET /register
+[2025-04-15 18:59:48] 127.0.0.1 - - [15/Apr/2025 18:59:48] "GET /register HTTP/1.1" 200 -
+[2025-04-15 18:59:54] 127.0.0.1 - POST /register
+[2025-04-15 19:08:04] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 19:08:04] [33mPress CTRL+C to quit[0m
+[2025-04-15 19:08:04]  * Restarting with stat
+[2025-04-15 19:08:04]  * Debugger is active!
+[2025-04-15 19:08:04]  * Debugger PIN: 138-512-773
+[2025-04-15 19:08:16] 127.0.0.1 - GET /register
+[2025-04-15 19:08:16] 127.0.0.1 - - [15/Apr/2025 19:08:16] "GET /register HTTP/1.1" 200 -
+[2025-04-15 19:08:21] 127.0.0.1 - POST /register
+[2025-04-15 19:08:52] 127.0.0.1 - - [15/Apr/2025 19:08:52] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 19:08:52] 127.0.0.1 - - [15/Apr/2025 19:08:52] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-15 19:08:52] 127.0.0.1 - - [15/Apr/2025 19:08:52] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-15 19:08:52] 127.0.0.1 - - [15/Apr/2025 19:08:52] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=XoLLX0smZGrSB7UcaItm HTTP/1.1" 200 -
+[2025-04-15 19:08:52] 127.0.0.1 - - [15/Apr/2025 19:08:52] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-15 19:10:12]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 19:10:12]  * Restarting with stat
+[2025-04-15 19:10:13]  * Debugger is active!
+[2025-04-15 19:10:13]  * Debugger PIN: 138-512-773
+[2025-04-15 19:10:15]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 19:10:15]  * Restarting with stat
+[2025-04-15 19:10:15]  * Debugger is active!
+[2025-04-15 19:10:15]  * Debugger PIN: 138-512-773
+[2025-04-15 19:10:45]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 19:10:46]  * Restarting with stat
+[2025-04-15 19:12:00] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 19:12:00] [33mPress CTRL+C to quit[0m
+[2025-04-15 19:12:00]  * Restarting with stat
+[2025-04-15 19:12:00]  * Debugger is active!
+[2025-04-15 19:12:00]  * Debugger PIN: 138-512-773
+[2025-04-15 19:12:13] 127.0.0.1 - GET /register
+[2025-04-15 19:12:13] 127.0.0.1 - - [15/Apr/2025 19:12:13] "GET /register HTTP/1.1" 200 -
+[2025-04-15 19:12:18] 127.0.0.1 - POST /register
+[2025-04-15 19:12:18] 127.0.0.1 - - [15/Apr/2025 19:12:18] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 19:12:18] 127.0.0.1 - - [15/Apr/2025 19:12:18] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-15 19:12:18] 127.0.0.1 - - [15/Apr/2025 19:12:18] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-15 19:12:18] 127.0.0.1 - - [15/Apr/2025 19:12:18] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=a9MiRYHPnXpR9wrb2ShF HTTP/1.1" 200 -
+[2025-04-15 19:12:18] 127.0.0.1 - - [15/Apr/2025 19:12:18] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-15 19:12:32]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 19:12:33]  * Restarting with stat
+[2025-04-15 19:12:33]  * Debugger is active!
+[2025-04-15 19:12:33]  * Debugger PIN: 138-512-773
+[2025-04-15 19:12:39] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 19:12:39] [33mPress CTRL+C to quit[0m
+[2025-04-15 19:12:39]  * Restarting with stat
+[2025-04-15 19:12:39]  * Debugger is active!
+[2025-04-15 19:12:39]  * Debugger PIN: 138-512-773
+[2025-04-15 19:12:43] 127.0.0.1 - GET /register
+[2025-04-15 19:12:43] 127.0.0.1 - - [15/Apr/2025 19:12:43] "GET /register HTTP/1.1" 200 -
+[2025-04-15 19:12:48] 127.0.0.1 - POST /register
+[2025-04-15 19:13:18] 127.0.0.1 - - [15/Apr/2025 19:13:18] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 19:13:18] 127.0.0.1 - - [15/Apr/2025 19:13:18] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-15 19:13:18] 127.0.0.1 - - [15/Apr/2025 19:13:18] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-15 19:13:18] 127.0.0.1 - - [15/Apr/2025 19:13:18] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=vYZTknym4GEAQ9LXVtuB HTTP/1.1" 200 -
+[2025-04-15 19:13:18] 127.0.0.1 - - [15/Apr/2025 19:13:18] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-15 23:20:20] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.28.0.2:8080
+[2025-04-15 23:20:20] [33mPress CTRL+C to quit[0m
+[2025-04-15 23:20:20]  * Restarting with stat
+[2025-04-15 23:20:20]  * Debugger is active!
+[2025-04-15 23:20:20]  * Debugger PIN: 998-883-824
+[2025-04-15 23:21:42] 192.168.65.1 - GET /
+[2025-04-15 23:21:42] 192.168.65.1 - - [15/Apr/2025 23:21:42] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-15 19:37:21] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 19:37:21] [33mPress CTRL+C to quit[0m
+[2025-04-15 19:37:21]  * Restarting with stat
+[2025-04-15 19:37:22]  * Debugger is active!
+[2025-04-15 19:37:22]  * Debugger PIN: 138-512-773
+[2025-04-15 19:38:10] 127.0.0.1 - GET /register
+[2025-04-15 19:38:10] 127.0.0.1 - - [15/Apr/2025 19:38:10] "GET /register HTTP/1.1" 200 -
+[2025-04-15 19:38:19] 127.0.0.1 - POST /register
+[2025-04-15 19:38:19] 127.0.0.1 - - [15/Apr/2025 19:38:19] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-15 19:38:19] 127.0.0.1 - - [15/Apr/2025 19:38:19] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-15 19:38:19] 127.0.0.1 - - [15/Apr/2025 19:38:19] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-15 19:38:19] 127.0.0.1 - - [15/Apr/2025 19:38:19] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=zVfKTMXJYuaumMtPLlnR HTTP/1.1" 200 -
+[2025-04-15 19:38:19] 127.0.0.1 - - [15/Apr/2025 19:38:19] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-15 19:57:10]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 19:57:11]  * Restarting with stat
+[2025-04-15 19:57:11]  * Debugger is active!
+[2025-04-15 19:57:11]  * Debugger PIN: 138-512-773
+[2025-04-15 19:57:14]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 19:57:15]  * Restarting with stat
+[2025-04-15 20:05:16] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:05:16] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:05:16]  * Restarting with stat
+[2025-04-15 20:05:16]  * Debugger is active!
+[2025-04-15 20:05:16]  * Debugger PIN: 138-512-773
+[2025-04-15 20:05:24] 127.0.0.1 - GET /register
+[2025-04-15 20:05:24] 127.0.0.1 - - [15/Apr/2025 20:05:24] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:05:38] 127.0.0.1 - POST /register
+[2025-04-15 20:05:38] 127.0.0.1 - - [15/Apr/2025 20:05:38] "[32mPOST /register HTTP/1.1[0m" 302 -
+[2025-04-15 20:05:38] 127.0.0.1 - GET /login
+[2025-04-15 20:05:38] 127.0.0.1 - - [15/Apr/2025 20:05:38] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:05:51] 127.0.0.1 - POST /login
+[2025-04-15 20:05:51] 127.0.0.1 - - [15/Apr/2025 20:05:51] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2025-04-15 20:05:51] 127.0.0.1 - - [15/Apr/2025 20:05:51] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-04-15 20:05:51] 127.0.0.1 - - [15/Apr/2025 20:05:51] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-04-15 20:05:51] 127.0.0.1 - - [15/Apr/2025 20:05:51] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=049lHOCNJDeQMVZkHXCJ HTTP/1.1" 200 -
+[2025-04-15 20:05:51] 127.0.0.1 - - [15/Apr/2025 20:05:51] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-04-15 20:07:47]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:07:48]  * Restarting with stat
+[2025-04-15 20:07:48]  * Debugger is active!
+[2025-04-15 20:07:48]  * Debugger PIN: 138-512-773
+[2025-04-15 20:07:51]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:07:51]  * Restarting with stat
+[2025-04-15 20:07:52]  * Debugger is active!
+[2025-04-15 20:07:52]  * Debugger PIN: 138-512-773
+[2025-04-15 20:08:24] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:08:24] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:08:24]  * Restarting with stat
+[2025-04-15 20:08:25]  * Debugger is active!
+[2025-04-15 20:08:25]  * Debugger PIN: 138-512-773
+[2025-04-15 20:08:30] 127.0.0.1 - GET /register
+[2025-04-15 20:08:30] 127.0.0.1 - - [15/Apr/2025 20:08:30] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:08:39] 127.0.0.1 - POST /register
+[2025-04-15 20:08:39] 127.0.0.1 - - [15/Apr/2025 20:08:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+[2025-04-15 20:08:39] 127.0.0.1 - GET /login
+[2025-04-15 20:08:39] 127.0.0.1 - - [15/Apr/2025 20:08:39] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:08:45] 127.0.0.1 - POST /login
+[2025-04-15 20:08:45] 127.0.0.1 - - [15/Apr/2025 20:08:45] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2025-04-15 20:08:45] 127.0.0.1 - - [15/Apr/2025 20:08:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-15 20:08:45] 127.0.0.1 - - [15/Apr/2025 20:08:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-15 20:08:45] 127.0.0.1 - - [15/Apr/2025 20:08:45] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=InVV0kqv74jWvpMMXcvN HTTP/1.1" 200 -
+[2025-04-15 20:08:45] 127.0.0.1 - - [15/Apr/2025 20:08:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-15 20:09:05]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:09:05]  * Restarting with stat
+[2025-04-15 20:09:06]  * Debugger is active!
+[2025-04-15 20:09:06]  * Debugger PIN: 138-512-773
+[2025-04-15 20:09:09] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:09:09] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:09:09]  * Restarting with stat
+[2025-04-15 20:09:09]  * Debugger is active!
+[2025-04-15 20:09:09]  * Debugger PIN: 138-512-773
+[2025-04-15 20:09:15] 127.0.0.1 - GET /register
+[2025-04-15 20:09:15] 127.0.0.1 - - [15/Apr/2025 20:09:15] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:09:21] 127.0.0.1 - POST /register
+[2025-04-15 20:09:21] 127.0.0.1 - - [15/Apr/2025 20:09:21] "[32mPOST /register HTTP/1.1[0m" 302 -
+[2025-04-15 20:09:21] 127.0.0.1 - GET /login
+[2025-04-15 20:09:21] 127.0.0.1 - - [15/Apr/2025 20:09:21] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:09:26] 127.0.0.1 - POST /login
+[2025-04-15 20:09:26] 127.0.0.1 - - [15/Apr/2025 20:09:26] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+[2025-04-15 20:09:36] 127.0.0.1 - POST /login
+[2025-04-15 20:09:36] 127.0.0.1 - - [15/Apr/2025 20:09:36] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+[2025-04-15 20:11:23]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:11:23]  * Restarting with stat
+[2025-04-15 20:11:23]  * Debugger is active!
+[2025-04-15 20:11:23]  * Debugger PIN: 138-512-773
+[2025-04-15 20:11:37]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:11:37]  * Restarting with stat
+[2025-04-15 20:11:37]  * Debugger is active!
+[2025-04-15 20:11:37]  * Debugger PIN: 138-512-773
+[2025-04-15 20:11:40]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:11:41]  * Restarting with stat
+[2025-04-15 20:11:41]  * Debugger is active!
+[2025-04-15 20:11:41]  * Debugger PIN: 138-512-773
+[2025-04-15 20:11:43]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:11:44]  * Restarting with stat
+[2025-04-15 20:11:44]  * Debugger is active!
+[2025-04-15 20:11:44]  * Debugger PIN: 138-512-773
+[2025-04-15 20:11:49]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:11:49]  * Restarting with stat
+[2025-04-15 20:11:50]  * Debugger is active!
+[2025-04-15 20:11:50]  * Debugger PIN: 138-512-773
+[2025-04-15 20:12:00] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:12:00] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:12:00]  * Restarting with stat
+[2025-04-15 20:12:00]  * Debugger is active!
+[2025-04-15 20:12:00]  * Debugger PIN: 138-512-773
+[2025-04-15 20:12:05] 127.0.0.1 - GET /login
+[2025-04-15 20:12:05] 127.0.0.1 - - [15/Apr/2025 20:12:05] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:12:21] 127.0.0.1 - GET /register
+[2025-04-15 20:12:21] 127.0.0.1 - - [15/Apr/2025 20:12:21] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:12:27] 127.0.0.1 - POST /register
+[2025-04-15 20:12:27] 127.0.0.1 - - [15/Apr/2025 20:12:27] "[32mPOST /register HTTP/1.1[0m" 302 -
+[2025-04-15 20:12:27] 127.0.0.1 - GET /login
+[2025-04-15 20:12:27] 127.0.0.1 - - [15/Apr/2025 20:12:27] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:13:02] 127.0.0.1 - POST /login
+[2025-04-15 20:13:02] 127.0.0.1 - - [15/Apr/2025 20:13:02] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+[2025-04-15 20:14:29] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:14:29] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:14:34] 127.0.0.1 - GET /login
+[2025-04-15 20:14:34] 127.0.0.1 - - [15/Apr/2025 20:14:34] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:14:40] 127.0.0.1 - POST /login
+[2025-04-15 20:17:29] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:17:29] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:17:29]  * Restarting with stat
+[2025-04-15 20:17:29]  * Debugger is active!
+[2025-04-15 20:17:29]  * Debugger PIN: 138-512-773
+[2025-04-15 20:17:31] 127.0.0.1 - GET /login
+[2025-04-15 20:17:31] 127.0.0.1 - - [15/Apr/2025 20:17:31] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:17:36] 127.0.0.1 - POST /login
+[2025-04-15 20:17:37] 127.0.0.1 - - [15/Apr/2025 20:17:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-15 20:17:37] 127.0.0.1 - GET /gameboard
+[2025-04-15 20:17:37] 127.0.0.1 - - [15/Apr/2025 20:17:37] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 20:17:40] 127.0.0.1 - GET /favicon.ico
+[2025-04-15 20:17:40] 127.0.0.1 - - [15/Apr/2025 20:17:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-15 20:19:11] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:19:11] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:19:11]  * Restarting with stat
+[2025-04-15 20:19:12]  * Debugger is active!
+[2025-04-15 20:19:12]  * Debugger PIN: 138-512-773
+[2025-04-15 20:19:15] 127.0.0.1 - GET /register
+[2025-04-15 20:19:15] 127.0.0.1 - - [15/Apr/2025 20:19:15] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:20:39] 127.0.0.1 - POST /register
+[2025-04-15 20:20:39] 127.0.0.1 - - [15/Apr/2025 20:20:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+[2025-04-15 20:20:39] 127.0.0.1 - GET /login
+[2025-04-15 20:20:39] 127.0.0.1 - - [15/Apr/2025 20:20:39] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:20:44] 127.0.0.1 - POST /login
+[2025-04-15 20:20:44] 127.0.0.1 - - [15/Apr/2025 20:20:44] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+[2025-04-15 20:25:18] 127.0.0.1 - POST /login
+[2025-04-15 20:25:18] 127.0.0.1 - - [15/Apr/2025 20:25:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-15 20:25:18] 127.0.0.1 - GET /gameboard
+[2025-04-15 20:25:18] 127.0.0.1 - - [15/Apr/2025 20:25:18] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 20:25:22] 127.0.0.1 - GET /favicon.ico
+[2025-04-15 20:25:22] 127.0.0.1 - - [15/Apr/2025 20:25:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-15 20:30:53]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:30:53]  * Restarting with stat
+[2025-04-15 20:30:53]  * Debugger is active!
+[2025-04-15 20:30:53]  * Debugger PIN: 138-512-773
+[2025-04-15 20:31:41] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:31:41] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:31:41]  * Restarting with stat
+[2025-04-15 20:31:41]  * Debugger is active!
+[2025-04-15 20:31:41]  * Debugger PIN: 138-512-773
+[2025-04-15 20:31:45] 127.0.0.1 - GET /register
+[2025-04-15 20:31:45] 127.0.0.1 - - [15/Apr/2025 20:31:45] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:31:51] 127.0.0.1 - POST /register
+[2025-04-15 20:31:51] 127.0.0.1 - - [15/Apr/2025 20:31:51] "[32mPOST /register HTTP/1.1[0m" 302 -
+[2025-04-15 20:31:51] 127.0.0.1 - GET /login
+[2025-04-15 20:31:51] 127.0.0.1 - - [15/Apr/2025 20:31:51] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:32:32] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:32:32] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:32:41] 127.0.0.1 - GET /register
+[2025-04-15 20:32:41] 127.0.0.1 - - [15/Apr/2025 20:32:41] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:32:47] 127.0.0.1 - POST /register
+[2025-04-15 20:34:00] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:34:00] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:34:00]  * Restarting with stat
+[2025-04-15 20:34:00]  * Debugger is active!
+[2025-04-15 20:34:00]  * Debugger PIN: 138-512-773
+[2025-04-15 20:34:05] 127.0.0.1 - GET /register
+[2025-04-15 20:34:05] 127.0.0.1 - - [15/Apr/2025 20:34:05] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:34:10] 127.0.0.1 - POST /register
+[2025-04-15 20:34:10] 127.0.0.1 - - [15/Apr/2025 20:34:10] "[32mPOST /register HTTP/1.1[0m" 302 -
+[2025-04-15 20:34:10] 127.0.0.1 - GET /login
+[2025-04-15 20:34:10] 127.0.0.1 - - [15/Apr/2025 20:34:10] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:34:21] 127.0.0.1 - POST /login
+[2025-04-15 20:34:21] 127.0.0.1 - - [15/Apr/2025 20:34:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-15 20:34:21] 127.0.0.1 - GET /gameboard
+[2025-04-15 20:34:21] 127.0.0.1 - - [15/Apr/2025 20:34:21] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 20:34:37] 127.0.0.1 - GET /register
+[2025-04-15 20:34:37] 127.0.0.1 - - [15/Apr/2025 20:34:37] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:34:42] 127.0.0.1 - POST /register
+[2025-04-15 20:34:42] 127.0.0.1 - - [15/Apr/2025 20:34:42] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+[2025-04-15 20:35:10] 127.0.0.1 - POST /register
+[2025-04-15 20:35:10] 127.0.0.1 - - [15/Apr/2025 20:35:10] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+[2025-04-15 20:35:35] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:35:35] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:38:26] 127.0.0.1 - GET /register
+[2025-04-15 20:38:52] 127.0.0.1 - - [15/Apr/2025 20:38:52] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:39:07] 127.0.0.1 - POST /register
+[2025-04-15 20:39:38] 127.0.0.1 - - [15/Apr/2025 20:39:38] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+[2025-04-15 20:39:49] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:39:49] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:39:49]  * Restarting with stat
+[2025-04-15 20:39:49]  * Debugger is active!
+[2025-04-15 20:39:49]  * Debugger PIN: 138-512-773
+[2025-04-15 20:39:52] 127.0.0.1 - GET /register
+[2025-04-15 20:39:52] 127.0.0.1 - - [15/Apr/2025 20:39:52] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:39:58] 127.0.0.1 - POST /register
+[2025-04-15 20:39:58] 127.0.0.1 - - [15/Apr/2025 20:39:58] "POST /register HTTP/1.1" 200 -
+[2025-04-15 20:41:34] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:41:34] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:41:34]  * Restarting with stat
+[2025-04-15 20:41:34]  * Debugger is active!
+[2025-04-15 20:41:34]  * Debugger PIN: 138-512-773
+[2025-04-15 20:41:39] 127.0.0.1 - POST /register
+[2025-04-15 20:41:39] 127.0.0.1 - - [15/Apr/2025 20:41:39] "POST /register HTTP/1.1" 200 -
+[2025-04-15 20:41:43] 127.0.0.1 - GET /register
+[2025-04-15 20:41:43] 127.0.0.1 - - [15/Apr/2025 20:41:43] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:41:49] 127.0.0.1 - POST /register
+[2025-04-15 20:41:49] 127.0.0.1 - - [15/Apr/2025 20:41:49] "POST /register HTTP/1.1" 200 -
+[2025-04-15 20:43:33] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:43:33] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:43:33]  * Restarting with stat
+[2025-04-15 20:43:33]  * Debugger is active!
+[2025-04-15 20:43:33]  * Debugger PIN: 138-512-773
+[2025-04-15 20:44:16] 127.0.0.1 - GET /register
+[2025-04-15 20:44:16] 127.0.0.1 - - [15/Apr/2025 20:44:16] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:44:21] 127.0.0.1 - POST /register
+[2025-04-15 20:44:22] 127.0.0.1 - - [15/Apr/2025 20:44:22] "POST /register HTTP/1.1" 200 -
+[2025-04-15 20:44:34] 127.0.0.1 - GET /register
+[2025-04-15 20:44:34] 127.0.0.1 - - [15/Apr/2025 20:44:34] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:44:50] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:44:50] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:44:50]  * Restarting with stat
+[2025-04-15 20:44:50]  * Debugger is active!
+[2025-04-15 20:44:50]  * Debugger PIN: 138-512-773
+[2025-04-15 20:44:52] 127.0.0.1 - GET /register
+[2025-04-15 20:44:52] 127.0.0.1 - - [15/Apr/2025 20:44:52] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:44:53] 127.0.0.1 - GET /register
+[2025-04-15 20:44:53] 127.0.0.1 - - [15/Apr/2025 20:44:53] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:44:54] 127.0.0.1 - GET /register
+[2025-04-15 20:44:54] 127.0.0.1 - - [15/Apr/2025 20:44:54] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:44:55] 127.0.0.1 - GET /register
+[2025-04-15 20:44:55] 127.0.0.1 - - [15/Apr/2025 20:44:55] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:44:59] 127.0.0.1 - POST /register
+[2025-04-15 20:45:00] 127.0.0.1 - - [15/Apr/2025 20:45:00] "POST /register HTTP/1.1" 200 -
+[2025-04-15 20:45:19] 127.0.0.1 - POST /register
+[2025-04-15 20:45:19] 127.0.0.1 - - [15/Apr/2025 20:45:19] "POST /register HTTP/1.1" 200 -
+[2025-04-15 20:49:30]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:49:31]  * Restarting with stat
+[2025-04-15 20:49:31]  * Debugger is active!
+[2025-04-15 20:49:31]  * Debugger PIN: 138-512-773
+[2025-04-15 20:49:37]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:49:38]  * Restarting with stat
+[2025-04-15 20:49:38]  * Debugger is active!
+[2025-04-15 20:49:38]  * Debugger PIN: 138-512-773
+[2025-04-15 20:49:40]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:49:40]  * Restarting with stat
+[2025-04-15 20:49:41]  * Debugger is active!
+[2025-04-15 20:49:41]  * Debugger PIN: 138-512-773
+[2025-04-15 20:49:43]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:49:43]  * Restarting with stat
+[2025-04-15 20:49:43]  * Debugger is active!
+[2025-04-15 20:49:43]  * Debugger PIN: 138-512-773
+[2025-04-15 20:50:44]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:50:44]  * Restarting with stat
+[2025-04-15 20:50:55] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:50:55] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:50:55]  * Restarting with stat
+[2025-04-15 20:50:55]  * Debugger is active!
+[2025-04-15 20:50:55]  * Debugger PIN: 138-512-773
+[2025-04-15 20:50:58] 127.0.0.1 - GET /register
+[2025-04-15 20:50:58] 127.0.0.1 - - [15/Apr/2025 20:50:58] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:51:05] 127.0.0.1 - POST /register
+[2025-04-15 20:51:05] 127.0.0.1 - - [15/Apr/2025 20:51:05] "POST /register HTTP/1.1" 200 -
+[2025-04-15 20:51:11] 127.0.0.1 - POST /register
+[2025-04-15 20:51:11] 127.0.0.1 - - [15/Apr/2025 20:51:11] "POST /register HTTP/1.1" 200 -
+[2025-04-15 20:53:57] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:53:57] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:53:57]  * Restarting with stat
+[2025-04-15 20:53:57]  * Debugger is active!
+[2025-04-15 20:53:57]  * Debugger PIN: 138-512-773
+[2025-04-15 20:54:28] 127.0.0.1 - GET /register
+[2025-04-15 20:54:29] 127.0.0.1 - - [15/Apr/2025 20:54:29] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:54:37] 127.0.0.1 - GET /login
+[2025-04-15 20:54:37] 127.0.0.1 - - [15/Apr/2025 20:54:37] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:55:06] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:55:06] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:55:06]  * Restarting with stat
+[2025-04-15 20:55:06]  * Debugger is active!
+[2025-04-15 20:55:07]  * Debugger PIN: 138-512-773
+[2025-04-15 20:55:23] 127.0.0.1 - GET /login
+[2025-04-15 20:55:23] 127.0.0.1 - - [15/Apr/2025 20:55:23] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:55:44] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:55:44] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:55:44]  * Restarting with stat
+[2025-04-15 20:55:44]  * Debugger is active!
+[2025-04-15 20:55:44]  * Debugger PIN: 138-512-773
+[2025-04-15 20:55:46] 127.0.0.1 - GET /register
+[2025-04-15 20:55:46] 127.0.0.1 - - [15/Apr/2025 20:55:46] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:55:48] 127.0.0.1 - GET /login
+[2025-04-15 20:55:48] 127.0.0.1 - - [15/Apr/2025 20:55:48] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:55:49] 127.0.0.1 - GET /register
+[2025-04-15 20:55:49] 127.0.0.1 - - [15/Apr/2025 20:55:49] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:55:50] 127.0.0.1 - GET /login
+[2025-04-15 20:55:50] 127.0.0.1 - - [15/Apr/2025 20:55:50] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:55:51] 127.0.0.1 - GET /register
+[2025-04-15 20:55:51] 127.0.0.1 - - [15/Apr/2025 20:55:51] "GET /register HTTP/1.1" 200 -
+[2025-04-15 20:55:53] 127.0.0.1 - GET /login
+[2025-04-15 20:55:53] 127.0.0.1 - - [15/Apr/2025 20:55:53] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:56:27]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:56:27]  * Restarting with stat
+[2025-04-15 20:56:27]  * Debugger is active!
+[2025-04-15 20:56:27]  * Debugger PIN: 138-512-773
+[2025-04-15 20:56:54]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:56:55]  * Restarting with stat
+[2025-04-15 20:56:55]  * Debugger is active!
+[2025-04-15 20:56:55]  * Debugger PIN: 138-512-773
+[2025-04-15 20:56:56]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:56:56]  * Restarting with stat
+[2025-04-15 20:56:57]  * Debugger is active!
+[2025-04-15 20:56:57]  * Debugger PIN: 138-512-773
+[2025-04-15 20:57:06]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:57:06]  * Restarting with stat
+[2025-04-15 20:57:06]  * Debugger is active!
+[2025-04-15 20:57:06]  * Debugger PIN: 138-512-773
+[2025-04-15 20:57:07]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:57:08]  * Restarting with stat
+[2025-04-15 20:57:08]  * Debugger is active!
+[2025-04-15 20:57:08]  * Debugger PIN: 138-512-773
+[2025-04-15 20:57:09]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-15 20:57:10]  * Restarting with stat
+[2025-04-15 20:57:10]  * Debugger is active!
+[2025-04-15 20:57:10]  * Debugger PIN: 138-512-773
+[2025-04-15 20:57:18] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:57:18] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:57:18]  * Restarting with stat
+[2025-04-15 20:57:19]  * Debugger is active!
+[2025-04-15 20:57:19]  * Debugger PIN: 138-512-773
+[2025-04-15 20:57:21] 127.0.0.1 - GET /login
+[2025-04-15 20:57:21] 127.0.0.1 - - [15/Apr/2025 20:57:21] "GET /login HTTP/1.1" 200 -
+[2025-04-15 20:57:25] 127.0.0.1 - POST /login
+[2025-04-15 20:57:25] 127.0.0.1 - - [15/Apr/2025 20:57:25] "POST /login HTTP/1.1" 200 -
+[2025-04-15 20:58:55]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-15 20:58:55]  * Restarting with stat
+[2025-04-15 20:59:02] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 20:59:02] [33mPress CTRL+C to quit[0m
+[2025-04-15 20:59:02]  * Restarting with stat
+[2025-04-15 20:59:03]  * Debugger is active!
+[2025-04-15 20:59:03]  * Debugger PIN: 138-512-773
+[2025-04-15 20:59:06] 127.0.0.1 - POST /login
+[2025-04-15 20:59:06] 127.0.0.1 - - [15/Apr/2025 20:59:06] "POST /login HTTP/1.1" 200 -
+[2025-04-15 20:59:16] 127.0.0.1 - POST /login
+[2025-04-15 20:59:16] 127.0.0.1 - - [15/Apr/2025 20:59:16] "POST /login HTTP/1.1" 200 -
+[2025-04-15 21:00:35] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.46.47:8080
+[2025-04-15 21:00:35] [33mPress CTRL+C to quit[0m
+[2025-04-15 21:00:35]  * Restarting with stat
+[2025-04-15 21:00:35]  * Debugger is active!
+[2025-04-15 21:00:35]  * Debugger PIN: 138-512-773
+[2025-04-15 21:00:39] 127.0.0.1 - POST /login
+[2025-04-15 21:00:39] 127.0.0.1 - - [15/Apr/2025 21:00:39] "POST /login HTTP/1.1" 200 -
+[2025-04-15 21:00:42] 127.0.0.1 - GET /login
+[2025-04-15 21:00:42] 127.0.0.1 - - [15/Apr/2025 21:00:42] "GET /login HTTP/1.1" 200 -
+[2025-04-15 21:00:47] 127.0.0.1 - POST /login
+[2025-04-15 21:00:47] 127.0.0.1 - - [15/Apr/2025 21:00:47] "POST /login HTTP/1.1" 200 -
+[2025-04-15 21:00:52] 127.0.0.1 - POST /login
+[2025-04-15 21:00:52] 127.0.0.1 - - [15/Apr/2025 21:00:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-15 21:00:52] 127.0.0.1 - GET /gameboard
+[2025-04-15 21:00:52] 127.0.0.1 - - [15/Apr/2025 21:00:52] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-15 21:00:55] 127.0.0.1 - GET /favicon.ico
+[2025-04-15 21:00:55] 127.0.0.1 - - [15/Apr/2025 21:00:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
