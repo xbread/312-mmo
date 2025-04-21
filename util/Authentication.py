@@ -1,5 +1,5 @@
 # Imports
-from flask import request, make_response, Response
+from flask import request, Response
 from pymongo import MongoClient
 from util.database import user_collection
 import bcrypt                #Used to encrypt passwords
@@ -9,7 +9,8 @@ import hashlib               #Used to hash auth tokens
 
 # Mongo DB info
 # DB structure not set yet
-# mongo_client = MongoClient('localhost')
+mongo_client = MongoClient('localhost')
+db = mongo_client['312mmo']
 
 
 

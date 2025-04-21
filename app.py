@@ -1,9 +1,16 @@
 from flask import Flask, request, render_template, redirect
+from flask_socketio import SocketIO, emit
 from util.Logging import log_request
 from util.Authentication import registration, login
+from util.websocket_functions import *
 
 app = Flask(__name__, template_folder="templates")
+socketio = SocketIO(app)
 
+# Dict of users w/ sid
+user_sessions = {}
+# list of just users
+user_list = []
 
 @app.before_request
 def log_incoming_request():
@@ -47,6 +54,22 @@ def log_in():
 def gameboard():
     return render_template("gameboard.html")
 
+@socketio.on('join')
+def handle_join(auth_token):
+    username = get_username(auth_token)
+    if username is not None:
+        user_sessions[request.sid] = username
+        user_list.append(username)
+        emit('connection', {'users' : user_list}, broadcast=True)
+    else:
+        raise ConnectionRefusedError('unauthorized!')
+
+@socketio.on('disconnect')
+def handle_disconnect():
+    username = user_sessions.pop(request.sid)
+    user_list.pop(username)
+    emit('connection', {'users' : user_list}, broadcast=True)
+
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=8080)
+    socketio.run(app, debug=True, host="0.0.0.0", port=8080)
