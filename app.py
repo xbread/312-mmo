@@ -40,13 +40,13 @@ def register():
             return render_template('register.html', error=message)
     return render_template('register.html')
 
-
 @app.route('/login', methods=['GET', 'POST'])
 def log_in():
     if request.method == 'POST':
-
         response = login(request)
         if response.status_code == 200:
+            response.headers["Location"] = "/home"
+            response.status_code = 302
             session['username'] = get_username(request.cookies["auth_token"])
             return redirect('/home')  # or whatever page you want to land on
         else:
@@ -54,9 +54,16 @@ def log_in():
             return render_template('login.html', error=error_message)
     return render_template('login.html')
 
+@app.route('/logout', methods=['POST'])
+def log_out():
+    return logout(request)
+
 @app.route('/home')
 def home():
-    return render_template('home.html')
+    username = get_username_from_request(request)
+    if not username:
+        return redirect('/login')
+    return render_template('home.html', username=username)
 
 @app.route("/gameboard")
 def gameboard():

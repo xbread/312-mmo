@@ -15,4 +15,5 @@ else:
 db = mongo_client["312mmo"]
 
 user_collection = db["users"]
+logged_in = db["logged_in"]
 # prob need leaderboards and other thing stoed, just add as you go

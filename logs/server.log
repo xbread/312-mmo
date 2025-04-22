@@ -1305,99 +1305,478 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connecti
 [2025-04-21 17:10:20] 127.0.0.1 - - [21/Apr/2025 17:10:20] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
 [2025-04-21 17:10:20] 127.0.0.1 - - [21/Apr/2025 17:10:20] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 [2025-04-21 17:10:20] 127.0.0.1 - - [21/Apr/2025 17:10:20] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=U8JZ1D3JQ0UartZrNtFC HTTP/1.1" 200 -
-[2025-04-22 14:47:16] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-22 11:04:40] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
- * Running on http://10.84.35.21:8080
-[2025-04-22 14:47:16] [33mPress CTRL+C to quit[0m
-[2025-04-22 14:47:16]  * Restarting with stat
-[2025-04-22 14:47:16]  * Debugger is active!
-[2025-04-22 14:47:16]  * Debugger PIN: 128-255-662
-[2025-04-22 14:47:29] 127.0.0.1 - GET /
-[2025-04-22 14:47:29] 127.0.0.1 - - [22/Apr/2025 14:47:29] "[32mGET / HTTP/1.1[0m" 302 -
-[2025-04-22 14:47:29] 127.0.0.1 - GET /register
-[2025-04-22 14:47:29] 127.0.0.1 - - [22/Apr/2025 14:47:29] "GET /register HTTP/1.1" 200 -
-[2025-04-22 14:47:31] 127.0.0.1 - GET /login
-[2025-04-22 14:47:31] 127.0.0.1 - - [22/Apr/2025 14:47:31] "GET /login HTTP/1.1" 200 -
-[2025-04-22 14:47:37] 127.0.0.1 - POST /login
-[2025-04-22 14:47:37] 127.0.0.1 - - [22/Apr/2025 14:47:37] "[32mPOST /login HTTP/1.1[0m" 302 -
-[2025-04-22 14:47:37] 127.0.0.1 - GET /gameboard
-[2025-04-22 14:47:37] 127.0.0.1 - - [22/Apr/2025 14:47:37] "GET /gameboard HTTP/1.1" 200 -
-[2025-04-22 14:48:35]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
-[2025-04-22 14:48:40] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.84.64.234:8080
+[2025-04-22 11:04:40] [33mPress CTRL+C to quit[0m
+[2025-04-22 11:04:40]  * Restarting with stat
+[2025-04-22 11:04:40]  * Debugger is active!
+[2025-04-22 11:04:40]  * Debugger PIN: 138-512-773
+[2025-04-22 11:05:18] 127.0.0.1 - GET /
+[2025-04-22 11:05:18] 127.0.0.1 - - [22/Apr/2025 11:05:18] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 11:05:18] 127.0.0.1 - GET /register
+[2025-04-22 11:05:18] 127.0.0.1 - - [22/Apr/2025 11:05:18] "GET /register HTTP/1.1" 200 -
+[2025-04-22 11:05:23] 127.0.0.1 - GET /login
+[2025-04-22 11:05:23] 127.0.0.1 - - [22/Apr/2025 11:05:23] "GET /login HTTP/1.1" 200 -
+[2025-04-22 11:05:38] 127.0.0.1 - POST /login
+[2025-04-22 11:05:39] 127.0.0.1 - - [22/Apr/2025 11:05:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 11:05:39] 127.0.0.1 - GET /gameboard
+[2025-04-22 11:05:39] 127.0.0.1 - - [22/Apr/2025 11:05:39] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-22 11:05:40] 127.0.0.1 - GET /favicon.ico
+[2025-04-22 11:05:40] 127.0.0.1 - - [22/Apr/2025 11:05:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-22 11:05:57] 127.0.0.1 - GET /gameboard
+[2025-04-22 11:05:57] 127.0.0.1 - - [22/Apr/2025 11:05:57] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-22 11:07:59]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 11:08:00]  * Restarting with stat
+[2025-04-22 11:08:00]  * Debugger is active!
+[2025-04-22 11:08:00]  * Debugger PIN: 138-512-773
+[2025-04-22 11:08:14]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 11:08:14]  * Restarting with stat
+[2025-04-22 11:08:15]  * Debugger is active!
+[2025-04-22 11:08:15]  * Debugger PIN: 138-512-773
+[2025-04-22 11:19:17] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
- * Running on http://10.84.35.21:8080
-[2025-04-22 14:48:40] [33mPress CTRL+C to quit[0m
-[2025-04-22 14:48:40]  * Restarting with stat
-[2025-04-22 14:48:40]  * Debugger is active!
-[2025-04-22 14:48:40]  * Debugger PIN: 128-255-662
-[2025-04-22 14:48:41] 127.0.0.1 - GET /gameboard
-[2025-04-22 14:48:41] 127.0.0.1 - - [22/Apr/2025 14:48:41] "GET /gameboard HTTP/1.1" 200 -
-[2025-04-22 14:48:55] 127.0.0.1 - GET /
-[2025-04-22 14:48:55] 127.0.0.1 - - [22/Apr/2025 14:48:55] "[32mGET / HTTP/1.1[0m" 302 -
-[2025-04-22 14:48:55] 127.0.0.1 - GET /register
-[2025-04-22 14:48:55] 127.0.0.1 - - [22/Apr/2025 14:48:55] "GET /register HTTP/1.1" 200 -
-[2025-04-22 14:48:56] 127.0.0.1 - GET /login
-[2025-04-22 14:48:56] 127.0.0.1 - - [22/Apr/2025 14:48:56] "GET /login HTTP/1.1" 200 -
-[2025-04-22 14:49:06] 127.0.0.1 - POST /login
-[2025-04-22 14:49:06] 127.0.0.1 - - [22/Apr/2025 14:49:06] "[32mPOST /login HTTP/1.1[0m" 302 -
-[2025-04-22 14:49:06] 127.0.0.1 - GET /gameboard
-[2025-04-22 14:49:06] 127.0.0.1 - - [22/Apr/2025 14:49:06] "GET /gameboard HTTP/1.1" 200 -
-[2025-04-22 14:50:02]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
-[2025-04-22 14:50:02]  * Restarting with stat
-[2025-04-22 14:50:03]  * Debugger is active!
-[2025-04-22 14:50:03]  * Debugger PIN: 128-255-662
-[2025-04-22 14:50:09] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.84.64.234:8080
+[2025-04-22 11:19:17] [33mPress CTRL+C to quit[0m
+[2025-04-22 11:19:17]  * Restarting with stat
+[2025-04-22 11:19:17]  * Debugger is active!
+[2025-04-22 11:19:17]  * Debugger PIN: 138-512-773
+[2025-04-22 11:19:28] 127.0.0.1 - GET /
+[2025-04-22 11:19:28] 127.0.0.1 - - [22/Apr/2025 11:19:28] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 11:19:28] 127.0.0.1 - GET /register
+[2025-04-22 11:19:28] 127.0.0.1 - - [22/Apr/2025 11:19:28] "GET /register HTTP/1.1" 200 -
+[2025-04-22 11:19:33] 127.0.0.1 - GET /login
+[2025-04-22 11:19:33] 127.0.0.1 - - [22/Apr/2025 11:19:33] "GET /login HTTP/1.1" 200 -
+[2025-04-22 11:19:37] 127.0.0.1 - POST /login
+[2025-04-22 11:19:37] 127.0.0.1 - - [22/Apr/2025 11:19:37] "POST /login HTTP/1.1" 200 -
+[2025-04-22 11:19:42] 127.0.0.1 - POST /login
+[2025-04-22 11:19:43] 127.0.0.1 - - [22/Apr/2025 11:19:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 11:19:43] 127.0.0.1 - GET /gameboard
+[2025-04-22 11:19:43] 127.0.0.1 - - [22/Apr/2025 11:19:43] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-22 11:19:46] 127.0.0.1 - GET /favicon.ico
+[2025-04-22 11:19:46] 127.0.0.1 - - [22/Apr/2025 11:19:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-22 11:20:05] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
- * Running on http://10.84.35.21:8080
-[2025-04-22 14:50:09] [33mPress CTRL+C to quit[0m
-[2025-04-22 14:50:09]  * Restarting with stat
-[2025-04-22 14:50:09]  * Debugger is active!
-[2025-04-22 14:50:09]  * Debugger PIN: 128-255-662
-[2025-04-22 14:50:15] 127.0.0.1 - GET /
-[2025-04-22 14:50:15] 127.0.0.1 - - [22/Apr/2025 14:50:15] "[32mGET / HTTP/1.1[0m" 302 -
-[2025-04-22 14:50:16] 127.0.0.1 - GET /register
-[2025-04-22 14:50:16] 127.0.0.1 - - [22/Apr/2025 14:50:16] "GET /register HTTP/1.1" 200 -
-[2025-04-22 14:50:17] 127.0.0.1 - GET /login
-[2025-04-22 14:50:17] 127.0.0.1 - - [22/Apr/2025 14:50:17] "GET /login HTTP/1.1" 200 -
-[2025-04-22 14:50:22] 127.0.0.1 - POST /login
-[2025-04-22 14:50:22] 127.0.0.1 - - [22/Apr/2025 14:50:22] "[32mPOST /login HTTP/1.1[0m" 302 -
-[2025-04-22 14:50:23] 127.0.0.1 - GET /home
-[2025-04-22 14:50:23] 127.0.0.1 - - [22/Apr/2025 14:50:23] "[33mGET /home HTTP/1.1[0m" 404 -
-[2025-04-22 14:50:42] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.84.64.234:8080
+[2025-04-22 11:20:05] [33mPress CTRL+C to quit[0m
+[2025-04-22 11:20:05]  * Restarting with stat
+[2025-04-22 11:20:06]  * Debugger is active!
+[2025-04-22 11:20:06]  * Debugger PIN: 138-512-773
+[2025-04-22 11:20:12] 127.0.0.1 - GET /
+[2025-04-22 11:20:12] 127.0.0.1 - - [22/Apr/2025 11:20:12] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 11:20:12] 127.0.0.1 - GET /register
+[2025-04-22 11:20:12] 127.0.0.1 - - [22/Apr/2025 11:20:12] "GET /register HTTP/1.1" 200 -
+[2025-04-22 11:20:14] 127.0.0.1 - GET /login
+[2025-04-22 11:20:14] 127.0.0.1 - - [22/Apr/2025 11:20:14] "GET /login HTTP/1.1" 200 -
+[2025-04-22 11:20:19] 127.0.0.1 - POST /login
+[2025-04-22 11:20:19] 127.0.0.1 - - [22/Apr/2025 11:20:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 11:20:19] 127.0.0.1 - GET /home
+[2025-04-22 11:20:19] 127.0.0.1 - - [22/Apr/2025 11:20:19] "GET /home HTTP/1.1" 200 -
+[2025-04-22 11:29:58] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
- * Running on http://10.84.35.21:8080
-[2025-04-22 14:50:42] [33mPress CTRL+C to quit[0m
-[2025-04-22 14:50:42]  * Restarting with stat
-[2025-04-22 14:50:42]  * Debugger is active!
-[2025-04-22 14:50:42]  * Debugger PIN: 128-255-662
-[2025-04-22 14:50:43] 127.0.0.1 - GET /home
-[2025-04-22 14:50:43] 127.0.0.1 - - [22/Apr/2025 14:50:43] "[33mGET /home HTTP/1.1[0m" 404 -
-[2025-04-22 14:51:31]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
-[2025-04-22 14:51:33] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.84.64.234:8080
+[2025-04-22 11:29:58] [33mPress CTRL+C to quit[0m
+[2025-04-22 11:29:58]  * Restarting with stat
+[2025-04-22 11:29:59]  * Debugger is active!
+[2025-04-22 11:29:59]  * Debugger PIN: 138-512-773
+[2025-04-22 11:30:04] 127.0.0.1 - GET /
+[2025-04-22 11:30:04] 127.0.0.1 - - [22/Apr/2025 11:30:04] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 11:30:04] 127.0.0.1 - GET /register
+[2025-04-22 11:30:04] 127.0.0.1 - - [22/Apr/2025 11:30:04] "GET /register HTTP/1.1" 200 -
+[2025-04-22 11:30:05] 127.0.0.1 - GET /login
+[2025-04-22 11:30:05] 127.0.0.1 - - [22/Apr/2025 11:30:05] "GET /login HTTP/1.1" 200 -
+[2025-04-22 11:30:11] 127.0.0.1 - POST /login
+[2025-04-22 11:30:11] 127.0.0.1 - - [22/Apr/2025 11:30:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 11:30:11] 127.0.0.1 - GET /home
+[2025-04-22 11:30:11] 127.0.0.1 - - [22/Apr/2025 11:30:11] "GET /home HTTP/1.1" 200 -
+[2025-04-22 11:46:20] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
- * Running on http://10.84.35.21:8080
-[2025-04-22 14:51:33] [33mPress CTRL+C to quit[0m
-[2025-04-22 14:51:33]  * Restarting with stat
-[2025-04-22 14:51:33]  * Debugger is active!
-[2025-04-22 14:51:33]  * Debugger PIN: 128-255-662
-[2025-04-22 14:51:36] 127.0.0.1 - GET /home
-[2025-04-22 14:51:36] 127.0.0.1 - - [22/Apr/2025 14:51:36] "GET /home HTTP/1.1" 200 -
-[2025-04-22 15:12:01] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.84.64.234:8080
+[2025-04-22 11:46:20] [33mPress CTRL+C to quit[0m
+[2025-04-22 11:46:20]  * Restarting with stat
+[2025-04-22 11:46:20]  * Debugger is active!
+[2025-04-22 11:46:20]  * Debugger PIN: 138-512-773
+[2025-04-22 11:46:28] 127.0.0.1 - GET /
+[2025-04-22 11:46:28] 127.0.0.1 - - [22/Apr/2025 11:46:28] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 11:46:28] 127.0.0.1 - GET /register
+[2025-04-22 11:46:28] 127.0.0.1 - - [22/Apr/2025 11:46:28] "GET /register HTTP/1.1" 200 -
+[2025-04-22 11:46:30] 127.0.0.1 - GET /login
+[2025-04-22 11:46:30] 127.0.0.1 - - [22/Apr/2025 11:46:30] "GET /login HTTP/1.1" 200 -
+[2025-04-22 11:46:37] 127.0.0.1 - POST /login
+[2025-04-22 11:46:38] 127.0.0.1 - - [22/Apr/2025 11:46:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 11:46:38] 127.0.0.1 - GET /home
+[2025-04-22 11:46:38] 127.0.0.1 - - [22/Apr/2025 11:46:38] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-04-22 11:46:38] 127.0.0.1 - - [22/Apr/2025 11:46:38] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-04-22 11:46:38] 127.0.0.1 - - [22/Apr/2025 11:46:38] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-04-22 11:46:38] 127.0.0.1 - - [22/Apr/2025 11:46:38] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=CjCKyUaaGjCh7QvXu973 HTTP/1.1" 200 -
+[2025-04-22 11:46:38] 127.0.0.1 - - [22/Apr/2025 11:46:38] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-04-22 11:47:10]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 11:47:11]  * Restarting with stat
+[2025-04-22 11:47:25] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
- * Running on http://10.84.35.21:8080
-[2025-04-22 15:12:01] [33mPress CTRL+C to quit[0m
-[2025-04-22 15:12:01]  * Restarting with stat
-[2025-04-22 15:12:02]  * Debugger is active!
-[2025-04-22 15:12:02]  * Debugger PIN: 128-255-662
-[2025-04-22 15:12:03] 127.0.0.1 - GET /home
-[2025-04-22 15:12:03] 127.0.0.1 - - [22/Apr/2025 15:12:03] "GET /home HTTP/1.1" 200 -
-[2025-04-22 15:12:05] 127.0.0.1 - GET /home
-[2025-04-22 15:12:05] 127.0.0.1 - - [22/Apr/2025 15:12:05] "GET /home HTTP/1.1" 200 -
-[2025-04-22 15:12:07] 127.0.0.1 - POST /logout
-[2025-04-22 15:12:07] 127.0.0.1 - - [22/Apr/2025 15:12:07] "[33mPOST /logout HTTP/1.1[0m" 404 -
+ * Running on http://10.84.64.234:8080
+[2025-04-22 11:47:25] [33mPress CTRL+C to quit[0m
+[2025-04-22 11:47:25]  * Restarting with stat
+[2025-04-22 11:47:26]  * Debugger is active!
+[2025-04-22 11:47:26]  * Debugger PIN: 138-512-773
+[2025-04-22 11:47:34] 127.0.0.1 - GET /
+[2025-04-22 11:47:34] 127.0.0.1 - - [22/Apr/2025 11:47:34] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 11:47:34] 127.0.0.1 - GET /register
+[2025-04-22 11:47:34] 127.0.0.1 - - [22/Apr/2025 11:47:34] "GET /register HTTP/1.1" 200 -
+[2025-04-22 11:47:36] 127.0.0.1 - GET /login
+[2025-04-22 11:47:36] 127.0.0.1 - - [22/Apr/2025 11:47:36] "GET /login HTTP/1.1" 200 -
+[2025-04-22 11:47:43] 127.0.0.1 - POST /login
+[2025-04-22 11:47:43] 127.0.0.1 - - [22/Apr/2025 11:47:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 11:47:43] 127.0.0.1 - GET /home
+[2025-04-22 11:47:43] 127.0.0.1 - - [22/Apr/2025 11:47:43] "GET /home HTTP/1.1" 200 -
+[2025-04-22 11:48:42]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 11:48:42]  * Restarting with stat
+[2025-04-22 11:55:21] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 11:55:21] [33mPress CTRL+C to quit[0m
+[2025-04-22 11:55:21]  * Restarting with stat
+[2025-04-22 11:55:21]  * Debugger is active!
+[2025-04-22 11:55:21]  * Debugger PIN: 138-512-773
+[2025-04-22 11:55:31] 127.0.0.1 - GET /
+[2025-04-22 11:55:31] 127.0.0.1 - - [22/Apr/2025 11:55:31] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 11:55:31] 127.0.0.1 - GET /register
+[2025-04-22 11:55:31] 127.0.0.1 - - [22/Apr/2025 11:55:31] "GET /register HTTP/1.1" 200 -
+[2025-04-22 11:55:33] 127.0.0.1 - GET /login
+[2025-04-22 11:55:33] 127.0.0.1 - - [22/Apr/2025 11:55:33] "GET /login HTTP/1.1" 200 -
+[2025-04-22 11:55:38] 127.0.0.1 - POST /login
+[2025-04-22 11:55:38] 127.0.0.1 - - [22/Apr/2025 11:55:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 11:55:38] 127.0.0.1 - GET /home
+[2025-04-22 11:55:38] 127.0.0.1 - - [22/Apr/2025 11:55:38] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-04-22 11:55:39] 127.0.0.1 - - [22/Apr/2025 11:55:39] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-22 11:55:39] 127.0.0.1 - - [22/Apr/2025 11:55:39] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-22 11:55:39] 127.0.0.1 - - [22/Apr/2025 11:55:39] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=VuKQaFnmDuLkzv1Uf4hS HTTP/1.1" 200 -
+[2025-04-22 11:55:39] 127.0.0.1 - - [22/Apr/2025 11:55:39] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-22 11:59:33]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 11:59:34]  * Restarting with stat
+[2025-04-22 12:00:24] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:00:24] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:00:24]  * Restarting with stat
+[2025-04-22 12:00:25]  * Debugger is active!
+[2025-04-22 12:00:25]  * Debugger PIN: 138-512-773
+[2025-04-22 12:00:29] 127.0.0.1 - GET /
+[2025-04-22 12:00:29] 127.0.0.1 - - [22/Apr/2025 12:00:29] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 12:00:29] 127.0.0.1 - GET /register
+[2025-04-22 12:00:29] 127.0.0.1 - - [22/Apr/2025 12:00:29] "GET /register HTTP/1.1" 200 -
+[2025-04-22 12:00:31] 127.0.0.1 - GET /login
+[2025-04-22 12:00:31] 127.0.0.1 - - [22/Apr/2025 12:00:31] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:00:38] 127.0.0.1 - POST /login
+[2025-04-22 12:00:38] 127.0.0.1 - - [22/Apr/2025 12:00:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:00:38] 127.0.0.1 - GET /home
+[2025-04-22 12:00:38] 127.0.0.1 - - [22/Apr/2025 12:00:38] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-22 12:00:38] 127.0.0.1 - GET /login
+[2025-04-22 12:00:38] 127.0.0.1 - - [22/Apr/2025 12:00:38] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:00:45] 127.0.0.1 - POST /login
+[2025-04-22 12:00:45] 127.0.0.1 - - [22/Apr/2025 12:00:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:00:45] 127.0.0.1 - GET /home
+[2025-04-22 12:00:45] 127.0.0.1 - - [22/Apr/2025 12:00:45] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-22 12:00:45] 127.0.0.1 - GET /login
+[2025-04-22 12:00:45] 127.0.0.1 - - [22/Apr/2025 12:00:45] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:03:58]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/database.py', reloading
+[2025-04-22 12:03:58]  * Restarting with stat
+[2025-04-22 12:03:59]  * Debugger is active!
+[2025-04-22 12:03:59]  * Debugger PIN: 138-512-773
+[2025-04-22 12:04:00]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/database.py', reloading
+[2025-04-22 12:04:00]  * Restarting with stat
+[2025-04-22 12:04:01]  * Debugger is active!
+[2025-04-22 12:04:01]  * Debugger PIN: 138-512-773
+[2025-04-22 12:16:01] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:16:01] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:16:01]  * Restarting with stat
+[2025-04-22 12:16:01]  * Debugger is active!
+[2025-04-22 12:16:01]  * Debugger PIN: 138-512-773
+[2025-04-22 12:16:07] 127.0.0.1 - GET /
+[2025-04-22 12:16:07] 127.0.0.1 - - [22/Apr/2025 12:16:07] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 12:16:07] 127.0.0.1 - GET /register
+[2025-04-22 12:16:07] 127.0.0.1 - - [22/Apr/2025 12:16:07] "GET /register HTTP/1.1" 200 -
+[2025-04-22 12:16:09] 127.0.0.1 - GET /login
+[2025-04-22 12:16:09] 127.0.0.1 - - [22/Apr/2025 12:16:09] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:16:17] 127.0.0.1 - POST /login
+[2025-04-22 12:16:17] 127.0.0.1 - - [22/Apr/2025 12:16:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:16:17] 127.0.0.1 - GET /home
+[2025-04-22 12:16:17] 127.0.0.1 - - [22/Apr/2025 12:16:17] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-04-22 12:16:17] 127.0.0.1 - - [22/Apr/2025 12:16:17] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-22 12:16:17] 127.0.0.1 - - [22/Apr/2025 12:16:17] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-22 12:16:17] 127.0.0.1 - - [22/Apr/2025 12:16:17] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=D0bzM6MBf31IYmlaSrCo HTTP/1.1" 200 -
+[2025-04-22 12:20:13]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:20:13]  * Restarting with stat
+[2025-04-22 12:20:36] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:20:36] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:20:36]  * Restarting with stat
+[2025-04-22 12:20:37]  * Debugger is active!
+[2025-04-22 12:20:37]  * Debugger PIN: 138-512-773
+[2025-04-22 12:20:50] 127.0.0.1 - GET /
+[2025-04-22 12:20:50] 127.0.0.1 - - [22/Apr/2025 12:20:50] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 12:20:50] 127.0.0.1 - GET /register
+[2025-04-22 12:20:50] 127.0.0.1 - - [22/Apr/2025 12:20:50] "GET /register HTTP/1.1" 200 -
+[2025-04-22 12:20:52] 127.0.0.1 - GET /login
+[2025-04-22 12:20:52] 127.0.0.1 - - [22/Apr/2025 12:20:52] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:20:57] 127.0.0.1 - POST /login
+[2025-04-22 12:20:57] 127.0.0.1 - - [22/Apr/2025 12:20:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:20:57] 127.0.0.1 - GET /home
+[2025-04-22 12:20:57] 127.0.0.1 - - [22/Apr/2025 12:20:57] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-22 12:20:57] 127.0.0.1 - GET /login
+[2025-04-22 12:20:57] 127.0.0.1 - - [22/Apr/2025 12:20:57] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:22:10]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:22:10]  * Restarting with stat
+[2025-04-22 12:22:11]  * Debugger is active!
+[2025-04-22 12:22:11]  * Debugger PIN: 138-512-773
+[2025-04-22 12:22:13] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:22:13] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:22:13]  * Restarting with stat
+[2025-04-22 12:22:13]  * Debugger is active!
+[2025-04-22 12:22:13]  * Debugger PIN: 138-512-773
+[2025-04-22 12:22:14] 127.0.0.1 - GET /login
+[2025-04-22 12:22:14] 127.0.0.1 - - [22/Apr/2025 12:22:14] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:22:21] 127.0.0.1 - POST /login
+[2025-04-22 12:22:21] 127.0.0.1 - - [22/Apr/2025 12:22:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:22:21] 127.0.0.1 - GET /home
+[2025-04-22 12:22:21] 127.0.0.1 - - [22/Apr/2025 12:22:21] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-22 12:22:21] 127.0.0.1 - GET /home.html
+[2025-04-22 12:22:21] 127.0.0.1 - - [22/Apr/2025 12:22:21] "[33mGET /home.html HTTP/1.1[0m" 404 -
+[2025-04-22 12:22:31]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:22:31]  * Restarting with stat
+[2025-04-22 12:22:32]  * Debugger is active!
+[2025-04-22 12:22:32]  * Debugger PIN: 138-512-773
+[2025-04-22 12:22:32] 127.0.0.1 - POST /login
+[2025-04-22 12:22:33] 127.0.0.1 - - [22/Apr/2025 12:22:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:22:33] 127.0.0.1 - GET /home
+[2025-04-22 12:22:33] 127.0.0.1 - - [22/Apr/2025 12:22:33] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:22:37] 127.0.0.1 - POST /logout
+[2025-04-22 12:22:37] 127.0.0.1 - - [22/Apr/2025 12:22:37] "[31m[1mPOST /logout HTTP/1.1[0m" 400 -
+[2025-04-22 12:23:05] 127.0.0.1 - GET /home
+[2025-04-22 12:23:05] 127.0.0.1 - - [22/Apr/2025 12:23:05] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:24:19]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:24:19]  * Restarting with stat
+[2025-04-22 12:24:20]  * Debugger is active!
+[2025-04-22 12:24:20]  * Debugger PIN: 138-512-773
+[2025-04-22 12:24:22]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:24:22]  * Restarting with stat
+[2025-04-22 12:24:22]  * Debugger is active!
+[2025-04-22 12:24:22]  * Debugger PIN: 138-512-773
+[2025-04-22 12:24:26] 127.0.0.1 - GET /
+[2025-04-22 12:24:26] 127.0.0.1 - - [22/Apr/2025 12:24:26] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 12:24:26] 127.0.0.1 - GET /register
+[2025-04-22 12:24:26] 127.0.0.1 - - [22/Apr/2025 12:24:26] "GET /register HTTP/1.1" 200 -
+[2025-04-22 12:24:28] 127.0.0.1 - GET /login
+[2025-04-22 12:24:28] 127.0.0.1 - - [22/Apr/2025 12:24:28] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:24:32] 127.0.0.1 - POST /login
+[2025-04-22 12:24:33] 127.0.0.1 - - [22/Apr/2025 12:24:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:24:33] 127.0.0.1 - GET /home
+[2025-04-22 12:24:33] 127.0.0.1 - - [22/Apr/2025 12:24:33] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-22 12:24:33] 127.0.0.1 - GET /login
+[2025-04-22 12:24:33] 127.0.0.1 - - [22/Apr/2025 12:24:33] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:25:37]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:25:38]  * Restarting with stat
+[2025-04-22 12:25:38]  * Debugger is active!
+[2025-04-22 12:25:38]  * Debugger PIN: 138-512-773
+[2025-04-22 12:26:58]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:26:58]  * Restarting with stat
+[2025-04-22 12:26:59]  * Debugger is active!
+[2025-04-22 12:26:59]  * Debugger PIN: 138-512-773
+[2025-04-22 12:27:00]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:27:00]  * Restarting with stat
+[2025-04-22 12:27:00]  * Debugger is active!
+[2025-04-22 12:27:00]  * Debugger PIN: 138-512-773
+[2025-04-22 12:37:01]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:37:01]  * Restarting with stat
+[2025-04-22 12:37:02]  * Debugger is active!
+[2025-04-22 12:37:02]  * Debugger PIN: 138-512-773
+[2025-04-22 12:37:07] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:37:07] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:37:07]  * Restarting with stat
+[2025-04-22 12:37:07]  * Debugger is active!
+[2025-04-22 12:37:07]  * Debugger PIN: 138-512-773
+[2025-04-22 12:37:10] 127.0.0.1 - GET /login
+[2025-04-22 12:37:10] 127.0.0.1 - - [22/Apr/2025 12:37:10] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:37:11] 127.0.0.1 - GET /login
+[2025-04-22 12:37:11] 127.0.0.1 - - [22/Apr/2025 12:37:11] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:37:15] 127.0.0.1 - POST /login
+[2025-04-22 12:37:16] 127.0.0.1 - - [22/Apr/2025 12:37:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:37:16] 127.0.0.1 - GET /home
+[2025-04-22 12:37:16] 127.0.0.1 - - [22/Apr/2025 12:37:16] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-22 12:37:16] 127.0.0.1 - GET /login
+[2025-04-22 12:37:16] 127.0.0.1 - - [22/Apr/2025 12:37:16] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:39:37]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:39:37]  * Restarting with stat
+[2025-04-22 12:39:38]  * Debugger is active!
+[2025-04-22 12:39:38]  * Debugger PIN: 138-512-773
+[2025-04-22 12:39:41] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:39:41] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:39:41]  * Restarting with stat
+[2025-04-22 12:39:42]  * Debugger is active!
+[2025-04-22 12:39:42]  * Debugger PIN: 138-512-773
+[2025-04-22 12:39:42] 127.0.0.1 - GET /login
+[2025-04-22 12:39:42] 127.0.0.1 - - [22/Apr/2025 12:39:42] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:39:43] 127.0.0.1 - GET /login
+[2025-04-22 12:39:43] 127.0.0.1 - - [22/Apr/2025 12:39:43] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:39:49] 127.0.0.1 - POST /login
+[2025-04-22 12:39:49] 127.0.0.1 - - [22/Apr/2025 12:39:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:39:49] 127.0.0.1 - GET /home
+[2025-04-22 12:39:49] 127.0.0.1 - - [22/Apr/2025 12:39:49] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:40:01] 127.0.0.1 - POST /logout
+[2025-04-22 12:40:01] 127.0.0.1 - - [22/Apr/2025 12:40:01] "[31m[1mPOST /logout HTTP/1.1[0m" 400 -
+[2025-04-22 12:41:00] 127.0.0.1 - POST /logout
+[2025-04-22 12:41:00] 127.0.0.1 - - [22/Apr/2025 12:41:00] "[31m[1mPOST /logout HTTP/1.1[0m" 400 -
+[2025-04-22 12:41:05] 127.0.0.1 - POST /logout
+[2025-04-22 12:41:05] 127.0.0.1 - - [22/Apr/2025 12:41:05] "[31m[1mPOST /logout HTTP/1.1[0m" 400 -
+[2025-04-22 12:41:56] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:41:56] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:41:56]  * Restarting with stat
+[2025-04-22 12:41:56]  * Debugger is active!
+[2025-04-22 12:41:56]  * Debugger PIN: 138-512-773
+[2025-04-22 12:41:57] 127.0.0.1 - GET /home
+[2025-04-22 12:41:57] 127.0.0.1 - - [22/Apr/2025 12:41:57] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:41:58] 127.0.0.1 - GET /home
+[2025-04-22 12:41:58] 127.0.0.1 - - [22/Apr/2025 12:41:58] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:41:58] 127.0.0.1 - GET /home
+[2025-04-22 12:41:58] 127.0.0.1 - - [22/Apr/2025 12:41:58] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:42:02] 127.0.0.1 - POST /logout
+[2025-04-22 12:42:02] 127.0.0.1 - - [22/Apr/2025 12:42:02] "[31m[1mPOST /logout HTTP/1.1[0m" 400 -
+[2025-04-22 12:42:16] 127.0.0.1 - GET /
+[2025-04-22 12:42:16] 127.0.0.1 - - [22/Apr/2025 12:42:16] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 12:42:16] 127.0.0.1 - GET /register
+[2025-04-22 12:42:16] 127.0.0.1 - - [22/Apr/2025 12:42:16] "GET /register HTTP/1.1" 200 -
+[2025-04-22 12:42:18] 127.0.0.1 - GET /login
+[2025-04-22 12:42:18] 127.0.0.1 - - [22/Apr/2025 12:42:18] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:42:22] 127.0.0.1 - POST /login
+[2025-04-22 12:42:23] 127.0.0.1 - - [22/Apr/2025 12:42:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:42:23] 127.0.0.1 - GET /home
+[2025-04-22 12:42:23] 127.0.0.1 - - [22/Apr/2025 12:42:23] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:42:24] 127.0.0.1 - POST /logout
+[2025-04-22 12:42:24] 127.0.0.1 - - [22/Apr/2025 12:42:24] "[31m[1mPOST /logout HTTP/1.1[0m" 400 -
+[2025-04-22 12:44:18]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:44:19]  * Restarting with stat
+[2025-04-22 12:44:19]  * Debugger is active!
+[2025-04-22 12:44:19]  * Debugger PIN: 138-512-773
+[2025-04-22 12:44:23] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:44:23] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:44:23]  * Restarting with stat
+[2025-04-22 12:44:23]  * Debugger is active!
+[2025-04-22 12:44:23]  * Debugger PIN: 138-512-773
+[2025-04-22 12:44:32] 127.0.0.1 - GET /login
+[2025-04-22 12:44:32] 127.0.0.1 - - [22/Apr/2025 12:44:32] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:44:43] 127.0.0.1 - POST /login
+[2025-04-22 12:44:44] 127.0.0.1 - - [22/Apr/2025 12:44:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:44:44] 127.0.0.1 - GET /home
+[2025-04-22 12:44:44] 127.0.0.1 - - [22/Apr/2025 12:44:44] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:45:11] 127.0.0.1 - POST /logout
+[2025-04-22 12:45:11] 127.0.0.1 - - [22/Apr/2025 12:45:11] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-04-22 12:45:11] 127.0.0.1 - GET /
+[2025-04-22 12:45:11] 127.0.0.1 - - [22/Apr/2025 12:45:11] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 12:45:11] 127.0.0.1 - GET /register
+[2025-04-22 12:45:11] 127.0.0.1 - - [22/Apr/2025 12:45:11] "GET /register HTTP/1.1" 200 -
+[2025-04-22 12:45:13] 127.0.0.1 - GET /login
+[2025-04-22 12:45:13] 127.0.0.1 - - [22/Apr/2025 12:45:13] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:45:18] 127.0.0.1 - POST /login
+[2025-04-22 12:45:18] 127.0.0.1 - - [22/Apr/2025 12:45:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:45:18] 127.0.0.1 - GET /home
+[2025-04-22 12:45:18] 127.0.0.1 - - [22/Apr/2025 12:45:18] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:47:14] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:47:14] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:47:14]  * Restarting with stat
+[2025-04-22 12:47:14]  * Debugger is active!
+[2025-04-22 12:47:14]  * Debugger PIN: 138-512-773
+[2025-04-22 12:47:50] 127.0.0.1 - GET /home
+[2025-04-22 12:47:51] 127.0.0.1 - - [22/Apr/2025 12:47:51] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:47:53] 127.0.0.1 - POST /logout
+[2025-04-22 12:47:53] 127.0.0.1 - - [22/Apr/2025 12:47:53] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-04-22 12:47:53] 127.0.0.1 - GET /
+[2025-04-22 12:47:53] 127.0.0.1 - - [22/Apr/2025 12:47:53] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 12:47:53] 127.0.0.1 - GET /register
+[2025-04-22 12:47:53] 127.0.0.1 - - [22/Apr/2025 12:47:53] "GET /register HTTP/1.1" 200 -
+[2025-04-22 12:47:54] 127.0.0.1 - GET /login
+[2025-04-22 12:47:54] 127.0.0.1 - - [22/Apr/2025 12:47:54] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:48:00] 127.0.0.1 - POST /login
+[2025-04-22 12:48:00] 127.0.0.1 - - [22/Apr/2025 12:48:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:48:00] 127.0.0.1 - GET /home
+[2025-04-22 12:48:00] 127.0.0.1 - - [22/Apr/2025 12:48:00] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:49] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:48:49] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:48:49]  * Restarting with stat
+[2025-04-22 12:48:49]  * Debugger is active!
+[2025-04-22 12:48:49]  * Debugger PIN: 138-512-773
+[2025-04-22 12:48:51] 127.0.0.1 - GET /home
+[2025-04-22 12:48:51] 127.0.0.1 - - [22/Apr/2025 12:48:51] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:51] 127.0.0.1 - GET /home
+[2025-04-22 12:48:51] 127.0.0.1 - - [22/Apr/2025 12:48:51] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:52] 127.0.0.1 - GET /home
+[2025-04-22 12:48:52] 127.0.0.1 - - [22/Apr/2025 12:48:52] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:52] 127.0.0.1 - GET /home
+[2025-04-22 12:48:52] 127.0.0.1 - - [22/Apr/2025 12:48:52] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:52] 127.0.0.1 - GET /home
+[2025-04-22 12:48:52] 127.0.0.1 - - [22/Apr/2025 12:48:52] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:54:49]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:49]  * Restarting with stat
+[2025-04-22 12:54:50]  * Debugger is active!
+[2025-04-22 12:54:50]  * Debugger PIN: 138-512-773
+[2025-04-22 12:54:51]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:51]  * Restarting with stat
+[2025-04-22 12:54:52]  * Debugger is active!
+[2025-04-22 12:54:52]  * Debugger PIN: 138-512-773
+[2025-04-22 12:54:54]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:54]  * Restarting with stat
+[2025-04-22 12:54:54]  * Debugger is active!
+[2025-04-22 12:54:54]  * Debugger PIN: 138-512-773
+[2025-04-22 12:54:55]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:56]  * Restarting with stat
+[2025-04-22 12:54:56]  * Debugger is active!
+[2025-04-22 12:54:56]  * Debugger PIN: 138-512-773
+[2025-04-22 12:54:57]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:58]  * Restarting with stat
+[2025-04-22 12:54:58]  * Debugger is active!
+[2025-04-22 12:54:58]  * Debugger PIN: 138-512-773
+[2025-04-22 12:59:36]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:59:36]  * Restarting with stat
+[2025-04-22 12:59:37]  * Debugger is active!
+[2025-04-22 12:59:37]  * Debugger PIN: 138-512-773
+[2025-04-22 12:59:42]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:59:42]  * Restarting with stat
+[2025-04-22 12:59:43]  * Debugger is active!
+[2025-04-22 12:59:43]  * Debugger PIN: 138-512-773
+[2025-04-22 12:59:47]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:59:47]  * Restarting with stat
+[2025-04-22 12:59:47]  * Debugger is active!
+[2025-04-22 12:59:47]  * Debugger PIN: 138-512-773
