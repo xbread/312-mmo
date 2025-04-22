@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, redirect
 from flask_socketio import SocketIO, emit
 from util.Logging import log_request
-from util.Authentication import registration, login
+from util.Authentication import registration, login, logout, get_username_from_request
 from util.websocket_functions import *
 
 app = Flask(__name__, template_folder="templates")
@@ -44,15 +44,27 @@ def log_in():
     if request.method == 'POST':
         response = login(request)
         if response.status_code == 200:
-            return redirect('/home')  # or whatever page you want to land on
+            response.headers["Location"] = "/home"
+            response.status_code = 302
+            return response
         else:
             error_message = "Invalid credentials."
             return render_template('login.html', error=error_message)
     return render_template('login.html')
 
+
+@app.route('/logout', methods=['POST'])
+def log_out():
+    return logout(request)
+
 @app.route('/home')
 def home():
-    return render_template('home.html')
+    username = get_username_from_request(request)
+    if not username:
+        return redirect('/login')
+    return render_template('home.html', username=username)
+
+
 
 @app.route("/gameboard")
 def gameboard():
