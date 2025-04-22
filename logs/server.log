@@ -1708,3 +1708,75 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connecti
 [2025-04-22 12:45:18] 127.0.0.1 - - [22/Apr/2025 12:45:18] "[32mPOST /login HTTP/1.1[0m" 302 -
 [2025-04-22 12:45:18] 127.0.0.1 - GET /home
 [2025-04-22 12:45:18] 127.0.0.1 - - [22/Apr/2025 12:45:18] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:47:14] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:47:14] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:47:14]  * Restarting with stat
+[2025-04-22 12:47:14]  * Debugger is active!
+[2025-04-22 12:47:14]  * Debugger PIN: 138-512-773
+[2025-04-22 12:47:50] 127.0.0.1 - GET /home
+[2025-04-22 12:47:51] 127.0.0.1 - - [22/Apr/2025 12:47:51] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:47:53] 127.0.0.1 - POST /logout
+[2025-04-22 12:47:53] 127.0.0.1 - - [22/Apr/2025 12:47:53] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-04-22 12:47:53] 127.0.0.1 - GET /
+[2025-04-22 12:47:53] 127.0.0.1 - - [22/Apr/2025 12:47:53] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 12:47:53] 127.0.0.1 - GET /register
+[2025-04-22 12:47:53] 127.0.0.1 - - [22/Apr/2025 12:47:53] "GET /register HTTP/1.1" 200 -
+[2025-04-22 12:47:54] 127.0.0.1 - GET /login
+[2025-04-22 12:47:54] 127.0.0.1 - - [22/Apr/2025 12:47:54] "GET /login HTTP/1.1" 200 -
+[2025-04-22 12:48:00] 127.0.0.1 - POST /login
+[2025-04-22 12:48:00] 127.0.0.1 - - [22/Apr/2025 12:48:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 12:48:00] 127.0.0.1 - GET /home
+[2025-04-22 12:48:00] 127.0.0.1 - - [22/Apr/2025 12:48:00] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:49] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 12:48:49] [33mPress CTRL+C to quit[0m
+[2025-04-22 12:48:49]  * Restarting with stat
+[2025-04-22 12:48:49]  * Debugger is active!
+[2025-04-22 12:48:49]  * Debugger PIN: 138-512-773
+[2025-04-22 12:48:51] 127.0.0.1 - GET /home
+[2025-04-22 12:48:51] 127.0.0.1 - - [22/Apr/2025 12:48:51] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:51] 127.0.0.1 - GET /home
+[2025-04-22 12:48:51] 127.0.0.1 - - [22/Apr/2025 12:48:51] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:52] 127.0.0.1 - GET /home
+[2025-04-22 12:48:52] 127.0.0.1 - - [22/Apr/2025 12:48:52] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:52] 127.0.0.1 - GET /home
+[2025-04-22 12:48:52] 127.0.0.1 - - [22/Apr/2025 12:48:52] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:48:52] 127.0.0.1 - GET /home
+[2025-04-22 12:48:52] 127.0.0.1 - - [22/Apr/2025 12:48:52] "GET /home HTTP/1.1" 200 -
+[2025-04-22 12:54:49]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:49]  * Restarting with stat
+[2025-04-22 12:54:50]  * Debugger is active!
+[2025-04-22 12:54:50]  * Debugger PIN: 138-512-773
+[2025-04-22 12:54:51]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:51]  * Restarting with stat
+[2025-04-22 12:54:52]  * Debugger is active!
+[2025-04-22 12:54:52]  * Debugger PIN: 138-512-773
+[2025-04-22 12:54:54]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:54]  * Restarting with stat
+[2025-04-22 12:54:54]  * Debugger is active!
+[2025-04-22 12:54:54]  * Debugger PIN: 138-512-773
+[2025-04-22 12:54:55]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:56]  * Restarting with stat
+[2025-04-22 12:54:56]  * Debugger is active!
+[2025-04-22 12:54:56]  * Debugger PIN: 138-512-773
+[2025-04-22 12:54:57]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 12:54:58]  * Restarting with stat
+[2025-04-22 12:54:58]  * Debugger is active!
+[2025-04-22 12:54:58]  * Debugger PIN: 138-512-773
+[2025-04-22 12:59:36]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:59:36]  * Restarting with stat
+[2025-04-22 12:59:37]  * Debugger is active!
+[2025-04-22 12:59:37]  * Debugger PIN: 138-512-773
+[2025-04-22 12:59:42]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:59:42]  * Restarting with stat
+[2025-04-22 12:59:43]  * Debugger is active!
+[2025-04-22 12:59:43]  * Debugger PIN: 138-512-773
+[2025-04-22 12:59:47]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 12:59:47]  * Restarting with stat
+[2025-04-22 12:59:47]  * Debugger is active!
+[2025-04-22 12:59:47]  * Debugger PIN: 138-512-773

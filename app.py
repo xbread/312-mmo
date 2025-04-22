@@ -38,7 +38,6 @@ def register():
             return render_template('register.html', error=message)
     return render_template('register.html')
 
-
 @app.route('/login', methods=['GET', 'POST'])
 def log_in():
     if request.method == 'POST':
@@ -52,7 +51,6 @@ def log_in():
             return render_template('login.html', error=error_message)
     return render_template('login.html')
 
-
 @app.route('/logout', methods=['POST'])
 def log_out():
     return logout(request)
@@ -63,8 +61,6 @@ def home():
     if not username:
         return redirect('/login')
     return render_template('home.html', username=username)
-
-
 
 @app.route("/gameboard")
 def gameboard():

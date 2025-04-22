@@ -124,22 +124,16 @@ def logout(http_request: request):
 
 
 def get_username_from_request(http_request: request):
-    print("Cookies:", http_request.cookies)
     if "auth-token" not in http_request.cookies:
-        print("auth-token missing")
         return None
 
     auth_token = http_request.cookies.get("auth-token")
-    print("Auth Token:", auth_token)
     if not auth_token:
-        print("auth-token is empty")
         return None
 
     hash_cookie = hashlib.sha256(auth_token.encode("utf-8")).hexdigest()
-    print("Hashed Cookie:", hash_cookie)
 
     user_lookup = user_collection.find_one({"auth_token": hash_cookie})
-    print("User Lookup Result:", user_lookup)
 
     return user_lookup["username"] if user_lookup else None
 
