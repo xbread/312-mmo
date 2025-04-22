@@ -44,11 +44,15 @@ def log_in():
     if request.method == 'POST':
         response = login(request)
         if response.status_code == 200:
-            return redirect('/gameboard')  # or whatever page you want to land on
+            return redirect('/home')  # or whatever page you want to land on
         else:
             error_message = "Invalid credentials."
             return render_template('login.html', error=error_message)
     return render_template('login.html')
+
+@app.route('/home')
+def home():
+    return render_template('home.html')
 
 @app.route("/gameboard")
 def gameboard():

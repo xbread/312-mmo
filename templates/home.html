@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            font-family: sans-serif;
+        }
+
+        .navbar {
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+            border-right: 1px solid #ccc;
+        }
+
+        .navbar h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .navbar a {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: #3b82f6;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            background-color: #fff;
+        }
+
+        .connected-users {
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+            border-left: 1px solid #ccc;
+        }
+
+        .connected-users h3 {
+            margin-top: 0;
+        }
+
+        .user-list {
+            margin-top: 10px;
+        }
+
+        .user {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h2>Navbar</h2>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Achievements</a>
+        <a href="#">Player Stats</a>
+        <a href="#">Leaderboard</a>
+    </div>
+
+    <div class="main-content">
+        <!-- Blank center area for now -->
+    </div>
+
+    <div class="connected-users">
+        <h3>Connected Users:</h3>
+        <div class="user-list" id="user-list">
+            <!-- Connected users will appear here via WebSocket -->
+        </div>
+    </div>
+
+    <script>
+        // Placeholder: addUser/removeUser will be called by WebSocket events later
+        function addUser(username) {
+            const existing = document.querySelector(`[data-name="${username.toLowerCase()}"]`);
+            if (!existing) {
+                const div = document.createElement('div');
+                div.className = 'user';
+                div.textContent = username;
+                div.setAttribute('data-name', username.toLowerCase());
+                document.getElementById('user-list').appendChild(div);
+            }
