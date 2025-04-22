@@ -1387,3 +1387,17 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connecti
 [2025-04-22 14:51:33]  * Debugger PIN: 128-255-662
 [2025-04-22 14:51:36] 127.0.0.1 - GET /home
 [2025-04-22 14:51:36] 127.0.0.1 - - [22/Apr/2025 14:51:36] "GET /home HTTP/1.1" 200 -
+[2025-04-22 15:12:01] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.35.21:8080
+[2025-04-22 15:12:01] [33mPress CTRL+C to quit[0m
+[2025-04-22 15:12:01]  * Restarting with stat
+[2025-04-22 15:12:02]  * Debugger is active!
+[2025-04-22 15:12:02]  * Debugger PIN: 128-255-662
+[2025-04-22 15:12:03] 127.0.0.1 - GET /home
+[2025-04-22 15:12:03] 127.0.0.1 - - [22/Apr/2025 15:12:03] "GET /home HTTP/1.1" 200 -
+[2025-04-22 15:12:05] 127.0.0.1 - GET /home
+[2025-04-22 15:12:05] 127.0.0.1 - - [22/Apr/2025 15:12:05] "GET /home HTTP/1.1" 200 -
+[2025-04-22 15:12:07] 127.0.0.1 - POST /logout
+[2025-04-22 15:12:07] 127.0.0.1 - - [22/Apr/2025 15:12:07] "[33mPOST /logout HTTP/1.1[0m" 404 -
