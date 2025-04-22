@@ -24,19 +24,19 @@
 </head>
 <body>
   <h1>Snake Game</h1>
+  <!--Needs to be adjusted-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf-8">
+    let socket = io('http://' + window.location.hostname + ':5000');
+    socket.on('connect', function(){
+        console.log('Connected to WebSocket');
+    });
+</script>
   <div id="score">Score: 0</div>
   <canvas id="game" width="400" height="400"></canvas>
 
   <!-- Sound Effects -->
   <audio id="eat-sound" src="https://www.myinstants.com/media/sounds/pop.mp3" preload="auto"></audio>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
-  <script type="text/javascript" charset="utf-8">
-     let socket = io('http://' + window.location.hostname + ':5000');
-     socket.on('connect', function(){
-     console.log('Connected to WebSocket');
-     });
-  </script>
 
   <script>
     const canvas = document.getElementById("game");
@@ -165,6 +165,7 @@
         socket.on('update_users', (players) => {
             renderPlayers(players);
         });
+
 
     gameLoop();
   </script>
