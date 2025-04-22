@@ -11,6 +11,8 @@ socketio = SocketIO(app)
 user_sessions = {}
 # list of just users
 user_list = []
+# saving username
+session = {}
 
 @app.before_request
 def log_incoming_request():
@@ -28,6 +30,7 @@ def register():
     if request.method == 'POST':
         response = registration(request)
         if response.status_code == 200:
+            session['username'] = get_username(request.cookies["auth_token"])
             return redirect('/login')
         else:
             error_type = response.get_data(as_text=True)
@@ -44,7 +47,7 @@ def log_in():
     if request.method == 'POST':
         response = login(request)
         if response.status_code == 200:
-            return redirect('/gameboard')  # or whatever page you want to land on
+            return redirect('/home')  # or whatever page you want to land on
         else:
             error_message = "Invalid credentials."
             return render_template('login.html', error=error_message)
@@ -54,21 +57,60 @@ def log_in():
 def gameboard():
     return render_template("gameboard.html")
 
-@socketio.on('join')
-def handle_join(auth_token):
-    username = get_username(auth_token)
+@app.route('/home')
+def home():
+    return render_template('home.html')
+
+@socketio.on('connect')
+def handle_connect():
+    print(session)
+    username = session.get('username')
     if username is not None:
         user_sessions[request.sid] = username
         user_list.append(username)
         emit('connection', {'users' : user_list}, broadcast=True)
+        print(user_list)
     else:
         raise ConnectionRefusedError('unauthorized!')
+
+# @socketio.on('join')
+# def handle_join(auth_token):
+#     username = get_username(auth_token)
+#     if username is not None:
+#         user_sessions[request.sid] = username
+#         user_list.append(username)
+#         emit('connection', {'users' : user_list}, broadcast=True)
+#     else:
+#         raise ConnectionRefusedError('unauthorized!')
 
 @socketio.on('disconnect')
 def handle_disconnect():
     username = user_sessions.pop(request.sid)
     user_list.pop(username)
     emit('connection', {'users' : user_list}, broadcast=True)
+    print(user_list)
+
+
+# # WebSocket event to send player positions to the client
+# @socketio.on('get_users')
+# def handle_get_users():
+#     emit('update_users', user_list)
+#
+# # WebSocket event to update player position
+# @socketio.on('move_user')
+# def handle_move_user(data):
+#     player_id = data['id']
+#     new_x = data['x']
+#     new_y = data['y']
+#
+#     # Update the player's position in the list
+#     for user in user_list:
+#         if user['id'] == player_id:
+#             user['x'] = new_x
+#             user['y'] = new_y
+#
+#     # Emit updated player positions
+#     emit('update_players', user_list, broadcast=True)
 
 
 if __name__ == "__main__":
