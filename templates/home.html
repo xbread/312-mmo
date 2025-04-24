@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .top-bar {
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-grow: 1;
+        }
+
+        .navbar {
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+            border-right: 1px solid #ccc;
+        }
+
+        .navbar h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .navbar a {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: #3b82f6;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            background-color: #fff;
+        }
+
+        .connected-users {
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+            border-left: 1px solid #ccc;
+        }
+
+        .connected-users h3 {
+            margin-top: 0;
+        }
+
+        .user-list {
+            margin-top: 10px;
+        }
+
+        .user {
+            margin-bottom: 5px;
+        }
+
+        .logout-button {
+            padding: 5px 10px;
+            background-color: #ef4444;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .logout-button:hover {
+            background-color: #dc2626;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div>Welcome: {{ username }}</div>
+        <form method="POST" action="/logout" style="margin: 0;">
+            <button class="logout-button" type="submit">Logout</button>
+        </form>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="navbar">
+            <h2>Navbar</h2>
+            <a href="#">Home</a>
+            <a href="#">Profile</a>
+            <a href="#">Achievements</a>
+            <a href="#">Player Stats</a>
+            <a href="#">Leaderboard</a>
+        </div>
+
+        <div class="main-content">
+            <!-- Center section (blank for now) -->
+        </div>
+
+        <div class="connected-users">
+            <h3>Connected Users:</h3>
+            <div class="user-list" id="user-list">
+                <!-- WebSocket-connected users will be listed here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // These functions will be called when WebSocket support is added
+        function addUser(username) {
+            const existing = document.querySelector(`[data-name="${username.toLowerCase()}"]`);
+            if (!existing) {
+                const div = document.createElement('div');
+                div.className = 'user';
+                div.textContent = username;
+                div.setAttribute('data-name', username.toLowerCase());
+                document.getElementById('user-list').appendChild(div);
+            }
+        }
+
+        function removeUser(username) {
+            const user = document.querySelector(`[data-name="${username.toLowerCase()}"]`);
+            if (user) {
+                user.remove();
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 # Imports
 from flask import request, Response
 from pymongo import MongoClient
-from util.database import user_collection
+from util.database import user_collection, logged_in
 import bcrypt                #Used to encrypt passwords
 import uuid                  #Used to generate user ids
 import secrets               #Used to generate auth tokens
@@ -102,40 +102,38 @@ def login(http_request: request):
 def logout(http_request: request):
     logout_response = None
 
-    #Check auth token is in cookies
-    if ("auth_token" not in http_request.cookies) or (http_request.cookies == ""):
+    if ("auth-token" not in http_request.cookies) or (http_request.cookies.get("auth-token") == ""):
         logout_response = Response(response="Not logged in or missing token", mimetype="text/plain", status=400)
         logout_response.headers["Content-Type"] = "text/plain; charset=utf-8"
     else:
-        auth_cookie = http_request.cookies["auth_token"]
+        auth_cookie = http_request.cookies["auth-token"]
         hash_cookie = hashlib.sha256(auth_cookie.encode("utf-8")).hexdigest()
         current_user_lookup = user_collection.find_one({"auth_token": hash_cookie})
         if current_user_lookup is None:
             logout_response = Response(response="Invalid token", mimetype="text/plain", status=400)
             logout_response.headers["Content-Type"] = "text/plain; charset=utf-8"
         else:
-            #Make dummy cookie to remove auth_token
+            logged_in.delete_one({"username": current_user_lookup["username"]})
+
             dummy_cookie = secrets.token_hex(32)
             logout_response = Response(status=302)
             logout_response.set_cookie("auth-token", value=dummy_cookie, max_age=0, httponly=True)
             logout_response.headers["Location"] = "/"
-
+    print(list(user_collection.find({})))
     return logout_response
 
 
 def get_username_from_request(http_request: request):
-    print(request.cookies)
-    if "auth_token" not in http_request.cookies:
+    if "auth-token" not in http_request.cookies:
         return None
 
-    auth_token = http_request.cookies["auth_token"]
+    auth_token = http_request.cookies.get("auth-token")
     if not auth_token:
         return None
 
     hash_cookie = hashlib.sha256(auth_token.encode("utf-8")).hexdigest()
 
     user_lookup = user_collection.find_one({"auth_token": hash_cookie})
-
 
     return user_lookup["username"] if user_lookup else None
 
