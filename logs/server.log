@@ -1780,3 +1780,333 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connecti
 [2025-04-22 12:59:47]  * Restarting with stat
 [2025-04-22 12:59:47]  * Debugger is active!
 [2025-04-22 12:59:47]  * Debugger PIN: 138-512-773
+[2025-04-24 07:38:01] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 07:38:01] [33mPress CTRL+C to quit[0m
+[2025-04-24 07:38:01]  * Restarting with stat
+[2025-04-24 07:38:03]  * Debugger is active!
+[2025-04-24 07:38:03]  * Debugger PIN: 128-255-662
+[2025-04-24 07:38:06] 127.0.0.1 - GET /
+[2025-04-24 07:38:06] 127.0.0.1 - - [24/Apr/2025 07:38:06] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-24 07:38:06] 127.0.0.1 - GET /register
+[2025-04-24 07:38:06] 127.0.0.1 - - [24/Apr/2025 07:38:06] "GET /register HTTP/1.1" 200 -
+[2025-04-24 07:38:06] 127.0.0.1 - GET /favicon.ico
+[2025-04-24 07:38:06] 127.0.0.1 - - [24/Apr/2025 07:38:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-24 07:38:08] 127.0.0.1 - GET /login
+[2025-04-24 07:38:08] 127.0.0.1 - - [24/Apr/2025 07:38:08] "GET /login HTTP/1.1" 200 -
+[2025-04-24 07:38:17] 127.0.0.1 - POST /login
+[2025-04-24 07:38:18] 127.0.0.1 - - [24/Apr/2025 07:38:18] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2025-04-24 07:38:19] 127.0.0.1 - - [24/Apr/2025 07:38:19] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-04-24 07:38:19] 127.0.0.1 - - [24/Apr/2025 07:38:19] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-04-24 07:38:19] 127.0.0.1 - - [24/Apr/2025 07:38:19] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=b5IGI9qcYxhd38d31zyB HTTP/1.1" 200 -
+[2025-04-24 07:38:19] 127.0.0.1 - - [24/Apr/2025 07:38:19] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-04-24 07:44:31]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
+[2025-04-24 07:44:31]  * Restarting with stat
+[2025-04-24 07:44:32]  * Debugger is active!
+[2025-04-24 07:44:32]  * Debugger PIN: 128-255-662
+[2025-04-24 07:46:28] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 07:46:28] [33mPress CTRL+C to quit[0m
+[2025-04-24 07:46:28]  * Restarting with stat
+[2025-04-24 07:46:29]  * Debugger is active!
+[2025-04-24 07:46:29]  * Debugger PIN: 128-255-662
+[2025-04-24 07:46:30] 127.0.0.1 - GET /
+[2025-04-24 07:46:30] 127.0.0.1 - - [24/Apr/2025 07:46:30] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-24 07:46:30] 127.0.0.1 - GET /register
+[2025-04-24 07:46:30] 127.0.0.1 - - [24/Apr/2025 07:46:30] "GET /register HTTP/1.1" 200 -
+[2025-04-24 07:46:30] 127.0.0.1 - GET /favicon.ico
+[2025-04-24 07:46:30] 127.0.0.1 - - [24/Apr/2025 07:46:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-24 07:46:32] 127.0.0.1 - GET /login
+[2025-04-24 07:46:32] 127.0.0.1 - - [24/Apr/2025 07:46:32] "GET /login HTTP/1.1" 200 -
+[2025-04-24 07:46:44] 127.0.0.1 - POST /login
+[2025-04-24 07:46:44] 127.0.0.1 - - [24/Apr/2025 07:46:44] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2025-04-24 07:46:45] 127.0.0.1 - - [24/Apr/2025 07:46:45] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-04-24 07:46:45] 127.0.0.1 - - [24/Apr/2025 07:46:45] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-04-24 07:46:45] 127.0.0.1 - - [24/Apr/2025 07:46:45] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=93Q4QY2blEfw77pNgtki HTTP/1.1" 200 -
+[2025-04-24 07:46:45] 127.0.0.1 - - [24/Apr/2025 07:46:45] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-04-24 07:49:05]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
+[2025-04-24 07:49:05]  * Restarting with stat
+[2025-04-24 07:49:06]  * Debugger is active!
+[2025-04-24 07:49:06]  * Debugger PIN: 128-255-662
+[2025-04-24 07:49:10] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 07:49:10] [33mPress CTRL+C to quit[0m
+[2025-04-24 07:49:10]  * Restarting with stat
+[2025-04-24 07:49:11]  * Debugger is active!
+[2025-04-24 07:49:11]  * Debugger PIN: 128-255-662
+[2025-04-24 07:49:15] 127.0.0.1 - POST /login
+[2025-04-24 07:49:15] 127.0.0.1 - - [24/Apr/2025 07:49:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 07:49:15] 127.0.0.1 - GET /home
+[2025-04-24 07:49:15] 127.0.0.1 - - [24/Apr/2025 07:49:15] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 07:49:15] 127.0.0.1 - GET /login
+[2025-04-24 07:49:15] 127.0.0.1 - - [24/Apr/2025 07:49:15] "GET /login HTTP/1.1" 200 -
+[2025-04-24 07:49:29] 127.0.0.1 - POST /login
+[2025-04-24 07:49:30] 127.0.0.1 - - [24/Apr/2025 07:49:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 07:49:30] 127.0.0.1 - GET /home
+[2025-04-24 07:49:30] 127.0.0.1 - - [24/Apr/2025 07:49:30] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 07:49:30] 127.0.0.1 - GET /login
+[2025-04-24 07:49:30] 127.0.0.1 - - [24/Apr/2025 07:49:30] "GET /login HTTP/1.1" 200 -
+[2025-04-24 07:51:27]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
+[2025-04-24 07:51:27]  * Restarting with stat
+[2025-04-24 07:51:28]  * Debugger is active!
+[2025-04-24 07:51:28]  * Debugger PIN: 128-255-662
+[2025-04-24 07:57:08] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 07:57:08] [33mPress CTRL+C to quit[0m
+[2025-04-24 07:57:08]  * Restarting with stat
+[2025-04-24 07:57:08]  * Debugger is active!
+[2025-04-24 07:57:08]  * Debugger PIN: 128-255-662
+[2025-04-24 07:57:10] 127.0.0.1 - GET /login
+[2025-04-24 07:57:10] 127.0.0.1 - - [24/Apr/2025 07:57:10] "GET /login HTTP/1.1" 200 -
+[2025-04-24 07:57:15] 127.0.0.1 - POST /login
+[2025-04-24 07:57:15] 127.0.0.1 - - [24/Apr/2025 07:57:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 07:57:15] 127.0.0.1 - GET /home
+[2025-04-24 07:57:15] 127.0.0.1 - - [24/Apr/2025 07:57:15] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 07:57:16] 127.0.0.1 - GET /login
+[2025-04-24 07:57:16] 127.0.0.1 - - [24/Apr/2025 07:57:16] "GET /login HTTP/1.1" 200 -
+[2025-04-24 07:58:15] 127.0.0.1 - POST /login
+[2025-04-24 07:58:16] 127.0.0.1 - - [24/Apr/2025 07:58:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 07:58:16] 127.0.0.1 - GET /home
+[2025-04-24 07:58:16] 127.0.0.1 - - [24/Apr/2025 07:58:16] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 07:58:16] 127.0.0.1 - GET /login
+[2025-04-24 07:58:16] 127.0.0.1 - - [24/Apr/2025 07:58:16] "GET /login HTTP/1.1" 200 -
+[2025-04-24 07:58:34]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
+[2025-04-24 07:58:34]  * Restarting with stat
+[2025-04-24 07:58:35]  * Debugger is active!
+[2025-04-24 07:58:35]  * Debugger PIN: 128-255-662
+[2025-04-24 07:58:39] 127.0.0.1 - POST /login
+[2025-04-24 07:58:40] 127.0.0.1 - - [24/Apr/2025 07:58:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 07:58:40] 127.0.0.1 - GET /home
+[2025-04-24 07:58:40] 127.0.0.1 - - [24/Apr/2025 07:58:40] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 07:58:40] 127.0.0.1 - GET /login
+[2025-04-24 07:58:40] 127.0.0.1 - - [24/Apr/2025 07:58:40] "GET /login HTTP/1.1" 200 -
+[2025-04-24 07:59:37]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\util\\Authentication.py', reloading
+[2025-04-24 07:59:37]  * Restarting with stat
+[2025-04-24 07:59:38]  * Debugger is active!
+[2025-04-24 07:59:38]  * Debugger PIN: 128-255-662
+[2025-04-24 07:59:44] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 07:59:44] [33mPress CTRL+C to quit[0m
+[2025-04-24 07:59:44]  * Restarting with stat
+[2025-04-24 07:59:45]  * Debugger is active!
+[2025-04-24 07:59:45]  * Debugger PIN: 128-255-662
+[2025-04-24 07:59:49] 127.0.0.1 - POST /login
+[2025-04-24 07:59:49] 127.0.0.1 - - [24/Apr/2025 07:59:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 07:59:49] 127.0.0.1 - GET /home
+[2025-04-24 07:59:49] 127.0.0.1 - - [24/Apr/2025 07:59:49] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 07:59:49] 127.0.0.1 - GET /login
+[2025-04-24 07:59:49] 127.0.0.1 - - [24/Apr/2025 07:59:49] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:00:03]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\util\\Authentication.py', reloading
+[2025-04-24 08:00:07] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 08:00:07] [33mPress CTRL+C to quit[0m
+[2025-04-24 08:00:07]  * Restarting with stat
+[2025-04-24 08:00:08]  * Debugger is active!
+[2025-04-24 08:00:08]  * Debugger PIN: 128-255-662
+[2025-04-24 08:00:12] 127.0.0.1 - POST /login
+[2025-04-24 08:00:13] 127.0.0.1 - - [24/Apr/2025 08:00:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:00:13] 127.0.0.1 - GET /home
+[2025-04-24 08:00:13] 127.0.0.1 - - [24/Apr/2025 08:00:13] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:00:13] 127.0.0.1 - GET /login
+[2025-04-24 08:00:13] 127.0.0.1 - - [24/Apr/2025 08:00:13] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:01:39]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\util\\Authentication.py', reloading
+[2025-04-24 08:01:39]  * Restarting with stat
+[2025-04-24 08:01:40]  * Debugger is active!
+[2025-04-24 08:01:40]  * Debugger PIN: 128-255-662
+[2025-04-24 08:01:45] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 08:01:45] [33mPress CTRL+C to quit[0m
+[2025-04-24 08:01:45]  * Restarting with stat
+[2025-04-24 08:01:45]  * Debugger is active!
+[2025-04-24 08:01:45]  * Debugger PIN: 128-255-662
+[2025-04-24 08:01:49] 127.0.0.1 - POST /login
+[2025-04-24 08:01:49] 127.0.0.1 - - [24/Apr/2025 08:01:49] "POST /login HTTP/1.1" 200 -
+[2025-04-24 08:01:55] 127.0.0.1 - POST /login
+[2025-04-24 08:01:56] 127.0.0.1 - - [24/Apr/2025 08:01:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:01:56] 127.0.0.1 - GET /home
+[2025-04-24 08:01:56] 127.0.0.1 - - [24/Apr/2025 08:01:56] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:01:56] 127.0.0.1 - GET /login
+[2025-04-24 08:01:56] 127.0.0.1 - - [24/Apr/2025 08:01:56] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:02:44]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\util\\Authentication.py', reloading
+[2025-04-24 08:02:45]  * Restarting with stat
+[2025-04-24 08:02:45]  * Debugger is active!
+[2025-04-24 08:02:45]  * Debugger PIN: 128-255-662
+[2025-04-24 08:02:49] 127.0.0.1 - POST /login
+[2025-04-24 08:02:50] 127.0.0.1 - - [24/Apr/2025 08:02:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:02:50] 127.0.0.1 - GET /home
+[2025-04-24 08:02:50] 127.0.0.1 - - [24/Apr/2025 08:02:50] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:02:50] 127.0.0.1 - GET /login
+[2025-04-24 08:02:50] 127.0.0.1 - - [24/Apr/2025 08:02:50] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:04:52] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 08:04:52] [33mPress CTRL+C to quit[0m
+[2025-04-24 08:04:52]  * Restarting with stat
+[2025-04-24 08:04:52]  * Debugger is active!
+[2025-04-24 08:04:52]  * Debugger PIN: 128-255-662
+[2025-04-24 08:04:59] 127.0.0.1 - POST /login
+[2025-04-24 08:05:00] 127.0.0.1 - - [24/Apr/2025 08:05:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:05:00] 127.0.0.1 - GET /home
+[2025-04-24 08:05:00] 127.0.0.1 - - [24/Apr/2025 08:05:00] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:05:00] 127.0.0.1 - GET /login
+[2025-04-24 08:05:00] 127.0.0.1 - - [24/Apr/2025 08:05:00] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:12:34] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 08:12:34] [33mPress CTRL+C to quit[0m
+[2025-04-24 08:12:34]  * Restarting with stat
+[2025-04-24 08:12:35]  * Debugger is active!
+[2025-04-24 08:12:35]  * Debugger PIN: 128-255-662
+[2025-04-24 08:13:13] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 08:13:13] [33mPress CTRL+C to quit[0m
+[2025-04-24 08:13:13]  * Restarting with stat
+[2025-04-24 08:13:14]  * Debugger is active!
+[2025-04-24 08:13:14]  * Debugger PIN: 128-255-662
+[2025-04-24 08:15:12] 127.0.0.1 - GET /
+[2025-04-24 08:15:12] 127.0.0.1 - - [24/Apr/2025 08:15:12] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-24 08:15:12] 127.0.0.1 - GET /register
+[2025-04-24 08:15:12] 127.0.0.1 - - [24/Apr/2025 08:15:12] "GET /register HTTP/1.1" 200 -
+[2025-04-24 08:15:13] 127.0.0.1 - GET /login
+[2025-04-24 08:15:13] 127.0.0.1 - - [24/Apr/2025 08:15:13] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:15:18] 127.0.0.1 - POST /login
+[2025-04-24 08:15:19] 127.0.0.1 - - [24/Apr/2025 08:15:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:15:19] 127.0.0.1 - GET /home
+[2025-04-24 08:15:19] 127.0.0.1 - - [24/Apr/2025 08:15:19] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:15:19] 127.0.0.1 - GET /login
+[2025-04-24 08:15:19] 127.0.0.1 - - [24/Apr/2025 08:15:19] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:15:46] 127.0.0.1 - POST /login
+[2025-04-24 08:15:46] 127.0.0.1 - - [24/Apr/2025 08:15:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:15:46] 127.0.0.1 - GET /home
+[2025-04-24 08:15:46] 127.0.0.1 - - [24/Apr/2025 08:15:46] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:15:46] 127.0.0.1 - GET /login
+[2025-04-24 08:15:46] 127.0.0.1 - - [24/Apr/2025 08:15:46] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:16:16] 127.0.0.1 - POST /login
+[2025-04-24 08:16:17] 127.0.0.1 - - [24/Apr/2025 08:16:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:16:17] 127.0.0.1 - GET /home
+[2025-04-24 08:16:17] 127.0.0.1 - - [24/Apr/2025 08:16:17] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:16:17] 127.0.0.1 - GET /login
+[2025-04-24 08:16:17] 127.0.0.1 - - [24/Apr/2025 08:16:17] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:16:38]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
+[2025-04-24 08:16:39]  * Restarting with stat
+[2025-04-24 08:16:39]  * Debugger is active!
+[2025-04-24 08:16:39]  * Debugger PIN: 128-255-662
+[2025-04-24 08:16:43] 127.0.0.1 - POST /login
+[2025-04-24 08:16:43] 127.0.0.1 - - [24/Apr/2025 08:16:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:16:43] 127.0.0.1 - GET /home
+[2025-04-24 08:16:43] 127.0.0.1 - - [24/Apr/2025 08:16:43] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:16:43] 127.0.0.1 - GET /login
+[2025-04-24 08:16:43] 127.0.0.1 - - [24/Apr/2025 08:16:43] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:16:49] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 08:16:49] [33mPress CTRL+C to quit[0m
+[2025-04-24 08:16:49]  * Restarting with stat
+[2025-04-24 08:16:50]  * Debugger is active!
+[2025-04-24 08:16:50]  * Debugger PIN: 128-255-662
+[2025-04-24 08:16:55] 127.0.0.1 - POST /login
+[2025-04-24 08:16:55] 127.0.0.1 - - [24/Apr/2025 08:16:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:16:55] 127.0.0.1 - GET /home
+[2025-04-24 08:16:55] 127.0.0.1 - - [24/Apr/2025 08:16:55] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:16:55] 127.0.0.1 - GET /login
+[2025-04-24 08:16:55] 127.0.0.1 - - [24/Apr/2025 08:16:55] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:18:34] 127.0.0.1 - POST /login
+[2025-04-24 08:18:35] 127.0.0.1 - - [24/Apr/2025 08:18:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:18:35] 127.0.0.1 - GET /home
+[2025-04-24 08:18:35] 127.0.0.1 - - [24/Apr/2025 08:18:35] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:18:35] 127.0.0.1 - GET /login
+[2025-04-24 08:18:35] 127.0.0.1 - - [24/Apr/2025 08:18:35] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:19:34] 127.0.0.1 - POST /login
+[2025-04-24 08:19:34] 127.0.0.1 - - [24/Apr/2025 08:19:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:19:34] 127.0.0.1 - GET /home
+[2025-04-24 08:19:34] 127.0.0.1 - - [24/Apr/2025 08:19:34] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-24 08:19:34] 127.0.0.1 - GET /login
+[2025-04-24 08:19:34] 127.0.0.1 - - [24/Apr/2025 08:19:34] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:20:24]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
+[2025-04-24 08:20:25]  * Restarting with stat
+[2025-04-24 08:20:25]  * Debugger is active!
+[2025-04-24 08:20:25]  * Debugger PIN: 128-255-662
+[2025-04-24 08:20:29] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 08:20:29] [33mPress CTRL+C to quit[0m
+[2025-04-24 08:20:29]  * Restarting with stat
+[2025-04-24 08:20:30]  * Debugger is active!
+[2025-04-24 08:20:30]  * Debugger PIN: 128-255-662
+[2025-04-24 08:20:35] 127.0.0.1 - POST /login
+[2025-04-24 08:20:36] 127.0.0.1 - - [24/Apr/2025 08:20:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:20:36] 127.0.0.1 - GET /home
+[2025-04-24 08:20:36] 127.0.0.1 - - [24/Apr/2025 08:20:36] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-04-24 08:20:36] 127.0.0.1 - - [24/Apr/2025 08:20:36] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-04-24 08:20:36] 127.0.0.1 - - [24/Apr/2025 08:20:36] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-04-24 08:20:36] 127.0.0.1 - - [24/Apr/2025 08:20:36] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=hJaOcwkdJeTn2HklD6jV HTTP/1.1" 200 -
+[2025-04-24 08:20:37] 127.0.0.1 - - [24/Apr/2025 08:20:37] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-04-24 08:22:13]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
+[2025-04-24 08:22:14]  * Restarting with stat
+[2025-04-24 08:22:14]  * Debugger is active!
+[2025-04-24 08:22:14]  * Debugger PIN: 128-255-662
+[2025-04-24 08:22:19] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 08:22:19] [33mPress CTRL+C to quit[0m
+[2025-04-24 08:22:19]  * Restarting with stat
+[2025-04-24 08:22:19]  * Debugger is active!
+[2025-04-24 08:22:19]  * Debugger PIN: 128-255-662
+[2025-04-24 08:22:20] 127.0.0.1 - GET /home
+[2025-04-24 08:22:20] 127.0.0.1 - - [24/Apr/2025 08:22:20] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-04-24 08:22:20] 127.0.0.1 - - [24/Apr/2025 08:22:20] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-24 08:22:20] 127.0.0.1 - - [24/Apr/2025 08:22:20] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-24 08:22:20] 127.0.0.1 - - [24/Apr/2025 08:22:20] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=Po7amoUOP2haIXznjh7y HTTP/1.1" 200 -
+[2025-04-24 08:22:27] 127.0.0.1 - GET /
+[2025-04-24 08:22:27] 127.0.0.1 - - [24/Apr/2025 08:22:27] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-24 08:22:28] 127.0.0.1 - GET /register
+[2025-04-24 08:22:28] 127.0.0.1 - - [24/Apr/2025 08:22:28] "GET /register HTTP/1.1" 200 -
+[2025-04-24 08:22:42] 127.0.0.1 - POST /register
+[2025-04-24 08:22:42] 127.0.0.1 - - [24/Apr/2025 08:22:42] "POST /register HTTP/1.1" 200 -
+[2025-04-24 08:22:44] 127.0.0.1 - GET /login
+[2025-04-24 08:22:44] 127.0.0.1 - - [24/Apr/2025 08:22:44] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:22:50] 127.0.0.1 - POST /login
+[2025-04-24 08:22:51] 127.0.0.1 - - [24/Apr/2025 08:22:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:22:51] 127.0.0.1 - GET /home
+[2025-04-24 08:22:51] 127.0.0.1 - - [24/Apr/2025 08:22:51] "GET /home HTTP/1.1" 200 -
+[2025-04-24 08:23:19] 127.0.0.1 - GET /gameboard
+[2025-04-24 08:23:19] 127.0.0.1 - - [24/Apr/2025 08:23:19] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-24 08:23:23] 127.0.0.1 - GET /favicon.ico
+[2025-04-24 08:23:23] 127.0.0.1 - - [24/Apr/2025 08:23:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-24 08:23:43] 127.0.0.1 - GET /
+[2025-04-24 08:23:43] 127.0.0.1 - - [24/Apr/2025 08:23:43] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-24 08:23:43] 127.0.0.1 - GET /register
+[2025-04-24 08:23:43] 127.0.0.1 - - [24/Apr/2025 08:23:43] "GET /register HTTP/1.1" 200 -
+[2025-04-24 08:23:48] 127.0.0.1 - GET /login
+[2025-04-24 08:23:48] 127.0.0.1 - - [24/Apr/2025 08:23:48] "GET /login HTTP/1.1" 200 -
+[2025-04-24 08:23:52] 127.0.0.1 - POST /login
+[2025-04-24 08:23:53] 127.0.0.1 - - [24/Apr/2025 08:23:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-24 08:23:53] 127.0.0.1 - GET /home
+[2025-04-24 08:23:53] 127.0.0.1 - - [24/Apr/2025 08:23:53] "GET /home HTTP/1.1" 200 -
+[2025-04-24 08:23:59] 127.0.0.1 - GET /gameboard
+[2025-04-24 08:23:59] 127.0.0.1 - - [24/Apr/2025 08:23:59] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-24 08:24:03] 127.0.0.1 - GET /gameboard
+[2025-04-24 08:24:03] 127.0.0.1 - - [24/Apr/2025 08:24:03] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-24 08:24:05] 127.0.0.1 - GET /gameboard
+[2025-04-24 08:24:05] 127.0.0.1 - - [24/Apr/2025 08:24:05] "GET /gameboard HTTP/1.1" 200 -

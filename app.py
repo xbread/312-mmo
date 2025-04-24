@@ -45,9 +45,8 @@ def log_in():
     if request.method == 'POST':
         response = login(request)
         if response.status_code == 200:
-            response.headers["Location"] = "/home"
-            response.status_code = 302
-            session['username'] = get_username(request.cookies["auth_token"])
+            session["username"] = request.form.get("0")
+            print(session)
             return redirect('/home')  # or whatever page you want to land on
         else:
             error_message = "Invalid credentials."
@@ -60,7 +59,8 @@ def log_out():
 
 @app.route('/home')
 def home():
-    username = get_username_from_request(request)
+    username = session["username"]
+    print(username)
     if not username:
         return redirect('/login')
     return render_template('home.html', username=username)
@@ -71,11 +71,11 @@ def gameboard():
 
 @socketio.on('connect')
 def handle_connect():
-    username = session.get('username')
+    username = user_sessions["username"]
     if username is not None:
         user_sessions[request.sid] = username
         user_list.append(username)
-        emit('connection', {'users' : user_list}, broadcast=True)
+        emit('update_users', user_sessions, broadcast=True)
     else:
         raise ConnectionRefusedError('unauthorized!')
 
@@ -83,7 +83,7 @@ def handle_connect():
 def handle_disconnect():
     username = user_sessions.pop(request.sid)
     user_list.pop(username)
-    emit('connection', {'users' : user_list}, broadcast=True)
+    emit('update_users', user_sessions, broadcast=True)
 
 # WebSocket event to send player positions to the client
 @socketio.on('get_users')
