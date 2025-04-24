@@ -1337,3 +1337,41 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connecti
 [2025-04-24 09:45:14]  * Restarting with stat
 [2025-04-24 09:45:15]  * Debugger is active!
 [2025-04-24 09:45:15]  * Debugger PIN: 128-255-662
+[2025-04-24 10:10:09] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 10:10:09] [33mPress CTRL+C to quit[0m
+[2025-04-24 10:10:09]  * Restarting with stat
+[2025-04-24 10:10:09]  * Debugger is active!
+[2025-04-24 10:10:09]  * Debugger PIN: 128-255-662
+[2025-04-24 10:10:12] 127.0.0.1 - GET /
+[2025-04-24 10:10:12] 127.0.0.1 - - [24/Apr/2025 10:10:12] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-24 10:10:12] 127.0.0.1 - GET /register
+[2025-04-24 10:10:12] 127.0.0.1 - - [24/Apr/2025 10:10:12] "GET /register HTTP/1.1" 200 -
+[2025-04-24 10:10:14] 127.0.0.1 - GET /login
+[2025-04-24 10:10:14] 127.0.0.1 - - [24/Apr/2025 10:10:14] "GET /login HTTP/1.1" 200 -
+[2025-04-24 10:10:21] 127.0.0.1 - POST /login
+[2025-04-24 10:10:50] 127.0.0.1 - - [24/Apr/2025 10:10:50] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2025-04-24 10:10:50] 127.0.0.1 - - [24/Apr/2025 10:10:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-24 10:10:50] 127.0.0.1 - - [24/Apr/2025 10:10:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-24 10:10:50] 127.0.0.1 - - [24/Apr/2025 10:10:50] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=yE7aVczR8PwxXFpChgS0 HTTP/1.1" 200 -
+[2025-04-24 10:10:54] 127.0.0.1 - GET /login
+[2025-04-24 10:10:54] 127.0.0.1 - - [24/Apr/2025 10:10:54] "GET /login HTTP/1.1" 200 -
+[2025-04-24 10:10:58] 127.0.0.1 - POST /login
+[2025-04-24 10:10:58] 127.0.0.1 - - [24/Apr/2025 10:10:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2025-04-24 10:10:58] 127.0.0.1 - - [24/Apr/2025 10:10:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-24 10:10:58] 127.0.0.1 - - [24/Apr/2025 10:10:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-24 10:10:59] 127.0.0.1 - - [24/Apr/2025 10:10:59] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=yE7aVczR8PwxXFpChgS0 HTTP/1.1[0m" 304 -
+[2025-04-24 10:13:07]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\util\\Authentication.py', reloading
+[2025-04-24 10:13:08]  * Restarting with stat
+[2025-04-24 10:13:08]  * Debugger is active!
+[2025-04-24 10:13:08]  * Debugger PIN: 128-255-662
+[2025-04-24 10:13:12] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-24 10:13:12] [33mPress CTRL+C to quit[0m
+[2025-04-24 10:13:12]  * Restarting with stat
+[2025-04-24 10:13:12]  * Debugger is active!
+[2025-04-24 10:13:12]  * Debugger PIN: 128-255-662

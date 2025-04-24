@@ -1,7 +1,7 @@
 # Imports
 from flask import request, Response
 from pymongo import MongoClient
-from util.database import user_collection
+from util.database import user_collection, logged_in
 import bcrypt                #Used to encrypt passwords
 import uuid                  #Used to generate user ids
 import secrets               #Used to generate auth tokens
