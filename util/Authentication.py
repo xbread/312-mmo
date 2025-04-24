@@ -131,14 +131,11 @@ def get_username_from_request(http_request: request):
     auth_token = http_request.cookies["auth_token"]
     if not auth_token:
         return None
-    print(auth_token)
 
     hash_cookie = hashlib.sha256(auth_token.encode("utf-8")).hexdigest()
-    print(hash_cookie)
 
     user_lookup = user_collection.find_one({"auth_token": hash_cookie})
 
-    print(user_lookup)
 
     return user_lookup["username"] if user_lookup else None
 

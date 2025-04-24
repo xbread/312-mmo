@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template, redirect
-from flask_socketio import SocketIO, emit
+from flask_socketio import SocketIO, emit, join_room, leave_room
 from util.Logging import log_request
 from util.Authentication import *
 from util.websocket_functions import *
@@ -46,8 +46,9 @@ def log_in():
         response = login(request)
         if response.status_code == 200:
             session["username"] = request.form.get("0")
-            print(session)
-            return redirect('/home')  # or whatever page you want to land on
+            response.status_code = 302
+            response.headers["Location"] = "/home"
+            return response
         else:
             error_message = "Invalid credentials."
             return render_template('login.html', error=error_message)
@@ -71,24 +72,24 @@ def gameboard():
 
 @socketio.on('connect')
 def handle_connect():
-    username = user_sessions["username"]
+    username = session["username"]
     if username is not None:
         user_sessions[request.sid] = username
         user_list.append(username)
-        emit('update_users', user_sessions, broadcast=True)
+        emit('update_users', user_list, broadcast=True)
     else:
         raise ConnectionRefusedError('unauthorized!')
 
 @socketio.on('disconnect')
 def handle_disconnect():
     username = user_sessions.pop(request.sid)
-    user_list.pop(username)
-    emit('update_users', user_sessions, broadcast=True)
+    user_list.remove(username)
+    emit('update_players', user_list, broadcast=True)
 
 # WebSocket event to send player positions to the client
-@socketio.on('get_users')
+@socketio.on('get_players')
 def handle_get_users():
-    emit('update_users', user_list)
+    emit('update_players', user_list)
 
 # WebSocket event to update player position
 @socketio.on('move_user')

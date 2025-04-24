@@ -27,9 +27,10 @@
   <!--Needs to be adjusted-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
 <script type="text/javascript" charset="utf-8">
-    let socket = io('http://' + window.location.hostname + ':5000');
-    socket.on('connect', function(){
+    let socket = io('http://' + window.location.hostname + ':8080');
+    socket.on('join', function(){
         console.log('Connected to WebSocket');
+        socket.emit('get_players');
     });
 </script>
   <div id="score">Score: 0</div>
@@ -130,6 +131,7 @@
       } else if (e.key === "ArrowDown" && dy === 0) {
         dx = 0; dy = 1;
       }
+      socket.emit('move_player', {x: dx, y: dy })
     });
 
     function renderPlayers(players) {
@@ -144,8 +146,8 @@
                 playerElement.setAttribute("id", `player-${player.id}`);
 
                 // Calculate position based on player's x and y coordinates
-                const x = player.x * 55;  // Adjust for grid cell size and gap
-                const y = player.y * 55;
+                const x = player.x;  // Adjust for grid cell size and gap
+                const y = player.y;
 
                 playerElement.style.left = `${x}`;
                 playerElement.style.top = `${y}`;
@@ -155,14 +157,8 @@
             });
         }
 
-        // Request the server for player positions when connected
-        socket.on('connect', () => {
-            console.log('Connected to server');
-            socket.emit('get_users');  // Request the current players' positions
-        });
-
         // Listen for updated player positions from the server
-        socket.on('update_users', (players) => {
+        socket.on('update_players', (players) => {
             renderPlayers(players);
         });
 
