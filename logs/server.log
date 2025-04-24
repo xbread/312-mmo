@@ -1337,7 +1337,3 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connecti
 [2025-04-24 09:45:14]  * Restarting with stat
 [2025-04-24 09:45:15]  * Debugger is active!
 [2025-04-24 09:45:15]  * Debugger PIN: 128-255-662
-[2025-04-24 09:58:55]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\util\\Authentication.py', reloading
-[2025-04-24 09:58:56]  * Restarting with stat
-[2025-04-24 09:58:56]  * Debugger is active!
-[2025-04-24 09:58:56]  * Debugger PIN: 128-255-662
