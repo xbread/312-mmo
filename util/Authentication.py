@@ -61,7 +61,6 @@ def registration(http_request: request):
     return registration_response
 
 def login(http_request: request):
-    print(list(user_collection.find({})))
     # Make response obj
     login_response = None
     # Get requested credentials
@@ -90,6 +89,8 @@ def login(http_request: request):
 
             #Update user with hashed auth token
             user_collection.update_one(user_lookup, {'$set': {"auth_token": hash_cookie}})
+            if not logged_in.find_one({"username": username}):
+                logged_in.insert_one({"username": username})
         else:
             login_response = Response(response="Incorrect password", mimetype="text/plain", status=400)
             login_response.headers["Content-Type"] = "text/plain; charset=utf-8"
@@ -106,25 +107,37 @@ def logout(http_request: request):
         logout_response = Response(response="Not logged in or missing token", mimetype="text/plain", status=400)
         logout_response.headers["Content-Type"] = "text/plain; charset=utf-8"
     else:
-        #Lookup user with auth_cookie
         auth_cookie = http_request.cookies["auth_token"]
         hash_cookie = hashlib.sha256(auth_cookie.encode("utf-8")).hexdigest()
         current_user_lookup = user_collection.find_one({"auth_token": hash_cookie})
-        #If no user is found:
         if current_user_lookup is None:
             logout_response = Response(response="Invalid token", mimetype="text/plain", status=400)
             logout_response.headers["Content-Type"] = "text/plain; charset=utf-8"
-        #If user is found
         else:
             #Make dummy cookie to remove auth_token
             dummy_cookie = secrets.token_hex(32)
-
-            #Respond w/ 302 and redirect to home
             logout_response = Response(status=302)
             logout_response.set_cookie("auth-token", value=dummy_cookie, max_age=0, httponly=True)
             logout_response.headers["Location"] = "/"
 
     return logout_response
+
+
+def get_username_from_request(http_request: request):
+    print(request.cookies)
+    if "auth_token" not in http_request.cookies:
+        return None
+
+    auth_token = http_request.cookies["auth_token"]
+    if not auth_token:
+        return None
+
+    hash_cookie = hashlib.sha256(auth_token.encode("utf-8")).hexdigest()
+
+    user_lookup = user_collection.find_one({"auth_token": hash_cookie})
+
+
+    return user_lookup["username"] if user_lookup else None
 
 
 def validate_password(password: str) -> bool:

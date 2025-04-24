@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Needs to be adjusted-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
-<script type="text/javascript" charset="utf-8">
-    let socket = io();
-    socket.on('join', function() {
-        socket.emit('my event', {data: 'I\'m connected!'});
-    });
-</script>
 <head>
   <meta charset="UTF-8" />
   <title>Snake Game</title>
@@ -32,6 +24,15 @@
 </head>
 <body>
   <h1>Snake Game</h1>
+  <!--Needs to be adjusted-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf-8">
+    let socket = io('http://' + window.location.hostname + ':8080');
+    socket.on('join', function(){
+        console.log('Connected to WebSocket');
+        socket.emit('get_players');
+    });
+</script>
   <div id="score">Score: 0</div>
   <canvas id="game" width="400" height="400"></canvas>
 
@@ -130,7 +131,37 @@
       } else if (e.key === "ArrowDown" && dy === 0) {
         dx = 0; dy = 1;
       }
+      socket.emit('move_player', {x: dx, y: dy })
     });
+
+    function renderPlayers(players) {
+            // Clear existing players
+            const existingPlayers = document.querySelectorAll('.player');
+            existingPlayers.forEach(player => player.remove());
+
+            // Render each player on the gameboard
+            players.forEach(player => {
+                const playerElement = document.createElement("div");
+                playerElement.classList.add("player");
+                playerElement.setAttribute("id", `player-${player.id}`);
+
+                // Calculate position based on player's x and y coordinates
+                const x = player.x;  // Adjust for grid cell size and gap
+                const y = player.y;
+
+                playerElement.style.left = `${x}`;
+                playerElement.style.top = `${y}`;
+
+                // Append the player to the gameboard
+                canvas.appendChild(playerElement);
+            });
+        }
+
+        // Listen for updated player positions from the server
+        socket.on('update_players', (players) => {
+            renderPlayers(players);
+        });
+
 
     gameLoop();
   </script>
