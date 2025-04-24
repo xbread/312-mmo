@@ -62,6 +62,18 @@ def home():
         return redirect('/login')
     return render_template('home.html', username=username)
 
+@app.route('/profile')
+def profile():
+    username = get_username_from_request(request)
+    if not username:
+        return redirect('/login')
+    # Look up the user's imageURL
+    user = user_collection.find_one({"username": username})
+    image_url = user.get("imageURL", "public/avatar/default_avatar.png")
+
+    return render_template("profile.html", username=username, image_url=image_url)
+
+
 @app.route("/gameboard")
 def gameboard():
     return render_template("gameboard.html")

@@ -119,7 +119,7 @@ def logout(http_request: request):
             logout_response = Response(status=302)
             logout_response.set_cookie("auth-token", value=dummy_cookie, max_age=0, httponly=True)
             logout_response.headers["Location"] = "/"
-
+    print(list(user_collection.find({})))
     return logout_response
 
 

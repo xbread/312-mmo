@@ -1780,3 +1780,147 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connecti
 [2025-04-22 12:59:47]  * Restarting with stat
 [2025-04-22 12:59:47]  * Debugger is active!
 [2025-04-22 12:59:47]  * Debugger PIN: 138-512-773
+[2025-04-22 22:13:52] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-22 22:13:52] [33mPress CTRL+C to quit[0m
+[2025-04-22 22:13:52]  * Restarting with stat
+[2025-04-22 22:13:52]  * Debugger is active!
+[2025-04-22 22:13:53]  * Debugger PIN: 138-512-773
+[2025-04-22 22:13:58] 127.0.0.1 - GET /home
+[2025-04-22 22:13:58] 127.0.0.1 - - [22/Apr/2025 22:13:58] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:13:59] 127.0.0.1 - GET /home
+[2025-04-22 22:13:59] 127.0.0.1 - - [22/Apr/2025 22:13:59] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:13:59] 127.0.0.1 - GET /home
+[2025-04-22 22:13:59] 127.0.0.1 - - [22/Apr/2025 22:13:59] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:14:00] 127.0.0.1 - GET /home
+[2025-04-22 22:14:00] 127.0.0.1 - - [22/Apr/2025 22:14:00] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:14:03] 127.0.0.1 - GET /home
+[2025-04-22 22:14:03] 127.0.0.1 - - [22/Apr/2025 22:14:03] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:14:07] 127.0.0.1 - GET /
+[2025-04-22 22:14:07] 127.0.0.1 - - [22/Apr/2025 22:14:07] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 22:14:07] 127.0.0.1 - GET /register
+[2025-04-22 22:14:07] 127.0.0.1 - - [22/Apr/2025 22:14:07] "GET /register HTTP/1.1" 200 -
+[2025-04-22 22:14:09] 127.0.0.1 - GET /login
+[2025-04-22 22:14:09] 127.0.0.1 - - [22/Apr/2025 22:14:09] "GET /login HTTP/1.1" 200 -
+[2025-04-22 22:14:14] 127.0.0.1 - POST /login
+[2025-04-22 22:14:14] 127.0.0.1 - - [22/Apr/2025 22:14:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 22:14:14] 127.0.0.1 - GET /home
+[2025-04-22 22:14:14] 127.0.0.1 - - [22/Apr/2025 22:14:14] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:14:33] 127.0.0.1 - POST /logout
+[2025-04-22 22:14:33] 127.0.0.1 - - [22/Apr/2025 22:14:33] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-04-22 22:14:33] 127.0.0.1 - GET /
+[2025-04-22 22:14:33] 127.0.0.1 - - [22/Apr/2025 22:14:33] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 22:14:33] 127.0.0.1 - GET /register
+[2025-04-22 22:14:33] 127.0.0.1 - - [22/Apr/2025 22:14:33] "GET /register HTTP/1.1" 200 -
+[2025-04-22 22:14:34] 127.0.0.1 - GET /login
+[2025-04-22 22:14:34] 127.0.0.1 - - [22/Apr/2025 22:14:34] "GET /login HTTP/1.1" 200 -
+[2025-04-22 22:14:40] 127.0.0.1 - POST /login
+[2025-04-22 22:14:40] 127.0.0.1 - - [22/Apr/2025 22:14:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 22:14:40] 127.0.0.1 - GET /home
+[2025-04-22 22:14:40] 127.0.0.1 - - [22/Apr/2025 22:14:40] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:15:02]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 22:15:02]  * Restarting with stat
+[2025-04-22 22:15:02]  * Debugger is active!
+[2025-04-22 22:15:02]  * Debugger PIN: 138-512-773
+[2025-04-22 22:15:18]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 22:15:18]  * Restarting with stat
+[2025-04-22 22:15:18]  * Debugger is active!
+[2025-04-22 22:15:18]  * Debugger PIN: 138-512-773
+[2025-04-22 22:15:21]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 22:15:21]  * Restarting with stat
+[2025-04-22 22:15:21]  * Debugger is active!
+[2025-04-22 22:15:21]  * Debugger PIN: 138-512-773
+[2025-04-22 22:15:24]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 22:15:25]  * Restarting with stat
+[2025-04-22 22:15:25]  * Debugger is active!
+[2025-04-22 22:15:25]  * Debugger PIN: 138-512-773
+[2025-04-22 22:15:28]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 22:15:29]  * Restarting with stat
+[2025-04-22 22:15:29]  * Debugger is active!
+[2025-04-22 22:15:29]  * Debugger PIN: 138-512-773
+[2025-04-22 22:15:32] 127.0.0.1 - POST /logout
+[2025-04-22 22:15:32] 127.0.0.1 - - [22/Apr/2025 22:15:32] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-04-22 22:15:32] 127.0.0.1 - GET /
+[2025-04-22 22:15:32] 127.0.0.1 - - [22/Apr/2025 22:15:32] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 22:15:32] 127.0.0.1 - GET /register
+[2025-04-22 22:15:32] 127.0.0.1 - - [22/Apr/2025 22:15:32] "GET /register HTTP/1.1" 200 -
+[2025-04-22 22:15:33] 127.0.0.1 - GET /login
+[2025-04-22 22:15:33] 127.0.0.1 - - [22/Apr/2025 22:15:33] "GET /login HTTP/1.1" 200 -
+[2025-04-22 22:15:37] 127.0.0.1 - POST /login
+[2025-04-22 22:15:38] 127.0.0.1 - - [22/Apr/2025 22:15:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 22:15:38] 127.0.0.1 - GET /home
+[2025-04-22 22:15:38] 127.0.0.1 - - [22/Apr/2025 22:15:38] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:15:46]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 22:15:46]  * Restarting with stat
+[2025-04-22 22:15:46]  * Debugger is active!
+[2025-04-22 22:15:46]  * Debugger PIN: 138-512-773
+[2025-04-22 22:15:47]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/util/Authentication.py', reloading
+[2025-04-22 22:15:48]  * Restarting with stat
+[2025-04-22 22:15:48]  * Debugger is active!
+[2025-04-22 22:15:48]  * Debugger PIN: 138-512-773
+[2025-04-22 22:15:49] 127.0.0.1 - POST /logout
+[2025-04-22 22:15:49] 127.0.0.1 - - [22/Apr/2025 22:15:49] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-04-22 22:15:49] 127.0.0.1 - GET /
+[2025-04-22 22:15:49] 127.0.0.1 - - [22/Apr/2025 22:15:49] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 22:15:49] 127.0.0.1 - GET /register
+[2025-04-22 22:15:49] 127.0.0.1 - - [22/Apr/2025 22:15:49] "GET /register HTTP/1.1" 200 -
+[2025-04-22 22:15:50] 127.0.0.1 - GET /login
+[2025-04-22 22:15:50] 127.0.0.1 - - [22/Apr/2025 22:15:50] "GET /login HTTP/1.1" 200 -
+[2025-04-22 22:15:54] 127.0.0.1 - POST /login
+[2025-04-22 22:15:54] 127.0.0.1 - - [22/Apr/2025 22:15:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-22 22:15:54] 127.0.0.1 - GET /home
+[2025-04-22 22:15:54] 127.0.0.1 - - [22/Apr/2025 22:15:54] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:33:42]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 22:33:43]  * Restarting with stat
+[2025-04-22 22:33:43]  * Debugger is active!
+[2025-04-22 22:33:43]  * Debugger PIN: 138-512-773
+[2025-04-22 22:33:44]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 22:33:45]  * Restarting with stat
+[2025-04-22 22:33:45]  * Debugger is active!
+[2025-04-22 22:33:45]  * Debugger PIN: 138-512-773
+[2025-04-22 22:33:49]  * Detected change in '/Users/angelvidals/Documents/GitHub/312-mmo/app.py', reloading
+[2025-04-22 22:33:49]  * Restarting with stat
+[2025-04-22 22:33:49]  * Debugger is active!
+[2025-04-22 22:33:49]  * Debugger PIN: 138-512-773
+[2025-04-22 22:34:36] 127.0.0.1 - GET /
+[2025-04-22 22:34:36] 127.0.0.1 - - [22/Apr/2025 22:34:36] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 22:34:36] 127.0.0.1 - GET /register
+[2025-04-22 22:34:36] 127.0.0.1 - - [22/Apr/2025 22:34:36] "GET /register HTTP/1.1" 200 -
+[2025-04-22 22:34:38] 127.0.0.1 - GET /profile
+[2025-04-22 22:34:38] 127.0.0.1 - - [22/Apr/2025 22:34:38] "GET /profile HTTP/1.1" 200 -
+[2025-04-22 22:34:38] 127.0.0.1 - GET /public/avatar/default_avatar.png
+[2025-04-22 22:34:38] 127.0.0.1 - - [22/Apr/2025 22:34:38] "[33mGET /public/avatar/default_avatar.png HTTP/1.1[0m" 404 -
+[2025-04-22 22:34:58] 127.0.0.1 - GET /profile
+[2025-04-22 22:34:58] 127.0.0.1 - - [22/Apr/2025 22:34:58] "GET /profile HTTP/1.1" 200 -
+[2025-04-22 22:34:58] 127.0.0.1 - GET /public/avatar/default_avatar.png
+[2025-04-22 22:34:58] 127.0.0.1 - - [22/Apr/2025 22:34:58] "[33mGET /public/avatar/default_avatar.png HTTP/1.1[0m" 404 -
+[2025-04-22 22:34:58] 127.0.0.1 - GET /profile
+[2025-04-22 22:34:58] 127.0.0.1 - - [22/Apr/2025 22:34:58] "GET /profile HTTP/1.1" 200 -
+[2025-04-22 22:34:58] 127.0.0.1 - GET /public/avatar/default_avatar.png
+[2025-04-22 22:34:58] 127.0.0.1 - - [22/Apr/2025 22:34:58] "[33mGET /public/avatar/default_avatar.png HTTP/1.1[0m" 404 -
+[2025-04-22 22:43:40] 127.0.0.1 - GET /profile
+[2025-04-22 22:43:40] 127.0.0.1 - - [22/Apr/2025 22:43:40] "GET /profile HTTP/1.1" 200 -
+[2025-04-22 22:43:40] 127.0.0.1 - GET /static/public/avatar/default_avatar.png
+[2025-04-22 22:43:40] 127.0.0.1 - - [22/Apr/2025 22:43:40] "[33mGET /static/public/avatar/default_avatar.png HTTP/1.1[0m" 404 -
+[2025-04-22 22:43:42] 127.0.0.1 - GET /home
+[2025-04-22 22:43:42] 127.0.0.1 - - [22/Apr/2025 22:43:42] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:43:47] 127.0.0.1 - GET /
+[2025-04-22 22:43:47] 127.0.0.1 - - [22/Apr/2025 22:43:47] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 22:43:47] 127.0.0.1 - GET /register
+[2025-04-22 22:43:47] 127.0.0.1 - - [22/Apr/2025 22:43:47] "GET /register HTTP/1.1" 200 -
+[2025-04-22 22:43:48] 127.0.0.1 - GET /profile
+[2025-04-22 22:43:48] 127.0.0.1 - - [22/Apr/2025 22:43:48] "GET /profile HTTP/1.1" 200 -
+[2025-04-22 22:43:48] 127.0.0.1 - GET /static/public/avatar/default_avatar.png
+[2025-04-22 22:43:48] 127.0.0.1 - - [22/Apr/2025 22:43:48] "[33mGET /static/public/avatar/default_avatar.png HTTP/1.1[0m" 404 -
+[2025-04-22 22:51:26] 127.0.0.1 - GET /home
+[2025-04-22 22:51:26] 127.0.0.1 - - [22/Apr/2025 22:51:26] "GET /home HTTP/1.1" 200 -
+[2025-04-22 22:51:29] 127.0.0.1 - GET /
+[2025-04-22 22:51:29] 127.0.0.1 - - [22/Apr/2025 22:51:29] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-22 22:51:29] 127.0.0.1 - GET /register
+[2025-04-22 22:51:29] 127.0.0.1 - - [22/Apr/2025 22:51:29] "GET /register HTTP/1.1" 200 -
+[2025-04-22 22:51:31] 127.0.0.1 - GET /profile
+[2025-04-22 22:51:31] 127.0.0.1 - - [22/Apr/2025 22:51:31] "GET /profile HTTP/1.1" 200 -
+[2025-04-22 22:51:31] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-22 22:51:31] 127.0.0.1 - - [22/Apr/2025 22:51:31] "GET /static/default_avatar.png HTTP/1.1" 200 -
