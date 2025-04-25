@@ -11,8 +11,6 @@ socketio = SocketIO(app)
 user_sessions = {}
 # list of just users
 user_list = []
-# saving username
-session = {}
 
 @app.before_request
 def log_incoming_request():
@@ -45,7 +43,6 @@ def log_in():
     if request.method == 'POST':
         response = login(request)
         if response.status_code == 200:
-            session["username"] = request.form.get("0")
             response.status_code = 302
             response.headers["Location"] = "/home"
             return response
