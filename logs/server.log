@@ -1412,3 +1412,558 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connecti
 [2025-04-25 15:38:05] 127.0.0.1 - - [25/Apr/2025 15:38:05] "[32mGET / HTTP/1.1[0m" 302 -
 [2025-04-25 15:38:05] 127.0.0.1 - GET /register
 [2025-04-25 15:38:05] 127.0.0.1 - - [25/Apr/2025 15:38:05] "GET /register HTTP/1.1" 200 -
+[2025-04-25 19:58:57] Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+[2025-04-25 19:58:57] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.19.0.3:8080
+[2025-04-25 19:58:57] [33mPress CTRL+C to quit[0m
+[2025-04-25 15:59:13] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.77.143:8080
+[2025-04-25 15:59:13] [33mPress CTRL+C to quit[0m
+[2025-04-25 15:59:18] 127.0.0.1 - GET /
+[2025-04-25 15:59:18] 127.0.0.1 - - [25/Apr/2025 15:59:18] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-25 15:59:18] 127.0.0.1 - GET /register
+[2025-04-25 15:59:18] 127.0.0.1 - - [25/Apr/2025 15:59:18] "GET /register HTTP/1.1" 200 -
+[2025-04-25 15:59:22] 127.0.0.1 - GET /gameboard
+[2025-04-25 15:59:22] 127.0.0.1 - - [25/Apr/2025 15:59:22] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-25 15:59:22] 127.0.0.1 - - [25/Apr/2025 15:59:22] "GET /socket.io/?EIO=4&transport=polling&t=PPkY88k HTTP/1.1" 200 -
+[2025-04-25 15:59:22] 127.0.0.1 - - [25/Apr/2025 15:59:22] "GET /socket.io/?EIO=4&transport=polling&t=PPkY89t&sid=Y7ehaLDb3XiI92ViAAAA HTTP/1.1" 200 -
+[2025-04-25 15:59:22] message handler error
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\engineio\server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 617, in _trigger_event
+    return handler(*args)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+          ^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 93, in handle_connet
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-25 15:59:22] 127.0.0.1 - - [25/Apr/2025 15:59:22] "POST /socket.io/?EIO=4&transport=polling&t=PPkY89r&sid=Y7ehaLDb3XiI92ViAAAA HTTP/1.1" 200 -
+[2025-04-25 15:59:26] disconnect handler error
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 617, in _trigger_event
+    return handler(*args)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 835, in _handle_event
+    ret = handler(*args)
+          ^^^^^^^^^^^^^^
+TypeError: handle_disconnect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\engineio\server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 671, in _handle_eio_disconnect
+    self._handle_disconnect(eio_sid, n, reason)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 568, in _handle_disconnect
+    self._trigger_event('disconnect', namespace, sid,
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 621, in _trigger_event
+    return handler(*args[:-1])
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 835, in _handle_event
+    ret = handler(*args)
+          ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 97, in handle_disconnect
+    username = user_sessions.pop(request.sid)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'QH9_hBMHMjVLj28uAAAB'
+[2025-04-25 15:59:26] 127.0.0.1 - - [25/Apr/2025 15:59:26] "GET /socket.io/?EIO=4&transport=websocket&sid=Y7ehaLDb3XiI92ViAAAA HTTP/1.1" 200 -
+[2025-04-25 15:59:26] 127.0.0.1 - GET /gameboard
+[2025-04-25 15:59:26] 127.0.0.1 - - [25/Apr/2025 15:59:26] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-25 15:59:27] 127.0.0.1 - - [25/Apr/2025 15:59:27] "GET /socket.io/?EIO=4&transport=polling&t=PPkY9Jf HTTP/1.1" 200 -
+[2025-04-25 15:59:27] message handler error
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\engineio\server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 617, in _trigger_event
+    return handler(*args)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+          ^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 93, in handle_connet
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-25 15:59:27] 127.0.0.1 - - [25/Apr/2025 15:59:27] "POST /socket.io/?EIO=4&transport=polling&t=PPkY9LB&sid=s38ywoI8R_ztRuHlAAAC HTTP/1.1" 200 -
+[2025-04-25 15:59:27] 127.0.0.1 - - [25/Apr/2025 15:59:27] "GET /socket.io/?EIO=4&transport=polling&t=PPkY9LD&sid=s38ywoI8R_ztRuHlAAAC HTTP/1.1" 200 -
+[2025-04-25 15:59:54] disconnect handler error
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 617, in _trigger_event
+    return handler(*args)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 835, in _handle_event
+    ret = handler(*args)
+          ^^^^^^^^^^^^^^
+TypeError: handle_disconnect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\engineio\server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 671, in _handle_eio_disconnect
+    self._handle_disconnect(eio_sid, n, reason)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 568, in _handle_disconnect
+    self._trigger_event('disconnect', namespace, sid,
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 621, in _trigger_event
+    return handler(*args[:-1])
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 835, in _handle_event
+    ret = handler(*args)
+          ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 97, in handle_disconnect
+    username = user_sessions.pop(request.sid)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'nzuudDLqhTsLMxuaAAAD'
+[2025-04-25 15:59:54] 127.0.0.1 - - [25/Apr/2025 15:59:54] "GET /socket.io/?EIO=4&transport=websocket&sid=s38ywoI8R_ztRuHlAAAC HTTP/1.1" 200 -
+[2025-04-25 16:01:38] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.77.143:8080
+[2025-04-25 16:01:38] [33mPress CTRL+C to quit[0m
+[2025-04-25 16:01:41] 127.0.0.1 - GET /
+[2025-04-25 16:01:41] 127.0.0.1 - - [25/Apr/2025 16:01:41] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-25 16:01:41] 127.0.0.1 - GET /register
+[2025-04-25 16:01:41] 127.0.0.1 - - [25/Apr/2025 16:01:41] "GET /register HTTP/1.1" 200 -
+[2025-04-25 16:01:44] 127.0.0.1 - GET /login
+[2025-04-25 16:01:44] 127.0.0.1 - - [25/Apr/2025 16:01:44] "GET /login HTTP/1.1" 200 -
+[2025-04-25 16:01:50] 127.0.0.1 - POST /login
+[2025-04-25 16:02:20] Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 46, in log_in
+    response = login(request)
+               ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\util\Authentication.py", line 72, in login
+    user_lookup = user_collection.find_one({"username" : username})
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 1755, in find_one
+    for result in cursor.limit(-1):
+                  ^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1284, in __next__
+    return self.next()
+           ^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1260, in next
+    if len(self._data) or self._refresh():
+                          ^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1208, in _refresh
+    self._send_message(q)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1102, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1896, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2005, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2854, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 680bea22dabbdc9180153d09, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2025-04-25 16:02:20] 127.0.0.1 - - [25/Apr/2025 16:02:20] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2025-04-25 16:02:25] 127.0.0.1 - GET /login
+[2025-04-25 16:02:25] 127.0.0.1 - - [25/Apr/2025 16:02:25] "GET /login HTTP/1.1" 200 -
+[2025-04-25 16:02:31] 127.0.0.1 - POST /login
+[2025-04-25 16:02:43] 127.0.0.1 - GET /
+[2025-04-25 16:02:43] 127.0.0.1 - - [25/Apr/2025 16:02:43] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-25 16:02:43] 127.0.0.1 - GET /register
+[2025-04-25 16:02:43] 127.0.0.1 - - [25/Apr/2025 16:02:43] "GET /register HTTP/1.1" 200 -
+[2025-04-25 16:02:45] 127.0.0.1 - GET /login
+[2025-04-25 16:02:45] 127.0.0.1 - - [25/Apr/2025 16:02:45] "GET /login HTTP/1.1" 200 -
+[2025-04-25 16:02:52] 127.0.0.1 - POST /login
+[2025-04-25 16:03:01] Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 46, in log_in
+    response = login(request)
+               ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\util\Authentication.py", line 72, in login
+    user_lookup = user_collection.find_one({"username" : username})
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 1755, in find_one
+    for result in cursor.limit(-1):
+                  ^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1284, in __next__
+    return self.next()
+           ^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1260, in next
+    if len(self._data) or self._refresh():
+                          ^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1208, in _refresh
+    self._send_message(q)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1102, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1896, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2005, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2854, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 680bea22dabbdc9180153d09, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2025-04-25 16:03:01] 127.0.0.1 - - [25/Apr/2025 16:03:01] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2025-04-25 16:03:03] 127.0.0.1 - GET /gameboard
+[2025-04-25 16:03:03] 127.0.0.1 - - [25/Apr/2025 16:03:03] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-25 16:03:03] 127.0.0.1 - - [25/Apr/2025 16:03:03] "GET /socket.io/?EIO=4&transport=polling&t=PPkY-FA HTTP/1.1" 200 -
+[2025-04-25 16:03:03] message handler error
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\engineio\server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 617, in _trigger_event
+    return handler(*args)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+          ^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 93, in handle_connet
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-25 16:03:03] 127.0.0.1 - - [25/Apr/2025 16:03:03] "POST /socket.io/?EIO=4&transport=polling&t=PPkY-GG&sid=P5145PVRokfJ8MMNAAAA HTTP/1.1" 200 -
+[2025-04-25 16:03:03] 127.0.0.1 - - [25/Apr/2025 16:03:03] "GET /socket.io/?EIO=4&transport=polling&t=PPkY-GH&sid=P5145PVRokfJ8MMNAAAA HTTP/1.1" 200 -
+[2025-04-25 16:03:22] Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 46, in log_in
+    response = login(request)
+               ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\util\Authentication.py", line 72, in login
+    user_lookup = user_collection.find_one({"username" : username})
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 1755, in find_one
+    for result in cursor.limit(-1):
+                  ^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1284, in __next__
+    return self.next()
+           ^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1260, in next
+    if len(self._data) or self._refresh():
+                          ^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1208, in _refresh
+    self._send_message(q)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1102, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1896, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2005, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2854, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 680bea22dabbdc9180153d09, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2025-04-25 16:03:22] 127.0.0.1 - - [25/Apr/2025 16:03:22] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2025-04-25 16:03:37] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.77.143:8080
+[2025-04-25 16:03:37] [33mPress CTRL+C to quit[0m
+[2025-04-25 16:03:40] 127.0.0.1 - - [25/Apr/2025 16:03:40] "GET /socket.io/?EIO=4&transport=polling&t=PPkZ7IQ HTTP/1.1" 200 -
+[2025-04-25 16:03:40] message handler error
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\engineio\server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 617, in _trigger_event
+    return handler(*args)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+          ^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 93, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-25 16:03:40] 127.0.0.1 - - [25/Apr/2025 16:03:40] "POST /socket.io/?EIO=4&transport=polling&t=PPkZ7Ii&sid=YD_NLE7oBUq4NYINAAAA HTTP/1.1" 200 -
+[2025-04-25 16:03:40] 127.0.0.1 - - [25/Apr/2025 16:03:40] "GET /socket.io/?EIO=4&transport=polling&t=PPkZ7Ij&sid=YD_NLE7oBUq4NYINAAAA HTTP/1.1" 200 -
+[2025-04-25 16:03:47] disconnect handler error
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 617, in _trigger_event
+    return handler(*args)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 835, in _handle_event
+    ret = handler(*args)
+          ^^^^^^^^^^^^^^
+TypeError: handle_disconnect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\engineio\server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 671, in _handle_eio_disconnect
+    self._handle_disconnect(eio_sid, n, reason)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 568, in _handle_disconnect
+    self._trigger_event('disconnect', namespace, sid,
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 621, in _trigger_event
+    return handler(*args[:-1])
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 835, in _handle_event
+    ret = handler(*args)
+          ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 97, in handle_disconnect
+    username = user_sessions.pop(request.sid)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'bugE6mp-TyowpcZPAAAB'
+[2025-04-25 16:03:47] 127.0.0.1 - - [25/Apr/2025 16:03:47] "GET /socket.io/?EIO=4&transport=websocket&sid=YD_NLE7oBUq4NYINAAAA HTTP/1.1" 200 -
+[2025-04-25 16:03:47] 127.0.0.1 - GET /gameboard
+[2025-04-25 16:03:47] 127.0.0.1 - - [25/Apr/2025 16:03:47] "GET /gameboard HTTP/1.1" 200 -
+[2025-04-25 16:03:47] 127.0.0.1 - - [25/Apr/2025 16:03:47] "GET /socket.io/?EIO=4&transport=polling&t=PPkZ8ur HTTP/1.1" 200 -
+[2025-04-25 16:03:47] message handler error
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\engineio\server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 617, in _trigger_event
+    return handler(*args)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+          ^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 93, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-25 16:03:47] 127.0.0.1 - - [25/Apr/2025 16:03:47] "POST /socket.io/?EIO=4&transport=polling&t=PPkZ8xK&sid=01RGTQvqeY8_QLr3AAAC HTTP/1.1" 200 -
+[2025-04-25 16:03:47] 127.0.0.1 - - [25/Apr/2025 16:03:47] "GET /socket.io/?EIO=4&transport=polling&t=PPkZ8xN&sid=01RGTQvqeY8_QLr3AAAC HTTP/1.1" 200 -
+[2025-04-25 16:03:55] disconnect handler error
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 617, in _trigger_event
+    return handler(*args)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 835, in _handle_event
+    ret = handler(*args)
+          ^^^^^^^^^^^^^^
+TypeError: handle_disconnect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\engineio\server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 671, in _handle_eio_disconnect
+    self._handle_disconnect(eio_sid, n, reason)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 568, in _handle_disconnect
+    self._trigger_event('disconnect', namespace, sid,
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\socketio\server.py", line 621, in _trigger_event
+    return handler(*args[:-1])
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask_socketio\__init__.py", line 835, in _handle_event
+    ret = handler(*args)
+          ^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 97, in handle_disconnect
+    username = user_sessions.pop(request.sid)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'rxXD8uSrih4kH4ZHAAAD'
+[2025-04-25 16:03:55] 127.0.0.1 - - [25/Apr/2025 16:03:55] "GET /socket.io/?EIO=4&transport=websocket&sid=01RGTQvqeY8_QLr3AAAC HTTP/1.1" 200 -
+[2025-04-25 16:03:55] 127.0.0.1 - GET /
+[2025-04-25 16:03:55] 127.0.0.1 - - [25/Apr/2025 16:03:55] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-25 16:03:55] 127.0.0.1 - GET /register
+[2025-04-25 16:03:55] 127.0.0.1 - - [25/Apr/2025 16:03:55] "GET /register HTTP/1.1" 200 -
+[2025-04-25 16:03:57] 127.0.0.1 - GET /login
+[2025-04-25 16:03:57] 127.0.0.1 - - [25/Apr/2025 16:03:57] "GET /login HTTP/1.1" 200 -
+[2025-04-25 16:04:02] 127.0.0.1 - POST /login
+[2025-04-25 16:04:12] 127.0.0.1 - GET /login
+[2025-04-25 16:04:12] 127.0.0.1 - - [25/Apr/2025 16:04:12] "GET /login HTTP/1.1" 200 -
+[2025-04-25 16:04:19] 127.0.0.1 - POST /login

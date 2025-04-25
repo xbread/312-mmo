@@ -60,7 +60,7 @@ def log_out():
 
 @app.route('/home')
 def home():
-    username = session["username"]
+    username = get_username_from_request(request)
     print(username)
     if not username:
         return redirect('/login')
@@ -83,7 +83,7 @@ def gameboard():
     return render_template("gameboard.html")
 
 @socketio.on('connect')
-def handle_connet(auth_token):
+def handle_connect(auth_token):
     username = get_username(auth_token)
     if username is not None:
         user_sessions[request.sid] = username
