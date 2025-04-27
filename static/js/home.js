@@ -18,12 +18,15 @@ document.addEventListener("DOMContentLoaded", function () {
 const snake = [{ x: 5, y: 5 }];
 const blockSize = 20;
 const otherPlayers = {};  // username -> snake body
+const otherPlayerColors = {};  // sid -> color
+
 
 let velocity = { x: 1, y: 0 };  // Start moving to the right
 let moveDelay = 100; // milliseconds between moves (100ms = 10 moves per second)
 let lastMoveTime = 0;
-let food = { x: 0, y: 0 };  // Default empty food until server sends real food
+let food = [];  // List of food objects
 let score = 0;
+let myColor = 'green'; // Default fallback, but will be updated at game start
 
 
 function setTopMessage(text) {
@@ -113,19 +116,19 @@ function updateSnake() {
 
     snake.unshift(head);
 
-    if (head.x === food.x && head.y === food.y) {
-        score += 1;
-        socket.emit('food_eaten'); // Tell server you ate food
-    } else {
+    let ateFood = false;
+    for (let i = 0; i < food.length; i++) {
+        if (head.x === food[i].x && head.y === food[i].y) {
+            ateFood = true;
+            socket.emit('food_eaten', { x: food[i].x, y: food[i].y });
+            food.splice(i, 1);  // Remove the eaten food
+            score += 1;
+            break;
+        }
+    }
+    if (!ateFood) {
         snake.pop();
     }
-}
-
-function spawnFood() {
-    food = {
-        x: Math.floor(Math.random() * (canvas.width / blockSize)),
-        y: Math.floor(Math.random() * (canvas.height / blockSize))
-    };
 }
 
 function resetGame() {
@@ -139,24 +142,36 @@ function resetGame() {
 }
 
 function drawSnake() {
-    ctx.fillStyle = 'green';
+    ctx.fillStyle = myColor;
     snake.forEach(part => {
         ctx.fillRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
+
+        // Draw a small black outline
+        ctx.strokeStyle = 'black';
+        ctx.lineWidth = 2;  // You can tweak this if needed
+        ctx.strokeRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
     });
 }
 
 function drawFood() {
     ctx.fillStyle = 'red';
-    ctx.fillRect(food.x * blockSize, food.y * blockSize, blockSize, blockSize);
+    food.forEach(f => {
+        ctx.fillRect(f.x * blockSize, f.y * blockSize, blockSize, blockSize);
+    });
 }
 
 function drawOtherPlayers(allSnakes) {
-    ctx.fillStyle = 'blue'; // Set once
     for (const sid in allSnakes) {
         const snakeBody = allSnakes[sid];
         if (!snakeBody) continue;
+        ctx.fillStyle = otherPlayerColors[sid] || 'blue'; // fallback to blue if unknown
         snakeBody.forEach(part => {
             ctx.fillRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
+
+             // Outline
+            ctx.strokeStyle = 'black';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
         });
     }
 }
@@ -270,6 +285,11 @@ gameLoop(performance.now());
             for (const id in otherPlayers) {
                 delete otherPlayers[id];
             }
+
+            // Clear old colors before assigning new ones
+            for (const id in otherPlayerColors) {
+                delete otherPlayerColors[id];
+            }
             
             // Reset your own snake
             if (data.starting_positions && socket.id in data.starting_positions) {
@@ -277,6 +297,21 @@ gameLoop(performance.now());
                 snake.length = 1;
                 snake[0] = { x: pos.x, y: pos.y };
                 console.log('Spawned at:', pos);
+            }
+
+            if (data.player_colors && data.player_colors[socket.id]) {
+                myColor = data.player_colors[socket.id];
+                console.log('Assigned color:', myColor);
+            }
+
+            if (data.player_colors) {
+                for (const id in data.player_colors) {
+                    if (id === socket.id) {
+                        myColor = data.player_colors[id];
+                    } else {
+                        otherPlayerColors[id] = data.player_colors[id];
+                    }
+                }
             }
 
             let countdown = 5;

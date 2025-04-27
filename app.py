@@ -16,7 +16,7 @@ user_sessions = {}
 user_list = []
 player_snakes = {}
 player_ready = {}  # sid -> bool
-current_food = None
+current_food = []
 
 
 @app.before_request
@@ -163,8 +163,27 @@ def handle_ready_up():
 
 
 @socketio.on('food_eaten')
-def handle_food_eaten():
-    spawn_new_food()
+def handle_food_eaten(data):
+    global current_food
+    eaten_x = data['x']
+    eaten_y = data['y']
+
+    # Remove the eaten food
+    current_food = [f for f in current_food if not (f['x'] == eaten_x and f['y'] == eaten_y)]
+
+    # Spawn a new food
+    grid_width = 20
+    grid_height = 20
+    while True:
+        x = random.randint(0, grid_width - 1)
+        y = random.randint(0, grid_height - 1)
+        if {'x': x, 'y': y} not in current_food:
+            current_food.append({'x': x, 'y': y})
+            break
+
+    # Broadcast updated food list
+    emit('food_update', current_food, broadcast=True)
+
     
 @socketio.on('player_died')
 def handle_player_died():
@@ -197,18 +216,18 @@ def check_for_game_end():
         
 def spawn_new_food(start_countdown=False):
     global current_food
-    grid_width = 20 #74
-    grid_height = 20 # 54
-    current_food = {
-        'x': random.randint(0, grid_width - 1),
-        'y': random.randint(0, grid_height - 1)
-    }
-    emit('food_update', current_food, broadcast=True)
+    grid_width = 20
+    grid_height = 20
 
     if start_countdown:
+        # Reset current food
+        current_food = []
         # Spawn starting positions
         starting_positions = {}
         used_positions = set()
+        player_colors = {}
+
+
         for sid in user_sessions.keys():
             while True:
                 x = random.randint(0, grid_width - 1)
@@ -216,9 +235,43 @@ def spawn_new_food(start_countdown=False):
                 if (x, y) not in used_positions:
                     used_positions.add((x, y))
                     starting_positions[sid] = {"x": x, "y": y}
+                    player_colors[sid] = random_color()
                     break
 
-        emit('start_countdown', {'food': current_food, 'starting_positions': starting_positions}, broadcast=True)
+        # Spawn 1 food per player
+        for _ in range(len(user_sessions)):
+            while True:
+                x = random.randint(0, grid_width - 1)
+                y = random.randint(0, grid_height - 1)
+                if (x, y) not in used_positions:
+                    used_positions.add((x, y))
+                    current_food.append({'x': x, 'y': y})
+                    break
+
+        emit('start_countdown', 
+             {'food': current_food, 
+              'starting_positions': starting_positions,
+              'player_colors': player_colors},
+             broadcast=True)
+    else:
+        # During normal gameplay, spawn 1 food
+        grid_width = 20
+        grid_height = 20
+        while True:
+            x = random.randint(0, grid_width - 1)
+            y = random.randint(0, grid_height - 1)
+            if {'x': x, 'y': y} not in current_food:
+                current_food.append({'x': x, 'y': y})
+                break
+        emit('food_update', current_food, broadcast=True)
+        
+def random_color():
+    # Avoid "red" and "green"
+    bad_colors = ['red', 'green', '#ff0000', '#00ff00', '#a8d080', '#98c070']
+    while True:
+        color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+        if color.lower() not in bad_colors:
+            return color
 
         
         
@@ -232,13 +285,5 @@ def broadcast_users_update():
     emit('update_users', {'users': users_data}, broadcast=True)
     
 
-# def broadcast_snakes_periodically():
-#     while True:
-#         if player_snakes:
-#             emit('update_players', player_snakes, broadcast=True)
-#         time.sleep(0.05)  # broadcast 20 times per second
-
-# Start the periodic broadcast thread
-# threading.Thread(target=broadcast_snakes_periodically, daemon=True).start()
 if __name__ == "__main__":
     socketio.run(app, host="0.0.0.0", port=8080, allow_unsafe_werkzeug=True)
