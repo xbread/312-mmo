@@ -57,11 +57,13 @@ def log_out():
 
 @app.route('/home')
 def home():
+    auth_token = request.cookies.get('auth_token')
     username = get_username_from_request(request)
-    print(username)
     if not username:
         return redirect('/login')
-    return render_template('home.html', username=username)
+    print("token: ", auth_token)
+    return render_template('home.html', username=username, auth_token=auth_token)
+
 
 @app.route('/profile')
 def profile():
@@ -85,15 +87,23 @@ def handle_connect(auth_token):
     if username is not None:
         user_sessions[request.sid] = username
         user_list.append(username)
-        emit('update_users', user_list, broadcast=True)
+        print("Broadcasting user list:", user_list)
+        emit('update_users', {'users': user_list}, broadcast=True)
     else:
         raise ConnectionRefusedError('unauthorized!')
 
 @socketio.on('disconnect')
 def handle_disconnect():
-    username = user_sessions.pop(request.sid)
-    user_list.remove(username)
-    emit('update_players', user_list, broadcast=True)
+    sid = request.sid
+    username = user_sessions.get(sid)
+
+    if username:
+        try:
+            user_list.remove(username)
+        except ValueError:
+            pass  # Just in case already removed
+        del user_sessions[sid]
+        emit('update_users', {'users': user_list}, broadcast=True)
 
 # WebSocket event to send player positions to the client
 @socketio.on('get_players')
