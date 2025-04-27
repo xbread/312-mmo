@@ -5,6 +5,7 @@ from util.Authentication import registration, login, logout, get_username_from_r
 from util.websocket_functions import *
 import threading
 import time
+import random
 
 app = Flask(__name__, template_folder="templates")
 socketio = SocketIO(app)
@@ -15,6 +16,7 @@ user_sessions = {}
 user_list = []
 player_snakes = {}
 player_ready = {}  # sid -> bool
+current_food = None
 
 
 @app.before_request
@@ -95,6 +97,8 @@ def handle_connect(auth_token):
         player_ready[request.sid] = False
 
         broadcast_users_update()
+        # if current_food is not None:
+        #     emit('food_update', current_food)
     else:
         raise ConnectionRefusedError('unauthorized!')
 
@@ -110,7 +114,9 @@ def handle_disconnect():
             pass
         del user_sessions[sid]
         player_ready.pop(sid, None)
-
+        player_snakes.pop(sid, None)
+        socketio.emit('update_players', player_snakes)
+        
         broadcast_users_update()
 
 
@@ -152,7 +158,40 @@ def handle_ready_up():
 
     # Check if all players are ready
     if all(player_ready.get(s, False) for s in user_sessions.keys()):
-        emit('start_countdown', broadcast=True)
+        # Move this into spawn_new_food:
+        spawn_new_food(start_countdown=True)
+
+
+@socketio.on('food_eaten')
+def handle_food_eaten():
+    spawn_new_food()
+        
+def spawn_new_food(start_countdown=False):
+    global current_food
+    grid_width = 20 #74
+    grid_height = 20 # 54
+    current_food = {
+        'x': random.randint(0, grid_width - 1),
+        'y': random.randint(0, grid_height - 1)
+    }
+    emit('food_update', current_food, broadcast=True)
+
+    if start_countdown:
+        # Spawn starting positions
+        starting_positions = {}
+        used_positions = set()
+        for sid in user_sessions.keys():
+            while True:
+                x = random.randint(0, grid_width - 1)
+                y = random.randint(0, grid_height - 1)
+                if (x, y) not in used_positions:
+                    used_positions.add((x, y))
+                    starting_positions[sid] = {"x": x, "y": y}
+                    break
+
+        emit('start_countdown', {'food': current_food, 'starting_positions': starting_positions}, broadcast=True)
+
+        
         
 def broadcast_users_update():
     users_data = []
@@ -164,13 +203,13 @@ def broadcast_users_update():
     emit('update_users', {'users': users_data}, broadcast=True)
     
 
-def broadcast_snakes_periodically():
-    while True:
-        if player_snakes:
-            socketio.emit('update_players', player_snakes)
-        time.sleep(0.05)  # broadcast 20 times per second
+# def broadcast_snakes_periodically():
+#     while True:
+#         if player_snakes:
+#             emit('update_players', player_snakes, broadcast=True)
+#         time.sleep(0.05)  # broadcast 20 times per second
 
 # Start the periodic broadcast thread
-threading.Thread(target=broadcast_snakes_periodically, daemon=True).start()
+# threading.Thread(target=broadcast_snakes_periodically, daemon=True).start()
 if __name__ == "__main__":
     socketio.run(app, host="0.0.0.0", port=8080, allow_unsafe_werkzeug=True)

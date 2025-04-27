@@ -22,10 +22,7 @@ const otherPlayers = {};  // username -> snake body
 let velocity = { x: 1, y: 0 };  // Start moving to the right
 let moveDelay = 100; // milliseconds between moves (100ms = 10 moves per second)
 let lastMoveTime = 0;
-let food = {
-    x: Math.floor(Math.random() * (canvas.width / blockSize)),
-    y: Math.floor(Math.random() * (canvas.height / blockSize))
-}
+let food = { x: 0, y: 0 };  // Default empty food until server sends real food
 let score = 0;
 
 
@@ -77,14 +74,11 @@ function updateSnake() {
 
     snake.unshift(head);
 
-    // Check if snake eats the food
     if (head.x === food.x && head.y === food.y) {
-        score += 1;   // Increment score
-        spawnFood();
-        socket.emit('food_eaten');  // Tell server to spawn new food
-        // updateUserListDisplay(); // <- NEW FUNCTION we'll make
+        score += 1;
+        socket.emit('food_eaten'); // Tell server you ate food
     } else {
-        snake.pop(); // Only pop tail if not eating
+        snake.pop();
     }
 }
 
@@ -181,12 +175,13 @@ gameLoop(performance.now());
             auth: { token: authToken }
         });
 
-        socket.on('food_update', (data) => {
-            food = data;  // Replace local food with server food
+        socket.on('food_update', (newFood) => {
+            console.log('Received food at:', newFood);
+            food = newFood;
         });
 
         socket.on('update_players', (allSnakes) => {
-            drawOtherPlayers(allSnakes);
+            Object.assign(otherPlayers, allSnakes);
         });
 
         socket.on('connect', () => {
@@ -202,7 +197,19 @@ gameLoop(performance.now());
             console.log('Disconnected from WebSocket server.');
         });
 
-        socket.on('start_countdown', () => {
+        socket.on('start_countdown', (data) => {
+            console.log(data)
+            food = data.food;       
+            console.log('Game starting with food at:', food);
+            
+            // Set starting position for this player
+            if (data.starting_positions && socket.id in data.starting_positions) {
+                const pos = data.starting_positions[socket.id];
+                snake.length = 1;
+                snake[0] = { x: pos.x, y: pos.y };
+                console.log('Spawned at:', pos);
+            }
+
             let countdown = 5;
             const countdownInterval = setInterval(() => {
                 if (countdown > 0) {

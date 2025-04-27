@@ -9057,3 +9057,909 @@ NameError: name 'current_food' is not defined
 [2025-04-26 22:35:24] 127.0.0.1 - GET /static/default_avatar.png
 [2025-04-26 22:35:24] 127.0.0.1 - - [26/Apr/2025 22:35:24] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
 [2025-04-26 22:35:25] 127.0.0.1 - - [26/Apr/2025 22:35:25] "GET /socket.io/?EIO=4&transport=websocket&sid=FxG_3z_H8n_mDhXDAAAA HTTP/1.1" 200 -
+[2025-04-26 22:43:23] 127.0.0.1 - GET /home
+[2025-04-26 22:43:23] 127.0.0.1 - - [26/Apr/2025 22:43:23] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:43:23] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:43:23] 127.0.0.1 - - [26/Apr/2025 22:43:23] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:43:23] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:43:23] 127.0.0.1 - - [26/Apr/2025 22:43:23] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 22:43:23] 127.0.0.1 - - [26/Apr/2025 22:43:23] "GET /socket.io/?EIO=4&transport=polling&t=PPr8CGg HTTP/1.1" 200 -
+[2025-04-26 22:43:23] 127.0.0.1 - - [26/Apr/2025 22:43:23] "POST /socket.io/?EIO=4&transport=polling&t=PPr8CGv&sid=8BsA7L3hPlNYsQViAAAE HTTP/1.1" 200 -
+[2025-04-26 22:43:23] 127.0.0.1 - - [26/Apr/2025 22:43:23] "GET /socket.io/?EIO=4&transport=polling&t=PPr8CGx&sid=8BsA7L3hPlNYsQViAAAE HTTP/1.1" 200 -
+[2025-04-26 22:43:23] 127.0.0.1 - - [26/Apr/2025 22:43:23] "GET /socket.io/?EIO=4&transport=polling&t=PPr8CHE&sid=8BsA7L3hPlNYsQViAAAE HTTP/1.1" 200 -
+[2025-04-26 22:43:25] 127.0.0.1 - GET /home
+[2025-04-26 22:43:25] 127.0.0.1 - - [26/Apr/2025 22:43:25] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:43:25] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:43:25] 127.0.0.1 - - [26/Apr/2025 22:43:25] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:43:25] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:43:25] 127.0.0.1 - - [26/Apr/2025 22:43:25] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 22:43:25] 127.0.0.1 - - [26/Apr/2025 22:43:25] "GET /socket.io/?EIO=4&transport=polling&t=PPr8CbB HTTP/1.1" 200 -
+[2025-04-26 22:43:25] 127.0.0.1 - - [26/Apr/2025 22:43:25] "POST /socket.io/?EIO=4&transport=polling&t=PPr8CbH&sid=0u4BXZejQV050mqzAAAG HTTP/1.1" 200 -
+[2025-04-26 22:43:25] 127.0.0.1 - - [26/Apr/2025 22:43:25] "GET /socket.io/?EIO=4&transport=polling&t=PPr8CbI&sid=0u4BXZejQV050mqzAAAG HTTP/1.1" 200 -
+[2025-04-26 22:43:42] 127.0.0.1 - GET /profile
+[2025-04-26 22:43:42] 127.0.0.1 - - [26/Apr/2025 22:43:42] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 22:43:42] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 22:43:42] 127.0.0.1 - - [26/Apr/2025 22:43:42] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 22:43:43] 127.0.0.1 - - [26/Apr/2025 22:43:43] "GET /socket.io/?EIO=4&transport=websocket&sid=8BsA7L3hPlNYsQViAAAE HTTP/1.1" 200 -
+[2025-04-26 22:43:46] 127.0.0.1 - GET /profile
+[2025-04-26 22:43:46] 127.0.0.1 - - [26/Apr/2025 22:43:46] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 22:43:46] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 22:43:46] 127.0.0.1 - - [26/Apr/2025 22:43:46] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 22:43:46] 127.0.0.1 - - [26/Apr/2025 22:43:46] "GET /socket.io/?EIO=4&transport=websocket&sid=0u4BXZejQV050mqzAAAG HTTP/1.1" 200 -
+[2025-04-26 22:44:20] 127.0.0.1 - GET /profile
+[2025-04-26 22:44:20] 127.0.0.1 - - [26/Apr/2025 22:44:20] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 22:44:20] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 22:44:20] 127.0.0.1 - - [26/Apr/2025 22:44:20] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 22:44:21] 127.0.0.1 - GET /home
+[2025-04-26 22:44:21] 127.0.0.1 - - [26/Apr/2025 22:44:21] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:44:21] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:44:21] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:44:21] 127.0.0.1 - - [26/Apr/2025 22:44:21] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:44:21] 127.0.0.1 - - [26/Apr/2025 22:44:21] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:44:21] 127.0.0.1 - - [26/Apr/2025 22:44:21] "GET /socket.io/?EIO=4&transport=polling&t=PPr8QGD HTTP/1.1" 200 -
+[2025-04-26 22:44:21] 127.0.0.1 - - [26/Apr/2025 22:44:21] "POST /socket.io/?EIO=4&transport=polling&t=PPr8QGJ&sid=Y4EIOoZgkg2AlHsdAAAI HTTP/1.1" 200 -
+[2025-04-26 22:44:21] 127.0.0.1 - - [26/Apr/2025 22:44:21] "GET /socket.io/?EIO=4&transport=polling&t=PPr8QGM&sid=Y4EIOoZgkg2AlHsdAAAI HTTP/1.1" 200 -
+[2025-04-26 22:44:21] 127.0.0.1 - - [26/Apr/2025 22:44:21] "GET /socket.io/?EIO=4&transport=polling&t=PPr8QGW&sid=Y4EIOoZgkg2AlHsdAAAI HTTP/1.1" 200 -
+[2025-04-26 22:45:15] 127.0.0.1 - GET /profile
+[2025-04-26 22:45:15] 127.0.0.1 - - [26/Apr/2025 22:45:15] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 22:45:15] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 22:45:15] 127.0.0.1 - - [26/Apr/2025 22:45:15] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 22:45:15] 127.0.0.1 - - [26/Apr/2025 22:45:15] "GET /socket.io/?EIO=4&transport=websocket&sid=Y4EIOoZgkg2AlHsdAAAI HTTP/1.1" 200 -
+[2025-04-26 22:45:16] 127.0.0.1 - GET /home
+[2025-04-26 22:45:16] 127.0.0.1 - - [26/Apr/2025 22:45:16] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:45:16] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:45:16] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:45:16] 127.0.0.1 - - [26/Apr/2025 22:45:16] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:45:16] 127.0.0.1 - - [26/Apr/2025 22:45:16] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:45:16] 127.0.0.1 - - [26/Apr/2025 22:45:16] "GET /socket.io/?EIO=4&transport=polling&t=PPr8dut HTTP/1.1" 200 -
+[2025-04-26 22:45:17] 127.0.0.1 - - [26/Apr/2025 22:45:17] "GET /socket.io/?EIO=4&transport=polling&t=PPr8dvD&sid=Nx-VQNEXD34oqOb5AAAK HTTP/1.1" 200 -
+[2025-04-26 22:45:17] 127.0.0.1 - - [26/Apr/2025 22:45:17] "POST /socket.io/?EIO=4&transport=polling&t=PPr8dvC&sid=Nx-VQNEXD34oqOb5AAAK HTTP/1.1" 200 -
+[2025-04-26 22:45:17] 127.0.0.1 - - [26/Apr/2025 22:45:17] "GET /socket.io/?EIO=4&transport=polling&t=PPr8dvN&sid=Nx-VQNEXD34oqOb5AAAK HTTP/1.1" 200 -
+[2025-04-26 22:45:19] 127.0.0.1 - - [26/Apr/2025 22:45:19] "GET /socket.io/?EIO=4&transport=websocket&sid=Nx-VQNEXD34oqOb5AAAK HTTP/1.1" 200 -
+[2025-04-26 22:45:19] 127.0.0.1 - POST /logout
+[2025-04-26 22:45:19] 127.0.0.1 - - [26/Apr/2025 22:45:19] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-04-26 22:45:19] 127.0.0.1 - GET /
+[2025-04-26 22:45:19] 127.0.0.1 - - [26/Apr/2025 22:45:19] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-26 22:45:19] 127.0.0.1 - GET /register
+[2025-04-26 22:45:19] 127.0.0.1 - - [26/Apr/2025 22:45:19] "GET /register HTTP/1.1" 200 -
+[2025-04-26 22:45:20] 127.0.0.1 - GET /login
+[2025-04-26 22:45:20] 127.0.0.1 - - [26/Apr/2025 22:45:20] "GET /login HTTP/1.1" 200 -
+[2025-04-26 22:45:25] 127.0.0.1 - POST /login
+[2025-04-26 22:45:25] 127.0.0.1 - - [26/Apr/2025 22:45:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-26 22:45:25] 127.0.0.1 - GET /home
+[2025-04-26 22:45:25] 127.0.0.1 - - [26/Apr/2025 22:45:25] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:45:25] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:45:25] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:45:25] 127.0.0.1 - - [26/Apr/2025 22:45:25] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:45:25] 127.0.0.1 - - [26/Apr/2025 22:45:25] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:45:25] 127.0.0.1 - - [26/Apr/2025 22:45:25] "GET /socket.io/?EIO=4&transport=polling&t=PPr8fx- HTTP/1.1" 200 -
+[2025-04-26 22:45:25] 127.0.0.1 - - [26/Apr/2025 22:45:25] "POST /socket.io/?EIO=4&transport=polling&t=PPr8fy8&sid=MaYcKBCDsnDXnSwmAAAM HTTP/1.1" 200 -
+[2025-04-26 22:45:25] 127.0.0.1 - - [26/Apr/2025 22:45:25] "GET /socket.io/?EIO=4&transport=polling&t=PPr8fy9&sid=MaYcKBCDsnDXnSwmAAAM HTTP/1.1" 200 -
+[2025-04-26 22:45:25] 127.0.0.1 - - [26/Apr/2025 22:45:25] "GET /socket.io/?EIO=4&transport=polling&t=PPr8fyE&sid=MaYcKBCDsnDXnSwmAAAM HTTP/1.1" 200 -
+[2025-04-26 22:45:49] 127.0.0.1 - - [26/Apr/2025 22:45:49] "GET /socket.io/?EIO=4&transport=websocket&sid=MaYcKBCDsnDXnSwmAAAM HTTP/1.1" 200 -
+[2025-04-26 22:45:51] 127.0.0.1 - POST /login
+[2025-04-26 22:45:51] 127.0.0.1 - - [26/Apr/2025 22:45:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-26 22:45:51] 127.0.0.1 - GET /home
+[2025-04-26 22:45:51] 127.0.0.1 - - [26/Apr/2025 22:45:51] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:45:51] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:45:51] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:45:51] 127.0.0.1 - - [26/Apr/2025 22:45:51] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:45:51] 127.0.0.1 - - [26/Apr/2025 22:45:51] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:45:51] 127.0.0.1 - - [26/Apr/2025 22:45:51] "GET /socket.io/?EIO=4&transport=polling&t=PPr8mLL HTTP/1.1" 200 -
+[2025-04-26 22:45:51] 127.0.0.1 - - [26/Apr/2025 22:45:51] "GET /socket.io/?EIO=4&transport=polling&t=PPr8mLQ&sid=41ec7iA8oqtiHw4DAAAO HTTP/1.1" 200 -
+[2025-04-26 22:45:51] 127.0.0.1 - - [26/Apr/2025 22:45:51] "POST /socket.io/?EIO=4&transport=polling&t=PPr8mLP&sid=41ec7iA8oqtiHw4DAAAO HTTP/1.1" 200 -
+[2025-04-26 22:45:51] 127.0.0.1 - - [26/Apr/2025 22:45:51] "GET /socket.io/?EIO=4&transport=polling&t=PPr8mLU&sid=41ec7iA8oqtiHw4DAAAO HTTP/1.1" 200 -
+[2025-04-26 22:45:53] 127.0.0.1 - GET /profile
+[2025-04-26 22:45:53] 127.0.0.1 - - [26/Apr/2025 22:45:53] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 22:45:54] 127.0.0.1 - - [26/Apr/2025 22:45:54] "GET /socket.io/?EIO=4&transport=websocket&sid=41ec7iA8oqtiHw4DAAAO HTTP/1.1" 200 -
+[2025-04-26 22:45:54] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 22:45:54] 127.0.0.1 - - [26/Apr/2025 22:45:54] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 22:46:37] 127.0.0.1 - GET /home
+[2025-04-26 22:46:37] 127.0.0.1 - - [26/Apr/2025 22:46:37] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:46:37] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:46:37] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:46:37] 127.0.0.1 - - [26/Apr/2025 22:46:37] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:46:37] 127.0.0.1 - - [26/Apr/2025 22:46:37] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:46:37] 127.0.0.1 - - [26/Apr/2025 22:46:37] "GET /socket.io/?EIO=4&transport=polling&t=PPr8xgJ HTTP/1.1" 200 -
+[2025-04-26 22:46:37] 127.0.0.1 - - [26/Apr/2025 22:46:37] "POST /socket.io/?EIO=4&transport=polling&t=PPr8xgP&sid=x4PDOjzyTPs7gReSAAAQ HTTP/1.1" 200 -
+[2025-04-26 22:46:37] 127.0.0.1 - - [26/Apr/2025 22:46:37] "GET /socket.io/?EIO=4&transport=polling&t=PPr8xgQ&sid=x4PDOjzyTPs7gReSAAAQ HTTP/1.1" 200 -
+[2025-04-26 22:47:02] 127.0.0.1 - - [26/Apr/2025 22:47:02] "GET /socket.io/?EIO=4&transport=websocket&sid=x4PDOjzyTPs7gReSAAAQ HTTP/1.1" 200 -
+[2025-04-26 22:47:02] 127.0.0.1 - GET /profile
+[2025-04-26 22:47:02] 127.0.0.1 - - [26/Apr/2025 22:47:02] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 22:47:02] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 22:47:02] 127.0.0.1 - - [26/Apr/2025 22:47:02] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 22:49:05] 127.0.0.1 - GET /home
+[2025-04-26 22:49:05] 127.0.0.1 - GET /home
+[2025-04-26 22:49:05] 127.0.0.1 - - [26/Apr/2025 22:49:05] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:49:05] 127.0.0.1 - - [26/Apr/2025 22:49:05] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:49:05] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:49:05] 127.0.0.1 - - [26/Apr/2025 22:49:05] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:49:05] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:49:05] 127.0.0.1 - - [26/Apr/2025 22:49:05] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:49:05] 127.0.0.1 - - [26/Apr/2025 22:49:05] "GET /socket.io/?EIO=4&transport=polling&t=PPr9VdD HTTP/1.1" 200 -
+[2025-04-26 22:49:05] 127.0.0.1 - - [26/Apr/2025 22:49:05] "GET /socket.io/?EIO=4&transport=polling&t=PPr9VdL&sid=R5bjNykz11BKNAqPAAAS HTTP/1.1" 200 -
+[2025-04-26 22:49:05] 127.0.0.1 - - [26/Apr/2025 22:49:05] "POST /socket.io/?EIO=4&transport=polling&t=PPr9VdI&sid=R5bjNykz11BKNAqPAAAS HTTP/1.1" 200 -
+[2025-04-26 22:49:05] 127.0.0.1 - - [26/Apr/2025 22:49:05] "GET /socket.io/?EIO=4&transport=polling&t=PPr9VdU&sid=R5bjNykz11BKNAqPAAAS HTTP/1.1" 200 -
+[2025-04-26 22:49:06] 127.0.0.1 - GET /home
+[2025-04-26 22:49:06] 127.0.0.1 - - [26/Apr/2025 22:49:06] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:49:06] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:49:06] 127.0.0.1 - - [26/Apr/2025 22:49:06] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:49:06] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:49:06] 127.0.0.1 - - [26/Apr/2025 22:49:06] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:49:06] 127.0.0.1 - - [26/Apr/2025 22:49:06] "GET /socket.io/?EIO=4&transport=polling&t=PPr9W17 HTTP/1.1" 200 -
+[2025-04-26 22:49:06] 127.0.0.1 - - [26/Apr/2025 22:49:06] "POST /socket.io/?EIO=4&transport=polling&t=PPr9W1U&sid=gx6FX8SNWx8rt7NLAAAU HTTP/1.1" 200 -
+[2025-04-26 22:49:06] 127.0.0.1 - - [26/Apr/2025 22:49:06] "GET /socket.io/?EIO=4&transport=polling&t=PPr9W1V&sid=gx6FX8SNWx8rt7NLAAAU HTTP/1.1" 200 -
+[2025-04-26 22:49:29] 127.0.0.1 - - [26/Apr/2025 22:49:29] "GET /socket.io/?EIO=4&transport=websocket&sid=gx6FX8SNWx8rt7NLAAAU HTTP/1.1" 200 -
+[2025-04-26 22:49:30] 127.0.0.1 - - [26/Apr/2025 22:49:30] "GET /socket.io/?EIO=4&transport=websocket&sid=R5bjNykz11BKNAqPAAAS HTTP/1.1" 200 -
+[2025-04-26 22:51:28] 127.0.0.1 - GET /home
+[2025-04-26 22:51:28] 127.0.0.1 - - [26/Apr/2025 22:51:28] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:51:28] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:51:28] 127.0.0.1 - - [26/Apr/2025 22:51:28] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:28] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:51:28] 127.0.0.1 - - [26/Apr/2025 22:51:28] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:28] 127.0.0.1 - - [26/Apr/2025 22:51:28] "GET /socket.io/?EIO=4&transport=polling&t=PPrA2fx HTTP/1.1" 200 -
+[2025-04-26 22:51:28] 127.0.0.1 - - [26/Apr/2025 22:51:28] "POST /socket.io/?EIO=4&transport=polling&t=PPrA2g0&sid=YzKyxFgBQNI_d_zYAAAW HTTP/1.1" 200 -
+[2025-04-26 22:51:28] 127.0.0.1 - - [26/Apr/2025 22:51:28] "GET /socket.io/?EIO=4&transport=polling&t=PPrA2g0.0&sid=YzKyxFgBQNI_d_zYAAAW HTTP/1.1" 200 -
+[2025-04-26 22:51:28] 127.0.0.1 - - [26/Apr/2025 22:51:28] "GET /socket.io/?EIO=4&transport=polling&t=PPrA2gI&sid=YzKyxFgBQNI_d_zYAAAW HTTP/1.1" 200 -
+[2025-04-26 22:51:31] 127.0.0.1 - GET /home
+[2025-04-26 22:51:31] 127.0.0.1 - - [26/Apr/2025 22:51:31] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:51:31] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:51:31] 127.0.0.1 - - [26/Apr/2025 22:51:31] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:31] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:51:31] 127.0.0.1 - - [26/Apr/2025 22:51:31] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:31] 127.0.0.1 - - [26/Apr/2025 22:51:31] "GET /socket.io/?EIO=4&transport=polling&t=PPrA3M0 HTTP/1.1" 200 -
+[2025-04-26 22:51:31] 127.0.0.1 - - [26/Apr/2025 22:51:31] "GET /socket.io/?EIO=4&transport=polling&t=PPrA3ML&sid=Jd0KuXMHR7CBEU4iAAAY HTTP/1.1" 200 -
+[2025-04-26 22:51:31] 127.0.0.1 - - [26/Apr/2025 22:51:31] "POST /socket.io/?EIO=4&transport=polling&t=PPrA3MK&sid=Jd0KuXMHR7CBEU4iAAAY HTTP/1.1" 200 -
+[2025-04-26 22:51:58] 127.0.0.1 - - [26/Apr/2025 22:51:58] "GET /socket.io/?EIO=4&transport=websocket&sid=Jd0KuXMHR7CBEU4iAAAY HTTP/1.1" 200 -
+[2025-04-26 22:51:58] 127.0.0.1 - - [26/Apr/2025 22:51:58] "GET /socket.io/?EIO=4&transport=websocket&sid=YzKyxFgBQNI_d_zYAAAW HTTP/1.1" 200 -
+[2025-04-26 22:53:51] 127.0.0.1 - - [26/Apr/2025 22:53:51] "GET /socket.io/?EIO=4&transport=polling&t=PPrAbcn HTTP/1.1" 200 -
+[2025-04-26 22:53:51] 127.0.0.1 - - [26/Apr/2025 22:53:51] "GET /socket.io/?EIO=4&transport=polling&t=PPrAbc-&sid=b09FPPcgY_EuNhK1AAAa HTTP/1.1" 200 -
+[2025-04-26 22:53:51] 127.0.0.1 - - [26/Apr/2025 22:53:51] "POST /socket.io/?EIO=4&transport=polling&t=PPrAbcz&sid=b09FPPcgY_EuNhK1AAAa HTTP/1.1" 200 -
+[2025-04-26 22:53:54] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:53:54] 127.0.0.1 - - [26/Apr/2025 22:53:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:53:58] 127.0.0.1 - - [26/Apr/2025 22:53:58] "GET /socket.io/?EIO=4&transport=websocket&sid=b09FPPcgY_EuNhK1AAAa HTTP/1.1" 200 -
+[2025-04-26 22:53:58] 127.0.0.1 - GET /home
+[2025-04-26 22:53:59] 127.0.0.1 - - [26/Apr/2025 22:53:59] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:53:59] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:53:59] 127.0.0.1 - - [26/Apr/2025 22:53:59] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:53:59] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:53:59] 127.0.0.1 - - [26/Apr/2025 22:53:59] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:53:59] 127.0.0.1 - - [26/Apr/2025 22:53:59] "GET /socket.io/?EIO=4&transport=polling&t=PPrAdM8 HTTP/1.1" 200 -
+[2025-04-26 22:53:59] 127.0.0.1 - - [26/Apr/2025 22:53:59] "POST /socket.io/?EIO=4&transport=polling&t=PPrAdMJ&sid=Glnwwm3g339LgeDnAAAc HTTP/1.1" 200 -
+[2025-04-26 22:53:59] 127.0.0.1 - - [26/Apr/2025 22:53:59] "GET /socket.io/?EIO=4&transport=polling&t=PPrAdML&sid=Glnwwm3g339LgeDnAAAc HTTP/1.1" 200 -
+[2025-04-26 22:53:59] 127.0.0.1 - - [26/Apr/2025 22:53:59] "GET /socket.io/?EIO=4&transport=polling&t=PPrAdMt&sid=Glnwwm3g339LgeDnAAAc HTTP/1.1" 200 -
+[2025-04-26 22:54:00] 127.0.0.1 - - [26/Apr/2025 22:54:00] "GET /socket.io/?EIO=4&transport=websocket&sid=Glnwwm3g339LgeDnAAAc HTTP/1.1" 200 -
+[2025-04-26 22:54:00] 127.0.0.1 - GET /home
+[2025-04-26 22:54:00] 127.0.0.1 - - [26/Apr/2025 22:54:00] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:54:00] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:54:00] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:54:00] 127.0.0.1 - - [26/Apr/2025 22:54:00] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:54:00] 127.0.0.1 - - [26/Apr/2025 22:54:00] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:54:00] 127.0.0.1 - - [26/Apr/2025 22:54:00] "GET /socket.io/?EIO=4&transport=polling&t=PPrAdbj HTTP/1.1" 200 -
+[2025-04-26 22:54:00] 127.0.0.1 - - [26/Apr/2025 22:54:00] "GET /socket.io/?EIO=4&transport=polling&t=PPrAdbv&sid=GIwGe7KjxcWa604vAAAe HTTP/1.1" 200 -
+[2025-04-26 22:54:00] 127.0.0.1 - - [26/Apr/2025 22:54:00] "POST /socket.io/?EIO=4&transport=polling&t=PPrAdbu&sid=GIwGe7KjxcWa604vAAAe HTTP/1.1" 200 -
+[2025-04-26 22:54:00] 127.0.0.1 - - [26/Apr/2025 22:54:00] "GET /socket.io/?EIO=4&transport=polling&t=PPrAdc3&sid=GIwGe7KjxcWa604vAAAe HTTP/1.1" 200 -
+[2025-04-26 22:54:31] 127.0.0.1 - - [26/Apr/2025 22:54:31] "GET /socket.io/?EIO=4&transport=websocket&sid=GIwGe7KjxcWa604vAAAe HTTP/1.1" 200 -
+[2025-04-26 23:00:54] 127.0.0.1 - GET /home
+[2025-04-26 23:00:54] 127.0.0.1 - - [26/Apr/2025 23:00:54] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:00:54] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:00:54] 127.0.0.1 - - [26/Apr/2025 23:00:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:00:54] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:00:54] 127.0.0.1 - - [26/Apr/2025 23:00:54] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:00:54] 127.0.0.1 - - [26/Apr/2025 23:00:54] "GET /socket.io/?EIO=4&transport=polling&t=PPrCCpe HTTP/1.1" 200 -
+[2025-04-26 23:00:54] 127.0.0.1 - - [26/Apr/2025 23:00:54] "POST /socket.io/?EIO=4&transport=polling&t=PPrCCpy&sid=4aD3cJsYqcnESzhhAAAg HTTP/1.1" 200 -
+[2025-04-26 23:00:54] 127.0.0.1 - - [26/Apr/2025 23:00:54] "GET /socket.io/?EIO=4&transport=polling&t=PPrCCp_&sid=4aD3cJsYqcnESzhhAAAg HTTP/1.1" 200 -
+[2025-04-26 23:00:54] 127.0.0.1 - - [26/Apr/2025 23:00:54] "GET /socket.io/?EIO=4&transport=polling&t=PPrCCqA&sid=4aD3cJsYqcnESzhhAAAg HTTP/1.1" 200 -
+[2025-04-26 23:00:56] 127.0.0.1 - GET /home
+[2025-04-26 23:00:56] 127.0.0.1 - - [26/Apr/2025 23:00:56] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:00:56] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:00:56] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:00:56] 127.0.0.1 - - [26/Apr/2025 23:00:56] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:00:56] 127.0.0.1 - - [26/Apr/2025 23:00:56] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:00:56] 127.0.0.1 - - [26/Apr/2025 23:00:56] "GET /socket.io/?EIO=4&transport=polling&t=PPrCDEV HTTP/1.1" 200 -
+[2025-04-26 23:00:56] 127.0.0.1 - - [26/Apr/2025 23:00:56] "GET /socket.io/?EIO=4&transport=polling&t=PPrCDEz.0&sid=DF0rYPCfwt0AzzMFAAAi HTTP/1.1" 200 -
+[2025-04-26 23:00:56] 127.0.0.1 - - [26/Apr/2025 23:00:56] "POST /socket.io/?EIO=4&transport=polling&t=PPrCDEz&sid=DF0rYPCfwt0AzzMFAAAi HTTP/1.1" 200 -
+[2025-04-26 23:01:19] 127.0.0.1 - - [26/Apr/2025 23:01:19] "GET /socket.io/?EIO=4&transport=websocket&sid=DF0rYPCfwt0AzzMFAAAi HTTP/1.1" 200 -
+[2025-04-26 23:01:22] 127.0.0.1 - - [26/Apr/2025 23:01:22] "GET /socket.io/?EIO=4&transport=websocket&sid=4aD3cJsYqcnESzhhAAAg HTTP/1.1" 200 -
+[2025-04-26 23:17:28] 127.0.0.1 - GET /profile
+[2025-04-26 23:17:28] 127.0.0.1 - - [26/Apr/2025 23:17:28] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:17:28] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:17:28] 127.0.0.1 - - [26/Apr/2025 23:17:28] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:17:29] 127.0.0.1 - GET /profile
+[2025-04-26 23:17:29] 127.0.0.1 - - [26/Apr/2025 23:17:29] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:17:29] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:17:29] 127.0.0.1 - - [26/Apr/2025 23:17:29] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:17:31] 127.0.0.1 - GET /home
+[2025-04-26 23:17:31] 127.0.0.1 - - [26/Apr/2025 23:17:31] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:17:31] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:17:31] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:17:31] 127.0.0.1 - - [26/Apr/2025 23:17:31] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:17:31] 127.0.0.1 - - [26/Apr/2025 23:17:31] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:17:31] 127.0.0.1 - - [26/Apr/2025 23:17:31] "GET /socket.io/?EIO=4&transport=polling&t=PPrG0Fw HTTP/1.1" 200 -
+[2025-04-26 23:17:31] 127.0.0.1 - - [26/Apr/2025 23:17:31] "GET /socket.io/?EIO=4&transport=polling&t=PPrG0GL&sid=FMFA1jTB5zY9oUZWAAAk HTTP/1.1" 200 -
+[2025-04-26 23:17:31] 127.0.0.1 - - [26/Apr/2025 23:17:31] "POST /socket.io/?EIO=4&transport=polling&t=PPrG0GJ&sid=FMFA1jTB5zY9oUZWAAAk HTTP/1.1" 200 -
+[2025-04-26 23:17:31] 127.0.0.1 - - [26/Apr/2025 23:17:31] "GET /socket.io/?EIO=4&transport=polling&t=PPrG0Gh&sid=FMFA1jTB5zY9oUZWAAAk HTTP/1.1" 200 -
+[2025-04-26 23:17:34] 127.0.0.1 - GET /home
+[2025-04-26 23:17:34] 127.0.0.1 - - [26/Apr/2025 23:17:34] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:17:34] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:17:34] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:17:34] 127.0.0.1 - - [26/Apr/2025 23:17:34] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:17:34] 127.0.0.1 - - [26/Apr/2025 23:17:34] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:17:34] 127.0.0.1 - - [26/Apr/2025 23:17:34] "GET /socket.io/?EIO=4&transport=polling&t=PPrG0vN HTTP/1.1" 200 -
+[2025-04-26 23:17:34] 127.0.0.1 - - [26/Apr/2025 23:17:34] "POST /socket.io/?EIO=4&transport=polling&t=PPrG0vU&sid=NGM1OQR48GrftKopAAAm HTTP/1.1" 200 -
+[2025-04-26 23:17:34] 127.0.0.1 - - [26/Apr/2025 23:17:34] "GET /socket.io/?EIO=4&transport=polling&t=PPrG0vU.0&sid=NGM1OQR48GrftKopAAAm HTTP/1.1" 200 -
+[2025-04-26 23:17:34] 127.0.0.1 - - [26/Apr/2025 23:17:34] "GET /socket.io/?EIO=4&transport=polling&t=PPrG0vi&sid=NGM1OQR48GrftKopAAAm HTTP/1.1" 200 -
+[2025-04-26 23:17:52] 127.0.0.1 - - [26/Apr/2025 23:17:52] "GET /socket.io/?EIO=4&transport=websocket&sid=NGM1OQR48GrftKopAAAm HTTP/1.1" 200 -
+[2025-04-26 23:17:53] 127.0.0.1 - - [26/Apr/2025 23:17:53] "GET /socket.io/?EIO=4&transport=websocket&sid=FMFA1jTB5zY9oUZWAAAk HTTP/1.1" 200 -
+[2025-04-26 23:18:01] 127.0.0.1 - GET /home
+[2025-04-26 23:18:01] 127.0.0.1 - - [26/Apr/2025 23:18:01] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:18:01] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:18:01] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:18:01] 127.0.0.1 - - [26/Apr/2025 23:18:01] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:18:01] 127.0.0.1 - - [26/Apr/2025 23:18:01] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:18:01] 127.0.0.1 - - [26/Apr/2025 23:18:01] "GET /socket.io/?EIO=4&transport=polling&t=PPrG7Ss HTTP/1.1" 200 -
+[2025-04-26 23:18:01] 127.0.0.1 - - [26/Apr/2025 23:18:01] "POST /socket.io/?EIO=4&transport=polling&t=PPrG7S-&sid=MqAqFjJ6EbwvQNFSAAAo HTTP/1.1" 200 -
+[2025-04-26 23:18:01] 127.0.0.1 - - [26/Apr/2025 23:18:01] "GET /socket.io/?EIO=4&transport=polling&t=PPrG7S_&sid=MqAqFjJ6EbwvQNFSAAAo HTTP/1.1" 200 -
+[2025-04-26 23:18:03] 127.0.0.1 - GET /home
+[2025-04-26 23:18:03] 127.0.0.1 - - [26/Apr/2025 23:18:03] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:18:03] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:18:03] 127.0.0.1 - - [26/Apr/2025 23:18:03] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:18:03] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:18:03] 127.0.0.1 - - [26/Apr/2025 23:18:03] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:18:03] 127.0.0.1 - - [26/Apr/2025 23:18:03] "GET /socket.io/?EIO=4&transport=polling&t=PPrG7yy HTTP/1.1" 200 -
+[2025-04-26 23:18:03] 127.0.0.1 - - [26/Apr/2025 23:18:03] "GET /socket.io/?EIO=4&transport=polling&t=PPrG7zF&sid=Jl4yXxQCBhzerRHXAAAq HTTP/1.1" 200 -
+[2025-04-26 23:18:03] 127.0.0.1 - - [26/Apr/2025 23:18:03] "POST /socket.io/?EIO=4&transport=polling&t=PPrG7zE&sid=Jl4yXxQCBhzerRHXAAAq HTTP/1.1" 200 -
+[2025-04-26 23:18:24] 127.0.0.1 - - [26/Apr/2025 23:18:24] "GET /socket.io/?EIO=4&transport=websocket&sid=MqAqFjJ6EbwvQNFSAAAo HTTP/1.1" 200 -
+[2025-04-26 23:18:25] 127.0.0.1 - - [26/Apr/2025 23:18:25] "GET /socket.io/?EIO=4&transport=websocket&sid=Jl4yXxQCBhzerRHXAAAq HTTP/1.1" 200 -
+[2025-04-26 23:20:02] 127.0.0.1 - GET /home
+[2025-04-26 23:20:02] 127.0.0.1 - - [26/Apr/2025 23:20:02] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:20:02] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:20:02] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:20:02] 127.0.0.1 - - [26/Apr/2025 23:20:02] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:20:02] 127.0.0.1 - - [26/Apr/2025 23:20:02] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:20:02] 127.0.0.1 - - [26/Apr/2025 23:20:02] "GET /socket.io/?EIO=4&transport=polling&t=PPrGb2B HTTP/1.1" 200 -
+[2025-04-26 23:20:02] 127.0.0.1 - - [26/Apr/2025 23:20:02] "GET /socket.io/?EIO=4&transport=polling&t=PPrGb2a&sid=i5uZcKJNGxTw3-hcAAAs HTTP/1.1" 200 -
+[2025-04-26 23:20:02] 127.0.0.1 - - [26/Apr/2025 23:20:02] "POST /socket.io/?EIO=4&transport=polling&t=PPrGb2Z&sid=i5uZcKJNGxTw3-hcAAAs HTTP/1.1" 200 -
+[2025-04-26 23:20:02] 127.0.0.1 - - [26/Apr/2025 23:20:02] "GET /socket.io/?EIO=4&transport=polling&t=PPrGb2n&sid=i5uZcKJNGxTw3-hcAAAs HTTP/1.1" 200 -
+[2025-04-26 23:20:03] 127.0.0.1 - GET /home
+[2025-04-26 23:20:03] 127.0.0.1 - - [26/Apr/2025 23:20:03] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:20:03] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:20:03] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:20:03] 127.0.0.1 - - [26/Apr/2025 23:20:03] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:20:03] 127.0.0.1 - - [26/Apr/2025 23:20:03] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:20:03] 127.0.0.1 - - [26/Apr/2025 23:20:03] "GET /socket.io/?EIO=4&transport=polling&t=PPrGbJU HTTP/1.1" 200 -
+[2025-04-26 23:20:03] 127.0.0.1 - - [26/Apr/2025 23:20:03] "POST /socket.io/?EIO=4&transport=polling&t=PPrGbJZ&sid=cafyUowZp_OTViSdAAAu HTTP/1.1" 200 -
+[2025-04-26 23:20:03] 127.0.0.1 - - [26/Apr/2025 23:20:03] "GET /socket.io/?EIO=4&transport=polling&t=PPrGbJZ.0&sid=cafyUowZp_OTViSdAAAu HTTP/1.1" 200 -
+[2025-04-26 23:20:03] 127.0.0.1 - - [26/Apr/2025 23:20:03] "GET /socket.io/?EIO=4&transport=polling&t=PPrGbJp&sid=cafyUowZp_OTViSdAAAu HTTP/1.1" 200 -
+[2025-04-26 23:20:11] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:20:11] 127.0.0.1 - - [26/Apr/2025 23:20:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:20:27] 127.0.0.1 - - [26/Apr/2025 23:20:27] "GET /socket.io/?EIO=4&transport=websocket&sid=i5uZcKJNGxTw3-hcAAAs HTTP/1.1" 200 -
+[2025-04-26 23:20:28] 127.0.0.1 - - [26/Apr/2025 23:20:28] "GET /socket.io/?EIO=4&transport=websocket&sid=cafyUowZp_OTViSdAAAu HTTP/1.1" 200 -
+[2025-04-26 23:20:41] 127.0.0.1 - GET /home
+[2025-04-26 23:20:41] 127.0.0.1 - - [26/Apr/2025 23:20:41] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:20:41] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:20:41] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:20:41] 127.0.0.1 - - [26/Apr/2025 23:20:41] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:20:41] 127.0.0.1 - - [26/Apr/2025 23:20:41] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:20:41] 127.0.0.1 - - [26/Apr/2025 23:20:41] "GET /socket.io/?EIO=4&transport=polling&t=PPrGkV_ HTTP/1.1" 200 -
+[2025-04-26 23:20:41] 127.0.0.1 - - [26/Apr/2025 23:20:41] "POST /socket.io/?EIO=4&transport=polling&t=PPrGkWU&sid=sI6lKAeJvOO_MptBAAAw HTTP/1.1" 200 -
+[2025-04-26 23:20:41] 127.0.0.1 - - [26/Apr/2025 23:20:41] "GET /socket.io/?EIO=4&transport=polling&t=PPrGkWU.0&sid=sI6lKAeJvOO_MptBAAAw HTTP/1.1" 200 -
+[2025-04-26 23:20:42] 127.0.0.1 - GET /home
+[2025-04-26 23:20:42] 127.0.0.1 - - [26/Apr/2025 23:20:42] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:20:42] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:20:42] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:20:42] 127.0.0.1 - - [26/Apr/2025 23:20:42] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:20:42] 127.0.0.1 - - [26/Apr/2025 23:20:42] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:20:42] 127.0.0.1 - - [26/Apr/2025 23:20:42] "GET /socket.io/?EIO=4&transport=polling&t=PPrGkqm HTTP/1.1" 200 -
+[2025-04-26 23:20:42] 127.0.0.1 - - [26/Apr/2025 23:20:42] "POST /socket.io/?EIO=4&transport=polling&t=PPrGkqx&sid=nYssIMryyvPUCTlTAAAy HTTP/1.1" 200 -
+[2025-04-26 23:20:42] 127.0.0.1 - - [26/Apr/2025 23:20:42] "GET /socket.io/?EIO=4&transport=polling&t=PPrGkqy&sid=nYssIMryyvPUCTlTAAAy HTTP/1.1" 200 -
+[2025-04-26 23:21:03] 127.0.0.1 - - [26/Apr/2025 23:21:03] "GET /socket.io/?EIO=4&transport=websocket&sid=sI6lKAeJvOO_MptBAAAw HTTP/1.1" 200 -
+[2025-04-26 23:21:04] 127.0.0.1 - - [26/Apr/2025 23:21:04] "GET /socket.io/?EIO=4&transport=websocket&sid=nYssIMryyvPUCTlTAAAy HTTP/1.1" 200 -
+[2025-04-26 23:21:04] 127.0.0.1 - GET /home
+[2025-04-26 23:21:04] 127.0.0.1 - - [26/Apr/2025 23:21:04] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:21:04] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:21:04] 127.0.0.1 - - [26/Apr/2025 23:21:04] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:21:04] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:21:04] 127.0.0.1 - - [26/Apr/2025 23:21:04] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:21:04] 127.0.0.1 - - [26/Apr/2025 23:21:04] "GET /socket.io/?EIO=4&transport=polling&t=PPrGqDd HTTP/1.1" 200 -
+[2025-04-26 23:21:04] 127.0.0.1 - - [26/Apr/2025 23:21:04] "GET /socket.io/?EIO=4&transport=polling&t=PPrGqDo.0&sid=gws30SzccPf92_PuAAA0 HTTP/1.1" 200 -
+[2025-04-26 23:21:04] 127.0.0.1 - - [26/Apr/2025 23:21:04] "POST /socket.io/?EIO=4&transport=polling&t=PPrGqDo&sid=gws30SzccPf92_PuAAA0 HTTP/1.1" 200 -
+[2025-04-26 23:21:04] 127.0.0.1 - - [26/Apr/2025 23:21:04] "GET /socket.io/?EIO=4&transport=polling&t=PPrGqDt&sid=gws30SzccPf92_PuAAA0 HTTP/1.1" 200 -
+[2025-04-26 23:27:35] 127.0.0.1 - - [26/Apr/2025 23:27:35] "GET /socket.io/?EIO=4&transport=websocket&sid=gws30SzccPf92_PuAAA0 HTTP/1.1" 200 -
+[2025-04-26 23:27:35] 127.0.0.1 - GET /home
+[2025-04-26 23:27:35] 127.0.0.1 - - [26/Apr/2025 23:27:35] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:27:35] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:27:35] 127.0.0.1 - - [26/Apr/2025 23:27:35] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:27:35] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:27:35] 127.0.0.1 - - [26/Apr/2025 23:27:35] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:27:35] 127.0.0.1 - - [26/Apr/2025 23:27:35] "GET /socket.io/?EIO=4&transport=polling&t=PPrIJg6 HTTP/1.1" 200 -
+[2025-04-26 23:27:35] 127.0.0.1 - - [26/Apr/2025 23:27:35] "GET /socket.io/?EIO=4&transport=polling&t=PPrIJgF&sid=5diLuS42BDHac-S7AAA2 HTTP/1.1" 200 -
+[2025-04-26 23:27:35] 127.0.0.1 - - [26/Apr/2025 23:27:35] "POST /socket.io/?EIO=4&transport=polling&t=PPrIJgD&sid=5diLuS42BDHac-S7AAA2 HTTP/1.1" 200 -
+[2025-04-26 23:27:35] 127.0.0.1 - - [26/Apr/2025 23:27:35] "GET /socket.io/?EIO=4&transport=polling&t=PPrIJgV&sid=5diLuS42BDHac-S7AAA2 HTTP/1.1" 200 -
+[2025-04-26 23:29:20] 127.0.0.1 - - [26/Apr/2025 23:29:20] "GET /socket.io/?EIO=4&transport=websocket&sid=5diLuS42BDHac-S7AAA2 HTTP/1.1" 200 -
+[2025-04-26 23:29:20] 127.0.0.1 - GET /home
+[2025-04-26 23:29:20] 127.0.0.1 - - [26/Apr/2025 23:29:20] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:29:20] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:29:20] 127.0.0.1 - - [26/Apr/2025 23:29:20] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:29:20] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:29:20] 127.0.0.1 - - [26/Apr/2025 23:29:20] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:29:20] 127.0.0.1 - - [26/Apr/2025 23:29:20] "GET /socket.io/?EIO=4&transport=polling&t=PPrIjJY HTTP/1.1" 200 -
+[2025-04-26 23:29:20] 127.0.0.1 - - [26/Apr/2025 23:29:20] "GET /socket.io/?EIO=4&transport=polling&t=PPrIjJk&sid=cy2ka52vCiBFU_LWAAA4 HTTP/1.1" 200 -
+[2025-04-26 23:29:20] 127.0.0.1 - - [26/Apr/2025 23:29:20] "POST /socket.io/?EIO=4&transport=polling&t=PPrIjJj&sid=cy2ka52vCiBFU_LWAAA4 HTTP/1.1" 200 -
+[2025-04-26 23:29:34] 127.0.0.1 - - [26/Apr/2025 23:29:34] "GET /socket.io/?EIO=4&transport=websocket&sid=cy2ka52vCiBFU_LWAAA4 HTTP/1.1" 200 -
+[2025-04-26 23:29:34] 127.0.0.1 - GET /home
+[2025-04-26 23:29:34] 127.0.0.1 - - [26/Apr/2025 23:29:34] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:29:34] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:29:34] 127.0.0.1 - - [26/Apr/2025 23:29:34] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:29:34] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:29:34] 127.0.0.1 - - [26/Apr/2025 23:29:34] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:29:34] 127.0.0.1 - - [26/Apr/2025 23:29:34] "GET /socket.io/?EIO=4&transport=polling&t=PPrImq7 HTTP/1.1" 200 -
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "POST /socket.io/?EIO=4&transport=polling&t=PPrImqH&sid=U725NZLh3OLUHXCxAAA6 HTTP/1.1" 200 -
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "GET /socket.io/?EIO=4&transport=polling&t=PPrImqI&sid=U725NZLh3OLUHXCxAAA6 HTTP/1.1" 200 -
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "GET /socket.io/?EIO=4&transport=websocket&sid=U725NZLh3OLUHXCxAAA6 HTTP/1.1" 200 -
+[2025-04-26 23:29:35] 127.0.0.1 - GET /home
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:29:35] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:29:35] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "GET /socket.io/?EIO=4&transport=polling&t=PPrIn2D HTTP/1.1" 200 -
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "GET /socket.io/?EIO=4&transport=polling&t=PPrIn2M&sid=ADSw2bjsmpmunH1ZAAA8 HTTP/1.1" 200 -
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "POST /socket.io/?EIO=4&transport=polling&t=PPrIn2L&sid=ADSw2bjsmpmunH1ZAAA8 HTTP/1.1" 200 -
+[2025-04-26 23:29:35] 127.0.0.1 - - [26/Apr/2025 23:29:35] "GET /socket.io/?EIO=4&transport=polling&t=PPrIn2X&sid=ADSw2bjsmpmunH1ZAAA8 HTTP/1.1" 200 -
+[2025-04-26 23:29:36] 127.0.0.1 - - [26/Apr/2025 23:29:36] "GET /socket.io/?EIO=4&transport=websocket&sid=ADSw2bjsmpmunH1ZAAA8 HTTP/1.1" 200 -
+[2025-04-26 23:29:36] 127.0.0.1 - POST /logout
+[2025-04-26 23:29:36] 127.0.0.1 - - [26/Apr/2025 23:29:36] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-04-26 23:29:36] 127.0.0.1 - GET /
+[2025-04-26 23:29:36] 127.0.0.1 - - [26/Apr/2025 23:29:36] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-26 23:29:36] 127.0.0.1 - GET /register
+[2025-04-26 23:29:36] 127.0.0.1 - - [26/Apr/2025 23:29:36] "GET /register HTTP/1.1" 200 -
+[2025-04-26 23:29:43] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-26 23:29:43] [33mPress CTRL+C to quit[0m
+[2025-04-26 23:29:49] 127.0.0.1 - GET /login
+[2025-04-26 23:29:49] 127.0.0.1 - - [26/Apr/2025 23:29:49] "GET /login HTTP/1.1" 200 -
+[2025-04-26 23:29:54] 127.0.0.1 - POST /login
+[2025-04-26 23:29:54] 127.0.0.1 - - [26/Apr/2025 23:29:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-26 23:29:54] 127.0.0.1 - GET /home
+[2025-04-26 23:29:54] 127.0.0.1 - - [26/Apr/2025 23:29:54] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:29:54] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:29:54] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:29:54] 127.0.0.1 - - [26/Apr/2025 23:29:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:29:54] 127.0.0.1 - - [26/Apr/2025 23:29:54] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:29:54] 127.0.0.1 - - [26/Apr/2025 23:29:54] "GET /socket.io/?EIO=4&transport=polling&t=PPrIreF HTTP/1.1" 200 -
+[2025-04-26 23:29:54] 127.0.0.1 - - [26/Apr/2025 23:29:54] "POST /socket.io/?EIO=4&transport=polling&t=PPrIrey&sid=ogMx3Ah_iJSR7qGyAAAA HTTP/1.1" 200 -
+[2025-04-26 23:29:54] 127.0.0.1 - - [26/Apr/2025 23:29:54] "GET /socket.io/?EIO=4&transport=polling&t=PPrIre-&sid=ogMx3Ah_iJSR7qGyAAAA HTTP/1.1" 200 -
+[2025-04-26 23:29:54] 127.0.0.1 - - [26/Apr/2025 23:29:54] "GET /socket.io/?EIO=4&transport=polling&t=PPrIrfI&sid=ogMx3Ah_iJSR7qGyAAAA HTTP/1.1" 200 -
+[2025-04-26 23:31:01] 127.0.0.1 - - [26/Apr/2025 23:31:01] "GET /socket.io/?EIO=4&transport=websocket&sid=ogMx3Ah_iJSR7qGyAAAA HTTP/1.1" 200 -
+[2025-04-26 23:31:01] 127.0.0.1 - GET /home
+[2025-04-26 23:31:02] 127.0.0.1 - - [26/Apr/2025 23:31:02] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:31:02] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:31:02] 127.0.0.1 - - [26/Apr/2025 23:31:02] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:31:02] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:31:02] 127.0.0.1 - - [26/Apr/2025 23:31:02] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:31:02] 127.0.0.1 - - [26/Apr/2025 23:31:02] "GET /socket.io/?EIO=4&transport=polling&t=PPrJ64a HTTP/1.1" 200 -
+[2025-04-26 23:31:02] 127.0.0.1 - - [26/Apr/2025 23:31:02] "GET /socket.io/?EIO=4&transport=polling&t=PPrJ64n&sid=1_uJFJBC9RY8bY-4AAAC HTTP/1.1" 200 -
+[2025-04-26 23:31:02] 127.0.0.1 - - [26/Apr/2025 23:31:02] "POST /socket.io/?EIO=4&transport=polling&t=PPrJ64m&sid=1_uJFJBC9RY8bY-4AAAC HTTP/1.1" 200 -
+[2025-04-26 23:31:02] 127.0.0.1 - - [26/Apr/2025 23:31:02] "GET /socket.io/?EIO=4&transport=polling&t=PPrJ65K&sid=1_uJFJBC9RY8bY-4AAAC HTTP/1.1" 200 -
+[2025-04-26 23:31:56] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-26 23:31:56] [33mPress CTRL+C to quit[0m
+[2025-04-26 23:31:56] 127.0.0.1 - - [26/Apr/2025 23:31:56] "GET /socket.io/?EIO=4&transport=polling&t=PPrJJKh HTTP/1.1" 200 -
+[2025-04-26 23:31:56] 127.0.0.1 - - [26/Apr/2025 23:31:56] "GET /socket.io/?EIO=4&transport=polling&t=PPrJJKx&sid=SGnfy7IpOsYGkOqEAAAA HTTP/1.1" 200 -
+[2025-04-26 23:31:56] 127.0.0.1 - - [26/Apr/2025 23:31:56] "POST /socket.io/?EIO=4&transport=polling&t=PPrJJKw&sid=SGnfy7IpOsYGkOqEAAAA HTTP/1.1" 200 -
+[2025-04-26 23:31:58] 127.0.0.1 - - [26/Apr/2025 23:31:58] "GET /socket.io/?EIO=4&transport=websocket&sid=SGnfy7IpOsYGkOqEAAAA HTTP/1.1" 200 -
+[2025-04-26 23:31:58] 127.0.0.1 - GET /home
+[2025-04-26 23:31:58] 127.0.0.1 - - [26/Apr/2025 23:31:58] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:31:58] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:31:58] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:31:58] 127.0.0.1 - - [26/Apr/2025 23:31:58] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:31:58] 127.0.0.1 - - [26/Apr/2025 23:31:58] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:31:58] 127.0.0.1 - - [26/Apr/2025 23:31:58] "GET /socket.io/?EIO=4&transport=polling&t=PPrJJsK HTTP/1.1" 200 -
+[2025-04-26 23:31:58] 127.0.0.1 - - [26/Apr/2025 23:31:58] "POST /socket.io/?EIO=4&transport=polling&t=PPrJJsW&sid=TejlNvbrQ4_NoTZbAAAC HTTP/1.1" 200 -
+[2025-04-26 23:31:58] 127.0.0.1 - - [26/Apr/2025 23:31:58] "GET /socket.io/?EIO=4&transport=polling&t=PPrJJsX&sid=TejlNvbrQ4_NoTZbAAAC HTTP/1.1" 200 -
+[2025-04-26 23:32:14] 127.0.0.1 - - [26/Apr/2025 23:32:14] "GET /socket.io/?EIO=4&transport=websocket&sid=TejlNvbrQ4_NoTZbAAAC HTTP/1.1" 200 -
+[2025-04-26 23:32:14] 127.0.0.1 - POST /logout
+[2025-04-26 23:32:14] 127.0.0.1 - - [26/Apr/2025 23:32:14] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-04-26 23:32:14] 127.0.0.1 - GET /
+[2025-04-26 23:32:14] 127.0.0.1 - - [26/Apr/2025 23:32:14] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-26 23:32:14] 127.0.0.1 - GET /register
+[2025-04-26 23:32:14] 127.0.0.1 - - [26/Apr/2025 23:32:14] "GET /register HTTP/1.1" 200 -
+[2025-04-26 23:32:15] 127.0.0.1 - GET /login
+[2025-04-26 23:32:15] 127.0.0.1 - - [26/Apr/2025 23:32:15] "GET /login HTTP/1.1" 200 -
+[2025-04-26 23:32:22] 127.0.0.1 - POST /login
+[2025-04-26 23:32:22] 127.0.0.1 - - [26/Apr/2025 23:32:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-26 23:32:22] 127.0.0.1 - GET /home
+[2025-04-26 23:32:22] 127.0.0.1 - - [26/Apr/2025 23:32:22] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:32:22] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:32:22] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:32:22] 127.0.0.1 - - [26/Apr/2025 23:32:22] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:32:22] 127.0.0.1 - - [26/Apr/2025 23:32:22] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:32:22] 127.0.0.1 - - [26/Apr/2025 23:32:22] "GET /socket.io/?EIO=4&transport=polling&t=PPrJPj9 HTTP/1.1" 200 -
+[2025-04-26 23:32:22] 127.0.0.1 - - [26/Apr/2025 23:32:22] "GET /socket.io/?EIO=4&transport=polling&t=PPrJPjF&sid=BQ10uW3sAVuqO2pMAAAE HTTP/1.1" 200 -
+[2025-04-26 23:32:22] 127.0.0.1 - - [26/Apr/2025 23:32:22] "POST /socket.io/?EIO=4&transport=polling&t=PPrJPjD&sid=BQ10uW3sAVuqO2pMAAAE HTTP/1.1" 200 -
+[2025-04-26 23:32:37] 127.0.0.1 - GET /profile
+[2025-04-26 23:32:37] 127.0.0.1 - - [26/Apr/2025 23:32:37] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:32:37] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:32:37] 127.0.0.1 - - [26/Apr/2025 23:32:37] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:32:38] 127.0.0.1 - - [26/Apr/2025 23:32:38] "GET /socket.io/?EIO=4&transport=websocket&sid=BQ10uW3sAVuqO2pMAAAE HTTP/1.1" 200 -
+[2025-04-26 23:32:39] 127.0.0.1 - GET /profile
+[2025-04-26 23:32:39] 127.0.0.1 - - [26/Apr/2025 23:32:39] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:32:39] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:32:39] 127.0.0.1 - - [26/Apr/2025 23:32:39] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:32:40] 127.0.0.1 - GET /profile
+[2025-04-26 23:32:40] 127.0.0.1 - - [26/Apr/2025 23:32:40] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:32:40] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:32:40] 127.0.0.1 - - [26/Apr/2025 23:32:40] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:32:41] 127.0.0.1 - GET /home
+[2025-04-26 23:32:41] 127.0.0.1 - - [26/Apr/2025 23:32:41] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:32:41] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:32:41] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:32:41] 127.0.0.1 - - [26/Apr/2025 23:32:41] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:32:41] 127.0.0.1 - - [26/Apr/2025 23:32:41] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:32:41] 127.0.0.1 - - [26/Apr/2025 23:32:41] "GET /socket.io/?EIO=4&transport=polling&t=PPrJUMZ HTTP/1.1" 200 -
+[2025-04-26 23:32:41] 127.0.0.1 - - [26/Apr/2025 23:32:41] "POST /socket.io/?EIO=4&transport=polling&t=PPrJUMv&sid=EzAH2RPYpE3OmSlCAAAG HTTP/1.1" 200 -
+[2025-04-26 23:32:41] 127.0.0.1 - - [26/Apr/2025 23:32:41] "GET /socket.io/?EIO=4&transport=polling&t=PPrJUMv.0&sid=EzAH2RPYpE3OmSlCAAAG HTTP/1.1" 200 -
+[2025-04-26 23:32:42] 127.0.0.1 - GET /home
+[2025-04-26 23:32:42] 127.0.0.1 - - [26/Apr/2025 23:32:42] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:32:43] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:32:43] 127.0.0.1 - - [26/Apr/2025 23:32:43] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:32:43] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:32:43] 127.0.0.1 - - [26/Apr/2025 23:32:43] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:32:43] 127.0.0.1 - - [26/Apr/2025 23:32:43] "GET /socket.io/?EIO=4&transport=polling&t=PPrJUk8 HTTP/1.1" 200 -
+[2025-04-26 23:32:43] 127.0.0.1 - - [26/Apr/2025 23:32:43] "POST /socket.io/?EIO=4&transport=polling&t=PPrJUkF&sid=gY_p87ToJwmdEAp6AAAI HTTP/1.1" 200 -
+[2025-04-26 23:32:43] 127.0.0.1 - - [26/Apr/2025 23:32:43] "GET /socket.io/?EIO=4&transport=polling&t=PPrJUkG&sid=gY_p87ToJwmdEAp6AAAI HTTP/1.1" 200 -
+[2025-04-26 23:33:02] 127.0.0.1 - - [26/Apr/2025 23:33:02] "GET /socket.io/?EIO=4&transport=websocket&sid=gY_p87ToJwmdEAp6AAAI HTTP/1.1" 200 -
+[2025-04-26 23:33:03] 127.0.0.1 - - [26/Apr/2025 23:33:03] "GET /socket.io/?EIO=4&transport=websocket&sid=EzAH2RPYpE3OmSlCAAAG HTTP/1.1" 200 -
+[2025-04-26 23:33:04] 127.0.0.1 - GET /profile
+[2025-04-26 23:33:04] 127.0.0.1 - - [26/Apr/2025 23:33:04] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:33:04] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:33:04] 127.0.0.1 - - [26/Apr/2025 23:33:04] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:33:07] 127.0.0.1 - GET /profile
+[2025-04-26 23:33:07] 127.0.0.1 - - [26/Apr/2025 23:33:07] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:33:07] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:33:07] 127.0.0.1 - - [26/Apr/2025 23:33:07] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:33:09] 127.0.0.1 - GET /home
+[2025-04-26 23:33:09] 127.0.0.1 - - [26/Apr/2025 23:33:09] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:33:09] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:33:09] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:33:09] 127.0.0.1 - - [26/Apr/2025 23:33:09] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:33:09] 127.0.0.1 - - [26/Apr/2025 23:33:09] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:33:09] 127.0.0.1 - - [26/Apr/2025 23:33:09] "GET /socket.io/?EIO=4&transport=polling&t=PPrJbGx HTTP/1.1" 200 -
+[2025-04-26 23:33:09] 127.0.0.1 - - [26/Apr/2025 23:33:09] "GET /socket.io/?EIO=4&transport=polling&t=PPrJbH0.0&sid=7C_B2LLFzaS5SvdFAAAK HTTP/1.1" 200 -
+[2025-04-26 23:33:09] 127.0.0.1 - - [26/Apr/2025 23:33:09] "POST /socket.io/?EIO=4&transport=polling&t=PPrJbH0&sid=7C_B2LLFzaS5SvdFAAAK HTTP/1.1" 200 -
+[2025-04-26 23:33:09] 127.0.0.1 - - [26/Apr/2025 23:33:09] "GET /socket.io/?EIO=4&transport=polling&t=PPrJbHF&sid=7C_B2LLFzaS5SvdFAAAK HTTP/1.1" 200 -
+[2025-04-26 23:33:11] 127.0.0.1 - GET /home
+[2025-04-26 23:33:11] 127.0.0.1 - - [26/Apr/2025 23:33:11] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:33:11] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:33:11] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:33:11] 127.0.0.1 - - [26/Apr/2025 23:33:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:33:11] 127.0.0.1 - - [26/Apr/2025 23:33:11] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:33:11] 127.0.0.1 - - [26/Apr/2025 23:33:11] "GET /socket.io/?EIO=4&transport=polling&t=PPrJbcN HTTP/1.1" 200 -
+[2025-04-26 23:33:11] 127.0.0.1 - - [26/Apr/2025 23:33:11] "GET /socket.io/?EIO=4&transport=polling&t=PPrJbcf.0&sid=6QAbiESS_oN2zaHhAAAM HTTP/1.1" 200 -
+[2025-04-26 23:33:11] 127.0.0.1 - - [26/Apr/2025 23:33:11] "POST /socket.io/?EIO=4&transport=polling&t=PPrJbcf&sid=6QAbiESS_oN2zaHhAAAM HTTP/1.1" 200 -
+[2025-04-26 23:33:11] 127.0.0.1 - - [26/Apr/2025 23:33:11] "GET /socket.io/?EIO=4&transport=polling&t=PPrJbcq&sid=6QAbiESS_oN2zaHhAAAM HTTP/1.1" 200 -
+[2025-04-26 23:34:15] 127.0.0.1 - - [26/Apr/2025 23:34:15] "GET /socket.io/?EIO=4&transport=websocket&sid=7C_B2LLFzaS5SvdFAAAK HTTP/1.1" 200 -
+[2025-04-26 23:34:16] 127.0.0.1 - - [26/Apr/2025 23:34:16] "GET /socket.io/?EIO=4&transport=websocket&sid=6QAbiESS_oN2zaHhAAAM HTTP/1.1" 200 -
+[2025-04-26 23:36:01] 127.0.0.1 - GET /profile
+[2025-04-26 23:36:01] 127.0.0.1 - - [26/Apr/2025 23:36:01] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:36:01] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:36:01] 127.0.0.1 - - [26/Apr/2025 23:36:01] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:36:01] 127.0.0.1 - GET /home
+[2025-04-26 23:36:01] 127.0.0.1 - - [26/Apr/2025 23:36:01] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:36:01] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:36:01] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:36:01] 127.0.0.1 - - [26/Apr/2025 23:36:01] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:36:01] 127.0.0.1 - - [26/Apr/2025 23:36:01] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:36:01] 127.0.0.1 - - [26/Apr/2025 23:36:01] "GET /socket.io/?EIO=4&transport=polling&t=PPrKFGH HTTP/1.1" 200 -
+[2025-04-26 23:36:01] 127.0.0.1 - - [26/Apr/2025 23:36:01] "POST /socket.io/?EIO=4&transport=polling&t=PPrKFGe&sid=tBCsfvSlrByV2H3eAAAO HTTP/1.1" 200 -
+[2025-04-26 23:36:01] 127.0.0.1 - - [26/Apr/2025 23:36:01] "GET /socket.io/?EIO=4&transport=polling&t=PPrKFGf&sid=tBCsfvSlrByV2H3eAAAO HTTP/1.1" 200 -
+[2025-04-26 23:36:01] 127.0.0.1 - - [26/Apr/2025 23:36:01] "GET /socket.io/?EIO=4&transport=polling&t=PPrKFG-&sid=tBCsfvSlrByV2H3eAAAO HTTP/1.1" 200 -
+[2025-04-26 23:36:04] 127.0.0.1 - GET /home
+[2025-04-26 23:36:04] 127.0.0.1 - - [26/Apr/2025 23:36:04] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:36:04] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:36:04] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:36:04] 127.0.0.1 - - [26/Apr/2025 23:36:04] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:36:04] 127.0.0.1 - - [26/Apr/2025 23:36:04] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:36:04] 127.0.0.1 - - [26/Apr/2025 23:36:04] "GET /socket.io/?EIO=4&transport=polling&t=PPrKFtv HTTP/1.1" 200 -
+[2025-04-26 23:36:04] 127.0.0.1 - - [26/Apr/2025 23:36:04] "GET /socket.io/?EIO=4&transport=polling&t=PPrKFuF.0&sid=X4GDFABSl7L02cPjAAAQ HTTP/1.1" 200 -
+[2025-04-26 23:36:04] 127.0.0.1 - - [26/Apr/2025 23:36:04] "POST /socket.io/?EIO=4&transport=polling&t=PPrKFuF&sid=X4GDFABSl7L02cPjAAAQ HTTP/1.1" 200 -
+[2025-04-26 23:36:04] 127.0.0.1 - - [26/Apr/2025 23:36:04] "GET /socket.io/?EIO=4&transport=polling&t=PPrKFuN&sid=X4GDFABSl7L02cPjAAAQ HTTP/1.1" 200 -
+[2025-04-26 23:36:42] 127.0.0.1 - - [26/Apr/2025 23:36:42] "GET /socket.io/?EIO=4&transport=websocket&sid=X4GDFABSl7L02cPjAAAQ HTTP/1.1" 200 -
+[2025-04-26 23:36:43] 127.0.0.1 - - [26/Apr/2025 23:36:43] "GET /socket.io/?EIO=4&transport=websocket&sid=tBCsfvSlrByV2H3eAAAO HTTP/1.1" 200 -
+[2025-04-26 23:36:51] 127.0.0.1 - GET /home
+[2025-04-26 23:36:51] 127.0.0.1 - - [26/Apr/2025 23:36:51] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:36:51] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:36:51] 127.0.0.1 - - [26/Apr/2025 23:36:51] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:36:51] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:36:51] 127.0.0.1 - - [26/Apr/2025 23:36:51] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:36:51] 127.0.0.1 - - [26/Apr/2025 23:36:51] "GET /socket.io/?EIO=4&transport=polling&t=PPrKRIN HTTP/1.1" 200 -
+[2025-04-26 23:36:51] 127.0.0.1 - - [26/Apr/2025 23:36:51] "POST /socket.io/?EIO=4&transport=polling&t=PPrKRIR&sid=SFtNWVzueaeQx11_AAAS HTTP/1.1" 200 -
+[2025-04-26 23:36:51] 127.0.0.1 - - [26/Apr/2025 23:36:51] "GET /socket.io/?EIO=4&transport=polling&t=PPrKRIR.0&sid=SFtNWVzueaeQx11_AAAS HTTP/1.1" 200 -
+[2025-04-26 23:41:47] 127.0.0.1 - GET /home
+[2025-04-26 23:41:47] 127.0.0.1 - - [26/Apr/2025 23:41:47] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:41:47] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:41:47] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:41:47] 127.0.0.1 - - [26/Apr/2025 23:41:47] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:41:47] 127.0.0.1 - - [26/Apr/2025 23:41:47] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:41:47] 127.0.0.1 - - [26/Apr/2025 23:41:47] "GET /socket.io/?EIO=4&transport=polling&t=PPrLZaV HTTP/1.1" 200 -
+[2025-04-26 23:41:47] 127.0.0.1 - - [26/Apr/2025 23:41:47] "GET /socket.io/?EIO=4&transport=polling&t=PPrLZbO&sid=15MIV9RRtxBK5otAAAAU HTTP/1.1" 200 -
+[2025-04-26 23:41:47] 127.0.0.1 - - [26/Apr/2025 23:41:47] "POST /socket.io/?EIO=4&transport=polling&t=PPrLZbN&sid=15MIV9RRtxBK5otAAAAU HTTP/1.1" 200 -
+[2025-04-26 23:41:47] 127.0.0.1 - - [26/Apr/2025 23:41:47] "GET /socket.io/?EIO=4&transport=polling&t=PPrLZbh&sid=15MIV9RRtxBK5otAAAAU HTTP/1.1" 200 -
+[2025-04-26 23:43:18] 127.0.0.1 - - [26/Apr/2025 23:43:18] "GET /socket.io/?EIO=4&transport=websocket&sid=SFtNWVzueaeQx11_AAAS HTTP/1.1" 200 -
+[2025-04-26 23:43:19] 127.0.0.1 - - [26/Apr/2025 23:43:19] "GET /socket.io/?EIO=4&transport=websocket&sid=15MIV9RRtxBK5otAAAAU HTTP/1.1" 200 -
+[2025-04-26 23:43:50] 127.0.0.1 - GET /home
+[2025-04-26 23:43:50] 127.0.0.1 - - [26/Apr/2025 23:43:50] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:43:50] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:43:50] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:43:50] 127.0.0.1 - - [26/Apr/2025 23:43:50] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:43:50] 127.0.0.1 - - [26/Apr/2025 23:43:50] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:43:50] 127.0.0.1 - - [26/Apr/2025 23:43:50] "GET /socket.io/?EIO=4&transport=polling&t=PPrM1dd HTTP/1.1" 200 -
+[2025-04-26 23:43:50] 127.0.0.1 - - [26/Apr/2025 23:43:50] "POST /socket.io/?EIO=4&transport=polling&t=PPrM1dp&sid=8xdhoUK-G8CGHkDmAAAW HTTP/1.1" 200 -
+[2025-04-26 23:43:50] 127.0.0.1 - - [26/Apr/2025 23:43:50] "GET /socket.io/?EIO=4&transport=polling&t=PPrM1dq&sid=8xdhoUK-G8CGHkDmAAAW HTTP/1.1" 200 -
+[2025-04-26 23:43:50] 127.0.0.1 - - [26/Apr/2025 23:43:50] "GET /socket.io/?EIO=4&transport=polling&t=PPrM1dz&sid=8xdhoUK-G8CGHkDmAAAW HTTP/1.1" 200 -
+[2025-04-26 23:43:52] 127.0.0.1 - GET /home
+[2025-04-26 23:43:52] 127.0.0.1 - - [26/Apr/2025 23:43:52] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:43:52] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:43:52] 127.0.0.1 - - [26/Apr/2025 23:43:52] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:43:52] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:43:52] 127.0.0.1 - - [26/Apr/2025 23:43:52] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:43:52] 127.0.0.1 - - [26/Apr/2025 23:43:52] "GET /socket.io/?EIO=4&transport=polling&t=PPrM2CT HTTP/1.1" 200 -
+[2025-04-26 23:43:52] 127.0.0.1 - - [26/Apr/2025 23:43:52] "POST /socket.io/?EIO=4&transport=polling&t=PPrM2Ch&sid=TKGnAiS3pcFYSd2aAAAY HTTP/1.1" 200 -
+[2025-04-26 23:43:52] 127.0.0.1 - - [26/Apr/2025 23:43:52] "GET /socket.io/?EIO=4&transport=polling&t=PPrM2Ch.0&sid=TKGnAiS3pcFYSd2aAAAY HTTP/1.1" 200 -
+[2025-04-26 23:45:26] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-26 23:45:26] [33mPress CTRL+C to quit[0m
+[2025-04-26 23:45:26] 127.0.0.1 - - [26/Apr/2025 23:45:26] "GET /socket.io/?EIO=4&transport=polling&t=PPrMP4o HTTP/1.1" 200 -
+[2025-04-26 23:45:26] 127.0.0.1 - - [26/Apr/2025 23:45:26] "GET /socket.io/?EIO=4&transport=polling&t=PPrMP4r HTTP/1.1" 200 -
+[2025-04-26 23:45:26] 127.0.0.1 - - [26/Apr/2025 23:45:26] "GET /socket.io/?EIO=4&transport=polling&t=PPrMP4-.0&sid=tX7cR6kCtfTJ6JPlAAAA HTTP/1.1" 200 -
+[2025-04-26 23:45:26] 127.0.0.1 - - [26/Apr/2025 23:45:26] "GET /socket.io/?EIO=4&transport=polling&t=PPrMP4_.0&sid=Ywmq-Agg0xi7o3ufAAAB HTTP/1.1" 200 -
+[2025-04-26 23:45:26] 127.0.0.1 - - [26/Apr/2025 23:45:26] "GET /socket.io/?EIO=4&transport=polling&t=PPrMP55&sid=tX7cR6kCtfTJ6JPlAAAA HTTP/1.1" 200 -
+[2025-04-26 23:45:26] 127.0.0.1 - - [26/Apr/2025 23:45:26] "POST /socket.io/?EIO=4&transport=polling&t=PPrMP4-&sid=tX7cR6kCtfTJ6JPlAAAA HTTP/1.1" 200 -
+[2025-04-26 23:45:26] 127.0.0.1 - - [26/Apr/2025 23:45:26] "POST /socket.io/?EIO=4&transport=polling&t=PPrMP4_&sid=Ywmq-Agg0xi7o3ufAAAB HTTP/1.1" 200 -
+[2025-04-26 23:45:27] 127.0.0.1 - - [26/Apr/2025 23:45:27] "GET /socket.io/?EIO=4&transport=websocket&sid=tX7cR6kCtfTJ6JPlAAAA HTTP/1.1" 200 -
+[2025-04-26 23:45:27] 127.0.0.1 - GET /home
+[2025-04-26 23:45:27] 127.0.0.1 - - [26/Apr/2025 23:45:27] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:45:27] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:45:27] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:45:27] 127.0.0.1 - - [26/Apr/2025 23:45:27] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:45:27] 127.0.0.1 - - [26/Apr/2025 23:45:27] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:45:27] 127.0.0.1 - - [26/Apr/2025 23:45:27] "GET /socket.io/?EIO=4&transport=polling&t=PPrMPTL HTTP/1.1" 200 -
+[2025-04-26 23:45:27] 127.0.0.1 - - [26/Apr/2025 23:45:27] "GET /socket.io/?EIO=4&transport=polling&t=PPrMPTO.0&sid=hucmLUZziktsyNvEAAAE HTTP/1.1" 200 -
+[2025-04-26 23:45:27] 127.0.0.1 - - [26/Apr/2025 23:45:27] "POST /socket.io/?EIO=4&transport=polling&t=PPrMPTO&sid=hucmLUZziktsyNvEAAAE HTTP/1.1" 200 -
+[2025-04-26 23:45:27] 127.0.0.1 - - [26/Apr/2025 23:45:27] "GET /socket.io/?EIO=4&transport=polling&t=PPrMPTR&sid=hucmLUZziktsyNvEAAAE HTTP/1.1" 200 -
+[2025-04-26 23:45:28] 127.0.0.1 - - [26/Apr/2025 23:45:28] "GET /socket.io/?EIO=4&transport=websocket&sid=Ywmq-Agg0xi7o3ufAAAB HTTP/1.1" 200 -
+[2025-04-26 23:45:28] 127.0.0.1 - GET /home
+[2025-04-26 23:45:28] 127.0.0.1 - - [26/Apr/2025 23:45:28] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:45:28] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:45:28] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:45:28] 127.0.0.1 - - [26/Apr/2025 23:45:28] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:45:28] 127.0.0.1 - - [26/Apr/2025 23:45:28] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:45:28] 127.0.0.1 - - [26/Apr/2025 23:45:28] "GET /socket.io/?EIO=4&transport=polling&t=PPrMPd- HTTP/1.1" 200 -
+[2025-04-26 23:45:28] 127.0.0.1 - - [26/Apr/2025 23:45:28] "POST /socket.io/?EIO=4&transport=polling&t=PPrMPeD&sid=0OjAO6GbxldV_znxAAAG HTTP/1.1" 200 -
+[2025-04-26 23:45:28] 127.0.0.1 - - [26/Apr/2025 23:45:28] "GET /socket.io/?EIO=4&transport=polling&t=PPrMPeD.0&sid=0OjAO6GbxldV_znxAAAG HTTP/1.1" 200 -
+[2025-04-26 23:47:14] 127.0.0.1 - - [26/Apr/2025 23:47:14] "GET /socket.io/?EIO=4&transport=websocket&sid=0OjAO6GbxldV_znxAAAG HTTP/1.1" 200 -
+[2025-04-26 23:47:17] 127.0.0.1 - - [26/Apr/2025 23:47:17] "GET /socket.io/?EIO=4&transport=websocket&sid=hucmLUZziktsyNvEAAAE HTTP/1.1" 200 -
+[2025-04-26 23:52:56] 127.0.0.1 - GET /home
+[2025-04-26 23:52:56] 127.0.0.1 - - [26/Apr/2025 23:52:56] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:52:56] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:52:56] 127.0.0.1 - - [26/Apr/2025 23:52:56] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:52:56] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:52:56] 127.0.0.1 - - [26/Apr/2025 23:52:56] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:52:56] 127.0.0.1 - - [26/Apr/2025 23:52:56] "GET /socket.io/?EIO=4&transport=polling&t=PPrO75Y HTTP/1.1" 200 -
+[2025-04-26 23:52:56] 127.0.0.1 - - [26/Apr/2025 23:52:56] "POST /socket.io/?EIO=4&transport=polling&t=PPrO75f&sid=lETcnjZy4E69R0eJAAAI HTTP/1.1" 200 -
+[2025-04-26 23:52:56] 127.0.0.1 - - [26/Apr/2025 23:52:56] "GET /socket.io/?EIO=4&transport=polling&t=PPrO75h&sid=lETcnjZy4E69R0eJAAAI HTTP/1.1" 200 -
+[2025-04-26 23:52:56] 127.0.0.1 - - [26/Apr/2025 23:52:56] "GET /socket.io/?EIO=4&transport=polling&t=PPrO75r&sid=lETcnjZy4E69R0eJAAAI HTTP/1.1" 200 -
+[2025-04-26 23:52:58] 127.0.0.1 - GET /home
+[2025-04-26 23:52:58] 127.0.0.1 - - [26/Apr/2025 23:52:58] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:52:58] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:52:58] 127.0.0.1 - - [26/Apr/2025 23:52:58] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:52:58] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:52:58] 127.0.0.1 - - [26/Apr/2025 23:52:58] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:52:58] 127.0.0.1 - - [26/Apr/2025 23:52:58] "GET /socket.io/?EIO=4&transport=polling&t=PPrO7Qy HTTP/1.1" 200 -
+[2025-04-26 23:52:58] 127.0.0.1 - - [26/Apr/2025 23:52:58] "POST /socket.io/?EIO=4&transport=polling&t=PPrO7RO&sid=_l_dX6V5XrMZkNSCAAAK HTTP/1.1" 200 -
+[2025-04-26 23:52:58] 127.0.0.1 - - [26/Apr/2025 23:52:58] "GET /socket.io/?EIO=4&transport=polling&t=PPrO7RO.0&sid=_l_dX6V5XrMZkNSCAAAK HTTP/1.1" 200 -
+[2025-04-26 23:52:58] 127.0.0.1 - - [26/Apr/2025 23:52:58] "GET /socket.io/?EIO=4&transport=polling&t=PPrO7Rb&sid=_l_dX6V5XrMZkNSCAAAK HTTP/1.1" 200 -
+[2025-04-26 23:53:22] 127.0.0.1 - - [26/Apr/2025 23:53:22] "GET /socket.io/?EIO=4&transport=websocket&sid=lETcnjZy4E69R0eJAAAI HTTP/1.1" 200 -
+[2025-04-26 23:53:23] 127.0.0.1 - - [26/Apr/2025 23:53:23] "GET /socket.io/?EIO=4&transport=websocket&sid=_l_dX6V5XrMZkNSCAAAK HTTP/1.1" 200 -
+[2025-04-26 23:53:24] 127.0.0.1 - GET /home
+[2025-04-26 23:53:24] 127.0.0.1 - - [26/Apr/2025 23:53:24] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:53:24] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:53:24] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:53:24] 127.0.0.1 - - [26/Apr/2025 23:53:24] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:53:24] 127.0.0.1 - - [26/Apr/2025 23:53:24] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:53:24] 127.0.0.1 - - [26/Apr/2025 23:53:24] "GET /socket.io/?EIO=4&transport=polling&t=PPrODxS HTTP/1.1" 200 -
+[2025-04-26 23:53:24] 127.0.0.1 - - [26/Apr/2025 23:53:24] "POST /socket.io/?EIO=4&transport=polling&t=PPrODxV&sid=etzRifWmHyXhdZb6AAAM HTTP/1.1" 200 -
+[2025-04-26 23:53:24] 127.0.0.1 - - [26/Apr/2025 23:53:24] "GET /socket.io/?EIO=4&transport=polling&t=PPrODxV.0&sid=etzRifWmHyXhdZb6AAAM HTTP/1.1" 200 -
+[2025-04-26 23:53:41] 127.0.0.1 - - [26/Apr/2025 23:53:41] "GET /socket.io/?EIO=4&transport=websocket&sid=etzRifWmHyXhdZb6AAAM HTTP/1.1" 200 -
+[2025-04-26 23:53:41] 127.0.0.1 - GET /profile
+[2025-04-26 23:53:41] 127.0.0.1 - - [26/Apr/2025 23:53:41] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:53:41] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:53:41] 127.0.0.1 - - [26/Apr/2025 23:53:41] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:53:42] 127.0.0.1 - GET /home
+[2025-04-26 23:53:42] 127.0.0.1 - - [26/Apr/2025 23:53:42] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:53:42] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:53:42] 127.0.0.1 - - [26/Apr/2025 23:53:42] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:53:42] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:53:42] 127.0.0.1 - - [26/Apr/2025 23:53:42] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:53:42] 127.0.0.1 - - [26/Apr/2025 23:53:42] "GET /socket.io/?EIO=4&transport=polling&t=PPrOI7z HTTP/1.1" 200 -
+[2025-04-26 23:53:42] 127.0.0.1 - - [26/Apr/2025 23:53:42] "GET /socket.io/?EIO=4&transport=polling&t=PPrOI81.0&sid=3JI5DRY7XqDd1SnmAAAO HTTP/1.1" 200 -
+[2025-04-26 23:53:42] 127.0.0.1 - - [26/Apr/2025 23:53:42] "POST /socket.io/?EIO=4&transport=polling&t=PPrOI81&sid=3JI5DRY7XqDd1SnmAAAO HTTP/1.1" 200 -
+[2025-04-26 23:53:42] 127.0.0.1 - - [26/Apr/2025 23:53:42] "GET /socket.io/?EIO=4&transport=polling&t=PPrOI88&sid=3JI5DRY7XqDd1SnmAAAO HTTP/1.1" 200 -
+[2025-04-26 23:53:54] 127.0.0.1 - - [26/Apr/2025 23:53:54] "GET /socket.io/?EIO=4&transport=websocket&sid=3JI5DRY7XqDd1SnmAAAO HTTP/1.1" 200 -
+[2025-04-26 23:54:24] 127.0.0.1 - GET /home
+[2025-04-26 23:54:24] 127.0.0.1 - - [26/Apr/2025 23:54:24] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:54:25] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:54:25] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:54:25] 127.0.0.1 - - [26/Apr/2025 23:54:25] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:54:25] 127.0.0.1 - - [26/Apr/2025 23:54:25] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:54:25] 127.0.0.1 - - [26/Apr/2025 23:54:25] "GET /socket.io/?EIO=4&transport=polling&t=PPrOScP HTTP/1.1" 200 -
+[2025-04-26 23:54:25] 127.0.0.1 - - [26/Apr/2025 23:54:25] "GET /socket.io/?EIO=4&transport=polling&t=PPrOScq&sid=voj8lWlO4ulVtXBaAAAQ HTTP/1.1" 200 -
+[2025-04-26 23:54:25] 127.0.0.1 - - [26/Apr/2025 23:54:25] "POST /socket.io/?EIO=4&transport=polling&t=PPrOScp&sid=voj8lWlO4ulVtXBaAAAQ HTTP/1.1" 200 -
+[2025-04-26 23:54:39] 127.0.0.1 - - [26/Apr/2025 23:54:39] "GET /socket.io/?EIO=4&transport=websocket&sid=voj8lWlO4ulVtXBaAAAQ HTTP/1.1" 200 -
+[2025-04-26 23:55:37] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-26 23:55:37] [33mPress CTRL+C to quit[0m
+[2025-04-26 23:55:39] 127.0.0.1 - GET /profile
+[2025-04-26 23:55:39] 127.0.0.1 - - [26/Apr/2025 23:55:39] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:55:39] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:55:39] 127.0.0.1 - - [26/Apr/2025 23:55:39] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:55:39] 127.0.0.1 - GET /profile
+[2025-04-26 23:55:39] 127.0.0.1 - - [26/Apr/2025 23:55:39] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:55:39] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:55:39] 127.0.0.1 - - [26/Apr/2025 23:55:39] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:55:40] 127.0.0.1 - GET /home
+[2025-04-26 23:55:40] 127.0.0.1 - - [26/Apr/2025 23:55:40] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:55:40] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:55:40] 127.0.0.1 - - [26/Apr/2025 23:55:40] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:55:40] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:55:40] 127.0.0.1 - - [26/Apr/2025 23:55:40] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:55:40] 127.0.0.1 - - [26/Apr/2025 23:55:40] "GET /socket.io/?EIO=4&transport=polling&t=PPrOl6C HTTP/1.1" 200 -
+[2025-04-26 23:55:40] 127.0.0.1 - - [26/Apr/2025 23:55:40] "POST /socket.io/?EIO=4&transport=polling&t=PPrOl6J&sid=xjW8zEPpwXHKuvpKAAAA HTTP/1.1" 200 -
+[2025-04-26 23:55:40] 127.0.0.1 - - [26/Apr/2025 23:55:40] "GET /socket.io/?EIO=4&transport=polling&t=PPrOl6M&sid=xjW8zEPpwXHKuvpKAAAA HTTP/1.1" 200 -
+[2025-04-26 23:55:40] 127.0.0.1 - - [26/Apr/2025 23:55:40] "GET /socket.io/?EIO=4&transport=polling&t=PPrOl6a&sid=xjW8zEPpwXHKuvpKAAAA HTTP/1.1" 200 -
+[2025-04-26 23:55:43] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:55:43] 127.0.0.1 - - [26/Apr/2025 23:55:43] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:22] 127.0.0.1 - - [26/Apr/2025 23:56:22] "GET /socket.io/?EIO=4&transport=websocket&sid=xjW8zEPpwXHKuvpKAAAA HTTP/1.1" 200 -
+[2025-04-26 23:56:23] 127.0.0.1 - GET /profile
+[2025-04-26 23:56:23] 127.0.0.1 - - [26/Apr/2025 23:56:23] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:56:23] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:56:23] 127.0.0.1 - - [26/Apr/2025 23:56:23] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:25] 127.0.0.1 - GET /home
+[2025-04-26 23:56:25] 127.0.0.1 - - [26/Apr/2025 23:56:25] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:56:25] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:56:25] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:56:25] 127.0.0.1 - - [26/Apr/2025 23:56:25] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:25] 127.0.0.1 - - [26/Apr/2025 23:56:25] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:25] 127.0.0.1 - - [26/Apr/2025 23:56:25] "GET /socket.io/?EIO=4&transport=polling&t=PPrOw5X HTTP/1.1" 200 -
+[2025-04-26 23:56:25] 127.0.0.1 - - [26/Apr/2025 23:56:25] "POST /socket.io/?EIO=4&transport=polling&t=PPrOw6U&sid=Wwrl2EdBxQ_6P_wYAAAC HTTP/1.1" 200 -
+[2025-04-26 23:56:25] 127.0.0.1 - - [26/Apr/2025 23:56:25] "GET /socket.io/?EIO=4&transport=polling&t=PPrOw6V&sid=Wwrl2EdBxQ_6P_wYAAAC HTTP/1.1" 200 -
+[2025-04-26 23:56:25] 127.0.0.1 - - [26/Apr/2025 23:56:25] "GET /socket.io/?EIO=4&transport=polling&t=PPrOw6n&sid=Wwrl2EdBxQ_6P_wYAAAC HTTP/1.1" 200 -
+[2025-04-26 23:56:27] 127.0.0.1 - GET /home
+[2025-04-26 23:56:27] 127.0.0.1 - - [26/Apr/2025 23:56:27] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:56:27] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:56:27] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:56:27] 127.0.0.1 - - [26/Apr/2025 23:56:27] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:27] 127.0.0.1 - - [26/Apr/2025 23:56:27] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:27] 127.0.0.1 - - [26/Apr/2025 23:56:27] "GET /socket.io/?EIO=4&transport=polling&t=PPrOwZ2 HTTP/1.1" 200 -
+[2025-04-26 23:56:27] 127.0.0.1 - - [26/Apr/2025 23:56:27] "POST /socket.io/?EIO=4&transport=polling&t=PPrOwZC&sid=Tq2sOgpXgwUXdRUSAAAE HTTP/1.1" 200 -
+[2025-04-26 23:56:27] 127.0.0.1 - - [26/Apr/2025 23:56:27] "GET /socket.io/?EIO=4&transport=polling&t=PPrOwZD&sid=Tq2sOgpXgwUXdRUSAAAE HTTP/1.1" 200 -
+[2025-04-26 23:56:49] 127.0.0.1 - - [26/Apr/2025 23:56:49] "GET /socket.io/?EIO=4&transport=websocket&sid=Tq2sOgpXgwUXdRUSAAAE HTTP/1.1" 200 -
+[2025-04-26 23:56:50] 127.0.0.1 - - [26/Apr/2025 23:56:50] "GET /socket.io/?EIO=4&transport=websocket&sid=Wwrl2EdBxQ_6P_wYAAAC HTTP/1.1" 200 -
+[2025-04-26 23:56:53] 127.0.0.1 - GET /profile
+[2025-04-26 23:56:53] 127.0.0.1 - - [26/Apr/2025 23:56:53] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:56:53] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:56:53] 127.0.0.1 - - [26/Apr/2025 23:56:53] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:55] 127.0.0.1 - GET /home
+[2025-04-26 23:56:55] 127.0.0.1 - - [26/Apr/2025 23:56:55] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:56:55] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:56:55] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:56:55] 127.0.0.1 - - [26/Apr/2025 23:56:55] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:55] 127.0.0.1 - - [26/Apr/2025 23:56:55] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:55] 127.0.0.1 - - [26/Apr/2025 23:56:55] "GET /socket.io/?EIO=4&transport=polling&t=PPrP1IV HTTP/1.1" 200 -
+[2025-04-26 23:56:55] 127.0.0.1 - - [26/Apr/2025 23:56:55] "GET /socket.io/?EIO=4&transport=polling&t=PPrP1In&sid=1qARHm892ortx0zKAAAG HTTP/1.1" 200 -
+[2025-04-26 23:56:55] 127.0.0.1 - - [26/Apr/2025 23:56:55] "POST /socket.io/?EIO=4&transport=polling&t=PPrP1Im&sid=1qARHm892ortx0zKAAAG HTTP/1.1" 200 -
+[2025-04-26 23:56:56] 127.0.0.1 - GET /home
+[2025-04-26 23:56:56] 127.0.0.1 - - [26/Apr/2025 23:56:56] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:56:56] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:56:56] 127.0.0.1 - - [26/Apr/2025 23:56:56] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:56] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:56:56] 127.0.0.1 - - [26/Apr/2025 23:56:56] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 23:56:56] 127.0.0.1 - - [26/Apr/2025 23:56:56] "GET /socket.io/?EIO=4&transport=polling&t=PPrP1bu HTTP/1.1" 200 -
+[2025-04-26 23:56:56] 127.0.0.1 - - [26/Apr/2025 23:56:56] "GET /socket.io/?EIO=4&transport=polling&t=PPrP1b-.0&sid=9zitp-n-33BaFo6gAAAI HTTP/1.1" 200 -
+[2025-04-26 23:56:56] 127.0.0.1 - - [26/Apr/2025 23:56:56] "POST /socket.io/?EIO=4&transport=polling&t=PPrP1b-&sid=9zitp-n-33BaFo6gAAAI HTTP/1.1" 200 -
+[2025-04-26 23:57:12] 127.0.0.1 - - [26/Apr/2025 23:57:12] "GET /socket.io/?EIO=4&transport=websocket&sid=1qARHm892ortx0zKAAAG HTTP/1.1" 200 -
+[2025-04-26 23:57:13] 127.0.0.1 - - [26/Apr/2025 23:57:13] "GET /socket.io/?EIO=4&transport=websocket&sid=9zitp-n-33BaFo6gAAAI HTTP/1.1" 200 -
+[2025-04-26 23:59:17] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-26 23:59:17] [33mPress CTRL+C to quit[0m
+[2025-04-26 23:59:18] 127.0.0.1 - GET /profile
+[2025-04-26 23:59:18] 127.0.0.1 - - [26/Apr/2025 23:59:18] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:59:18] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:59:18] 127.0.0.1 - - [26/Apr/2025 23:59:18] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:59:21] 127.0.0.1 - GET /profile
+[2025-04-26 23:59:21] 127.0.0.1 - - [26/Apr/2025 23:59:21] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:59:21] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:59:21] 127.0.0.1 - - [26/Apr/2025 23:59:21] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:59:22] 127.0.0.1 - GET /home
+[2025-04-26 23:59:22] 127.0.0.1 - - [26/Apr/2025 23:59:22] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:59:22] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:59:22] 127.0.0.1 - - [26/Apr/2025 23:59:22] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:59:22] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:59:22] 127.0.0.1 - - [26/Apr/2025 23:59:22] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:59:22] 127.0.0.1 - - [26/Apr/2025 23:59:22] "GET /socket.io/?EIO=4&transport=polling&t=PPrPbHu HTTP/1.1" 200 -
+[2025-04-26 23:59:22] 127.0.0.1 - - [26/Apr/2025 23:59:22] "POST /socket.io/?EIO=4&transport=polling&t=PPrPbI6&sid=UGB-f5bON-7NlZQPAAAA HTTP/1.1" 200 -
+[2025-04-26 23:59:22] 127.0.0.1 - - [26/Apr/2025 23:59:22] "GET /socket.io/?EIO=4&transport=polling&t=PPrPbI7&sid=UGB-f5bON-7NlZQPAAAA HTTP/1.1" 200 -
+[2025-04-26 23:59:22] 127.0.0.1 - - [26/Apr/2025 23:59:22] "GET /socket.io/?EIO=4&transport=polling&t=PPrPbIW&sid=UGB-f5bON-7NlZQPAAAA HTTP/1.1" 200 -
+[2025-04-26 23:59:24] 127.0.0.1 - GET /profile
+[2025-04-26 23:59:24] 127.0.0.1 - - [26/Apr/2025 23:59:24] "GET /profile HTTP/1.1" 200 -
+[2025-04-26 23:59:24] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-26 23:59:24] 127.0.0.1 - - [26/Apr/2025 23:59:24] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-26 23:59:24] 127.0.0.1 - GET /home
+[2025-04-26 23:59:24] 127.0.0.1 - - [26/Apr/2025 23:59:24] "GET /home HTTP/1.1" 200 -
+[2025-04-26 23:59:24] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 23:59:24] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 23:59:24] 127.0.0.1 - - [26/Apr/2025 23:59:24] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 23:59:24] 127.0.0.1 - - [26/Apr/2025 23:59:24] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 23:59:24] 127.0.0.1 - - [26/Apr/2025 23:59:24] "GET /socket.io/?EIO=4&transport=polling&t=PPrPbq_ HTTP/1.1" 200 -
+[2025-04-26 23:59:25] 127.0.0.1 - - [26/Apr/2025 23:59:25] "GET /socket.io/?EIO=4&transport=polling&t=PPrPbr3.0&sid=y6KA09h7LBjDHOLdAAAC HTTP/1.1" 200 -
+[2025-04-26 23:59:25] 127.0.0.1 - - [26/Apr/2025 23:59:25] "POST /socket.io/?EIO=4&transport=polling&t=PPrPbr3&sid=y6KA09h7LBjDHOLdAAAC HTTP/1.1" 200 -
+[2025-04-27 00:00:45] 127.0.0.1 - GET /profile
+[2025-04-27 00:00:45] 127.0.0.1 - - [27/Apr/2025 00:00:45] "GET /profile HTTP/1.1" 200 -
+[2025-04-27 00:00:45] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-27 00:00:45] 127.0.0.1 - - [27/Apr/2025 00:00:45] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-27 00:00:46] 127.0.0.1 - - [27/Apr/2025 00:00:46] "GET /socket.io/?EIO=4&transport=websocket&sid=UGB-f5bON-7NlZQPAAAA HTTP/1.1" 200 -
+[2025-04-27 00:00:46] 127.0.0.1 - GET /prf
+[2025-04-27 00:00:46] 127.0.0.1 - - [27/Apr/2025 00:00:46] "[33mGET /prf HTTP/1.1[0m" 404 -
+[2025-04-27 00:00:51] 127.0.0.1 - GET /profile
+[2025-04-27 00:00:51] 127.0.0.1 - - [27/Apr/2025 00:00:51] "GET /profile HTTP/1.1" 200 -
+[2025-04-27 00:00:51] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-27 00:00:51] 127.0.0.1 - - [27/Apr/2025 00:00:51] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-27 00:00:57] 127.0.0.1 - GET /home
+[2025-04-27 00:00:57] 127.0.0.1 - - [27/Apr/2025 00:00:57] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:00:57] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:00:57] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:00:57] 127.0.0.1 - - [27/Apr/2025 00:00:57] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 00:00:57] 127.0.0.1 - - [27/Apr/2025 00:00:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:00:57] 127.0.0.1 - - [27/Apr/2025 00:00:57] "GET /socket.io/?EIO=4&transport=polling&t=PPrPyRS HTTP/1.1" 200 -
+[2025-04-27 00:00:57] 127.0.0.1 - - [27/Apr/2025 00:00:57] "POST /socket.io/?EIO=4&transport=polling&t=PPrPyRo&sid=ufULSLwPxJwkdK2wAAAE HTTP/1.1" 200 -
+[2025-04-27 00:00:57] 127.0.0.1 - - [27/Apr/2025 00:00:57] "GET /socket.io/?EIO=4&transport=polling&t=PPrPyRo.0&sid=ufULSLwPxJwkdK2wAAAE HTTP/1.1" 200 -
+[2025-04-27 00:01:04] 127.0.0.1 - - [27/Apr/2025 00:01:04] "GET /socket.io/?EIO=4&transport=websocket&sid=ufULSLwPxJwkdK2wAAAE HTTP/1.1" 200 -
+[2025-04-27 00:01:05] 127.0.0.1 - - [27/Apr/2025 00:01:05] "GET /socket.io/?EIO=4&transport=websocket&sid=y6KA09h7LBjDHOLdAAAC HTTP/1.1" 200 -
+[2025-04-27 00:01:06] 127.0.0.1 - GET /home
+[2025-04-27 00:01:06] 127.0.0.1 - - [27/Apr/2025 00:01:06] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:01:06] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:01:06] 127.0.0.1 - - [27/Apr/2025 00:01:06] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:01:06] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:01:06] 127.0.0.1 - - [27/Apr/2025 00:01:06] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 00:01:06] 127.0.0.1 - - [27/Apr/2025 00:01:06] "GET /socket.io/?EIO=4&transport=polling&t=PPrP-go HTTP/1.1" 200 -
+[2025-04-27 00:01:06] 127.0.0.1 - - [27/Apr/2025 00:01:06] "GET /socket.io/?EIO=4&transport=polling&t=PPrP-gu&sid=-7nF-nS6x8O-R55VAAAG HTTP/1.1" 200 -
+[2025-04-27 00:01:06] 127.0.0.1 - - [27/Apr/2025 00:01:06] "POST /socket.io/?EIO=4&transport=polling&t=PPrP-gt&sid=-7nF-nS6x8O-R55VAAAG HTTP/1.1" 200 -
+[2025-04-27 00:01:08] 127.0.0.1 - GET /home
+[2025-04-27 00:01:08] 127.0.0.1 - - [27/Apr/2025 00:01:08] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:01:08] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:01:08] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:01:08] 127.0.0.1 - - [27/Apr/2025 00:01:08] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 00:01:08] 127.0.0.1 - - [27/Apr/2025 00:01:08] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:01:08] 127.0.0.1 - - [27/Apr/2025 00:01:08] "GET /socket.io/?EIO=4&transport=polling&t=PPrP_5v HTTP/1.1" 200 -
+[2025-04-27 00:01:08] 127.0.0.1 - - [27/Apr/2025 00:01:08] "GET /socket.io/?EIO=4&transport=polling&t=PPrP_6C&sid=ej0V17MEnYmRsQSCAAAI HTTP/1.1" 200 -
+[2025-04-27 00:01:08] 127.0.0.1 - - [27/Apr/2025 00:01:08] "POST /socket.io/?EIO=4&transport=polling&t=PPrP_6B&sid=ej0V17MEnYmRsQSCAAAI HTTP/1.1" 200 -
+[2025-04-27 00:01:35] 127.0.0.1 - - [27/Apr/2025 00:01:35] "GET /socket.io/?EIO=4&transport=websocket&sid=-7nF-nS6x8O-R55VAAAG HTTP/1.1" 200 -
+[2025-04-27 00:01:42] 127.0.0.1 - - [27/Apr/2025 00:01:42] "GET /socket.io/?EIO=4&transport=websocket&sid=ej0V17MEnYmRsQSCAAAI HTTP/1.1" 200 -
+[2025-04-27 00:01:43] 127.0.0.1 - GET /home
+[2025-04-27 00:01:43] 127.0.0.1 - - [27/Apr/2025 00:01:43] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:01:43] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:01:43] 127.0.0.1 - - [27/Apr/2025 00:01:43] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:01:43] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:01:43] 127.0.0.1 - - [27/Apr/2025 00:01:43] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 00:01:43] 127.0.0.1 - - [27/Apr/2025 00:01:43] "GET /socket.io/?EIO=4&transport=polling&t=PPrQ7mD HTTP/1.1" 200 -
+[2025-04-27 00:01:43] 127.0.0.1 - - [27/Apr/2025 00:01:43] "GET /socket.io/?EIO=4&transport=polling&t=PPrQ7mY&sid=U8d8Ga72ZUeNX1H8AAAK HTTP/1.1" 200 -
+[2025-04-27 00:01:43] 127.0.0.1 - - [27/Apr/2025 00:01:43] "POST /socket.io/?EIO=4&transport=polling&t=PPrQ7mX&sid=U8d8Ga72ZUeNX1H8AAAK HTTP/1.1" 200 -
+[2025-04-27 00:01:45] 127.0.0.1 - GET /home
+[2025-04-27 00:01:45] 127.0.0.1 - - [27/Apr/2025 00:01:45] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:01:45] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:01:45] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:01:45] 127.0.0.1 - - [27/Apr/2025 00:01:45] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:01:45] 127.0.0.1 - - [27/Apr/2025 00:01:45] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 00:01:45] 127.0.0.1 - - [27/Apr/2025 00:01:45] "GET /socket.io/?EIO=4&transport=polling&t=PPrQ8Di HTTP/1.1" 200 -
+[2025-04-27 00:01:45] 127.0.0.1 - - [27/Apr/2025 00:01:45] "POST /socket.io/?EIO=4&transport=polling&t=PPrQ8Dm&sid=hhKJR4ZKFe0VylUAAAAM HTTP/1.1" 200 -
+[2025-04-27 00:01:45] 127.0.0.1 - - [27/Apr/2025 00:01:45] "GET /socket.io/?EIO=4&transport=polling&t=PPrQ8Dn&sid=hhKJR4ZKFe0VylUAAAAM HTTP/1.1" 200 -
+[2025-04-27 00:02:14] 127.0.0.1 - - [27/Apr/2025 00:02:14] "GET /socket.io/?EIO=4&transport=websocket&sid=U8d8Ga72ZUeNX1H8AAAK HTTP/1.1" 200 -
+[2025-04-27 00:02:15] 127.0.0.1 - - [27/Apr/2025 00:02:15] "GET /socket.io/?EIO=4&transport=websocket&sid=hhKJR4ZKFe0VylUAAAAM HTTP/1.1" 200 -
+[2025-04-27 00:02:16] 127.0.0.1 - GET /home
+[2025-04-27 00:02:16] 127.0.0.1 - - [27/Apr/2025 00:02:16] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:02:16] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:02:16] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:02:16] 127.0.0.1 - - [27/Apr/2025 00:02:16] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:02:16] 127.0.0.1 - - [27/Apr/2025 00:02:16] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 00:02:16] 127.0.0.1 - - [27/Apr/2025 00:02:16] "GET /socket.io/?EIO=4&transport=polling&t=PPrQFjT HTTP/1.1" 200 -
+[2025-04-27 00:02:16] 127.0.0.1 - - [27/Apr/2025 00:02:16] "POST /socket.io/?EIO=4&transport=polling&t=PPrQFjX&sid=dW13o7GWmAI2o1D6AAAO HTTP/1.1" 200 -
+[2025-04-27 00:02:16] 127.0.0.1 - - [27/Apr/2025 00:02:16] "GET /socket.io/?EIO=4&transport=polling&t=PPrQFjY&sid=dW13o7GWmAI2o1D6AAAO HTTP/1.1" 200 -
+[2025-04-27 00:02:16] 127.0.0.1 - - [27/Apr/2025 00:02:16] "GET /socket.io/?EIO=4&transport=polling&t=PPrQFjt&sid=dW13o7GWmAI2o1D6AAAO HTTP/1.1" 200 -
+[2025-04-27 00:04:13] 127.0.0.1 - - [27/Apr/2025 00:04:13] "GET /socket.io/?EIO=4&transport=websocket&sid=dW13o7GWmAI2o1D6AAAO HTTP/1.1" 200 -
+[2025-04-27 00:05:24] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-27 00:05:24] [33mPress CTRL+C to quit[0m
+[2025-04-27 00:05:25] 127.0.0.1 - GET /profile
+[2025-04-27 00:05:25] 127.0.0.1 - - [27/Apr/2025 00:05:25] "GET /profile HTTP/1.1" 200 -
+[2025-04-27 00:05:25] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-27 00:05:25] 127.0.0.1 - - [27/Apr/2025 00:05:25] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-27 00:05:27] 127.0.0.1 - GET /profile
+[2025-04-27 00:05:27] 127.0.0.1 - - [27/Apr/2025 00:05:27] "GET /profile HTTP/1.1" 200 -
+[2025-04-27 00:05:27] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-27 00:05:27] 127.0.0.1 - - [27/Apr/2025 00:05:27] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-27 00:05:29] 127.0.0.1 - GET /home
+[2025-04-27 00:05:29] 127.0.0.1 - - [27/Apr/2025 00:05:29] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:05:29] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:05:29] 127.0.0.1 - - [27/Apr/2025 00:05:29] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:05:29] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:05:29] 127.0.0.1 - - [27/Apr/2025 00:05:29] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 00:05:29] 127.0.0.1 - - [27/Apr/2025 00:05:29] "GET /socket.io/?EIO=4&transport=polling&t=PPrQ-vT HTTP/1.1" 200 -
+[2025-04-27 00:05:29] 127.0.0.1 - - [27/Apr/2025 00:05:29] "POST /socket.io/?EIO=4&transport=polling&t=PPrQ-va&sid=mBgXOX-C6hx7aOT4AAAA HTTP/1.1" 200 -
+[2025-04-27 00:05:29] 127.0.0.1 - - [27/Apr/2025 00:05:29] "GET /socket.io/?EIO=4&transport=polling&t=PPrQ-vb&sid=mBgXOX-C6hx7aOT4AAAA HTTP/1.1" 200 -
+[2025-04-27 00:05:29] 127.0.0.1 - - [27/Apr/2025 00:05:29] "GET /socket.io/?EIO=4&transport=polling&t=PPrQ-vl&sid=mBgXOX-C6hx7aOT4AAAA HTTP/1.1" 200 -
+[2025-04-27 00:05:31] 127.0.0.1 - GET /home
+[2025-04-27 00:05:31] 127.0.0.1 - - [27/Apr/2025 00:05:31] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:05:31] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:05:31] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:05:31] 127.0.0.1 - - [27/Apr/2025 00:05:31] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:05:31] 127.0.0.1 - - [27/Apr/2025 00:05:31] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 00:05:31] 127.0.0.1 - - [27/Apr/2025 00:05:31] "GET /socket.io/?EIO=4&transport=polling&t=PPrQ_FQ HTTP/1.1" 200 -
+[2025-04-27 00:05:31] 127.0.0.1 - - [27/Apr/2025 00:05:31] "POST /socket.io/?EIO=4&transport=polling&t=PPrQ_FW&sid=0IkW6IOFxABAzc1XAAAC HTTP/1.1" 200 -
+[2025-04-27 00:05:31] 127.0.0.1 - - [27/Apr/2025 00:05:31] "GET /socket.io/?EIO=4&transport=polling&t=PPrQ_FX&sid=0IkW6IOFxABAzc1XAAAC HTTP/1.1" 200 -
+[2025-04-27 00:06:23] 127.0.0.1 - - [27/Apr/2025 00:06:23] "GET /socket.io/?EIO=4&transport=websocket&sid=mBgXOX-C6hx7aOT4AAAA HTTP/1.1" 200 -
+[2025-04-27 00:06:24] 127.0.0.1 - - [27/Apr/2025 00:06:24] "GET /socket.io/?EIO=4&transport=websocket&sid=0IkW6IOFxABAzc1XAAAC HTTP/1.1" 200 -
+[2025-04-27 00:06:51] 127.0.0.1 - GET /home
+[2025-04-27 00:06:51] 127.0.0.1 - - [27/Apr/2025 00:06:51] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:06:51] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:06:51] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:06:51] 127.0.0.1 - - [27/Apr/2025 00:06:51] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:06:51] 127.0.0.1 - - [27/Apr/2025 00:06:51] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 00:06:51] 127.0.0.1 - - [27/Apr/2025 00:06:51] "GET /socket.io/?EIO=4&transport=polling&t=PPrRIxF HTTP/1.1" 200 -
+[2025-04-27 00:06:51] 127.0.0.1 - - [27/Apr/2025 00:06:51] "POST /socket.io/?EIO=4&transport=polling&t=PPrRIxN&sid=uumWOfJE8RNqxL1dAAAE HTTP/1.1" 200 -
+[2025-04-27 00:06:51] 127.0.0.1 - - [27/Apr/2025 00:06:51] "GET /socket.io/?EIO=4&transport=polling&t=PPrRIxO&sid=uumWOfJE8RNqxL1dAAAE HTTP/1.1" 200 -
+[2025-04-27 00:06:51] 127.0.0.1 - - [27/Apr/2025 00:06:51] "GET /socket.io/?EIO=4&transport=polling&t=PPrRIxc&sid=uumWOfJE8RNqxL1dAAAE HTTP/1.1" 200 -
+[2025-04-27 00:08:31] 127.0.0.1 - - [27/Apr/2025 00:08:31] "GET /socket.io/?EIO=4&transport=websocket&sid=uumWOfJE8RNqxL1dAAAE HTTP/1.1" 200 -
+[2025-04-27 00:11:33] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-27 00:11:33] [33mPress CTRL+C to quit[0m
+[2025-04-27 00:11:35] 127.0.0.1 - GET /profile
+[2025-04-27 00:11:35] 127.0.0.1 - - [27/Apr/2025 00:11:35] "GET /profile HTTP/1.1" 200 -
+[2025-04-27 00:11:35] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-27 00:11:35] 127.0.0.1 - - [27/Apr/2025 00:11:35] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-27 00:11:40] 127.0.0.1 - GET /home
+[2025-04-27 00:11:40] 127.0.0.1 - - [27/Apr/2025 00:11:40] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:11:40] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:11:40] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:11:40] 127.0.0.1 - - [27/Apr/2025 00:11:40] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-27 00:11:40] 127.0.0.1 - - [27/Apr/2025 00:11:40] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:11:40] 127.0.0.1 - - [27/Apr/2025 00:11:40] "GET /socket.io/?EIO=4&transport=polling&t=PPrSPU4 HTTP/1.1" 200 -
+[2025-04-27 00:11:40] 127.0.0.1 - - [27/Apr/2025 00:11:40] "POST /socket.io/?EIO=4&transport=polling&t=PPrSPUD&sid=VYUeN-qti7MVAiv6AAAA HTTP/1.1" 200 -
+[2025-04-27 00:11:40] 127.0.0.1 - - [27/Apr/2025 00:11:40] "GET /socket.io/?EIO=4&transport=polling&t=PPrSPUE&sid=VYUeN-qti7MVAiv6AAAA HTTP/1.1" 200 -
+[2025-04-27 00:11:40] 127.0.0.1 - - [27/Apr/2025 00:11:40] "GET /socket.io/?EIO=4&transport=polling&t=PPrSPUT&sid=VYUeN-qti7MVAiv6AAAA HTTP/1.1" 200 -
+[2025-04-27 00:11:43] 127.0.0.1 - GET /home
+[2025-04-27 00:11:43] 127.0.0.1 - - [27/Apr/2025 00:11:43] "GET /home HTTP/1.1" 200 -
+[2025-04-27 00:11:43] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 00:11:43] 127.0.0.1 - - [27/Apr/2025 00:11:43] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 00:11:43] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 00:11:43] 127.0.0.1 - - [27/Apr/2025 00:11:43] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-27 00:11:43] 127.0.0.1 - - [27/Apr/2025 00:11:43] "GET /socket.io/?EIO=4&transport=polling&t=PPrSQ4_ HTTP/1.1" 200 -
+[2025-04-27 00:11:43] 127.0.0.1 - - [27/Apr/2025 00:11:43] "GET /socket.io/?EIO=4&transport=polling&t=PPrSQ5L.0&sid=7gGILYS5VyrOnWOVAAAC HTTP/1.1" 200 -
+[2025-04-27 00:11:43] 127.0.0.1 - - [27/Apr/2025 00:11:43] "POST /socket.io/?EIO=4&transport=polling&t=PPrSQ5L&sid=7gGILYS5VyrOnWOVAAAC HTTP/1.1" 200 -
+[2025-04-27 00:11:43] 127.0.0.1 - - [27/Apr/2025 00:11:43] "GET /socket.io/?EIO=4&transport=polling&t=PPrSQ5m&sid=7gGILYS5VyrOnWOVAAAC HTTP/1.1" 200 -
+[2025-04-27 00:12:04] 127.0.0.1 - - [27/Apr/2025 00:12:04] "GET /socket.io/?EIO=4&transport=websocket&sid=7gGILYS5VyrOnWOVAAAC HTTP/1.1" 200 -
+[2025-04-27 00:12:05] 127.0.0.1 - - [27/Apr/2025 00:12:05] "GET /socket.io/?EIO=4&transport=websocket&sid=VYUeN-qti7MVAiv6AAAA HTTP/1.1" 200 -
