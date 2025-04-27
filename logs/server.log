@@ -4904,3 +4904,261 @@ KeyError: 'soR9-PAgnjiLl7i8AAAB'
 [2025-04-26 20:05:13] 127.0.0.1 - - [26/Apr/2025 20:05:13] "[32mGET / HTTP/1.1[0m" 302 -
 [2025-04-26 20:05:13] 127.0.0.1 - GET /register
 [2025-04-26 20:05:13] 127.0.0.1 - - [26/Apr/2025 20:05:13] "GET /register HTTP/1.1" 200 -
+[2025-04-26 22:48:17] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-26 22:48:17] [33mPress CTRL+C to quit[0m
+[2025-04-26 22:48:21] 127.0.0.1 - GET /
+[2025-04-26 22:48:21] 127.0.0.1 - - [26/Apr/2025 22:48:21] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-26 22:48:21] 127.0.0.1 - GET /register
+[2025-04-26 22:48:21] 127.0.0.1 - - [26/Apr/2025 22:48:21] "GET /register HTTP/1.1" 200 -
+[2025-04-26 22:48:23] 127.0.0.1 - GET /login
+[2025-04-26 22:48:23] 127.0.0.1 - - [26/Apr/2025 22:48:23] "GET /login HTTP/1.1" 200 -
+[2025-04-26 22:48:30] 127.0.0.1 - POST /login
+[2025-04-26 22:48:30] 127.0.0.1 - - [26/Apr/2025 22:48:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-26 22:48:30] 127.0.0.1 - GET /home
+[2025-04-26 22:48:30] 127.0.0.1 - - [26/Apr/2025 22:48:30] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:48:30] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:48:30] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:48:30] 127.0.0.1 - - [26/Apr/2025 22:48:30] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-04-26 22:48:30] 127.0.0.1 - - [26/Apr/2025 22:48:30] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-26 22:48:30] 127.0.0.1 - - [26/Apr/2025 22:48:30] "GET /socket.io/?EIO=4&transport=polling&t=PPr9NDO HTTP/1.1" 200 -
+[2025-04-26 22:48:30] 127.0.0.1 - - [26/Apr/2025 22:48:30] "POST /socket.io/?EIO=4&transport=polling&t=PPr9NDb&sid=VqQ_9oh2b3Ie-3NkAAAA HTTP/1.1" 200 -
+[2025-04-26 22:48:30] 127.0.0.1 - - [26/Apr/2025 22:48:30] "GET /socket.io/?EIO=4&transport=polling&t=PPr9NDc&sid=VqQ_9oh2b3Ie-3NkAAAA HTTP/1.1" 200 -
+[2025-04-26 22:48:30] 127.0.0.1 - - [26/Apr/2025 22:48:30] "GET /socket.io/?EIO=4&transport=polling&t=PPr9NDq&sid=VqQ_9oh2b3Ie-3NkAAAA HTTP/1.1" 200 -
+[2025-04-26 22:48:39] 127.0.0.1 - GET /home
+[2025-04-26 22:48:39] 127.0.0.1 - - [26/Apr/2025 22:48:39] "[32mGET /home HTTP/1.1[0m" 302 -
+[2025-04-26 22:48:39] 127.0.0.1 - GET /login
+[2025-04-26 22:48:39] 127.0.0.1 - - [26/Apr/2025 22:48:39] "GET /login HTTP/1.1" 200 -
+[2025-04-26 22:48:42] 127.0.0.1 - - [26/Apr/2025 22:48:42] "GET /socket.io/?EIO=4&transport=websocket&sid=VqQ_9oh2b3Ie-3NkAAAA HTTP/1.1" 200 -
+[2025-04-26 22:48:42] 127.0.0.1 - GET /home
+[2025-04-26 22:48:42] 127.0.0.1 - - [26/Apr/2025 22:48:42] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:48:42] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:48:42] 127.0.0.1 - - [26/Apr/2025 22:48:42] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:48:42] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:48:42] 127.0.0.1 - - [26/Apr/2025 22:48:42] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:48:42] 127.0.0.1 - - [26/Apr/2025 22:48:42] "GET /socket.io/?EIO=4&transport=polling&t=PPr9Q98 HTTP/1.1" 200 -
+[2025-04-26 22:48:42] 127.0.0.1 - - [26/Apr/2025 22:48:42] "POST /socket.io/?EIO=4&transport=polling&t=PPr9Q9s&sid=_MxSqatFngdZK4-zAAAC HTTP/1.1" 200 -
+[2025-04-26 22:48:42] 127.0.0.1 - - [26/Apr/2025 22:48:42] "GET /socket.io/?EIO=4&transport=polling&t=PPr9Q9t&sid=_MxSqatFngdZK4-zAAAC HTTP/1.1" 200 -
+[2025-04-26 22:48:42] 127.0.0.1 - - [26/Apr/2025 22:48:42] "GET /socket.io/?EIO=4&transport=polling&t=PPr9QAm&sid=_MxSqatFngdZK4-zAAAC HTTP/1.1" 200 -
+[2025-04-26 22:50:08] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-26 22:50:08] [33mPress CTRL+C to quit[0m
+[2025-04-26 22:50:09] 127.0.0.1 - - [26/Apr/2025 22:50:09] "GET /socket.io/?EIO=4&transport=polling&t=PPr9kjF HTTP/1.1" 200 -
+[2025-04-26 22:50:09] 127.0.0.1 - - [26/Apr/2025 22:50:09] "GET /socket.io/?EIO=4&transport=polling&t=PPr9lDQ&sid=KnqVqP0vjvyFGAdaAAAA HTTP/1.1" 200 -
+[2025-04-26 22:50:09] 127.0.0.1 - - [26/Apr/2025 22:50:09] "POST /socket.io/?EIO=4&transport=polling&t=PPr9lDM&sid=KnqVqP0vjvyFGAdaAAAA HTTP/1.1" 200 -
+[2025-04-26 22:50:11] 127.0.0.1 - - [26/Apr/2025 22:50:11] "GET /socket.io/?EIO=4&transport=websocket&sid=KnqVqP0vjvyFGAdaAAAA HTTP/1.1" 200 -
+[2025-04-26 22:50:11] 127.0.0.1 - GET /home
+[2025-04-26 22:50:11] 127.0.0.1 - - [26/Apr/2025 22:50:11] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:50:11] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:50:11] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:50:11] 127.0.0.1 - - [26/Apr/2025 22:50:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:50:11] 127.0.0.1 - - [26/Apr/2025 22:50:11] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:50:11] 127.0.0.1 - - [26/Apr/2025 22:50:11] "GET /socket.io/?EIO=4&transport=polling&t=PPr9lpg HTTP/1.1" 200 -
+[2025-04-26 22:50:11] 127.0.0.1 - - [26/Apr/2025 22:50:11] "POST /socket.io/?EIO=4&transport=polling&t=PPr9lqA&sid=G6LnLtDHQe-hu_a1AAAC HTTP/1.1" 200 -
+[2025-04-26 22:50:11] 127.0.0.1 - - [26/Apr/2025 22:50:11] "GET /socket.io/?EIO=4&transport=polling&t=PPr9lqD&sid=G6LnLtDHQe-hu_a1AAAC HTTP/1.1" 200 -
+[2025-04-26 22:50:11] 127.0.0.1 - - [26/Apr/2025 22:50:11] "GET /socket.io/?EIO=4&transport=polling&t=PPr9lrD&sid=G6LnLtDHQe-hu_a1AAAC HTTP/1.1" 200 -
+[2025-04-26 22:50:22] 127.0.0.1 - - [26/Apr/2025 22:50:22] "GET /socket.io/?EIO=4&transport=websocket&sid=G6LnLtDHQe-hu_a1AAAC HTTP/1.1" 200 -
+[2025-04-26 22:50:22] 127.0.0.1 - GET /home
+[2025-04-26 22:50:22] 127.0.0.1 - - [26/Apr/2025 22:50:22] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:50:22] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:50:22] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:50:22] 127.0.0.1 - - [26/Apr/2025 22:50:22] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:50:22] 127.0.0.1 - - [26/Apr/2025 22:50:22] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:50:22] 127.0.0.1 - - [26/Apr/2025 22:50:22] "GET /socket.io/?EIO=4&transport=polling&t=PPr9oP9 HTTP/1.1" 200 -
+[2025-04-26 22:50:22] 127.0.0.1 - - [26/Apr/2025 22:50:22] "POST /socket.io/?EIO=4&transport=polling&t=PPr9oPi&sid=uqJ43rcvvYtKgyEsAAAE HTTP/1.1" 200 -
+[2025-04-26 22:50:22] 127.0.0.1 - - [26/Apr/2025 22:50:22] "GET /socket.io/?EIO=4&transport=polling&t=PPr9oPj&sid=uqJ43rcvvYtKgyEsAAAE HTTP/1.1" 200 -
+[2025-04-26 22:50:22] 127.0.0.1 - - [26/Apr/2025 22:50:22] "GET /socket.io/?EIO=4&transport=polling&t=PPr9oQV&sid=uqJ43rcvvYtKgyEsAAAE HTTP/1.1" 200 -
+[2025-04-26 22:51:02] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-26 22:51:02] [33mPress CTRL+C to quit[0m
+[2025-04-26 22:51:06] 127.0.0.1 - GET /home
+[2025-04-26 22:51:06] 127.0.0.1 - - [26/Apr/2025 22:51:06] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:51:06] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:51:06] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:51:06] 127.0.0.1 - - [26/Apr/2025 22:51:06] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:06] 127.0.0.1 - - [26/Apr/2025 22:51:06] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:06] 127.0.0.1 - - [26/Apr/2025 22:51:06] "GET /socket.io/?EIO=4&transport=polling&t=PPr9zBS HTTP/1.1" 200 -
+[2025-04-26 22:51:06] 127.0.0.1 - - [26/Apr/2025 22:51:06] "POST /socket.io/?EIO=4&transport=polling&t=PPr9zBm&sid=OXiWuOwSP4f0lENbAAAA HTTP/1.1" 200 -
+[2025-04-26 22:51:06] 127.0.0.1 - - [26/Apr/2025 22:51:06] "GET /socket.io/?EIO=4&transport=polling&t=PPr9zBm.0&sid=OXiWuOwSP4f0lENbAAAA HTTP/1.1" 200 -
+[2025-04-26 22:51:06] 127.0.0.1 - - [26/Apr/2025 22:51:06] "GET /socket.io/?EIO=4&transport=polling&t=PPr9zB-&sid=OXiWuOwSP4f0lENbAAAA HTTP/1.1" 200 -
+[2025-04-26 22:51:11] 127.0.0.1 - - [26/Apr/2025 22:51:11] "GET /socket.io/?EIO=4&transport=websocket&sid=OXiWuOwSP4f0lENbAAAA HTTP/1.1" 200 -
+[2025-04-26 22:51:11] 127.0.0.1 - GET /home
+[2025-04-26 22:51:11] 127.0.0.1 - - [26/Apr/2025 22:51:11] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:51:11] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:51:11] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:51:11] 127.0.0.1 - - [26/Apr/2025 22:51:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:11] 127.0.0.1 - - [26/Apr/2025 22:51:11] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:11] 127.0.0.1 - - [26/Apr/2025 22:51:11] "GET /socket.io/?EIO=4&transport=polling&t=PPr9-Ps HTTP/1.1" 200 -
+[2025-04-26 22:51:11] 127.0.0.1 - - [26/Apr/2025 22:51:11] "POST /socket.io/?EIO=4&transport=polling&t=PPr9-Qy&sid=1zeMID3V7tEwZKB0AAAC HTTP/1.1" 200 -
+[2025-04-26 22:51:11] 127.0.0.1 - - [26/Apr/2025 22:51:11] "GET /socket.io/?EIO=4&transport=polling&t=PPr9-Qz&sid=1zeMID3V7tEwZKB0AAAC HTTP/1.1" 200 -
+[2025-04-26 22:51:11] 127.0.0.1 - - [26/Apr/2025 22:51:11] "GET /socket.io/?EIO=4&transport=polling&t=PPr9-S5&sid=1zeMID3V7tEwZKB0AAAC HTTP/1.1" 200 -
+[2025-04-26 22:51:45] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-26 22:51:45] [33mPress CTRL+C to quit[0m
+[2025-04-26 22:51:45] 127.0.0.1 - - [26/Apr/2025 22:51:45] "GET /socket.io/?EIO=4&transport=polling&t=PPrA6Nc HTTP/1.1" 200 -
+[2025-04-26 22:51:45] 127.0.0.1 - - [26/Apr/2025 22:51:45] "GET /socket.io/?EIO=4&transport=polling&t=PPrA6qL&sid=7gbYPq3gOgX7HxoeAAAA HTTP/1.1" 200 -
+[2025-04-26 22:51:46] 127.0.0.1 - - [26/Apr/2025 22:51:46] "POST /socket.io/?EIO=4&transport=polling&t=PPrA6pv&sid=7gbYPq3gOgX7HxoeAAAA HTTP/1.1" 200 -
+[2025-04-26 22:51:48] 127.0.0.1 - - [26/Apr/2025 22:51:48] "GET /socket.io/?EIO=4&transport=websocket&sid=7gbYPq3gOgX7HxoeAAAA HTTP/1.1" 200 -
+[2025-04-26 22:51:48] 127.0.0.1 - GET /home
+[2025-04-26 22:51:48] 127.0.0.1 - - [26/Apr/2025 22:51:48] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:51:48] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:51:48] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:51:48] 127.0.0.1 - - [26/Apr/2025 22:51:48] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:48] 127.0.0.1 - - [26/Apr/2025 22:51:48] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:51:48] 127.0.0.1 - - [26/Apr/2025 22:51:48] "GET /socket.io/?EIO=4&transport=polling&t=PPrA7TB HTTP/1.1" 200 -
+[2025-04-26 22:51:48] 127.0.0.1 - - [26/Apr/2025 22:51:48] "POST /socket.io/?EIO=4&transport=polling&t=PPrA7TU&sid=OzolO-Ltz1C3KeTIAAAC HTTP/1.1" 200 -
+[2025-04-26 22:51:48] 127.0.0.1 - - [26/Apr/2025 22:51:48] "GET /socket.io/?EIO=4&transport=polling&t=PPrA7TX&sid=OzolO-Ltz1C3KeTIAAAC HTTP/1.1" 200 -
+[2025-04-26 22:51:48] 127.0.0.1 - - [26/Apr/2025 22:51:48] "GET /socket.io/?EIO=4&transport=polling&t=PPrA7Vc&sid=OzolO-Ltz1C3KeTIAAAC HTTP/1.1" 200 -
+[2025-04-26 22:53:34] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-26 22:53:34] [33mPress CTRL+C to quit[0m
+[2025-04-26 22:53:34] 127.0.0.1 - - [26/Apr/2025 22:53:34] "GET /socket.io/?EIO=4&transport=polling&t=PPrAXCD HTTP/1.1" 200 -
+[2025-04-26 22:53:34] 127.0.0.1 - - [26/Apr/2025 22:53:34] "GET /socket.io/?EIO=4&transport=polling&t=PPrAXOZ&sid=a4nlWV9bH3WliJLCAAAA HTTP/1.1" 200 -
+[2025-04-26 22:53:37] 127.0.0.1 - - [26/Apr/2025 22:53:37] "GET /socket.io/?EIO=4&transport=websocket&sid=a4nlWV9bH3WliJLCAAAA HTTP/1.1" 200 -
+[2025-04-26 22:53:37] 127.0.0.1 - GET /home
+[2025-04-26 22:53:42] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:53:42] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:53:42] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:53:42] 127.0.0.1 - - [26/Apr/2025 22:53:42] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-04-26 22:53:42] 127.0.0.1 - - [26/Apr/2025 22:53:42] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-04-26 22:53:42] 127.0.0.1 - - [26/Apr/2025 22:53:42] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-04-26 22:53:44] 127.0.0.1 - GET /home
+[2025-04-26 22:54:07] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-26 22:54:07] [33mPress CTRL+C to quit[0m
+[2025-04-26 22:54:11] 127.0.0.1 - GET /home
+[2025-04-26 22:54:18] 127.0.0.1 - GET /
+[2025-04-26 22:54:18] 127.0.0.1 - - [26/Apr/2025 22:54:18] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-26 22:54:18] 127.0.0.1 - GET /register
+[2025-04-26 22:54:18] 127.0.0.1 - - [26/Apr/2025 22:54:18] "GET /register HTTP/1.1" 200 -
+[2025-04-26 22:54:19] 127.0.0.1 - GET /login
+[2025-04-26 22:54:19] 127.0.0.1 - - [26/Apr/2025 22:54:19] "GET /login HTTP/1.1" 200 -
+[2025-04-26 22:54:24] 127.0.0.1 - POST /login
+[2025-04-26 22:54:41] Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 61, in home
+    username = get_username_from_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\util\Authentication.py", line 141, in get_username_from_request
+    user_lookup = user_collection.find_one({"auth_token": hash_cookie})
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 1755, in find_one
+    for result in cursor.limit(-1):
+                  ^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1284, in __next__
+    return self.next()
+           ^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1260, in next
+    if len(self._data) or self._refresh():
+                          ^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1208, in _refresh
+    self._send_message(q)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\cursor.py", line 1102, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1896, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2005, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2854, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 680d9c4f6ace2d07dae47abe, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2025-04-26 22:54:41] 127.0.0.1 - - [26/Apr/2025 22:54:41] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-04-26 22:54:43] 127.0.0.1 - - [26/Apr/2025 22:54:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-26 22:54:43] 127.0.0.1 - GET /home
+[2025-04-26 22:54:43] 127.0.0.1 - - [26/Apr/2025 22:54:43] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:54:43] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:54:43] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:54:43] 127.0.0.1 - - [26/Apr/2025 22:54:43] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:54:43] 127.0.0.1 - - [26/Apr/2025 22:54:43] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:54:43] 127.0.0.1 - - [26/Apr/2025 22:54:43] "GET /socket.io/?EIO=4&transport=polling&t=PPrAoJe HTTP/1.1" 200 -
+[2025-04-26 22:54:43] 127.0.0.1 - - [26/Apr/2025 22:54:43] "POST /socket.io/?EIO=4&transport=polling&t=PPrAoKA&sid=-lAjMEXiLTA2OoMLAAAA HTTP/1.1" 200 -
+[2025-04-26 22:54:43] 127.0.0.1 - - [26/Apr/2025 22:54:43] "GET /socket.io/?EIO=4&transport=polling&t=PPrAoKB&sid=-lAjMEXiLTA2OoMLAAAA HTTP/1.1" 200 -
+[2025-04-26 22:54:44] 127.0.0.1 - - [26/Apr/2025 22:54:44] "GET /socket.io/?EIO=4&transport=polling&t=PPrAoKX&sid=-lAjMEXiLTA2OoMLAAAA HTTP/1.1" 200 -
+[2025-04-26 22:54:50] 127.0.0.1 - - [26/Apr/2025 22:54:50] "GET /socket.io/?EIO=4&transport=websocket&sid=-lAjMEXiLTA2OoMLAAAA HTTP/1.1" 200 -
+[2025-04-26 22:54:50] 127.0.0.1 - GET /home
+[2025-04-26 22:54:50] 127.0.0.1 - - [26/Apr/2025 22:54:50] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:54:50] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:54:50] 127.0.0.1 - - [26/Apr/2025 22:54:50] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:54:50] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:54:50] 127.0.0.1 - - [26/Apr/2025 22:54:50] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:54:50] 127.0.0.1 - - [26/Apr/2025 22:54:50] "GET /socket.io/?EIO=4&transport=polling&t=PPrApv8 HTTP/1.1" 200 -
+[2025-04-26 22:54:50] 127.0.0.1 - - [26/Apr/2025 22:54:50] "POST /socket.io/?EIO=4&transport=polling&t=PPrApw8&sid=9MHW2nL4M2BE2iELAAAC HTTP/1.1" 200 -
+[2025-04-26 22:54:50] 127.0.0.1 - - [26/Apr/2025 22:54:50] "GET /socket.io/?EIO=4&transport=polling&t=PPrApw9&sid=9MHW2nL4M2BE2iELAAAC HTTP/1.1" 200 -
+[2025-04-26 22:54:50] 127.0.0.1 - - [26/Apr/2025 22:54:50] "GET /socket.io/?EIO=4&transport=polling&t=PPrApxB&sid=9MHW2nL4M2BE2iELAAAC HTTP/1.1" 200 -
+[2025-04-26 22:58:57] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-04-26 22:58:57] [33mPress CTRL+C to quit[0m
+[2025-04-26 22:59:02] 127.0.0.1 - - [26/Apr/2025 22:59:02] "GET /socket.io/?EIO=4&transport=polling&t=PPrBnSA HTTP/1.1" 200 -
+[2025-04-26 22:59:02] 127.0.0.1 - - [26/Apr/2025 22:59:02] "GET /socket.io/?EIO=4&transport=polling&t=PPrBnSR&sid=fEH__R4TkkNVR9V6AAAA HTTP/1.1" 200 -
+[2025-04-26 22:59:02] 127.0.0.1 - - [26/Apr/2025 22:59:02] "GET /socket.io/?EIO=4&transport=polling&t=PPrBnS_&sid=fEH__R4TkkNVR9V6AAAA HTTP/1.1" 200 -
+[2025-04-26 22:59:03] 127.0.0.1 - - [26/Apr/2025 22:59:03] "POST /socket.io/?EIO=4&transport=polling&t=PPrBnSN&sid=fEH__R4TkkNVR9V6AAAA HTTP/1.1" 200 -
+[2025-04-26 22:59:06] 127.0.0.1 - - [26/Apr/2025 22:59:06] "GET /socket.io/?EIO=4&transport=websocket&sid=fEH__R4TkkNVR9V6AAAA HTTP/1.1" 200 -
+[2025-04-26 22:59:06] 127.0.0.1 - GET /home
+[2025-04-26 22:59:06] 127.0.0.1 - - [26/Apr/2025 22:59:06] "GET /home HTTP/1.1" 200 -
+[2025-04-26 22:59:06] 127.0.0.1 - GET /static/css/home.css
+[2025-04-26 22:59:06] 127.0.0.1 - GET /static/js/home.js
+[2025-04-26 22:59:06] 127.0.0.1 - - [26/Apr/2025 22:59:06] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-26 22:59:06] 127.0.0.1 - - [26/Apr/2025 22:59:06] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-26 22:59:06] 127.0.0.1 - - [26/Apr/2025 22:59:06] "GET /socket.io/?EIO=4&transport=polling&t=PPrBoQe HTTP/1.1" 200 -
+[2025-04-26 22:59:06] 127.0.0.1 - - [26/Apr/2025 22:59:06] "POST /socket.io/?EIO=4&transport=polling&t=PPrBoRH&sid=HIC8wVlssjfw3tEOAAAC HTTP/1.1" 200 -
+[2025-04-26 22:59:06] 127.0.0.1 - - [26/Apr/2025 22:59:06] "GET /socket.io/?EIO=4&transport=polling&t=PPrBoRH.0&sid=HIC8wVlssjfw3tEOAAAC HTTP/1.1" 200 -
+[2025-04-26 22:59:06] 127.0.0.1 - - [26/Apr/2025 22:59:06] "GET /socket.io/?EIO=4&transport=polling&t=PPrBoSH&sid=HIC8wVlssjfw3tEOAAAC HTTP/1.1" 200 -
