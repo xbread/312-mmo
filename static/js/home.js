@@ -1,3 +1,7 @@
+let socket = null;
+let gameRunning = false;
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const canvas = document.getElementById('game-board');
     const ctx = canvas.getContext('2d');
@@ -13,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
 // Example: Draw a simple snake (start with 1 block)
 const snake = [{ x: 5, y: 5 }];
 const blockSize = 20;
+const otherPlayers = {};  // username -> snake body
+
 let velocity = { x: 1, y: 0 };  // Start moving to the right
 let moveDelay = 100; // milliseconds between moves (100ms = 10 moves per second)
 let lastMoveTime = 0;
@@ -63,13 +69,20 @@ function updateSnake() {
         }
     }
 
+    if (socket && socket.connected) {
+        socket.emit('player_update', {
+            snake: snake, // your snake body [{x, y}, {x, y}, ...]
+        });
+    }
+
     snake.unshift(head);
 
     // Check if snake eats the food
     if (head.x === food.x && head.y === food.y) {
         score += 1;   // Increment score
         spawnFood();
-        updateUserListDisplay(); // <- NEW FUNCTION we'll make
+        socket.emit('food_eaten');  // Tell server to spawn new food
+        // updateUserListDisplay(); // <- NEW FUNCTION we'll make
     } else {
         snake.pop(); // Only pop tail if not eating
     }
@@ -101,6 +114,21 @@ function drawFood() {
     ctx.fillRect(food.x * blockSize, food.y * blockSize, blockSize, blockSize);
 }
 
+function drawOtherPlayers(allSnakes) {
+    for (const sid in allSnakes) {
+        const snakeBody = allSnakes[sid];
+        snakeBody.forEach(part => {
+            ctx.fillStyle = 'blue'; // you can randomize later!
+            ctx.fillRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
+        });
+    }
+}
+
+function startGame() {
+    gameRunning = true;  // Allow snake to move
+    console.log("Game Started!");
+}
+
 // Game loop
 function gameLoop(currentTime) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -108,13 +136,22 @@ function gameLoop(currentTime) {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     drawBackground();
-    if (currentTime - lastMoveTime > moveDelay) {
-        updateSnake();  // Move only after delay
-        lastMoveTime = currentTime;
+    if (gameRunning) {    
+        if (currentTime - lastMoveTime > moveDelay) {
+            updateSnake();  // Move only after delay
+            lastMoveTime = currentTime;
+        }
+        drawFood();
+        drawSnake();
+        // Draw all other players
+        Object.values(otherPlayers).forEach(playerSnake => {
+            ctx.fillStyle = 'blue'; // other players are blue for now
+            playerSnake.forEach(part => {
+                ctx.fillRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
+            });
+        });
     }
-    drawFood();
-    drawSnake();
-    console.log();
+
 
     requestAnimationFrame(gameLoop);
 }
@@ -140,8 +177,16 @@ document.addEventListener('keydown', function(event) {
 gameLoop(performance.now());
 
     if (authToken) {
-        const socket = io({
+         socket = io({
             auth: { token: authToken }
+        });
+
+        socket.on('food_update', (data) => {
+            food = data;  // Replace local food with server food
+        });
+
+        socket.on('update_players', (allSnakes) => {
+            drawOtherPlayers(allSnakes);
         });
 
         socket.on('connect', () => {
@@ -149,11 +194,26 @@ gameLoop(performance.now());
         });
         
         socket.on('update_users', (data) => {
+            console.log(data);
             updateUserList(data.users);
         });
         
         socket.on('disconnect', () => {
             console.log('Disconnected from WebSocket server.');
+        });
+
+        socket.on('start_countdown', () => {
+            let countdown = 5;
+            const countdownInterval = setInterval(() => {
+                if (countdown > 0) {
+                    console.log(`Game starting in ${countdown}...`);
+                    countdown--;
+                } else {
+                    clearInterval(countdownInterval);
+                    console.log('Game Start!');
+                    startGame(); // <- You'll control starting the snake now
+                }
+            }, 1000);
         });
     } else {
         console.error('No auth_token found! WebSocket connection not attempted.');
@@ -162,18 +222,47 @@ gameLoop(performance.now());
     function updateUserList(users) {
         const userList = document.getElementById('user-list');
         userList.innerHTML = '';
-        users.forEach(username => {
+    
+        users.forEach(user => {
+            console.log(user);
             const div = document.createElement('div');
             div.className = 'user';
-            div.textContent = username;
-            div.setAttribute('data-name', username.toLowerCase());
+            div.setAttribute('data-name', user.username.toLowerCase());
+    
+            // Username
+            const usernameSpan = document.createElement('span');
+            usernameSpan.textContent = user.username;
+            div.appendChild(usernameSpan);
+    
+            // Ready button
+            const readyButton = document.createElement('button');
+            readyButton.textContent = 'Ready';
+            readyButton.className = 'ready-button';
+    
+            if (user.ready) {
+                readyButton.classList.add('ready');
+                readyButton.disabled = true;
+            } else {
+                readyButton.addEventListener('click', () => {
+                    socket.emit('ready_up');
+                    readyButton.classList.add('ready');
+                    readyButton.disabled = true;
+                });
+            }
+    
+            div.appendChild(readyButton);
             userList.appendChild(div);
         });
     }
+    
+    
 
-    function updateUserListDisplay() {
-        const userList = document.getElementById('user-list');
-        const users = Array.from(userList.children).map(child => child.dataset.name);
-        updateUserList(users.map(name => name.charAt(0).toUpperCase() + name.slice(1)));
-    }
+    
+    
+
+    // function updateUserListDisplay() {
+    //     const userList = document.getElementById('user-list');
+    //     const users = Array.from(userList.children).map(child => child.dataset.name);
+    //     updateUserList(users.map(name => name.charAt(0).toUpperCase() + name.slice(1)));
+    // }
 });

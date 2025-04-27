@@ -82,6 +82,23 @@ body {
 .logout-button:hover {
     background-color: #dc2626;
 }
+
+.ready-button {
+    margin-left: 10px;
+    padding: 2px 8px;
+    font-size: 12px;
+    background-color: #ccc;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ready-button.ready {
+    background-color: #22c55e; /* Green */
+    color: white;
+}
+
 #main-layout {
     display: flex;
     height: calc(100vh - 50px); /* Full height minus top-bar */
