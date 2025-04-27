@@ -7,7 +7,10 @@
 </head>
 <body>
     <div class="top-bar">
-        <div>Welcome: {{ username }}</div>
+        <div id="top-message-container">
+            <span id="welcome-text">Welcome: {{ username }}</span>
+            <span id="top-message"></span>
+        </div>
         <form method="POST" action="/logout" style="margin: 0;">
             <button class="logout-button" type="submit">Logout</button>
         </form>
@@ -17,7 +20,7 @@
         <div id="navbar">
             <h2>Navbar</h2>
             <a href="#">Home</a>
-            <a href="#">Profile</a>
+            <a href="/profile">Profile</a>
             <a href="#">Achievements</a>
             <a href="#">Player Stats</a>
             <a href="#">Leaderboard</a>
