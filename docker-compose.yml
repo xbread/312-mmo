@@ -1,11 +1,14 @@
 services:
-  web:
-    platform: linux/amd64
-    image: nginx:latest
-    ports:
-      - "8080:80"
+  nginx:
+      image: nginx:1-alpine
+      ports:
+        - 8000:80
+      volumes:
+        - ./html5up-stellar/:/usr/share/nginx/html
   mongo:
-    image: alfg/nginx-rtmp
+    image: mongo:8.0
+    ports:
+      - "127.0.0.1:27017:27017"
   snake:
     build: .
     environment:
