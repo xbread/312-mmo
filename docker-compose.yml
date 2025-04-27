@@ -1,4 +1,9 @@
 services:
+  web:
+    platform: linux/amd64
+    image: nginx:latest
+    ports:
+      - "8080:80"
   mongo:
     image: alfg/nginx-rtmp
   snake:
