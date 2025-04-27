@@ -7,7 +7,10 @@
 </head>
 <body>
     <div class="top-bar">
-        <div>Welcome: {{ username }}</div>
+        <div id="top-message-container">
+            <span id="welcome-text">Welcome: {{ username }}</span>
+            <span id="top-message"></span>
+        </div>
         <form method="POST" action="/logout" style="margin: 0;">
             <button class="logout-button" type="submit">Logout</button>
         </form>

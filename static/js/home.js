@@ -26,6 +26,13 @@ let food = { x: 0, y: 0 };  // Default empty food until server sends real food
 let score = 0;
 
 
+function setTopMessage(text) {
+    const topMessage = document.getElementById('top-message');
+    if (topMessage) {
+        topMessage.textContent = text;
+    }
+}
+
 function drawBackground() {
     for (let y = 0; y < canvas.height; y += blockSize) {
         for (let x = 0; x < canvas.width; x += blockSize) {
@@ -66,6 +73,38 @@ function updateSnake() {
         }
     }
 
+    // Other players collision
+    for (const sid in otherPlayers) {
+        const enemySnake = otherPlayers[sid];
+        if (!enemySnake || enemySnake.length === 0) continue;
+
+        for (let i = 0; i < enemySnake.length; i++) {
+            const part = enemySnake[i];
+            if (head.x === part.x && head.y === part.y) {
+                if (i === 0) { 
+                    // Head collision
+                    if (snake.length > enemySnake.length) {
+                        console.log("You defeated another player (longer snake)!");
+                        // You win the collision, maybe you grow or do nothing
+                    } else if (snake.length < enemySnake.length) {
+                        console.log("You hit a bigger snake's head! You die.");
+                        resetGame();
+                        return;
+                    } else {
+                        console.log("Same size head collision. Both should die maybe?");
+                        resetGame();
+                        return;
+                    }
+                } else {
+                    // Body collision
+                    console.log("You hit someone's body! You die.");
+                    resetGame();
+                    return;
+                }
+            }
+        }
+    }
+
     if (socket && socket.connected) {
         socket.emit('player_update', {
             snake: snake, // your snake body [{x, y}, {x, y}, ...]
@@ -90,6 +129,9 @@ function spawnFood() {
 }
 
 function resetGame() {
+    if (socket && socket.connected) {
+        socket.emit('player_died');
+    }
     snake.length = 1;                // Reset to length 1
     snake[0] = { x: 5, y: 5 };        // Reset position
     velocity.x = 1;                  // Move right by default
@@ -109,10 +151,11 @@ function drawFood() {
 }
 
 function drawOtherPlayers(allSnakes) {
+    ctx.fillStyle = 'blue'; // Set once
     for (const sid in allSnakes) {
         const snakeBody = allSnakes[sid];
+        if (!snakeBody) continue;
         snakeBody.forEach(part => {
-            ctx.fillStyle = 'blue'; // you can randomize later!
             ctx.fillRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
         });
     }
@@ -138,12 +181,13 @@ function gameLoop(currentTime) {
         drawFood();
         drawSnake();
         // Draw all other players
-        Object.values(otherPlayers).forEach(playerSnake => {
-            ctx.fillStyle = 'blue'; // other players are blue for now
-            playerSnake.forEach(part => {
-                ctx.fillRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
-            });
-        });
+        // Object.values(otherPlayers).forEach(playerSnake => {
+        //     ctx.fillStyle = 'blue'; // other players are blue for now
+        //     playerSnake.forEach(part => {
+        //         ctx.fillRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
+        //     });
+        // });
+        drawOtherPlayers(otherPlayers);
     }
 
 
@@ -181,7 +225,28 @@ gameLoop(performance.now());
         });
 
         socket.on('update_players', (allSnakes) => {
-            Object.assign(otherPlayers, allSnakes);
+            // Clear previous otherPlayers
+            for (const id in otherPlayers) {
+                delete otherPlayers[id];
+            }
+        
+            // Only add other players (not yourself)
+            for (const id in allSnakes) {
+                if (id !== socket.id) {
+                    otherPlayers[id] = allSnakes[id];
+                }
+            }
+        });
+
+        socket.on('game_over', (data) => {
+            console.log("Game Over! Waiting for players to ready up again.");
+            gameRunning = false;
+        
+            if (data && data.winner) {
+                setTopMessage(`${data.winner} wins!!!`);
+            } else {
+                setTopMessage("Game Over!");
+            }
         });
 
         socket.on('connect', () => {
@@ -201,8 +266,12 @@ gameLoop(performance.now());
             console.log(data)
             food = data.food;       
             console.log('Game starting with food at:', food);
+
+            for (const id in otherPlayers) {
+                delete otherPlayers[id];
+            }
             
-            // Set starting position for this player
+            // Reset your own snake
             if (data.starting_positions && socket.id in data.starting_positions) {
                 const pos = data.starting_positions[socket.id];
                 snake.length = 1;
@@ -214,10 +283,12 @@ gameLoop(performance.now());
             const countdownInterval = setInterval(() => {
                 if (countdown > 0) {
                     console.log(`Game starting in ${countdown}...`);
+                    setTopMessage(`Game starting in ${countdown}...`);
                     countdown--;
                 } else {
                     clearInterval(countdownInterval);
                     console.log('Game Start!');
+                    setTopMessage("Game Started!");
                     startGame(); // <- You'll control starting the snake now
                 }
             }, 1000);

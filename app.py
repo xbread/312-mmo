@@ -165,6 +165,35 @@ def handle_ready_up():
 @socketio.on('food_eaten')
 def handle_food_eaten():
     spawn_new_food()
+    
+@socketio.on('player_died')
+def handle_player_died():
+    sid = request.sid
+    if sid in player_snakes:
+        del player_snakes[sid]
+
+    if sid in player_ready:
+        player_ready[sid] = False  # Not ready anymore
+
+    socketio.emit('update_players', player_snakes)
+    
+    check_for_game_end()    
+        
+def check_for_game_end():
+    alive_players = [sid for sid in player_snakes if player_snakes[sid]]
+
+    if len(alive_players) <= 1:
+        print("Game over!")
+        # Reset all players' ready status
+        for sid in player_ready.keys():
+            player_ready[sid] = False
+
+        broadcast_users_update()
+        winner_username = None
+        if alive_players:
+            winner_sid = alive_players[0]
+            winner_username = user_sessions.get(winner_sid)
+        socketio.emit('game_over', {'winner': winner_username})    
         
 def spawn_new_food(start_countdown=False):
     global current_food
