@@ -2,7 +2,7 @@ services:
   nginx:
       image: nginx:1-alpine
       ports:
-        - 8000:80
+        - "8000:80"
       volumes:
         - ./html5up-stellar/:/usr/share/nginx/html
   mongo:
