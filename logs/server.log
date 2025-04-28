@@ -11567,3 +11567,527 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: connection closed (
 [2025-04-27 00:07:40] 127.0.0.1 - - [27/Apr/2025 00:07:40] "GET /socket.io/?EIO=4&transport=polling&t=PPrRUnx&sid=3XGeR7aBRmY4WEkvAAAE HTTP/1.1" 200 -
 [2025-04-27 00:07:43] 127.0.0.1 - - [27/Apr/2025 00:07:43] "GET /socket.io/?EIO=4&transport=websocket&sid=3XGeR7aBRmY4WEkvAAAE HTTP/1.1" 200 -
 
+[2025-04-27 16:29:15] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-27 16:29:15] [33mPress CTRL+C to quit[0m
+[2025-04-27 16:30:37] 127.0.0.1 - GET /profile
+[2025-04-27 16:30:37] 127.0.0.1 - - [27/Apr/2025 16:30:37] "GET /profile HTTP/1.1" 200 -
+[2025-04-27 16:30:37] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-27 16:30:37] 127.0.0.1 - - [27/Apr/2025 16:30:37] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-27 16:31:16] 127.0.0.1 - GET /home
+[2025-04-27 16:31:16] 127.0.0.1 - - [27/Apr/2025 16:31:16] "GET /home HTTP/1.1" 200 -
+[2025-04-27 16:31:16] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 16:31:16] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 16:31:16] 127.0.0.1 - - [27/Apr/2025 16:31:16] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 16:31:16] 127.0.0.1 - - [27/Apr/2025 16:31:16] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-27 16:31:16] 127.0.0.1 - - [27/Apr/2025 16:31:16] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuyc_j HTTP/1.1" 200 -
+[2025-04-27 16:31:16] 127.0.0.1 - - [27/Apr/2025 16:31:16] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuyd05.0&sid=gh-8tI7pVE3EP5yxAAAA HTTP/1.1" 200 -
+[2025-04-27 16:31:16] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:31:16] 127.0.0.1 - - [27/Apr/2025 16:31:16] "POST /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuyd05&sid=gh-8tI7pVE3EP5yxAAAA HTTP/1.1" 200 -
+[2025-04-27 16:31:29] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-27 16:31:29] [33mPress CTRL+C to quit[0m
+[2025-04-27 16:31:29] 127.0.0.1 - - [27/Apr/2025 16:31:29] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuygGJ HTTP/1.1" 200 -
+[2025-04-27 16:31:29] 127.0.0.1 - - [27/Apr/2025 16:31:29] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuygGf&sid=gVHzDp2FLHD5JM5GAAAA HTTP/1.1" 200 -
+[2025-04-27 16:31:29] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 103, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:31:29] 127.0.0.1 - - [27/Apr/2025 16:31:29] "POST /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuygGe&sid=gVHzDp2FLHD5JM5GAAAA HTTP/1.1" 200 -
+[2025-04-27 16:31:31] 127.0.0.1 - - [27/Apr/2025 16:31:31] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=websocket&sid=gVHzDp2FLHD5JM5GAAAA HTTP/1.1" 200 -
+[2025-04-27 16:31:31] 127.0.0.1 - GET /home
+[2025-04-27 16:31:31] 127.0.0.1 - - [27/Apr/2025 16:31:31] "GET /home HTTP/1.1" 200 -
+[2025-04-27 16:31:31] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 16:31:31] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 16:31:31] 127.0.0.1 - - [27/Apr/2025 16:31:31] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 16:31:31] 127.0.0.1 - - [27/Apr/2025 16:31:31] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-27 16:31:31] 127.0.0.1 - - [27/Apr/2025 16:31:31] "GET /socket.io/?EIO=4&transport=polling&t=PPuygeg HTTP/1.1" 200 -
+[2025-04-27 16:31:31] 127.0.0.1 - - [27/Apr/2025 16:31:31] "POST /socket.io/?EIO=4&transport=polling&t=PPuygex&sid=BDvnbWsiIbiryB66AAAC HTTP/1.1" 200 -
+[2025-04-27 16:31:31] 127.0.0.1 - - [27/Apr/2025 16:31:31] "GET /socket.io/?EIO=4&transport=polling&t=PPuygex.0&sid=BDvnbWsiIbiryB66AAAC HTTP/1.1" 200 -
+[2025-04-27 16:31:41] 127.0.0.1 - GET /
+[2025-04-27 16:31:41] 127.0.0.1 - - [27/Apr/2025 16:31:41] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-27 16:31:41] 127.0.0.1 - GET /register
+[2025-04-27 16:31:41] 127.0.0.1 - - [27/Apr/2025 16:31:41] "GET /register HTTP/1.1" 200 -
+[2025-04-27 16:31:43] 127.0.0.1 - GET /
+[2025-04-27 16:31:43] 127.0.0.1 - - [27/Apr/2025 16:31:43] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-04-27 16:31:43] 127.0.0.1 - GET /register
+[2025-04-27 16:31:43] 127.0.0.1 - - [27/Apr/2025 16:31:43] "GET /register HTTP/1.1" 200 -
+[2025-04-27 16:31:59] 127.0.0.1 - GET /login
+[2025-04-27 16:31:59] 127.0.0.1 - - [27/Apr/2025 16:31:59] "GET /login HTTP/1.1" 200 -
+[2025-04-27 16:32:05] 127.0.0.1 - POST /login
+[2025-04-27 16:32:05] 127.0.0.1 - - [27/Apr/2025 16:32:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-04-27 16:32:05] 127.0.0.1 - GET /home
+[2025-04-27 16:32:05] 127.0.0.1 - - [27/Apr/2025 16:32:05] "GET /home HTTP/1.1" 200 -
+[2025-04-27 16:32:05] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 16:32:05] 127.0.0.1 - - [27/Apr/2025 16:32:05] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:05] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 16:32:05] 127.0.0.1 - - [27/Apr/2025 16:32:05] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-27 16:32:05] 127.0.0.1 - - [27/Apr/2025 16:32:05] "GET /socket.io/?EIO=4&transport=polling&t=PPuyp2h HTTP/1.1" 200 -
+[2025-04-27 16:32:05] 127.0.0.1 - - [27/Apr/2025 16:32:05] "POST /socket.io/?EIO=4&transport=polling&t=PPuyp2m&sid=pjW_1PAPko8DY6dAAAAE HTTP/1.1" 200 -
+[2025-04-27 16:32:05] 127.0.0.1 - - [27/Apr/2025 16:32:05] "GET /socket.io/?EIO=4&transport=polling&t=PPuyp2m.0&sid=pjW_1PAPko8DY6dAAAAE HTTP/1.1" 200 -
+[2025-04-27 16:32:19] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-04-27 16:32:19] [33mPress CTRL+C to quit[0m
+[2025-04-27 16:32:19] 127.0.0.1 - - [27/Apr/2025 16:32:19] "GET /socket.io/?EIO=4&transport=polling&t=PPuysTX HTTP/1.1" 200 -
+[2025-04-27 16:32:19] 127.0.0.1 - - [27/Apr/2025 16:32:19] "GET /socket.io/?EIO=4&transport=polling&t=PPuysTX HTTP/1.1" 200 -
+[2025-04-27 16:32:19] 127.0.0.1 - - [27/Apr/2025 16:32:19] "GET /socket.io/?EIO=4&transport=polling&t=PPuysUI&sid=JA7jZLnkfJJZWW2HAAAA HTTP/1.1" 200 -
+[2025-04-27 16:32:19] 127.0.0.1 - - [27/Apr/2025 16:32:19] "GET /socket.io/?EIO=4&transport=polling&t=PPuysUL&sid=6V8Ft2HGC-x0ZnZYAAAB HTTP/1.1" 200 -
+[2025-04-27 16:32:19] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 534, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid], data)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:32:19] 127.0.0.1 - - [27/Apr/2025 16:32:19] "POST /socket.io/?EIO=4&transport=polling&t=PPuysUH&sid=JA7jZLnkfJJZWW2HAAAA HTTP/1.1" 200 -
+[2025-04-27 16:32:19] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 534, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid], data)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:32:19] 127.0.0.1 - - [27/Apr/2025 16:32:19] "POST /socket.io/?EIO=4&transport=polling&t=PPuysUK&sid=6V8Ft2HGC-x0ZnZYAAAB HTTP/1.1" 200 -
+[2025-04-27 16:32:21] 127.0.0.1 - - [27/Apr/2025 16:32:21] "GET /socket.io/?EIO=4&transport=websocket&sid=6V8Ft2HGC-x0ZnZYAAAB HTTP/1.1" 200 -
+[2025-04-27 16:32:21] 127.0.0.1 - GET /home
+[2025-04-27 16:32:21] 127.0.0.1 - - [27/Apr/2025 16:32:21] "GET /home HTTP/1.1" 200 -
+[2025-04-27 16:32:21] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 16:32:21] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 16:32:21] 127.0.0.1 - - [27/Apr/2025 16:32:21] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:21] 127.0.0.1 - - [27/Apr/2025 16:32:21] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-27 16:32:21] 127.0.0.1 - - [27/Apr/2025 16:32:21] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuysrr HTTP/1.1" 200 -
+[2025-04-27 16:32:21] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:32:21] 127.0.0.1 - - [27/Apr/2025 16:32:21] "POST /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuyss6&sid=vcGL1xXtD7My72rjAAAE HTTP/1.1" 200 -
+[2025-04-27 16:32:21] 127.0.0.1 - - [27/Apr/2025 16:32:21] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuyss7&sid=vcGL1xXtD7My72rjAAAE HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?EIO=4&transport=websocket&sid=JA7jZLnkfJJZWW2HAAAA HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - GET /home
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /home HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 16:32:22] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuyt12 HTTP/1.1" 200 -
+[2025-04-27 16:32:22] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "POST /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuyt14&sid=KDpsWAoFoVAtJbNNAAAG HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuyt15&sid=KDpsWAoFoVAtJbNNAAAG HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=websocket&sid=KDpsWAoFoVAtJbNNAAAG HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - GET /home
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /home HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:22] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuyt70 HTTP/1.1" 200 -
+[2025-04-27 16:32:22] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "POST /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuyt74&sid=KRnR2dGkobEhVQK0AAAI HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuyt74.0&sid=KRnR2dGkobEhVQK0AAAI HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuyt7K&sid=KRnR2dGkobEhVQK0AAAI HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=websocket&sid=KRnR2dGkobEhVQK0AAAI HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - GET /home
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /home HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:22] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuytAU HTTP/1.1" 200 -
+[2025-04-27 16:32:22] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "POST /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuytAe&sid=ETtv8RTNzkmT-7jCAAAK HTTP/1.1" 200 -
+[2025-04-27 16:32:22] 127.0.0.1 - - [27/Apr/2025 16:32:22] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPuytAf&sid=ETtv8RTNzkmT-7jCAAAK HTTP/1.1" 200 -
+[2025-04-27 16:32:47] 127.0.0.1 - - [27/Apr/2025 16:32:47] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=websocket&sid=vcGL1xXtD7My72rjAAAE HTTP/1.1" 200 -
+[2025-04-27 16:32:47] 127.0.0.1 - GET /profile
+[2025-04-27 16:32:47] 127.0.0.1 - - [27/Apr/2025 16:32:47] "GET /profile HTTP/1.1" 200 -
+[2025-04-27 16:32:47] 127.0.0.1 - GET /static/default_avatar.png
+[2025-04-27 16:32:47] 127.0.0.1 - - [27/Apr/2025 16:32:47] "[36mGET /static/default_avatar.png HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:48] 127.0.0.1 - GET /home
+[2025-04-27 16:32:48] 127.0.0.1 - - [27/Apr/2025 16:32:48] "GET /home HTTP/1.1" 200 -
+[2025-04-27 16:32:48] 127.0.0.1 - GET /static/css/home.css
+[2025-04-27 16:32:48] 127.0.0.1 - - [27/Apr/2025 16:32:48] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:48] 127.0.0.1 - GET /static/js/home.js
+[2025-04-27 16:32:48] 127.0.0.1 - - [27/Apr/2025 16:32:48] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-04-27 16:32:48] 127.0.0.1 - - [27/Apr/2025 16:32:48] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuyzU_ HTTP/1.1" 200 -
+[2025-04-27 16:32:48] 127.0.0.1 - - [27/Apr/2025 16:32:48] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuyzVE.0&sid=cTLrJcFVxP7V7FKaAAAM HTTP/1.1" 200 -
+[2025-04-27 16:32:48] 127.0.0.1 - - [27/Apr/2025 16:32:48] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuyzVO&sid=cTLrJcFVxP7V7FKaAAAM HTTP/1.1" 200 -
+[2025-04-27 16:32:48] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:32:48] 127.0.0.1 - - [27/Apr/2025 16:32:48] "POST /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPuyzVE&sid=cTLrJcFVxP7V7FKaAAAM HTTP/1.1" 200 -
+[2025-04-27 16:54:09] 127.0.0.1 - - [27/Apr/2025 16:54:09] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=websocket&sid=cTLrJcFVxP7V7FKaAAAM HTTP/1.1" 200 -
+[2025-04-27 16:54:09] 127.0.0.1 - - [27/Apr/2025 16:54:09] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=websocket&sid=ETtv8RTNzkmT-7jCAAAK HTTP/1.1" 200 -
+[2025-04-27 16:54:10] 127.0.0.1 - - [27/Apr/2025 16:54:10] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPv1sXR HTTP/1.1" 200 -
+[2025-04-27 16:54:10] 127.0.0.1 - - [27/Apr/2025 16:54:10] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPv1sXS HTTP/1.1" 200 -
+[2025-04-27 16:54:10] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:54:10] 127.0.0.1 - - [27/Apr/2025 16:54:10] "POST /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPv1sXu&sid=GWNP_mQATZPeLWEBAAAO HTTP/1.1" 200 -
+[2025-04-27 16:54:10] 127.0.0.1 - - [27/Apr/2025 16:54:10] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPv1sXx&sid=GWNP_mQATZPeLWEBAAAO HTTP/1.1" 200 -
+[2025-04-27 16:54:10] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 16:54:10] 127.0.0.1 - - [27/Apr/2025 16:54:10] "POST /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPv1sXy&sid=OMff9E2YXhM6lN05AAAP HTTP/1.1" 200 -
+[2025-04-27 16:54:10] 127.0.0.1 - - [27/Apr/2025 16:54:10] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPv1sXz&sid=OMff9E2YXhM6lN05AAAP HTTP/1.1" 200 -
+[2025-04-27 19:12:13] 127.0.0.1 - - [27/Apr/2025 19:12:13] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=websocket&sid=GWNP_mQATZPeLWEBAAAO HTTP/1.1" 200 -
+[2025-04-27 19:12:13] 127.0.0.1 - - [27/Apr/2025 19:12:13] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=websocket&sid=OMff9E2YXhM6lN05AAAP HTTP/1.1" 200 -
+[2025-04-27 19:12:15] 127.0.0.1 - - [27/Apr/2025 19:12:15] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPvXTEp HTTP/1.1" 200 -
+[2025-04-27 19:12:15] 127.0.0.1 - - [27/Apr/2025 19:12:15] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPvXTEq HTTP/1.1" 200 -
+[2025-04-27 19:12:15] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 19:12:15] 127.0.0.1 - - [27/Apr/2025 19:12:15] "POST /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPvXTFS&sid=RvNxyp4z6FcAGVAgAAAS HTTP/1.1" 200 -
+[2025-04-27 19:12:15] 127.0.0.1 - - [27/Apr/2025 19:12:15] "GET /socket.io/?token=b91f37e1660100b07e6c878ec5b67c2095784e1881b10495600d26d7142fc8c5&EIO=4&transport=polling&t=PPvXTFU&sid=RvNxyp4z6FcAGVAgAAAS HTTP/1.1" 200 -
+[2025-04-27 19:12:15] 127.0.0.1 - - [27/Apr/2025 19:12:15] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPvXTFV&sid=yK4kGpK5jgJ9fawJAAAT HTTP/1.1" 200 -
+[2025-04-27 19:12:15] message handler error
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 831, in _handle_event
+    ret = handler(auth)
+TypeError: handle_connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/engineio/server.py", line 450, in run_handler
+    return self.handlers[event](*args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 652, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 538, in _handle_connect
+    success = self._trigger_event(
+        'connect', namespace, sid, self.environ[eio_sid])
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/socketio/server.py", line 617, in _trigger_event
+    return handler(*args)
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 292, in _handler
+    return self._handle_event(handler, message, real_ns, sid,
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              *args)
+                              ^^^^^^
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/.venv/lib/python3.13/site-packages/flask_socketio/__init__.py", line 833, in _handle_event
+    ret = handler()
+  File "/Users/angelvidals/Documents/GitHub/312-mmo/app.py", line 104, in handle_connect
+    raise ConnectionRefusedError('unauthorized!')
+ConnectionRefusedError: unauthorized!
+[2025-04-27 19:12:15] 127.0.0.1 - - [27/Apr/2025 19:12:15] "GET /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPvXTF_&sid=yK4kGpK5jgJ9fawJAAAT HTTP/1.1" 200 -
+[2025-04-27 19:12:15] 127.0.0.1 - - [27/Apr/2025 19:12:15] "POST /socket.io/?token=9d12ee9c376bbb3c56fcac8b1d90aabcc4589099277d557f3c9f9821efccaeb1&EIO=4&transport=polling&t=PPvXTFT&sid=yK4kGpK5jgJ9fawJAAAT HTTP/1.1" 200 -

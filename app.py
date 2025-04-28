@@ -172,8 +172,8 @@ def handle_food_eaten(data):
     current_food = [f for f in current_food if not (f['x'] == eaten_x and f['y'] == eaten_y)]
 
     # Spawn a new food
-    grid_width = 20
-    grid_height = 20
+    grid_width = 50
+    grid_height = 40
     while True:
         x = random.randint(0, grid_width - 1)
         y = random.randint(0, grid_height - 1)
@@ -216,8 +216,8 @@ def check_for_game_end():
         
 def spawn_new_food(start_countdown=False):
     global current_food
-    grid_width = 20
-    grid_height = 20
+    grid_width = 50
+    grid_height = 40
 
     if start_countdown:
         # Reset current food
@@ -255,8 +255,8 @@ def spawn_new_food(start_countdown=False):
              broadcast=True)
     else:
         # During normal gameplay, spawn 1 food
-        grid_width = 20
-        grid_height = 20
+        grid_width = 50
+        grid_height = 40
         while True:
             x = random.randint(0, grid_width - 1)
             y = random.randint(0, grid_height - 1)
