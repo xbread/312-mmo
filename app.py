@@ -1,13 +1,18 @@
-from flask import Flask, request, render_template, redirect
+from flask import Flask, request, render_template, redirect, flash
 from flask_socketio import SocketIO, emit
 from util.Logging import log_request
 from util.Authentication import registration, login, logout, get_username_from_request
 from util.websocket_functions import *
+from util.avatar import *
 import threading
 import time
 import random
 
+#For images
+ALLOWED_EXTENSIONS = ["png", "jpg", "jpeg"]
+UPLOAD_FOLDER = "/public/avatar/"
 app = Flask(__name__, template_folder="templates")
+app.config["UPLOADS"] = UPLOAD_FOLDER
 socketio = SocketIO(app)
 
 # Dict of users w/ sid
@@ -71,7 +76,6 @@ def home():
     # print("token: ", auth_token)
     return render_template('home.html', username=username, auth_token=auth_token)
 
-
 @app.route('/profile')
 def profile():
     username = get_username_from_request(request)
@@ -83,6 +87,29 @@ def profile():
 
     return render_template("profile.html", username=username, image_url=image_url)
 
+@app.route('/change-avatar', methods=["GET", "POST"])
+def file_upload():
+    if request.method == "POST":
+        username = userValid(request)
+        if username is None:
+            return redirect('/register')
+        if request.content_type != "multipart/form-data":
+            flash("Not a proper form")
+            return redirect(request.url)
+        if "file" not in request.files:
+            flash("No file present")
+            return redirect(request.url)
+        file = request.files["file"]
+        if file.filename == "":
+            flash("No selected present")
+            return redirect(request.url)
+        if not validExtension(file):
+            flash("Not a valid file type")
+            return redirect(request.url)
+        extension = getExtensionType(file)
+        changeAvatar(file, username, extension)
+        return redirect('/home')
+    return redirect('/home')
 
 @app.route("/gameboard")
 def gameboard():
