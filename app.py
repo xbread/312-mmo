@@ -90,7 +90,7 @@ def profile():
 @app.route('/change-avatar', methods=["GET", "POST"])
 def file_upload():
     if request.method == "POST":
-        username = userValid(request)
+        username = user_valid(request)
         if username is None:
             return redirect('/register')
         if request.content_type != "multipart/form-data":
@@ -103,11 +103,11 @@ def file_upload():
         if file.filename == "":
             flash("No selected present")
             return redirect(request.url)
-        if not validExtension(file):
+        if not valid_extension(file):
             flash("Not a valid file type")
             return redirect(request.url)
-        extension = getExtensionType(file)
-        changeAvatar(file, username, extension)
+        extension = get_extension_type(file)
+        change_avatar(file, username, extension)
         return redirect('/home')
     return redirect('/home')
 

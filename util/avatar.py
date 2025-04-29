@@ -12,7 +12,7 @@ Ext_Map = {"image/png" : "png", "image/jpeg": "jpg"}
 mongo_client = MongoClient('localhost')
 db = mongo_client['312mmo']
 
-def userValid(http_request: request):
+def user_valid(http_request: request):
     auth_token = http_request.cookies["auth_token"]
     hashed_token = hashlib.sha256(auth_token.encode("utf-8")).hexdigest()
     current_user_lookup = user_collection.find_one({"auth_token": hashed_token})
@@ -21,7 +21,7 @@ def userValid(http_request: request):
     else:
         return None
 
-def validExtension(file):
+def valid_extension(file):
     filename = file.filename
     if ('.' in filename) and (filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS):
         file_type = file.content_type
@@ -29,10 +29,10 @@ def validExtension(file):
             return True
     return False
 
-def getExtensionType(file):
+def get_extension_type(file):
     return Ext_Map[file.content_type]
 
-def changeAvatar(file, username: str, extension: str):
+def change_avatar(file, username: str, extension: str):
     file_id = str(uuid.uuid4())
     filename = file_id + "." + extension
     file_path = UPLOAD_FOLDER + filename
