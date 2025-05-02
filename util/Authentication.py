@@ -50,7 +50,7 @@ def registration(http_request: request):
         salt = bcrypt.gensalt()
         password_hash = bcrypt.hashpw(password, salt)
 
-        image_URL = "public/avatar/default_avatar.png"
+        image_URL = "/static/avatar/default_avatar.png"
 
         #Insert user in DB
         user_collection.insert_one(

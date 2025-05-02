@@ -5,21 +5,57 @@ let gameRunning = false;
 document.addEventListener("DOMContentLoaded", function () {
     const canvas = document.getElementById('game-board');
     const ctx = canvas.getContext('2d');
-    
+
     // Match canvas drawing size to visual size
     canvas.width = canvas.offsetWidth;
     canvas.height = canvas.offsetHeight;
-    
+
     // Clear and draw background
     ctx.fillStyle = '#ffffff';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-
 // Example: Draw a simple snake (start with 1 block)
+const snakeHeadImage = new Image();
+// Fetch the avatar image URL from the backend
+    fetch('http://localhost:8080/api/get-user-avatar')
+    .then(response => response.json())
+    .then(data => {
+
+        // Load the image from the URL fetched from the backend
+        snakeHeadImage.src = data.imageURL;
+
+        // Wait until the image is loaded before starting the game loop
+        snakeHeadImage.onload = function () {
+            // Calculate the correct width and height to maintain the aspect ratio
+                let imageWidth = snakeHeadImage.width;
+                let imageHeight = snakeHeadImage.height;
+
+                const aspectRatio = imageWidth / imageHeight;
+
+                // Resize the image to fit within the blockSize, maintaining the aspect ratio
+                if (aspectRatio > 1) {
+                    // If the width is larger than the height (landscape)
+                    imageWidth = blockSize;
+                    imageHeight = blockSize / aspectRatio;
+                } else {
+                    // If the height is larger than the width (portrait)
+                    imageHeight = blockSize;
+                    imageWidth = blockSize * aspectRatio;
+                }
+
+                // Set the new image dimensions
+                snakeHeadImage.width = imageWidth;
+                snakeHeadImage.height = imageHeight;
+                socket.emit('player_update', {snake: snake})
+                gameLoop()
+        };
+    })
+    .catch(err => {
+        console.error('Error fetching avatar image:', err);
+    });
 const snake = [{ x: 5, y: 5 }];
 const blockSize = 20;
 const otherPlayers = {};  // username -> snake body
 const otherPlayerColors = {};  // sid -> color
-
 
 let velocity = { x: 1, y: 0 };  // Start moving to the right
 let moveDelay = 100; // milliseconds between moves (100ms = 10 moves per second)
@@ -27,7 +63,6 @@ let lastMoveTime = 0;
 let food = [];  // List of food objects
 let score = 0;
 let myColor = 'green'; // Default fallback, but will be updated at game start
-
 
 function setTopMessage(text) {
     const topMessage = document.getElementById('top-message');
@@ -142,15 +177,17 @@ function resetGame() {
 }
 
 function drawSnake() {
+    ctx.drawImage(snakeHeadImage, snake[0].x, snake[0].y, blockSize, blockSize)
+
     ctx.fillStyle = myColor;
-    snake.forEach(part => {
-        ctx.fillRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
+    for (let i = 1; i < snake.length; i++) {
+        ctx.fillRect(i.x * blockSize, i.y * blockSize, blockSize, blockSize);
 
         // Draw a small black outline
         ctx.strokeStyle = 'black';
         ctx.lineWidth = 2;  // You can tweak this if needed
-        ctx.strokeRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
-    });
+        ctx.strokeRect(i.x * blockSize, i.y * blockSize, blockSize, blockSize);
+    }
 }
 
 function drawFood() {
@@ -165,6 +202,7 @@ function drawOtherPlayers(allSnakes) {
         const snakeBody = allSnakes[sid];
         if (!snakeBody) continue;
         ctx.fillStyle = otherPlayerColors[sid] || 'blue'; // fallback to blue if unknown
+
         snakeBody.forEach(part => {
             ctx.fillRect(part.x * blockSize, part.y * blockSize, blockSize, blockSize);
 
@@ -204,8 +242,6 @@ function gameLoop(currentTime) {
         // });
         drawOtherPlayers(otherPlayers);
     }
-
-
     requestAnimationFrame(gameLoop);
 }
 
@@ -338,10 +374,11 @@ gameLoop(performance.now());
     
         users.forEach(user => {
             console.log(user);
+
             const div = document.createElement('div');
             div.className = 'user';
             div.setAttribute('data-name', user.username.toLowerCase());
-    
+
             // Username
             const usernameSpan = document.createElement('span');
             usernameSpan.textContent = user.username;

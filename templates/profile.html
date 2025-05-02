@@ -100,6 +100,10 @@
             cursor: pointer;
         }
 
+        .upload-button {
+            text-align: center;
+        }
+
         .update-button:hover {
             background-color: #2563eb;
         }
@@ -126,13 +130,15 @@
         <div class="main-content">
             <div class="profile-container">
                 <h1>Change Avatar</h1>
-                <img src="/avatar/default_avatar.png" alt="Profile Picture" class="profile-picture" />
+                <img src="{{ image_url }}" alt="Profile Picture" class="profile-picture" />
                 <label for="avatar" class="upload-box">
-                    Click to select an image (PNG, JPG, or GIF)
+                    Click to select an image (PNG, JPG)
                 </label>
-                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg, image/gif" style="display: none;">
                 <br>
-                <button class="update-button">Update Avatar</button>
+                <form action="/change-avatar" method="POST" enctype="multipart/form-data">
+                    <input class="upload-button" type="file" id="avatar" name="file" accept="image/png, image/jpeg" required>
+                    <button class="upload-button" type="submit">Upload</button>
+                </form>
             </div>
         </div>
     </div>

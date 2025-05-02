@@ -16,7 +16,7 @@ def user_valid(http_request: request):
     auth_token = http_request.cookies["auth_token"]
     hashed_token = hashlib.sha256(auth_token.encode("utf-8")).hexdigest()
     current_user_lookup = user_collection.find_one({"auth_token": hashed_token})
-    if current_user_lookup is None:
+    if current_user_lookup is not None:
         return current_user_lookup["username"]
     else:
         return None
@@ -35,7 +35,7 @@ def get_extension_type(file):
 def change_avatar(file, username: str, extension: str):
     file_id = str(uuid.uuid4())
     filename = file_id + "." + extension
-    file_path = UPLOAD_FOLDER + filename
+    file_path = "static/avatar/" + filename
     file_write = open(file_path, "wb")
     file_write.write(file.read())
     user_lookup = user_collection.find_one({"username": username})

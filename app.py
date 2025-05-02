@@ -1,4 +1,5 @@
-from flask import Flask, request, render_template, redirect, flash
+from dns.message import make_response
+from flask import Flask, request, render_template, redirect, flash, jsonify
 from flask_socketio import SocketIO, emit
 from util.Logging import log_request
 from util.Authentication import registration, login, logout, get_username_from_request
@@ -10,7 +11,7 @@ import random
 
 #For images
 ALLOWED_EXTENSIONS = ["png", "jpg", "jpeg"]
-UPLOAD_FOLDER = "/public/avatar/"
+UPLOAD_FOLDER = "/static/avatar"
 app = Flask(__name__, template_folder="templates")
 app.config["UPLOADS"] = UPLOAD_FOLDER
 socketio = SocketIO(app)
@@ -83,8 +84,7 @@ def profile():
         return redirect('/login')
     # Look up the user's imageURL
     user = user_collection.find_one({"username": username})
-    image_url = user.get("imageURL", "public/avatar/default_avatar.png")
-
+    image_url = user["imageURL"]
     return render_template("profile.html", username=username, image_url=image_url)
 
 @app.route('/change-avatar', methods=["GET", "POST"])
@@ -93,27 +93,31 @@ def file_upload():
         username = user_valid(request)
         if username is None:
             return redirect('/register')
-        if request.content_type != "multipart/form-data":
-            flash("Not a proper form")
+        if "multipart/form-data" not in request.content_type:
             return redirect(request.url)
         if "file" not in request.files:
-            flash("No file present")
             return redirect(request.url)
         file = request.files["file"]
         if file.filename == "":
-            flash("No selected present")
             return redirect(request.url)
         if not valid_extension(file):
-            flash("Not a valid file type")
             return redirect(request.url)
         extension = get_extension_type(file)
         change_avatar(file, username, extension)
-        return redirect('/home')
-    return redirect('/home')
+        return redirect('/profile')
+    return redirect('/profile')
 
 @app.route("/gameboard")
 def gameboard():
     return render_template("gameboard.html")
+
+@app.route("/api/get-user-avatar")
+def handle_get_avatar():
+    username = user_valid(request)
+    user = user_collection.find_one({"username": username})
+    image_url = user["imageURL"]
+    print(image_url)
+    return jsonify({"imageURL": image_url})
 
 @socketio.on('connect')
 def handle_connect(auth_token):
@@ -171,6 +175,8 @@ def handle_move_user(data):
 @socketio.on('player_update')
 def handle_player_update(data):
     sid = request.sid
+    print("player update")
+    print(data)
     player_snakes[sid] = data['snake']  # store the snake list
 
     # Broadcast updated positions to everyone
@@ -313,4 +319,4 @@ def broadcast_users_update():
     
 
 if __name__ == "__main__":
-    socketio.run(app, host="0.0.0.0", port=8080, allow_unsafe_werkzeug=True)
+    socketio.run(app, debug=True, host="0.0.0.0", port=8080, allow_unsafe_werkzeug=True)
