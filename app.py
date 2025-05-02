@@ -175,8 +175,6 @@ def handle_move_user(data):
 @socketio.on('player_update')
 def handle_player_update(data):
     sid = request.sid
-    print("player update")
-    print(data)
     player_snakes[sid] = data['snake']  # store the snake list
 
     # Broadcast updated positions to everyone
@@ -319,4 +317,4 @@ def broadcast_users_update():
     
 
 if __name__ == "__main__":
-    socketio.run(app, debug=True, host="0.0.0.0", port=8080, allow_unsafe_werkzeug=True)
+    socketio.run(app, host="0.0.0.0", port=8080, allow_unsafe_werkzeug=True)

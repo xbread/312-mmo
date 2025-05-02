@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Example: Draw a simple snake (start with 1 block)
 const snakeHeadImage = new Image();
 // Fetch the avatar image URL from the backend
-    fetch('http://localhost:8080/api/get-user-avatar')
+    fetch(window.origin + '/api/get-user-avatar')
     .then(response => response.json())
     .then(data => {
 
@@ -45,7 +45,6 @@ const snakeHeadImage = new Image();
                 // Set the new image dimensions
                 snakeHeadImage.width = imageWidth;
                 snakeHeadImage.height = imageHeight;
-                socket.emit('player_update', {snake: snake})
                 gameLoop()
         };
     })
