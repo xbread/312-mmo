@@ -53,15 +53,12 @@ function updateSnake() {
         y: snake[0].y + velocity.y 
     };
 
-    console.log(snake.length)
-    console.log(snake)
-    //* blockSize
     // Check wall collision
     if (
         head.x < 0 || 
         head.y < 0 || 
-        head.x >= canvas.width ||
-        head.y >= canvas.height
+        (head.x * blockSize) >= canvas.width ||
+        (head.y * blockSize) >= canvas.height
     ) {
         console.log("You hit the wall! Game over.");
         resetGame();
