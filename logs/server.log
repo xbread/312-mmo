@@ -17126,3 +17126,1401 @@ TypeError: index 'imageURL' cannot be applied to Cursor instances
 [2025-05-02 16:39:21] 127.0.0.1 - - [02/May/2025 16:39:21] "POST /socket.io/?EIO=4&transport=polling&t=PQIkQ9M&sid=EGbjjNwskoyDQfX_AAAA HTTP/1.1" 200 -
 [2025-05-02 16:39:21] 127.0.0.1 - - [02/May/2025 16:39:21] "GET /socket.io/?EIO=4&transport=polling&t=PQIkQ9T&sid=EGbjjNwskoyDQfX_AAAA HTTP/1.1" 200 -
 [2025-05-02 16:39:21] 127.0.0.1 - - [02/May/2025 16:39:21] "GET /socket.io/?EIO=4&transport=polling&t=PQIkQAc&sid=EGbjjNwskoyDQfX_AAAA HTTP/1.1" 200 -
+[2025-05-02 20:51:20] Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+[2025-05-02 20:51:20] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.19.0.4:8080
+[2025-05-02 20:51:20] [33mPress CTRL+C to quit[0m
+[2025-05-02 16:51:21] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 16:51:21] [33mPress CTRL+C to quit[0m
+[2025-05-02 16:51:24] 127.0.0.1 - GET /
+[2025-05-02 16:51:24] 127.0.0.1 - - [02/May/2025 16:51:24] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-05-02 16:51:24] 127.0.0.1 - GET /register
+[2025-05-02 16:51:24] 127.0.0.1 - - [02/May/2025 16:51:24] "GET /register HTTP/1.1" 200 -
+[2025-05-02 16:51:31] 127.0.0.1 - POST /register
+[2025-05-02 16:51:31] 127.0.0.1 - - [02/May/2025 16:51:31] "POST /register HTTP/1.1" 200 -
+[2025-05-02 16:51:33] 127.0.0.1 - GET /login
+[2025-05-02 16:51:33] 127.0.0.1 - - [02/May/2025 16:51:33] "GET /login HTTP/1.1" 200 -
+[2025-05-02 16:51:37] 127.0.0.1 - POST /login
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-05-02 16:51:38] 127.0.0.1 - GET /home
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "GET /home HTTP/1.1" 200 -
+[2025-05-02 16:51:38] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 16:51:38] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 16:51:38] 127.0.0.1 - GET /api/get-user-avatar
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "GET /api/get-user-avatar HTTP/1.1" 200 -
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "GET /socket.io/?EIO=4&transport=polling&t=PQInE5B HTTP/1.1" 200 -
+[2025-05-02 16:51:38] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "POST /socket.io/?EIO=4&transport=polling&t=PQInE5R&sid=XNGbaCx1uWZTVRD0AAAA HTTP/1.1" 200 -
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "GET /socket.io/?EIO=4&transport=polling&t=PQInE5S&sid=XNGbaCx1uWZTVRD0AAAA HTTP/1.1" 200 -
+[2025-05-02 16:51:38] 127.0.0.1 - - [02/May/2025 16:51:38] "GET /socket.io/?EIO=4&transport=polling&t=PQInE5k&sid=XNGbaCx1uWZTVRD0AAAA HTTP/1.1" 200 -
+[2025-05-02 21:00:52] 172.19.0.1 - - [02/May/2025 21:00:52] "GET /socket.io/?EIO=4&transport=polling&t=PQIpLGS HTTP/1.1" 200 -
+[2025-05-02 21:00:52] 172.19.0.1 - - [02/May/2025 21:00:52] "POST /socket.io/?EIO=4&transport=polling&t=PQIpLGm&sid=7qDc8iNLpDVeX88yAAAA HTTP/1.1" 200 -
+[2025-05-02 21:00:52] 172.19.0.1 - - [02/May/2025 21:00:52] "GET /socket.io/?EIO=4&transport=polling&t=PQIpLGp&sid=7qDc8iNLpDVeX88yAAAA HTTP/1.1" 200 -
+[2025-05-02 21:00:52] 172.19.0.1 - - [02/May/2025 21:00:52] "GET /socket.io/?EIO=4&transport=polling&t=PQIpLHD&sid=7qDc8iNLpDVeX88yAAAA HTTP/1.1" 200 -
+[2025-05-02 17:02:10] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:02:10] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:02:17] 172.19.0.1 - - [02/May/2025 21:02:17] "GET /socket.io/?EIO=4&transport=websocket&sid=7qDc8iNLpDVeX88yAAAA HTTP/1.1" 200 -
+[2025-05-02 17:02:18] 127.0.0.1 - GET /home
+[2025-05-02 17:02:18] 127.0.0.1 - - [02/May/2025 17:02:18] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:02:18] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:02:18] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:02:18] 127.0.0.1 - - [02/May/2025 17:02:18] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:02:18] 127.0.0.1 - - [02/May/2025 17:02:18] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:02:18] 127.0.0.1 - - [02/May/2025 17:02:18] "GET /socket.io/?EIO=4&transport=polling&t=PQIpgI9 HTTP/1.1" 200 -
+[2025-05-02 17:02:18] 127.0.0.1 - GET /favicon.ico
+[2025-05-02 17:02:18] 127.0.0.1 - - [02/May/2025 17:02:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-02 17:02:18] 127.0.0.1 - - [02/May/2025 17:02:18] "POST /socket.io/?EIO=4&transport=polling&t=PQIpgJ4&sid=eT9LRNU7srlehR3oAAAA HTTP/1.1" 200 -
+[2025-05-02 17:02:18] 127.0.0.1 - - [02/May/2025 17:02:18] "GET /socket.io/?EIO=4&transport=polling&t=PQIpgJ6&sid=eT9LRNU7srlehR3oAAAA HTTP/1.1" 200 -
+[2025-05-02 17:02:18] 127.0.0.1 - - [02/May/2025 17:02:18] "GET /socket.io/?EIO=4&transport=polling&t=PQIpgJy&sid=eT9LRNU7srlehR3oAAAA HTTP/1.1" 200 -
+[2025-05-02 21:03:40] 172.19.0.1 - - [02/May/2025 21:03:40] "GET /socket.io/?EIO=4&transport=polling&t=PQIp-TS HTTP/1.1" 200 -
+[2025-05-02 21:03:40] 172.19.0.1 - - [02/May/2025 21:03:40] "POST /socket.io/?EIO=4&transport=polling&t=PQIp-Tu&sid=0AP8ac2ISZrnUAeNAAAC HTTP/1.1" 200 -
+[2025-05-02 21:03:40] 172.19.0.1 - - [02/May/2025 21:03:40] "GET /socket.io/?EIO=4&transport=polling&t=PQIp-Tv&sid=0AP8ac2ISZrnUAeNAAAC HTTP/1.1" 200 -
+[2025-05-02 21:03:40] 172.19.0.1 - - [02/May/2025 21:03:40] "GET /socket.io/?EIO=4&transport=polling&t=PQIp-UW&sid=0AP8ac2ISZrnUAeNAAAC HTTP/1.1" 200 -
+[2025-05-02 17:03:42] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:03:42] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:03:47] 172.19.0.1 - - [02/May/2025 21:03:47] "GET /socket.io/?EIO=4&transport=websocket&sid=0AP8ac2ISZrnUAeNAAAC HTTP/1.1" 200 -
+[2025-05-02 17:03:47] 127.0.0.1 - GET /home
+[2025-05-02 17:03:47] 127.0.0.1 - - [02/May/2025 17:03:47] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:03:47] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:03:47] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:03:47] 127.0.0.1 - - [02/May/2025 17:03:47] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:03:47] 127.0.0.1 - - [02/May/2025 17:03:47] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:03:47] 127.0.0.1 - - [02/May/2025 17:03:47] "GET /socket.io/?EIO=4&transport=polling&t=PQIq04b HTTP/1.1" 200 -
+[2025-05-02 17:03:47] 127.0.0.1 - - [02/May/2025 17:03:47] "POST /socket.io/?EIO=4&transport=polling&t=PQIq04j&sid=Zye87NDTK_BcdGnNAAAA HTTP/1.1" 200 -
+[2025-05-02 17:03:47] 127.0.0.1 - - [02/May/2025 17:03:47] "GET /socket.io/?EIO=4&transport=polling&t=PQIq04k&sid=Zye87NDTK_BcdGnNAAAA HTTP/1.1" 200 -
+[2025-05-02 17:03:47] 127.0.0.1 - - [02/May/2025 17:03:47] "GET /socket.io/?EIO=4&transport=polling&t=PQIq04w&sid=Zye87NDTK_BcdGnNAAAA HTTP/1.1" 200 -
+[2025-05-02 17:03:48] 127.0.0.1 - - [02/May/2025 17:03:48] "GET /socket.io/?EIO=4&transport=websocket&sid=Zye87NDTK_BcdGnNAAAA HTTP/1.1" 200 -
+[2025-05-02 17:03:48] 127.0.0.1 - GET /profile
+[2025-05-02 17:03:48] 127.0.0.1 - - [02/May/2025 17:03:48] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 17:03:48] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:03:48] 127.0.0.1 - - [02/May/2025 17:03:48] "GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1" 200 -
+[2025-05-02 17:03:49] 127.0.0.1 - GET /home
+[2025-05-02 17:03:49] 127.0.0.1 - - [02/May/2025 17:03:49] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:03:49] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:03:49] 127.0.0.1 - - [02/May/2025 17:03:49] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:03:49] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:03:49] 127.0.0.1 - - [02/May/2025 17:03:49] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 17:03:50] 127.0.0.1 - - [02/May/2025 17:03:50] "GET /socket.io/?EIO=4&transport=polling&t=PQIq0i1 HTTP/1.1" 200 -
+[2025-05-02 17:03:50] 127.0.0.1 - - [02/May/2025 17:03:50] "POST /socket.io/?EIO=4&transport=polling&t=PQIq0iU&sid=5FxuUAK1E6vTkfNuAAAC HTTP/1.1" 200 -
+[2025-05-02 17:03:50] 127.0.0.1 - - [02/May/2025 17:03:50] "GET /socket.io/?EIO=4&transport=polling&t=PQIq0iV&sid=5FxuUAK1E6vTkfNuAAAC HTTP/1.1" 200 -
+[2025-05-02 17:03:50] 127.0.0.1 - - [02/May/2025 17:03:50] "GET /socket.io/?EIO=4&transport=polling&t=PQIq0il&sid=5FxuUAK1E6vTkfNuAAAC HTTP/1.1" 200 -
+[2025-05-02 21:05:23] 172.19.0.1 - - [02/May/2025 21:05:23] "GET /socket.io/?EIO=4&transport=polling&t=PQIqNW- HTTP/1.1" 200 -
+[2025-05-02 21:05:23] 172.19.0.1 - - [02/May/2025 21:05:23] "POST /socket.io/?EIO=4&transport=polling&t=PQIqNXW&sid=NXPXlVttwj8BPs0HAAAE HTTP/1.1" 200 -
+[2025-05-02 21:05:23] 172.19.0.1 - - [02/May/2025 21:05:23] "GET /socket.io/?EIO=4&transport=polling&t=PQIqNXe&sid=NXPXlVttwj8BPs0HAAAE HTTP/1.1" 200 -
+[2025-05-02 21:05:23] 172.19.0.1 - - [02/May/2025 21:05:23] "GET /socket.io/?EIO=4&transport=polling&t=PQIqNYM&sid=NXPXlVttwj8BPs0HAAAE HTTP/1.1" 200 -
+[2025-05-02 17:05:25] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:05:25] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:05:52] 172.19.0.1 - - [02/May/2025 21:05:52] "GET /socket.io/?EIO=4&transport=websocket&sid=NXPXlVttwj8BPs0HAAAE HTTP/1.1" 200 -
+[2025-05-02 17:05:52] 127.0.0.1 - GET /
+[2025-05-02 17:05:52] 127.0.0.1 - - [02/May/2025 17:05:52] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-05-02 17:05:52] 127.0.0.1 - GET /register
+[2025-05-02 17:05:53] 127.0.0.1 - - [02/May/2025 17:05:53] "GET /register HTTP/1.1" 200 -
+[2025-05-02 17:05:55] 127.0.0.1 - GET /home
+[2025-05-02 17:05:55] 127.0.0.1 - - [02/May/2025 17:05:55] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:05:55] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:05:55] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:05:55] 127.0.0.1 - - [02/May/2025 17:05:55] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 17:05:55] 127.0.0.1 - - [02/May/2025 17:05:55] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:05:55] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:05:55] 127.0.0.1 - - [02/May/2025 17:05:55] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:05:55] 127.0.0.1 - - [02/May/2025 17:05:55] "GET /socket.io/?EIO=4&transport=polling&t=PQIqVQD HTTP/1.1" 200 -
+[2025-05-02 17:05:55] 127.0.0.1 - - [02/May/2025 17:05:55] "POST /socket.io/?EIO=4&transport=polling&t=PQIqVQf&sid=Cj6X_LbG1ekIN3ZuAAAA HTTP/1.1" 200 -
+[2025-05-02 17:05:55] 127.0.0.1 - - [02/May/2025 17:05:55] "GET /socket.io/?EIO=4&transport=polling&t=PQIqVQg&sid=Cj6X_LbG1ekIN3ZuAAAA HTTP/1.1" 200 -
+[2025-05-02 17:05:56] 127.0.0.1 - - [02/May/2025 17:05:56] "GET /socket.io/?EIO=4&transport=polling&t=PQIqVSV&sid=Cj6X_LbG1ekIN3ZuAAAA HTTP/1.1" 200 -
+[2025-05-02 21:07:26] 172.19.0.1 - - [02/May/2025 21:07:26] "GET /socket.io/?EIO=4&transport=polling&t=PQIqrXu HTTP/1.1" 200 -
+[2025-05-02 21:07:26] 172.19.0.1 - - [02/May/2025 21:07:26] "POST /socket.io/?EIO=4&transport=polling&t=PQIqrYP&sid=AUDed_ZduyhM83FmAAAG HTTP/1.1" 200 -
+[2025-05-02 21:07:26] 172.19.0.1 - - [02/May/2025 21:07:26] "GET /socket.io/?EIO=4&transport=polling&t=PQIqrYV&sid=AUDed_ZduyhM83FmAAAG HTTP/1.1" 200 -
+[2025-05-02 21:07:26] 172.19.0.1 - - [02/May/2025 21:07:26] "GET /socket.io/?EIO=4&transport=polling&t=PQIqrZ8&sid=AUDed_ZduyhM83FmAAAG HTTP/1.1" 200 -
+[2025-05-02 17:07:27] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:07:27] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:07:33] 172.19.0.1 - - [02/May/2025 21:07:33] "GET /socket.io/?EIO=4&transport=websocket&sid=AUDed_ZduyhM83FmAAAG HTTP/1.1" 200 -
+[2025-05-02 17:07:33] 127.0.0.1 - GET /profile
+[2025-05-02 17:07:33] 127.0.0.1 - - [02/May/2025 17:07:33] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 17:07:34] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:07:34] 127.0.0.1 - - [02/May/2025 17:07:34] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:07:34] 127.0.0.1 - GET /home
+[2025-05-02 17:07:34] 127.0.0.1 - - [02/May/2025 17:07:34] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:07:34] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:07:34] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:07:34] 127.0.0.1 - - [02/May/2025 17:07:34] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:07:34] 127.0.0.1 - - [02/May/2025 17:07:34] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:07:34] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:07:34] 127.0.0.1 - - [02/May/2025 17:07:34] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:07:34] 127.0.0.1 - - [02/May/2025 17:07:34] "GET /socket.io/?EIO=4&transport=polling&t=PQIqtY6 HTTP/1.1" 200 -
+[2025-05-02 17:07:34] 127.0.0.1 - - [02/May/2025 17:07:34] "POST /socket.io/?EIO=4&transport=polling&t=PQIqtYp&sid=aZO8g7F43Asi_I_rAAAA HTTP/1.1" 200 -
+[2025-05-02 17:07:34] 127.0.0.1 - - [02/May/2025 17:07:34] "GET /socket.io/?EIO=4&transport=polling&t=PQIqtYr&sid=aZO8g7F43Asi_I_rAAAA HTTP/1.1" 200 -
+[2025-05-02 17:07:34] 127.0.0.1 - - [02/May/2025 17:07:34] "GET /socket.io/?EIO=4&transport=polling&t=PQIqtZI&sid=aZO8g7F43Asi_I_rAAAA HTTP/1.1" 200 -
+[2025-05-02 21:09:26] 172.19.0.1 - - [02/May/2025 21:09:26] "GET /socket.io/?EIO=4&transport=polling&t=PQIrIqC HTTP/1.1" 200 -
+[2025-05-02 21:09:26] 172.19.0.1 - - [02/May/2025 21:09:26] "POST /socket.io/?EIO=4&transport=polling&t=PQIrIqg&sid=j5PltjwGwswzle7dAAAI HTTP/1.1" 200 -
+[2025-05-02 21:09:26] 172.19.0.1 - - [02/May/2025 21:09:26] "GET /socket.io/?EIO=4&transport=polling&t=PQIrIqp&sid=j5PltjwGwswzle7dAAAI HTTP/1.1" 200 -
+[2025-05-02 21:09:26] 172.19.0.1 - - [02/May/2025 21:09:26] "GET /socket.io/?EIO=4&transport=polling&t=PQIrIrS&sid=j5PltjwGwswzle7dAAAI HTTP/1.1" 200 -
+[2025-05-02 17:09:27] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:09:27] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:09:29] 172.19.0.1 - - [02/May/2025 21:09:29] "GET /socket.io/?EIO=4&transport=websocket&sid=j5PltjwGwswzle7dAAAI HTTP/1.1" 200 -
+[2025-05-02 17:09:29] 127.0.0.1 - GET /profile
+[2025-05-02 17:09:29] 127.0.0.1 - - [02/May/2025 17:09:29] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 17:09:29] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:09:29] 127.0.0.1 - - [02/May/2025 17:09:29] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:09:30] 127.0.0.1 - GET /home
+[2025-05-02 17:09:30] 127.0.0.1 - - [02/May/2025 17:09:30] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:09:30] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:09:30] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:09:30] 127.0.0.1 - - [02/May/2025 17:09:30] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:09:30] 127.0.0.1 - - [02/May/2025 17:09:30] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:09:30] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:09:30] 127.0.0.1 - - [02/May/2025 17:09:30] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:09:30] 127.0.0.1 - - [02/May/2025 17:09:30] "GET /socket.io/?EIO=4&transport=polling&t=PQIrJmp HTTP/1.1" 200 -
+[2025-05-02 17:09:30] 127.0.0.1 - - [02/May/2025 17:09:30] "POST /socket.io/?EIO=4&transport=polling&t=PQIrJnk&sid=xVLJI5vI-8-u0Pp2AAAA HTTP/1.1" 200 -
+[2025-05-02 17:09:30] 127.0.0.1 - - [02/May/2025 17:09:30] "GET /socket.io/?EIO=4&transport=polling&t=PQIrJnl&sid=xVLJI5vI-8-u0Pp2AAAA HTTP/1.1" 200 -
+[2025-05-02 17:09:30] 127.0.0.1 - - [02/May/2025 17:09:30] "GET /socket.io/?EIO=4&transport=polling&t=PQIrJoK&sid=xVLJI5vI-8-u0Pp2AAAA HTTP/1.1" 200 -
+[2025-05-02 17:13:51] 127.0.0.1 - - [02/May/2025 17:13:51] "GET /socket.io/?EIO=4&transport=websocket&sid=xVLJI5vI-8-u0Pp2AAAA HTTP/1.1" 200 -
+[2025-05-02 17:13:51] 127.0.0.1 - GET /home
+[2025-05-02 17:13:51] 127.0.0.1 - - [02/May/2025 17:13:51] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:13:51] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:13:51] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:13:51] 127.0.0.1 - - [02/May/2025 17:13:51] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:13:51] 127.0.0.1 - - [02/May/2025 17:13:51] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 17:13:51] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:13:51] 127.0.0.1 - - [02/May/2025 17:13:51] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:13:51] 127.0.0.1 - - [02/May/2025 17:13:51] "GET /socket.io/?EIO=4&transport=polling&t=PQIsJVd HTTP/1.1" 200 -
+[2025-05-02 17:13:51] 127.0.0.1 - - [02/May/2025 17:13:51] "POST /socket.io/?EIO=4&transport=polling&t=PQIsJVo&sid=pVAPVhfRgoTx2UsYAAAC HTTP/1.1" 200 -
+[2025-05-02 17:13:51] 127.0.0.1 - - [02/May/2025 17:13:51] "GET /socket.io/?EIO=4&transport=polling&t=PQIsJVp&sid=pVAPVhfRgoTx2UsYAAAC HTTP/1.1" 200 -
+[2025-05-02 17:13:51] 127.0.0.1 - - [02/May/2025 17:13:51] "GET /socket.io/?EIO=4&transport=polling&t=PQIsJWB&sid=pVAPVhfRgoTx2UsYAAAC HTTP/1.1" 200 -
+[2025-05-02 21:16:22] 172.19.0.1 - - [02/May/2025 21:16:22] "GET /socket.io/?EIO=4&transport=polling&t=PQIsuNt HTTP/1.1" 200 -
+[2025-05-02 21:16:22] 172.19.0.1 - - [02/May/2025 21:16:22] "POST /socket.io/?EIO=4&transport=polling&t=PQIsuOH&sid=H3sdsgk6RcwEpi11AAAK HTTP/1.1" 200 -
+[2025-05-02 21:16:22] 172.19.0.1 - - [02/May/2025 21:16:22] "GET /socket.io/?EIO=4&transport=polling&t=PQIsuOJ&sid=H3sdsgk6RcwEpi11AAAK HTTP/1.1" 200 -
+[2025-05-02 17:16:23] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:16:23] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:16:26] 172.19.0.1 - - [02/May/2025 21:16:26] "GET /socket.io/?EIO=4&transport=websocket&sid=H3sdsgk6RcwEpi11AAAK HTTP/1.1" 200 -
+[2025-05-02 17:16:26] 127.0.0.1 - GET /profile
+[2025-05-02 17:16:26] 127.0.0.1 - - [02/May/2025 17:16:26] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 17:16:26] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:16:26] 127.0.0.1 - - [02/May/2025 17:16:26] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:16:28] 127.0.0.1 - GET /home
+[2025-05-02 17:16:28] 127.0.0.1 - - [02/May/2025 17:16:28] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:16:28] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:16:28] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:16:28] 127.0.0.1 - - [02/May/2025 17:16:28] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:16:28] 127.0.0.1 - - [02/May/2025 17:16:28] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:16:28] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:16:28] 127.0.0.1 - - [02/May/2025 17:16:28] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:16:28] 127.0.0.1 - - [02/May/2025 17:16:28] "GET /socket.io/?EIO=4&transport=polling&t=PQIsvqP HTTP/1.1" 200 -
+[2025-05-02 17:16:28] 127.0.0.1 - - [02/May/2025 17:16:28] "POST /socket.io/?EIO=4&transport=polling&t=PQIsvri&sid=WmvpQDr0DfmjCNq8AAAA HTTP/1.1" 200 -
+[2025-05-02 17:16:28] 127.0.0.1 - - [02/May/2025 17:16:28] "GET /socket.io/?EIO=4&transport=polling&t=PQIsvrk&sid=WmvpQDr0DfmjCNq8AAAA HTTP/1.1" 200 -
+[2025-05-02 17:16:28] 127.0.0.1 - - [02/May/2025 17:16:28] "GET /socket.io/?EIO=4&transport=polling&t=PQIsvsX&sid=WmvpQDr0DfmjCNq8AAAA HTTP/1.1" 200 -
+[2025-05-02 17:16:32] 127.0.0.1 - - [02/May/2025 17:16:32] "GET /socket.io/?EIO=4&transport=websocket&sid=WmvpQDr0DfmjCNq8AAAA HTTP/1.1" 200 -
+[2025-05-02 17:16:32] 127.0.0.1 - GET /home
+[2025-05-02 17:16:32] 127.0.0.1 - - [02/May/2025 17:16:32] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:16:33] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:16:33] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:16:33] 127.0.0.1 - - [02/May/2025 17:16:33] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:16:33] 127.0.0.1 - - [02/May/2025 17:16:33] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 17:16:33] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:16:33] 127.0.0.1 - - [02/May/2025 17:16:33] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:16:33] 127.0.0.1 - - [02/May/2025 17:16:33] "GET /socket.io/?EIO=4&transport=polling&t=PQIsw-B HTTP/1.1" 200 -
+[2025-05-02 17:16:33] 127.0.0.1 - - [02/May/2025 17:16:33] "POST /socket.io/?EIO=4&transport=polling&t=PQIsw-b&sid=BxtLJiGtRMAYh5VYAAAC HTTP/1.1" 200 -
+[2025-05-02 17:16:33] 127.0.0.1 - - [02/May/2025 17:16:33] "GET /socket.io/?EIO=4&transport=polling&t=PQIsw-b.0&sid=BxtLJiGtRMAYh5VYAAAC HTTP/1.1" 200 -
+[2025-05-02 17:16:33] 127.0.0.1 - - [02/May/2025 17:16:33] "GET /socket.io/?EIO=4&transport=polling&t=PQIsw-t&sid=BxtLJiGtRMAYh5VYAAAC HTTP/1.1" 200 -
+[2025-05-02 21:17:39] 172.19.0.1 - - [02/May/2025 21:17:39] "GET /socket.io/?EIO=4&transport=polling&t=PQItBCZ HTTP/1.1" 200 -
+[2025-05-02 21:17:39] 172.19.0.1 - - [02/May/2025 21:17:39] "POST /socket.io/?EIO=4&transport=polling&t=PQItBD4&sid=MSy16iViLEgWWb2gAAAM HTTP/1.1" 200 -
+[2025-05-02 21:17:39] 172.19.0.1 - - [02/May/2025 21:17:39] "GET /socket.io/?EIO=4&transport=polling&t=PQItBDE&sid=MSy16iViLEgWWb2gAAAM HTTP/1.1" 200 -
+[2025-05-02 21:17:39] 172.19.0.1 - - [02/May/2025 21:17:39] "GET /socket.io/?EIO=4&transport=polling&t=PQItBDs&sid=MSy16iViLEgWWb2gAAAM HTTP/1.1" 200 -
+[2025-05-02 17:17:40] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:17:40] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:17:42] 172.19.0.1 - - [02/May/2025 21:17:42] "GET /socket.io/?EIO=4&transport=websocket&sid=MSy16iViLEgWWb2gAAAM HTTP/1.1" 200 -
+[2025-05-02 17:17:42] 127.0.0.1 - GET /home
+[2025-05-02 17:17:42] 127.0.0.1 - - [02/May/2025 17:17:42] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:17:42] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:17:42] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:17:42] 127.0.0.1 - - [02/May/2025 17:17:42] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:17:42] 127.0.0.1 - - [02/May/2025 17:17:42] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:17:42] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:17:42] 127.0.0.1 - - [02/May/2025 17:17:42] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:17:42] 127.0.0.1 - - [02/May/2025 17:17:42] "GET /socket.io/?EIO=4&transport=polling&t=PQItBtx HTTP/1.1" 200 -
+[2025-05-02 17:17:42] 127.0.0.1 - - [02/May/2025 17:17:42] "POST /socket.io/?EIO=4&transport=polling&t=PQItBuJ&sid=0lZybvQ5bOl2Fct_AAAA HTTP/1.1" 200 -
+[2025-05-02 17:17:42] 127.0.0.1 - - [02/May/2025 17:17:42] "GET /socket.io/?EIO=4&transport=polling&t=PQItBuL&sid=0lZybvQ5bOl2Fct_AAAA HTTP/1.1" 200 -
+[2025-05-02 17:17:42] 127.0.0.1 - - [02/May/2025 17:17:42] "GET /socket.io/?EIO=4&transport=polling&t=PQItBvn&sid=0lZybvQ5bOl2Fct_AAAA HTTP/1.1" 200 -
+[2025-05-02 21:19:45] 172.19.0.1 - - [02/May/2025 21:19:45] "GET /socket.io/?EIO=4&transport=polling&t=PQItfst HTTP/1.1" 200 -
+[2025-05-02 21:19:45] 172.19.0.1 - - [02/May/2025 21:19:45] "POST /socket.io/?EIO=4&transport=polling&t=PQItftF&sid=mnQpxkwm-siYIZ6AAAAO HTTP/1.1" 200 -
+[2025-05-02 21:19:45] 172.19.0.1 - - [02/May/2025 21:19:45] "GET /socket.io/?EIO=4&transport=polling&t=PQItftJ&sid=mnQpxkwm-siYIZ6AAAAO HTTP/1.1" 200 -
+[2025-05-02 21:19:45] 172.19.0.1 - - [02/May/2025 21:19:45] "GET /socket.io/?EIO=4&transport=polling&t=PQItftx&sid=mnQpxkwm-siYIZ6AAAAO HTTP/1.1" 200 -
+[2025-05-02 17:19:45] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:19:45] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:19:50] 172.19.0.1 - - [02/May/2025 21:19:50] "GET /socket.io/?EIO=4&transport=websocket&sid=mnQpxkwm-siYIZ6AAAAO HTTP/1.1" 200 -
+[2025-05-02 17:19:50] 127.0.0.1 - GET /home
+[2025-05-02 17:19:50] 127.0.0.1 - - [02/May/2025 17:19:50] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:19:50] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:19:50] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:19:50] 127.0.0.1 - - [02/May/2025 17:19:50] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:19:50] 127.0.0.1 - - [02/May/2025 17:19:50] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:19:50] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:19:50] 127.0.0.1 - - [02/May/2025 17:19:50] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:19:50] 127.0.0.1 - - [02/May/2025 17:19:50] "GET /socket.io/?EIO=4&transport=polling&t=PQIth9C HTTP/1.1" 200 -
+[2025-05-02 17:19:50] 127.0.0.1 - - [02/May/2025 17:19:50] "POST /socket.io/?EIO=4&transport=polling&t=PQIth9K&sid=uW1jPT3kA98qT9cnAAAA HTTP/1.1" 200 -
+[2025-05-02 17:19:50] 127.0.0.1 - - [02/May/2025 17:19:50] "GET /socket.io/?EIO=4&transport=polling&t=PQIth9L&sid=uW1jPT3kA98qT9cnAAAA HTTP/1.1" 200 -
+[2025-05-02 17:19:50] 127.0.0.1 - - [02/May/2025 17:19:50] "GET /socket.io/?EIO=4&transport=polling&t=PQIth9Y&sid=uW1jPT3kA98qT9cnAAAA HTTP/1.1" 200 -
+[2025-05-02 17:19:53] 127.0.0.1 - - [02/May/2025 17:19:53] "GET /socket.io/?EIO=4&transport=websocket&sid=uW1jPT3kA98qT9cnAAAA HTTP/1.1" 200 -
+[2025-05-02 17:19:53] 127.0.0.1 - GET /home
+[2025-05-02 17:19:53] 127.0.0.1 - - [02/May/2025 17:19:53] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:19:53] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:19:53] 127.0.0.1 - - [02/May/2025 17:19:53] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:19:53] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:19:53] 127.0.0.1 - - [02/May/2025 17:19:53] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 17:19:53] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:19:53] 127.0.0.1 - - [02/May/2025 17:19:53] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:19:53] 127.0.0.1 - - [02/May/2025 17:19:53] "GET /socket.io/?EIO=4&transport=polling&t=PQIti0R HTTP/1.1" 200 -
+[2025-05-02 17:19:54] 127.0.0.1 - - [02/May/2025 17:19:54] "POST /socket.io/?EIO=4&transport=polling&t=PQIti1f&sid=NsINC_7n6eLUlkLhAAAC HTTP/1.1" 200 -
+[2025-05-02 17:19:54] 127.0.0.1 - - [02/May/2025 17:19:54] "GET /socket.io/?EIO=4&transport=polling&t=PQIti1g&sid=NsINC_7n6eLUlkLhAAAC HTTP/1.1" 200 -
+[2025-05-02 21:22:53] 172.19.0.1 - - [02/May/2025 21:22:53] "GET /socket.io/?EIO=4&transport=polling&t=PQIuNou HTTP/1.1" 200 -
+[2025-05-02 21:22:53] 172.19.0.1 - - [02/May/2025 21:22:53] "POST /socket.io/?EIO=4&transport=polling&t=PQIuNpW&sid=ZRM5B2ADCJKR8KEnAAAQ HTTP/1.1" 200 -
+[2025-05-02 21:22:53] 172.19.0.1 - - [02/May/2025 21:22:53] "GET /socket.io/?EIO=4&transport=polling&t=PQIuNpd&sid=ZRM5B2ADCJKR8KEnAAAQ HTTP/1.1" 200 -
+[2025-05-02 21:22:53] 172.19.0.1 - - [02/May/2025 21:22:53] "GET /socket.io/?EIO=4&transport=polling&t=PQIuNq8&sid=ZRM5B2ADCJKR8KEnAAAQ HTTP/1.1" 200 -
+[2025-05-02 17:22:54] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:22:54] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:23:01] 172.19.0.1 - - [02/May/2025 21:23:01] "GET /socket.io/?EIO=4&transport=websocket&sid=ZRM5B2ADCJKR8KEnAAAQ HTTP/1.1" 200 -
+[2025-05-02 17:23:01] 127.0.0.1 - GET /home
+[2025-05-02 17:23:01] 127.0.0.1 - - [02/May/2025 17:23:01] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:23:01] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:23:01] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:23:01] 127.0.0.1 - - [02/May/2025 17:23:01] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:23:01] 127.0.0.1 - - [02/May/2025 17:23:01] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:23:01] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:23:01] 127.0.0.1 - - [02/May/2025 17:23:01] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:23:01] 127.0.0.1 - - [02/May/2025 17:23:01] "GET /socket.io/?EIO=4&transport=polling&t=PQIuPs6 HTTP/1.1" 200 -
+[2025-05-02 17:23:01] 127.0.0.1 - - [02/May/2025 17:23:01] "POST /socket.io/?EIO=4&transport=polling&t=PQIuPsS&sid=tUakMd9hIYOev8E5AAAA HTTP/1.1" 200 -
+[2025-05-02 17:23:01] 127.0.0.1 - - [02/May/2025 17:23:01] "GET /socket.io/?EIO=4&transport=polling&t=PQIuPsT&sid=tUakMd9hIYOev8E5AAAA HTTP/1.1" 200 -
+[2025-05-02 17:23:01] 127.0.0.1 - - [02/May/2025 17:23:01] "GET /socket.io/?EIO=4&transport=polling&t=PQIuPt3&sid=tUakMd9hIYOev8E5AAAA HTTP/1.1" 200 -
+[2025-05-02 17:24:43] 127.0.0.1 - - [02/May/2025 17:24:43] "GET /socket.io/?EIO=4&transport=websocket&sid=tUakMd9hIYOev8E5AAAA HTTP/1.1" 200 -
+[2025-05-02 17:24:43] 127.0.0.1 - GET /profile
+[2025-05-02 17:24:43] 127.0.0.1 - - [02/May/2025 17:24:43] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 17:24:43] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:24:43] 127.0.0.1 - - [02/May/2025 17:24:43] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:24:45] 127.0.0.1 - GET /home
+[2025-05-02 17:24:45] 127.0.0.1 - - [02/May/2025 17:24:45] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:24:45] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:24:45] 127.0.0.1 - - [02/May/2025 17:24:45] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:24:45] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:24:45] 127.0.0.1 - - [02/May/2025 17:24:45] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:24:45] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:24:45] 127.0.0.1 - - [02/May/2025 17:24:45] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:24:45] 127.0.0.1 - - [02/May/2025 17:24:45] "GET /socket.io/?EIO=4&transport=polling&t=PQIupBa HTTP/1.1" 200 -
+[2025-05-02 17:24:45] 127.0.0.1 - - [02/May/2025 17:24:45] "POST /socket.io/?EIO=4&transport=polling&t=PQIupBw&sid=PONmelWi6GdVoSJpAAAC HTTP/1.1" 200 -
+[2025-05-02 17:24:45] 127.0.0.1 - - [02/May/2025 17:24:45] "GET /socket.io/?EIO=4&transport=polling&t=PQIupBx&sid=PONmelWi6GdVoSJpAAAC HTTP/1.1" 200 -
+[2025-05-02 17:24:45] 127.0.0.1 - - [02/May/2025 17:24:45] "GET /socket.io/?EIO=4&transport=polling&t=PQIupCK&sid=PONmelWi6GdVoSJpAAAC HTTP/1.1" 200 -
+[2025-05-02 21:25:18] 172.19.0.1 - - [02/May/2025 21:25:18] "GET /socket.io/?EIO=4&transport=polling&t=PQIux8g HTTP/1.1" 200 -
+[2025-05-02 21:25:18] 172.19.0.1 - - [02/May/2025 21:25:18] "POST /socket.io/?EIO=4&transport=polling&t=PQIux91&sid=cDF3p-EINVVJvG3mAAAS HTTP/1.1" 200 -
+[2025-05-02 21:25:18] 172.19.0.1 - - [02/May/2025 21:25:18] "GET /socket.io/?EIO=4&transport=polling&t=PQIux95&sid=cDF3p-EINVVJvG3mAAAS HTTP/1.1" 200 -
+[2025-05-02 21:25:18] 172.19.0.1 - - [02/May/2025 21:25:18] "GET /socket.io/?EIO=4&transport=polling&t=PQIux9i&sid=cDF3p-EINVVJvG3mAAAS HTTP/1.1" 200 -
+[2025-05-02 17:25:18] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:25:18] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:25:22] 172.19.0.1 - - [02/May/2025 21:25:22] "GET /socket.io/?EIO=4&transport=websocket&sid=cDF3p-EINVVJvG3mAAAS HTTP/1.1" 200 -
+[2025-05-02 17:25:22] 127.0.0.1 - GET /profile
+[2025-05-02 17:25:22] 127.0.0.1 - - [02/May/2025 17:25:22] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 17:25:22] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:25:22] 127.0.0.1 - - [02/May/2025 17:25:22] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:25:23] 127.0.0.1 - GET /home
+[2025-05-02 17:25:23] 127.0.0.1 - - [02/May/2025 17:25:23] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:25:23] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:25:23] 127.0.0.1 - - [02/May/2025 17:25:23] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:25:23] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:25:23] 127.0.0.1 - - [02/May/2025 17:25:23] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:25:23] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:25:23] 127.0.0.1 - - [02/May/2025 17:25:23] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:25:23] 127.0.0.1 - - [02/May/2025 17:25:23] "GET /socket.io/?EIO=4&transport=polling&t=PQIuyTi HTTP/1.1" 200 -
+[2025-05-02 17:25:23] 127.0.0.1 - - [02/May/2025 17:25:23] "POST /socket.io/?EIO=4&transport=polling&t=PQIuyUU&sid=rMCVWYE6j0KFQ6qbAAAA HTTP/1.1" 200 -
+[2025-05-02 17:25:23] 127.0.0.1 - - [02/May/2025 17:25:23] "GET /socket.io/?EIO=4&transport=polling&t=PQIuyUW&sid=rMCVWYE6j0KFQ6qbAAAA HTTP/1.1" 200 -
+[2025-05-02 17:25:23] 127.0.0.1 - - [02/May/2025 17:25:23] "GET /socket.io/?EIO=4&transport=polling&t=PQIuyUv&sid=rMCVWYE6j0KFQ6qbAAAA HTTP/1.1" 200 -
+[2025-05-02 17:26:36] 127.0.0.1 - - [02/May/2025 17:26:36] "GET /socket.io/?EIO=4&transport=websocket&sid=rMCVWYE6j0KFQ6qbAAAA HTTP/1.1" 200 -
+[2025-05-02 17:26:36] 127.0.0.1 - GET /profile
+[2025-05-02 17:26:36] 127.0.0.1 - - [02/May/2025 17:26:36] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 17:26:37] 127.0.0.1 - GET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg
+[2025-05-02 17:26:37] 127.0.0.1 - - [02/May/2025 17:26:37] "[36mGET /static/avatar/c2fc85ae-84c0-469e-9696-28f2ac0c641b.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 17:26:42] 127.0.0.1 - POST /change-avatar
+[2025-05-02 17:26:42] 127.0.0.1 - - [02/May/2025 17:26:42] "[32mPOST /change-avatar HTTP/1.1[0m" 302 -
+[2025-05-02 17:26:42] 127.0.0.1 - GET /profile
+[2025-05-02 17:26:42] 127.0.0.1 - - [02/May/2025 17:26:42] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 17:26:43] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:26:43] 127.0.0.1 - - [02/May/2025 17:26:43] "GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1" 200 -
+[2025-05-02 17:26:44] 127.0.0.1 - GET /home
+[2025-05-02 17:26:44] 127.0.0.1 - - [02/May/2025 17:26:44] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:26:44] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:26:44] 127.0.0.1 - - [02/May/2025 17:26:44] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:26:44] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:26:44] 127.0.0.1 - - [02/May/2025 17:26:44] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 17:26:44] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:26:44] 127.0.0.1 - - [02/May/2025 17:26:44] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 17:26:44] 127.0.0.1 - - [02/May/2025 17:26:44] "GET /socket.io/?EIO=4&transport=polling&t=PQIvGMS HTTP/1.1" 200 -
+[2025-05-02 17:26:44] 127.0.0.1 - - [02/May/2025 17:26:44] "POST /socket.io/?EIO=4&transport=polling&t=PQIvGNN&sid=4NNQHrJa7EndpKCbAAAC HTTP/1.1" 200 -
+[2025-05-02 17:26:44] 127.0.0.1 - - [02/May/2025 17:26:44] "GET /socket.io/?EIO=4&transport=polling&t=PQIvGNQ&sid=4NNQHrJa7EndpKCbAAAC HTTP/1.1" 200 -
+[2025-05-02 17:26:44] 127.0.0.1 - - [02/May/2025 17:26:44] "GET /socket.io/?EIO=4&transport=polling&t=PQIvGNm&sid=4NNQHrJa7EndpKCbAAAC HTTP/1.1" 200 -
+[2025-05-02 17:34:46] 127.0.0.1 - - [02/May/2025 17:34:46] "GET /socket.io/?EIO=4&transport=websocket&sid=4NNQHrJa7EndpKCbAAAC HTTP/1.1" 200 -
+[2025-05-02 17:34:46] 127.0.0.1 - GET /home
+[2025-05-02 17:34:46] 127.0.0.1 - - [02/May/2025 17:34:46] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:34:46] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:34:46] 127.0.0.1 - - [02/May/2025 17:34:46] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:34:46] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:34:46] 127.0.0.1 - - [02/May/2025 17:34:46] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:34:46] 127.0.0.1 - - [02/May/2025 17:34:46] "GET /socket.io/?EIO=4&transport=polling&t=PQIx62g HTTP/1.1" 200 -
+[2025-05-02 17:34:46] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:34:46] 127.0.0.1 - - [02/May/2025 17:34:46] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 17:34:47] 127.0.0.1 - - [02/May/2025 17:34:47] "POST /socket.io/?EIO=4&transport=polling&t=PQIx63C&sid=j41QSMdhPP-UEh-tAAAE HTTP/1.1" 200 -
+[2025-05-02 17:34:47] 127.0.0.1 - - [02/May/2025 17:34:47] "GET /socket.io/?EIO=4&transport=polling&t=PQIx63C.0&sid=j41QSMdhPP-UEh-tAAAE HTTP/1.1" 200 -
+[2025-05-02 17:34:47] 127.0.0.1 - - [02/May/2025 17:34:47] "GET /socket.io/?EIO=4&transport=polling&t=PQIx63V&sid=j41QSMdhPP-UEh-tAAAE HTTP/1.1" 200 -
+[2025-05-02 21:35:58] 172.19.0.1 - - [02/May/2025 21:35:58] "GET /socket.io/?EIO=4&transport=polling&t=PQIxNW1 HTTP/1.1" 200 -
+[2025-05-02 21:35:58] 172.19.0.1 - - [02/May/2025 21:35:58] "POST /socket.io/?EIO=4&transport=polling&t=PQIxNWH&sid=UTpQcAHpKDsfBrtQAAAU HTTP/1.1" 200 -
+[2025-05-02 21:35:58] 172.19.0.1 - - [02/May/2025 21:35:58] "GET /socket.io/?EIO=4&transport=polling&t=PQIxNWH.0&sid=UTpQcAHpKDsfBrtQAAAU HTTP/1.1" 200 -
+[2025-05-02 21:35:58] 172.19.0.1 - - [02/May/2025 21:35:58] "GET /socket.io/?EIO=4&transport=polling&t=PQIxNWc&sid=UTpQcAHpKDsfBrtQAAAU HTTP/1.1" 200 -
+[2025-05-02 17:36:00] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:36:00] [33mPress CTRL+C to quit[0m
+[2025-05-02 17:46:38] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:46:38] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:46:42] 172.19.0.1 - - [02/May/2025 21:46:42] "GET /socket.io/?EIO=4&transport=websocket&sid=UTpQcAHpKDsfBrtQAAAU HTTP/1.1" 200 -
+[2025-05-02 17:46:42] 127.0.0.1 - GET /home
+[2025-05-02 17:46:42] 127.0.0.1 - - [02/May/2025 17:46:42] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:46:42] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:46:42] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:46:42] 127.0.0.1 - - [02/May/2025 17:46:42] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:46:42] 127.0.0.1 - - [02/May/2025 17:46:42] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:46:42] 127.0.0.1 - - [02/May/2025 17:46:42] "GET /socket.io/?EIO=4&transport=polling&t=PQIzqmk HTTP/1.1" 200 -
+[2025-05-02 17:46:42] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:46:42] 127.0.0.1 - - [02/May/2025 17:46:42] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 17:46:42] 127.0.0.1 - - [02/May/2025 17:46:42] "POST /socket.io/?EIO=4&transport=polling&t=PQIzqo_&sid=7zal7q3dOBWCgEhrAAAA HTTP/1.1" 200 -
+[2025-05-02 17:46:42] 127.0.0.1 - - [02/May/2025 17:46:42] "GET /socket.io/?EIO=4&transport=polling&t=PQIzqp1&sid=7zal7q3dOBWCgEhrAAAA HTTP/1.1" 200 -
+[2025-05-02 17:46:42] 127.0.0.1 - - [02/May/2025 17:46:42] "GET /socket.io/?EIO=4&transport=polling&t=PQIzqqA&sid=7zal7q3dOBWCgEhrAAAA HTTP/1.1" 200 -
+[2025-05-02 21:48:01] 172.19.0.1 - - [02/May/2025 21:48:01] "GET /socket.io/?EIO=4&transport=polling&t=PQI-7wT HTTP/1.1" 200 -
+[2025-05-02 21:48:01] 172.19.0.1 - - [02/May/2025 21:48:01] "POST /socket.io/?EIO=4&transport=polling&t=PQI-7wg&sid=Xw_MFI3Q_uIWSnEaAAAW HTTP/1.1" 200 -
+[2025-05-02 21:48:01] 172.19.0.1 - - [02/May/2025 21:48:01] "GET /socket.io/?EIO=4&transport=polling&t=PQI-7wi&sid=Xw_MFI3Q_uIWSnEaAAAW HTTP/1.1" 200 -
+[2025-05-02 21:48:01] 172.19.0.1 - - [02/May/2025 21:48:01] "GET /socket.io/?EIO=4&transport=polling&t=PQI-7x0&sid=Xw_MFI3Q_uIWSnEaAAAW HTTP/1.1" 200 -
+[2025-05-02 17:48:02] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:48:02] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:48:07] 172.19.0.1 - - [02/May/2025 21:48:07] "GET /socket.io/?EIO=4&transport=websocket&sid=Xw_MFI3Q_uIWSnEaAAAW HTTP/1.1" 200 -
+[2025-05-02 17:48:07] 127.0.0.1 - GET /home
+[2025-05-02 17:48:07] 127.0.0.1 - - [02/May/2025 17:48:07] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:48:07] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:48:07] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:48:07] 127.0.0.1 - - [02/May/2025 17:48:07] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:48:07] 127.0.0.1 - - [02/May/2025 17:48:07] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:48:07] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:48:07] 127.0.0.1 - - [02/May/2025 17:48:07] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 17:48:07] 127.0.0.1 - - [02/May/2025 17:48:07] "GET /socket.io/?EIO=4&transport=polling&t=PQI-9XO HTTP/1.1" 200 -
+[2025-05-02 17:48:07] 127.0.0.1 - - [02/May/2025 17:48:07] "POST /socket.io/?EIO=4&transport=polling&t=PQI-9Xu&sid=cXUHxZGXBenQPUgNAAAA HTTP/1.1" 200 -
+[2025-05-02 17:48:07] 127.0.0.1 - - [02/May/2025 17:48:07] "GET /socket.io/?EIO=4&transport=polling&t=PQI-9Xw&sid=cXUHxZGXBenQPUgNAAAA HTTP/1.1" 200 -
+[2025-05-02 17:48:07] 127.0.0.1 - - [02/May/2025 17:48:07] "GET /socket.io/?EIO=4&transport=polling&t=PQI-9YV&sid=cXUHxZGXBenQPUgNAAAA HTTP/1.1" 200 -
+[2025-05-02 21:50:06] 172.19.0.1 - - [02/May/2025 21:50:06] "GET /socket.io/?EIO=4&transport=polling&t=PQI-cay HTTP/1.1" 200 -
+[2025-05-02 21:50:06] 172.19.0.1 - - [02/May/2025 21:50:06] "POST /socket.io/?EIO=4&transport=polling&t=PQI-cbC&sid=HWjyujzyKlYXCUTxAAAY HTTP/1.1" 200 -
+[2025-05-02 21:50:06] 172.19.0.1 - - [02/May/2025 21:50:06] "GET /socket.io/?EIO=4&transport=polling&t=PQI-cbF&sid=HWjyujzyKlYXCUTxAAAY HTTP/1.1" 200 -
+[2025-05-02 21:50:06] 172.19.0.1 - - [02/May/2025 21:50:06] "GET /socket.io/?EIO=4&transport=polling&t=PQI-cbX&sid=HWjyujzyKlYXCUTxAAAY HTTP/1.1" 200 -
+[2025-05-02 17:50:08] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:50:08] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:50:09] 172.19.0.1 - - [02/May/2025 21:50:09] "GET /socket.io/?EIO=4&transport=websocket&sid=HWjyujzyKlYXCUTxAAAY HTTP/1.1" 200 -
+[2025-05-02 17:50:09] 127.0.0.1 - GET /profile
+[2025-05-02 17:50:09] 127.0.0.1 - - [02/May/2025 17:50:09] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 17:50:09] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:50:09] 127.0.0.1 - - [02/May/2025 17:50:09] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 17:50:10] 127.0.0.1 - GET /home
+[2025-05-02 17:50:10] 127.0.0.1 - - [02/May/2025 17:50:10] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:50:10] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:50:10] 127.0.0.1 - - [02/May/2025 17:50:10] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:50:10] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:50:10] 127.0.0.1 - - [02/May/2025 17:50:10] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 17:50:10] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:50:10] 127.0.0.1 - - [02/May/2025 17:50:10] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 17:50:10] 127.0.0.1 - - [02/May/2025 17:50:10] "GET /socket.io/?EIO=4&transport=polling&t=PQI-dVa HTTP/1.1" 200 -
+[2025-05-02 17:50:10] 127.0.0.1 - - [02/May/2025 17:50:10] "POST /socket.io/?EIO=4&transport=polling&t=PQI-dWt&sid=A0hysq8Rr8BSj3vAAAAA HTTP/1.1" 200 -
+[2025-05-02 17:50:10] 127.0.0.1 - - [02/May/2025 17:50:10] "GET /socket.io/?EIO=4&transport=polling&t=PQI-dWu&sid=A0hysq8Rr8BSj3vAAAAA HTTP/1.1" 200 -
+[2025-05-02 17:50:10] 127.0.0.1 - - [02/May/2025 17:50:10] "GET /socket.io/?EIO=4&transport=polling&t=PQI-dXU&sid=A0hysq8Rr8BSj3vAAAAA HTTP/1.1" 200 -
+[2025-05-02 21:51:08] 172.19.0.1 - - [02/May/2025 21:51:08] "GET /socket.io/?EIO=4&transport=polling&t=PQI-rdT HTTP/1.1" 200 -
+[2025-05-02 21:51:08] 172.19.0.1 - - [02/May/2025 21:51:08] "POST /socket.io/?EIO=4&transport=polling&t=PQI-rdi&sid=rBqQHVB6YQBH0VRSAAAa HTTP/1.1" 200 -
+[2025-05-02 21:51:08] 172.19.0.1 - - [02/May/2025 21:51:08] "GET /socket.io/?EIO=4&transport=polling&t=PQI-rdj&sid=rBqQHVB6YQBH0VRSAAAa HTTP/1.1" 200 -
+[2025-05-02 21:51:08] 172.19.0.1 - - [02/May/2025 21:51:08] "GET /socket.io/?EIO=4&transport=polling&t=PQI-rd-&sid=rBqQHVB6YQBH0VRSAAAa HTTP/1.1" 200 -
+[2025-05-02 17:51:12] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:51:12] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:51:14] 172.19.0.1 - - [02/May/2025 21:51:14] "GET /socket.io/?EIO=4&transport=websocket&sid=rBqQHVB6YQBH0VRSAAAa HTTP/1.1" 200 -
+[2025-05-02 17:51:14] 127.0.0.1 - GET /home
+[2025-05-02 17:51:14] 127.0.0.1 - - [02/May/2025 17:51:14] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:51:14] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:51:14] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:51:14] 127.0.0.1 - - [02/May/2025 17:51:14] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:51:14] 127.0.0.1 - - [02/May/2025 17:51:14] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:51:14] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:51:14] 127.0.0.1 - - [02/May/2025 17:51:14] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 17:51:14] 127.0.0.1 - - [02/May/2025 17:51:14] "GET /socket.io/?EIO=4&transport=polling&t=PQI-tB- HTTP/1.1" 200 -
+[2025-05-02 17:51:14] 127.0.0.1 - - [02/May/2025 17:51:14] "POST /socket.io/?EIO=4&transport=polling&t=PQI-tCM&sid=UqEkkERKLE0O4yEKAAAA HTTP/1.1" 200 -
+[2025-05-02 17:51:14] 127.0.0.1 - - [02/May/2025 17:51:14] "GET /socket.io/?EIO=4&transport=polling&t=PQI-tCN&sid=UqEkkERKLE0O4yEKAAAA HTTP/1.1" 200 -
+[2025-05-02 17:51:14] 127.0.0.1 - - [02/May/2025 17:51:14] "GET /socket.io/?EIO=4&transport=polling&t=PQI-tDI&sid=UqEkkERKLE0O4yEKAAAA HTTP/1.1" 200 -
+[2025-05-02 21:51:45] 172.19.0.1 - - [02/May/2025 21:51:45] "GET /socket.io/?EIO=4&transport=polling&t=PQI--g9 HTTP/1.1" 200 -
+[2025-05-02 21:51:45] 172.19.0.1 - - [02/May/2025 21:51:45] "POST /socket.io/?EIO=4&transport=polling&t=PQI--gN&sid=Ziv9K7BcCEjPczDNAAAc HTTP/1.1" 200 -
+[2025-05-02 21:51:45] 172.19.0.1 - - [02/May/2025 21:51:45] "GET /socket.io/?EIO=4&transport=polling&t=PQI--gO&sid=Ziv9K7BcCEjPczDNAAAc HTTP/1.1" 200 -
+[2025-05-02 21:51:45] 172.19.0.1 - - [02/May/2025 21:51:45] "GET /socket.io/?EIO=4&transport=polling&t=PQI--gh&sid=Ziv9K7BcCEjPczDNAAAc HTTP/1.1" 200 -
+[2025-05-02 17:51:45] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:51:45] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:51:46] 172.19.0.1 - - [02/May/2025 21:51:46] "GET /socket.io/?EIO=4&transport=websocket&sid=Ziv9K7BcCEjPczDNAAAc HTTP/1.1" 200 -
+[2025-05-02 17:51:46] 127.0.0.1 - GET /home
+[2025-05-02 17:51:46] 127.0.0.1 - - [02/May/2025 17:51:46] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:51:47] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:51:47] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:51:47] 127.0.0.1 - - [02/May/2025 17:51:47] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:51:47] 127.0.0.1 - - [02/May/2025 17:51:47] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 17:51:47] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:51:47] 127.0.0.1 - - [02/May/2025 17:51:47] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 17:51:47] 127.0.0.1 - - [02/May/2025 17:51:47] "GET /socket.io/?EIO=4&transport=polling&t=PQI-_6d HTTP/1.1" 200 -
+[2025-05-02 17:51:47] 127.0.0.1 - - [02/May/2025 17:51:47] "POST /socket.io/?EIO=4&transport=polling&t=PQI-_74&sid=RPQ3YP8ql3lmIJHOAAAA HTTP/1.1" 200 -
+[2025-05-02 17:51:47] 127.0.0.1 - - [02/May/2025 17:51:47] "GET /socket.io/?EIO=4&transport=polling&t=PQI-_75&sid=RPQ3YP8ql3lmIJHOAAAA HTTP/1.1" 200 -
+[2025-05-02 17:51:47] 127.0.0.1 - - [02/May/2025 17:51:47] "GET /socket.io/?EIO=4&transport=polling&t=PQI-_7l&sid=RPQ3YP8ql3lmIJHOAAAA HTTP/1.1" 200 -
+[2025-05-02 21:53:24] 172.19.0.1 - - [02/May/2025 21:53:24] "GET /socket.io/?EIO=4&transport=polling&t=PQI_M_s HTTP/1.1" 200 -
+[2025-05-02 21:53:25] 172.19.0.1 - - [02/May/2025 21:53:25] "POST /socket.io/?EIO=4&transport=polling&t=PQI_N04&sid=_FFOBiQo_QaqUsunAAAe HTTP/1.1" 200 -
+[2025-05-02 21:53:25] 172.19.0.1 - - [02/May/2025 21:53:25] "GET /socket.io/?EIO=4&transport=polling&t=PQI_N06&sid=_FFOBiQo_QaqUsunAAAe HTTP/1.1" 200 -
+[2025-05-02 21:53:25] 172.19.0.1 - - [02/May/2025 21:53:25] "GET /socket.io/?EIO=4&transport=polling&t=PQI_N0P&sid=_FFOBiQo_QaqUsunAAAe HTTP/1.1" 200 -
+[2025-05-02 17:53:26] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 17:53:26] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:53:27] 172.19.0.1 - - [02/May/2025 21:53:27] "GET /socket.io/?EIO=4&transport=websocket&sid=_FFOBiQo_QaqUsunAAAe HTTP/1.1" 200 -
+[2025-05-02 17:53:27] 127.0.0.1 - GET /home
+[2025-05-02 17:53:27] 127.0.0.1 - - [02/May/2025 17:53:27] "GET /home HTTP/1.1" 200 -
+[2025-05-02 17:53:28] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 17:53:28] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 17:53:28] 127.0.0.1 - - [02/May/2025 17:53:28] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 17:53:28] 127.0.0.1 - - [02/May/2025 17:53:28] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 17:53:28] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 17:53:28] 127.0.0.1 - - [02/May/2025 17:53:28] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 17:53:28] 127.0.0.1 - - [02/May/2025 17:53:28] "GET /socket.io/?EIO=4&transport=polling&t=PQI_Nmm HTTP/1.1" 200 -
+[2025-05-02 17:53:28] 127.0.0.1 - - [02/May/2025 17:53:28] "POST /socket.io/?EIO=4&transport=polling&t=PQI_NoA&sid=E3GF26XTtDgUokQKAAAA HTTP/1.1" 200 -
+[2025-05-02 17:53:28] 127.0.0.1 - - [02/May/2025 17:53:28] "GET /socket.io/?EIO=4&transport=polling&t=PQI_NoD&sid=E3GF26XTtDgUokQKAAAA HTTP/1.1" 200 -
+[2025-05-02 17:53:28] 127.0.0.1 - - [02/May/2025 17:53:28] "GET /socket.io/?EIO=4&transport=polling&t=PQI_Nos&sid=E3GF26XTtDgUokQKAAAA HTTP/1.1" 200 -
+[2025-05-02 21:54:26] 172.19.0.1 - - [02/May/2025 21:54:26] "GET /socket.io/?EIO=4&transport=polling&t=PQI_c2A HTTP/1.1" 200 -
+[2025-05-02 21:54:26] 172.19.0.1 - - [02/May/2025 21:54:26] "POST /socket.io/?EIO=4&transport=polling&t=PQI_c2c&sid=kKDMp6oYCcDRHy6KAAAg HTTP/1.1" 200 -
+[2025-05-02 21:54:26] 172.19.0.1 - - [02/May/2025 21:54:26] "GET /socket.io/?EIO=4&transport=polling&t=PQI_c2k&sid=kKDMp6oYCcDRHy6KAAAg HTTP/1.1" 200 -
+[2025-05-02 21:54:26] 172.19.0.1 - - [02/May/2025 21:54:26] "GET /socket.io/?EIO=4&transport=polling&t=PQI_c39&sid=kKDMp6oYCcDRHy6KAAAg HTTP/1.1" 200 -
+[2025-05-02 18:02:44] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.228.97:8080
+[2025-05-02 18:02:44] [33mPress CTRL+C to quit[0m
+[2025-05-02 22:02:48] 172.19.0.1 - - [02/May/2025 22:02:48] "GET /socket.io/?EIO=4&transport=websocket&sid=kKDMp6oYCcDRHy6KAAAg HTTP/1.1" 200 -
+[2025-05-02 18:02:48] 127.0.0.1 - GET /home
+[2025-05-02 18:02:48] 127.0.0.1 - - [02/May/2025 18:02:48] "GET /home HTTP/1.1" 200 -
+[2025-05-02 18:02:48] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 18:02:48] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 18:02:48] 127.0.0.1 - - [02/May/2025 18:02:48] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 18:02:48] 127.0.0.1 - - [02/May/2025 18:02:48] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 18:02:48] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 18:02:48] 127.0.0.1 - - [02/May/2025 18:02:48] "[36mGET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1[0m" 304 -
+[2025-05-02 18:02:48] 127.0.0.1 - - [02/May/2025 18:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PQJ1WYC HTTP/1.1" 200 -
+[2025-05-02 18:02:48] 127.0.0.1 - - [02/May/2025 18:02:48] "POST /socket.io/?EIO=4&transport=polling&t=PQJ1WYY&sid=9VATdYfjgb2PvjmYAAAA HTTP/1.1" 200 -
+[2025-05-02 18:02:48] 127.0.0.1 - - [02/May/2025 18:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PQJ1WYZ&sid=9VATdYfjgb2PvjmYAAAA HTTP/1.1" 200 -
+[2025-05-02 18:02:48] 127.0.0.1 - - [02/May/2025 18:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PQJ1WYv&sid=9VATdYfjgb2PvjmYAAAA HTTP/1.1" 200 -
+[2025-05-02 20:13:23] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:13:23] [33mPress CTRL+C to quit[0m
+[2025-05-03 00:13:40] Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+[2025-05-03 00:13:40] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.19.0.4:8080
+[2025-05-03 00:13:40] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:13:51] 127.0.0.1 - GET /
+[2025-05-02 20:13:51] 127.0.0.1 - - [02/May/2025 20:13:51] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-05-02 20:13:51] 127.0.0.1 - GET /register
+[2025-05-02 20:13:51] 127.0.0.1 - - [02/May/2025 20:13:51] "GET /register HTTP/1.1" 200 -
+[2025-05-02 20:13:51] 127.0.0.1 - GET /favicon.ico
+[2025-05-02 20:13:51] 127.0.0.1 - - [02/May/2025 20:13:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-02 20:13:52] 127.0.0.1 - GET /login
+[2025-05-02 20:13:52] 127.0.0.1 - - [02/May/2025 20:13:52] "GET /login HTTP/1.1" 200 -
+[2025-05-02 20:14:01] 127.0.0.1 - POST /login
+[2025-05-02 20:14:02] 127.0.0.1 - - [02/May/2025 20:14:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-05-02 20:14:02] 127.0.0.1 - GET /home
+[2025-05-02 20:14:02] Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 78, in home
+    image_url = user["snakeImageURL"]
+                ~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'snakeImageURL'
+[2025-05-02 20:14:02] 127.0.0.1 - - [02/May/2025 20:14:02] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-05-02 20:14:11] 127.0.0.1 - GET /home
+[2025-05-02 20:14:11] Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 78, in home
+    image_url = user["snakeImageURL"]
+                ~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'snakeImageURL'
+[2025-05-02 20:14:11] 127.0.0.1 - - [02/May/2025 20:14:11] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-05-02 20:14:40] 127.0.0.1 - GET /profile
+[2025-05-02 20:14:40] 127.0.0.1 - - [02/May/2025 20:14:40] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:14:40] 127.0.0.1 - GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png
+[2025-05-02 20:14:40] 127.0.0.1 - - [02/May/2025 20:14:40] "GET /static/avatar/cf846196-be17-4e2f-8ac1-b039d46b8069.png HTTP/1.1" 200 -
+[2025-05-02 20:14:49] 127.0.0.1 - POST /change-avatar
+[2025-05-02 20:14:49] Exception on /change-avatar [POST]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 108, in file_upload
+    change_avatar(file, username, extension)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\util\avatar.py", line 45, in change_avatar
+    image = Image.open(filename)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\PIL\Image.py", line 3505, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '91c96ecc-51fe-4b17-93c9-8fdc6735be5c.jpg'
+[2025-05-02 20:14:49] 127.0.0.1 - - [02/May/2025 20:14:49] "[35m[1mPOST /change-avatar HTTP/1.1[0m" 500 -
+[2025-05-02 20:15:15] 127.0.0.1 - GET /change-avatar
+[2025-05-02 20:15:15] 127.0.0.1 - - [02/May/2025 20:15:15] "[32mGET /change-avatar HTTP/1.1[0m" 302 -
+[2025-05-02 20:15:15] 127.0.0.1 - GET /profile
+[2025-05-02 20:15:15] 127.0.0.1 - - [02/May/2025 20:15:15] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:15:15] 127.0.0.1 - GET /static/avatar/91c96ecc-51fe-4b17-93c9-8fdc6735be5c.jpg
+[2025-05-02 20:15:15] 127.0.0.1 - - [02/May/2025 20:15:15] "GET /static/avatar/91c96ecc-51fe-4b17-93c9-8fdc6735be5c.jpg HTTP/1.1" 200 -
+[2025-05-02 20:15:19] 127.0.0.1 - GET /profile
+[2025-05-02 20:15:19] 127.0.0.1 - - [02/May/2025 20:15:19] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:15:19] 127.0.0.1 - GET /static/avatar/91c96ecc-51fe-4b17-93c9-8fdc6735be5c.jpg
+[2025-05-02 20:15:19] 127.0.0.1 - - [02/May/2025 20:15:19] "[36mGET /static/avatar/91c96ecc-51fe-4b17-93c9-8fdc6735be5c.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 20:15:21] 127.0.0.1 - GET /home
+[2025-05-02 20:15:21] Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 78, in home
+    image_url = user["snakeImageURL"]
+                ~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'snakeImageURL'
+[2025-05-02 20:15:21] 127.0.0.1 - - [02/May/2025 20:15:21] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-05-02 20:15:54] 127.0.0.1 - GET /home
+[2025-05-02 20:15:54] Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 78, in home
+    image_url = user["snakeImageURL"]
+                ~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'snakeImageURL'
+[2025-05-02 20:15:54] 127.0.0.1 - - [02/May/2025 20:15:54] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-05-03 00:16:56] 172.19.0.1 - GET /home
+[2025-05-03 00:16:56] Exception on /home [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 78, in home
+    //image_url = user["snakeImageURL"]
+KeyError: 'snakeImageURL'
+[2025-05-03 00:16:56] 172.19.0.1 - - [03/May/2025 00:16:56] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[2025-05-02 20:17:18] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:17:18] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:17:18] 127.0.0.1 - GET /home
+[2025-05-02 20:17:18] 127.0.0.1 - - [02/May/2025 20:17:18] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:17:19] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:17:19] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:17:19] 127.0.0.1 - - [02/May/2025 20:17:19] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-05-02 20:17:19] 127.0.0.1 - - [02/May/2025 20:17:19] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:17:19] 127.0.0.1 - - [02/May/2025 20:17:19] "GET /socket.io/?EIO=4&transport=polling&t=PQJWI_e HTTP/1.1" 200 -
+[2025-05-02 20:17:19] 127.0.0.1 - - [02/May/2025 20:17:19] "POST /socket.io/?EIO=4&transport=polling&t=PQJWJ0W&sid=tiqXzgsUQuYHApIVAAAA HTTP/1.1" 200 -
+[2025-05-02 20:17:19] 127.0.0.1 - - [02/May/2025 20:17:19] "GET /socket.io/?EIO=4&transport=polling&t=PQJWJ0Y&sid=tiqXzgsUQuYHApIVAAAA HTTP/1.1" 200 -
+[2025-05-02 20:17:19] 127.0.0.1 - - [02/May/2025 20:17:19] "GET /socket.io/?EIO=4&transport=polling&t=PQJWJ1T&sid=tiqXzgsUQuYHApIVAAAA HTTP/1.1" 200 -
+[2025-05-02 20:17:23] 127.0.0.1 - - [02/May/2025 20:17:23] "GET /socket.io/?EIO=4&transport=websocket&sid=tiqXzgsUQuYHApIVAAAA HTTP/1.1" 200 -
+[2025-05-02 20:17:23] 127.0.0.1 - GET /profile
+[2025-05-02 20:17:23] 127.0.0.1 - - [02/May/2025 20:17:23] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:17:23] 127.0.0.1 - GET /static/avatar/91c96ecc-51fe-4b17-93c9-8fdc6735be5c.jpg
+[2025-05-02 20:17:23] 127.0.0.1 - - [02/May/2025 20:17:23] "[36mGET /static/avatar/91c96ecc-51fe-4b17-93c9-8fdc6735be5c.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 20:17:28] 127.0.0.1 - POST /change-avatar
+[2025-05-02 20:17:28] Exception on /change-avatar [POST]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 108, in file_upload
+    change_avatar(file, username, extension)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\util\avatar.py", line 45, in change_avatar
+    image = Image.open(filename)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\PIL\Image.py", line 3505, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'ead207a3-96fe-4093-bfdc-7fd82091f765.jpg'
+[2025-05-02 20:17:28] 127.0.0.1 - - [02/May/2025 20:17:28] "[35m[1mPOST /change-avatar HTTP/1.1[0m" 500 -
+[2025-05-02 20:18:18] 127.0.0.1 - POST /change-avatar
+[2025-05-02 20:18:18] Exception on /change-avatar [POST]
+Traceback (most recent call last):
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\app.py", line 108, in file_upload
+    change_avatar(file, username, extension)
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\util\avatar.py", line 45, in change_avatar
+    image = Image.open(filename)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkasn\PycharmProjects\312-mmo\.venv\Lib\site-packages\PIL\Image.py", line 3505, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'bd634048-a23c-4165-9fc2-5f796798b6f1.jpg'
+[2025-05-02 20:18:18] 127.0.0.1 - - [02/May/2025 20:18:18] "[35m[1mPOST /change-avatar HTTP/1.1[0m" 500 -
+[2025-05-02 20:18:39] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:18:39] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:18:39]  * Restarting with stat
+[2025-05-02 20:18:40]  * Debugger is active!
+[2025-05-02 20:18:40]  * Debugger PIN: 128-255-662
+[2025-05-02 20:18:42] 127.0.0.1 - GET /home
+[2025-05-02 20:18:42] 127.0.0.1 - - [02/May/2025 20:18:42] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:18:42] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:18:42] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:18:42] 127.0.0.1 - - [02/May/2025 20:18:42] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 20:18:42] 127.0.0.1 - - [02/May/2025 20:18:42] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:18:42] 127.0.0.1 - - [02/May/2025 20:18:42] "GET /socket.io/?EIO=4&transport=polling&t=PQJWdJm HTTP/1.1" 200 -
+[2025-05-02 20:18:42] 127.0.0.1 - - [02/May/2025 20:18:42] "POST /socket.io/?EIO=4&transport=polling&t=PQJWdK7&sid=G8y3IuwHTZxXNsLXAAAA HTTP/1.1" 200 -
+[2025-05-02 20:18:42] 127.0.0.1 - - [02/May/2025 20:18:42] "GET /socket.io/?EIO=4&transport=polling&t=PQJWdK8&sid=G8y3IuwHTZxXNsLXAAAA HTTP/1.1" 200 -
+[2025-05-02 20:18:42] 127.0.0.1 - - [02/May/2025 20:18:42] "GET /socket.io/?EIO=4&transport=polling&t=PQJWdKT&sid=G8y3IuwHTZxXNsLXAAAA HTTP/1.1" 200 -
+[2025-05-02 20:18:43] 127.0.0.1 - - [02/May/2025 20:18:43] "GET /socket.io/?EIO=4&transport=websocket&sid=G8y3IuwHTZxXNsLXAAAA HTTP/1.1" 200 -
+[2025-05-02 20:18:43] 127.0.0.1 - GET /profile
+[2025-05-02 20:18:43] 127.0.0.1 - - [02/May/2025 20:18:43] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:18:43] 127.0.0.1 - GET /static/avatar/bd634048-a23c-4165-9fc2-5f796798b6f1.jpg
+[2025-05-02 20:18:43] 127.0.0.1 - - [02/May/2025 20:18:43] "GET /static/avatar/bd634048-a23c-4165-9fc2-5f796798b6f1.jpg HTTP/1.1" 200 -
+[2025-05-02 20:18:49] 127.0.0.1 - POST /change-avatar
+[2025-05-02 20:18:49] 127.0.0.1 - - [02/May/2025 20:18:49] "[35m[1mPOST /change-avatar HTTP/1.1[0m" 500 -
+[2025-05-02 20:18:49] 127.0.0.1 - - [02/May/2025 20:18:49] "GET /change-avatar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-05-02 20:18:49] 127.0.0.1 - - [02/May/2025 20:18:49] "GET /change-avatar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-05-02 20:18:49] 127.0.0.1 - - [02/May/2025 20:18:49] "GET /change-avatar?__debugger__=yes&cmd=resource&f=console.png&s=nmyj7KCEcMyC2KDiNSWB HTTP/1.1" 200 -
+[2025-05-02 20:18:49] 127.0.0.1 - - [02/May/2025 20:18:49] "GET /change-avatar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-05-02 20:19:30]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\util\\avatar.py', reloading
+[2025-05-02 20:19:33] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:19:33] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:19:33]  * Restarting with stat
+[2025-05-02 20:19:34]  * Debugger is active!
+[2025-05-02 20:19:34]  * Debugger PIN: 128-255-662
+[2025-05-02 20:19:35] 127.0.0.1 - GET /profile
+[2025-05-02 20:19:35] 127.0.0.1 - - [02/May/2025 20:19:35] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:19:35] 127.0.0.1 - GET /static/avatar/7de2f431-e46e-4988-ae86-9df1b6c5e335.jpg
+[2025-05-02 20:19:35] 127.0.0.1 - - [02/May/2025 20:19:35] "GET /static/avatar/7de2f431-e46e-4988-ae86-9df1b6c5e335.jpg HTTP/1.1" 200 -
+[2025-05-02 20:19:41] 127.0.0.1 - POST /change-avatar
+[2025-05-02 20:19:41] 127.0.0.1 - - [02/May/2025 20:19:41] "[32mPOST /change-avatar HTTP/1.1[0m" 302 -
+[2025-05-02 20:19:41] 127.0.0.1 - GET /profile
+[2025-05-02 20:19:41] 127.0.0.1 - - [02/May/2025 20:19:41] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:19:41] 127.0.0.1 - GET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd.jpg
+[2025-05-02 20:19:41] 127.0.0.1 - - [02/May/2025 20:19:41] "GET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd.jpg HTTP/1.1" 200 -
+[2025-05-02 20:21:05]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
+[2025-05-02 20:21:08] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:21:08] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:21:08]  * Restarting with stat
+[2025-05-02 20:21:09]  * Debugger is active!
+[2025-05-02 20:21:09]  * Debugger PIN: 128-255-662
+[2025-05-02 20:21:09] 127.0.0.1 - GET /home
+[2025-05-02 20:21:09] 127.0.0.1 - - [02/May/2025 20:21:09] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:21:09] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:21:09] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:21:09] 127.0.0.1 - - [02/May/2025 20:21:09] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:21:09] 127.0.0.1 - - [02/May/2025 20:21:09] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 20:21:09] 127.0.0.1 - GET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd-20.jpg
+[2025-05-02 20:21:10] 127.0.0.1 - - [02/May/2025 20:21:10] "GET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd-20.jpg HTTP/1.1" 200 -
+[2025-05-02 20:21:10] 127.0.0.1 - - [02/May/2025 20:21:10] "GET /socket.io/?EIO=4&transport=polling&t=PQJXBJD HTTP/1.1" 200 -
+[2025-05-02 20:21:10] 127.0.0.1 - - [02/May/2025 20:21:10] "POST /socket.io/?EIO=4&transport=polling&t=PQJXBKF&sid=iFmWENoFKaeW2-wDAAAA HTTP/1.1" 200 -
+[2025-05-02 20:21:10] 127.0.0.1 - - [02/May/2025 20:21:10] "GET /socket.io/?EIO=4&transport=polling&t=PQJXBKH&sid=iFmWENoFKaeW2-wDAAAA HTTP/1.1" 200 -
+[2025-05-02 20:21:10] 127.0.0.1 - - [02/May/2025 20:21:10] "GET /socket.io/?EIO=4&transport=polling&t=PQJXBKh&sid=iFmWENoFKaeW2-wDAAAA HTTP/1.1" 200 -
+[2025-05-03 00:23:24] 172.19.0.1 - - [03/May/2025 00:23:24] "GET /socket.io/?EIO=4&transport=polling&t=PQJXi88 HTTP/1.1" 200 -
+[2025-05-03 00:23:24] 172.19.0.1 - - [03/May/2025 00:23:24] "POST /socket.io/?EIO=4&transport=polling&t=PQJXi8l&sid=vfa1xjF9kWvePM8YAAAA HTTP/1.1" 200 -
+[2025-05-03 00:23:24] 172.19.0.1 - - [03/May/2025 00:23:24] "GET /socket.io/?EIO=4&transport=polling&t=PQJXi8v&sid=vfa1xjF9kWvePM8YAAAA HTTP/1.1" 200 -
+[2025-05-03 00:23:24] 172.19.0.1 - - [03/May/2025 00:23:24] "GET /socket.io/?EIO=4&transport=polling&t=PQJXiA1&sid=vfa1xjF9kWvePM8YAAAA HTTP/1.1" 200 -
+[2025-05-02 20:23:27] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:23:27] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:23:27]  * Restarting with stat
+[2025-05-02 20:23:27]  * Debugger is active!
+[2025-05-02 20:23:27]  * Debugger PIN: 128-255-662
+[2025-05-03 00:23:28] 172.19.0.1 - - [03/May/2025 00:23:28] "GET /socket.io/?EIO=4&transport=websocket&sid=vfa1xjF9kWvePM8YAAAA HTTP/1.1" 200 -
+[2025-05-02 20:23:28] 127.0.0.1 - GET /profile
+[2025-05-02 20:23:28] 127.0.0.1 - - [02/May/2025 20:23:28] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:23:29] 127.0.0.1 - GET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd.jpg
+[2025-05-02 20:23:29] 127.0.0.1 - - [02/May/2025 20:23:29] "[36mGET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 20:23:29] 127.0.0.1 - GET /home
+[2025-05-02 20:23:29] 127.0.0.1 - - [02/May/2025 20:23:29] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:23:29] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:23:29] 127.0.0.1 - - [02/May/2025 20:23:29] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:23:29] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:23:29] 127.0.0.1 - - [02/May/2025 20:23:29] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:23:30] 127.0.0.1 - GET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd-20.jpg
+[2025-05-02 20:23:30] 127.0.0.1 - - [02/May/2025 20:23:30] "[36mGET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd-20.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 20:23:30] 127.0.0.1 - - [02/May/2025 20:23:30] "GET /socket.io/?EIO=4&transport=polling&t=PQJXjUf HTTP/1.1" 200 -
+[2025-05-02 20:23:30] 127.0.0.1 - - [02/May/2025 20:23:30] "POST /socket.io/?EIO=4&transport=polling&t=PQJXjVz&sid=zXsKZJkmDO2ZRlinAAAA HTTP/1.1" 200 -
+[2025-05-02 20:23:30] 127.0.0.1 - - [02/May/2025 20:23:30] "GET /socket.io/?EIO=4&transport=polling&t=PQJXjW0&sid=zXsKZJkmDO2ZRlinAAAA HTTP/1.1" 200 -
+[2025-05-02 20:23:30] 127.0.0.1 - - [02/May/2025 20:23:30] "GET /socket.io/?EIO=4&transport=polling&t=PQJXjX2&sid=zXsKZJkmDO2ZRlinAAAA HTTP/1.1" 200 -
+[2025-05-02 20:24:29]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\util\\avatar.py', reloading
+[2025-05-02 20:24:29]  * Restarting with stat
+[2025-05-02 20:24:30]  * Debugger is active!
+[2025-05-02 20:24:30]  * Debugger PIN: 128-255-662
+[2025-05-02 20:24:30] 127.0.0.1 - - [02/May/2025 20:24:30] "GET /socket.io/?EIO=4&transport=polling&t=PQJXyJx HTTP/1.1" 200 -
+[2025-05-02 20:24:30] 127.0.0.1 - - [02/May/2025 20:24:30] "POST /socket.io/?EIO=4&transport=polling&t=PQJXyKb&sid=6o0B7w3XHY2mkWZyAAAA HTTP/1.1" 200 -
+[2025-05-02 20:24:30] 127.0.0.1 - - [02/May/2025 20:24:30] "GET /socket.io/?EIO=4&transport=polling&t=PQJXyKe&sid=6o0B7w3XHY2mkWZyAAAA HTTP/1.1" 200 -
+[2025-05-02 20:24:30] 127.0.0.1 - - [02/May/2025 20:24:30] "GET /socket.io/?EIO=4&transport=polling&t=PQJXyLb&sid=6o0B7w3XHY2mkWZyAAAA HTTP/1.1" 200 -
+[2025-05-03 00:24:32] 172.19.0.1 - - [03/May/2025 00:24:32] "GET /socket.io/?EIO=4&transport=polling&t=PQJXyoh HTTP/1.1" 200 -
+[2025-05-03 00:24:32] 172.19.0.1 - - [03/May/2025 00:24:32] "POST /socket.io/?EIO=4&transport=polling&t=PQJXypT&sid=r3bPEzJNvr8rD3iQAAAC HTTP/1.1" 200 -
+[2025-05-03 00:24:32] 172.19.0.1 - - [03/May/2025 00:24:32] "GET /socket.io/?EIO=4&transport=polling&t=PQJXypX&sid=r3bPEzJNvr8rD3iQAAAC HTTP/1.1" 200 -
+[2025-05-03 00:24:32] 172.19.0.1 - - [03/May/2025 00:24:32] "GET /socket.io/?EIO=4&transport=polling&t=PQJXyr2&sid=r3bPEzJNvr8rD3iQAAAC HTTP/1.1" 200 -
+[2025-05-02 20:24:43] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:24:43] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:24:43]  * Restarting with stat
+[2025-05-02 20:24:44]  * Debugger is active!
+[2025-05-02 20:24:44]  * Debugger PIN: 128-255-662
+[2025-05-03 00:24:45] 172.19.0.1 - - [03/May/2025 00:24:45] "GET /socket.io/?EIO=4&transport=websocket&sid=r3bPEzJNvr8rD3iQAAAC HTTP/1.1" 200 -
+[2025-05-02 20:24:45] 127.0.0.1 - GET /profile
+[2025-05-02 20:24:45] 127.0.0.1 - - [02/May/2025 20:24:45] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:24:46] 127.0.0.1 - GET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd.jpg
+[2025-05-02 20:24:46] 127.0.0.1 - - [02/May/2025 20:24:46] "[36mGET /static/avatar/791a5f2a-919c-4f7b-9425-6c9cc7746cbd.jpg HTTP/1.1[0m" 304 -
+[2025-05-02 20:24:58] 127.0.0.1 - POST /change-avatar
+[2025-05-02 20:24:58] 127.0.0.1 - - [02/May/2025 20:24:58] "[32mPOST /change-avatar HTTP/1.1[0m" 302 -
+[2025-05-02 20:24:58] 127.0.0.1 - GET /profile
+[2025-05-02 20:24:58] 127.0.0.1 - - [02/May/2025 20:24:58] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:24:59] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 20:24:59] 127.0.0.1 - - [02/May/2025 20:24:59] "GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1" 200 -
+[2025-05-02 20:25:07] 127.0.0.1 - GET /profile
+[2025-05-02 20:25:07] 127.0.0.1 - - [02/May/2025 20:25:07] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:25:08] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 20:25:08] 127.0.0.1 - - [02/May/2025 20:25:08] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:25:09] 127.0.0.1 - GET /home
+[2025-05-02 20:25:09] 127.0.0.1 - - [02/May/2025 20:25:09] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:25:09] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:25:09] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:25:09] 127.0.0.1 - - [02/May/2025 20:25:09] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:25:09] 127.0.0.1 - - [02/May/2025 20:25:09] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 20:25:09] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:25:09] 127.0.0.1 - - [02/May/2025 20:25:09] "GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1" 200 -
+[2025-05-02 20:25:09] 127.0.0.1 - - [02/May/2025 20:25:09] "GET /socket.io/?EIO=4&transport=polling&t=PQJY5kH HTTP/1.1" 200 -
+[2025-05-02 20:25:09] 127.0.0.1 - - [02/May/2025 20:25:09] "POST /socket.io/?EIO=4&transport=polling&t=PQJY5lR&sid=HRicGa9-DKH0DMeLAAAA HTTP/1.1" 200 -
+[2025-05-02 20:25:09] 127.0.0.1 - - [02/May/2025 20:25:09] "GET /socket.io/?EIO=4&transport=polling&t=PQJY5lT&sid=HRicGa9-DKH0DMeLAAAA HTTP/1.1" 200 -
+[2025-05-02 20:25:09] 127.0.0.1 - - [02/May/2025 20:25:09] "GET /socket.io/?EIO=4&transport=polling&t=PQJY5m0&sid=HRicGa9-DKH0DMeLAAAA HTTP/1.1" 200 -
+[2025-05-02 20:25:11] 127.0.0.1 - - [02/May/2025 20:25:11] "GET /socket.io/?EIO=4&transport=websocket&sid=HRicGa9-DKH0DMeLAAAA HTTP/1.1" 200 -
+[2025-05-02 20:25:11] 127.0.0.1 - GET /home
+[2025-05-02 20:25:11] 127.0.0.1 - - [02/May/2025 20:25:11] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:25:11] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:25:11] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:25:11] 127.0.0.1 - - [02/May/2025 20:25:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:25:11] 127.0.0.1 - - [02/May/2025 20:25:11] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 20:25:11] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:25:11] 127.0.0.1 - - [02/May/2025 20:25:11] "GET /socket.io/?EIO=4&transport=polling&t=PQJY6LJ HTTP/1.1" 200 -
+[2025-05-02 20:25:11] 127.0.0.1 - - [02/May/2025 20:25:11] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:25:11] 127.0.0.1 - - [02/May/2025 20:25:11] "POST /socket.io/?EIO=4&transport=polling&t=PQJY6L_&sid=LBmoEuPykajXCjTEAAAC HTTP/1.1" 200 -
+[2025-05-02 20:25:11] 127.0.0.1 - - [02/May/2025 20:25:11] "GET /socket.io/?EIO=4&transport=polling&t=PQJY6M1&sid=LBmoEuPykajXCjTEAAAC HTTP/1.1" 200 -
+[2025-05-02 20:25:11] 127.0.0.1 - - [02/May/2025 20:25:11] "GET /socket.io/?EIO=4&transport=polling&t=PQJY6MS&sid=LBmoEuPykajXCjTEAAAC HTTP/1.1" 200 -
+[2025-05-03 00:27:40] 172.19.0.1 - - [03/May/2025 00:27:40] "GET /socket.io/?EIO=4&transport=polling&t=PQJYgjD HTTP/1.1" 200 -
+[2025-05-03 00:27:40] 172.19.0.1 - - [03/May/2025 00:27:40] "POST /socket.io/?EIO=4&transport=polling&t=PQJYgkp&sid=0rBfZ4wf-aK6H3qwAAAE HTTP/1.1" 200 -
+[2025-05-03 00:27:40] 172.19.0.1 - - [03/May/2025 00:27:40] "GET /socket.io/?EIO=4&transport=polling&t=PQJYgkv&sid=0rBfZ4wf-aK6H3qwAAAE HTTP/1.1" 200 -
+[2025-05-03 00:27:40] 172.19.0.1 - - [03/May/2025 00:27:40] "GET /socket.io/?EIO=4&transport=polling&t=PQJYgmL&sid=0rBfZ4wf-aK6H3qwAAAE HTTP/1.1" 200 -
+[2025-05-02 20:27:44] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:27:44] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:27:44]  * Restarting with stat
+[2025-05-02 20:27:45]  * Debugger is active!
+[2025-05-02 20:27:45]  * Debugger PIN: 128-255-662
+[2025-05-02 20:29:06] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:29:06] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:29:06]  * Restarting with stat
+[2025-05-03 00:29:06] 172.19.0.1 - - [03/May/2025 00:29:06] "GET /socket.io/?EIO=4&transport=websocket&sid=0rBfZ4wf-aK6H3qwAAAE HTTP/1.1" 200 -
+[2025-05-02 20:29:06]  * Debugger is active!
+[2025-05-02 20:29:06]  * Debugger PIN: 128-255-662
+[2025-05-02 20:29:07] 127.0.0.1 - GET /home
+[2025-05-02 20:29:07] 127.0.0.1 - - [02/May/2025 20:29:07] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:29:07] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:29:07] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:29:07] 127.0.0.1 - - [02/May/2025 20:29:07] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:29:07] 127.0.0.1 - - [02/May/2025 20:29:07] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:29:07] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:29:07] 127.0.0.1 - - [02/May/2025 20:29:07] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:29:07] 127.0.0.1 - - [02/May/2025 20:29:07] "GET /socket.io/?EIO=4&transport=polling&t=PQJY_sz HTTP/1.1" 200 -
+[2025-05-02 20:29:07] 127.0.0.1 - - [02/May/2025 20:29:07] "POST /socket.io/?EIO=4&transport=polling&t=PQJY_tS&sid=lo1T-oROaHtJxzOhAAAA HTTP/1.1" 200 -
+[2025-05-02 20:29:07] 127.0.0.1 - - [02/May/2025 20:29:07] "GET /socket.io/?EIO=4&transport=polling&t=PQJY_tV&sid=lo1T-oROaHtJxzOhAAAA HTTP/1.1" 200 -
+[2025-05-02 20:29:07] 127.0.0.1 - - [02/May/2025 20:29:07] "GET /socket.io/?EIO=4&transport=polling&t=PQJY_u_&sid=lo1T-oROaHtJxzOhAAAA HTTP/1.1" 200 -
+[2025-05-03 00:30:29] 172.19.0.1 - - [03/May/2025 00:30:29] "GET /socket.io/?EIO=4&transport=polling&t=PQJZJxK HTTP/1.1" 200 -
+[2025-05-03 00:30:29] 172.19.0.1 - - [03/May/2025 00:30:29] "POST /socket.io/?EIO=4&transport=polling&t=PQJZJxv&sid=VOYXU4uPe7Gbo935AAAG HTTP/1.1" 200 -
+[2025-05-03 00:30:29] 172.19.0.1 - - [03/May/2025 00:30:29] "GET /socket.io/?EIO=4&transport=polling&t=PQJZJxz&sid=VOYXU4uPe7Gbo935AAAG HTTP/1.1" 200 -
+[2025-05-03 00:30:29] 172.19.0.1 - - [03/May/2025 00:30:29] "GET /socket.io/?EIO=4&transport=polling&t=PQJZJzX&sid=VOYXU4uPe7Gbo935AAAG HTTP/1.1" 200 -
+[2025-05-02 20:30:31] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:30:31] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:30:31]  * Restarting with stat
+[2025-05-03 00:30:31] 172.19.0.1 - - [03/May/2025 00:30:31] "GET /socket.io/?EIO=4&transport=websocket&sid=VOYXU4uPe7Gbo935AAAG HTTP/1.1" 200 -
+[2025-05-02 20:30:32]  * Debugger is active!
+[2025-05-02 20:30:32]  * Debugger PIN: 128-255-662
+[2025-05-02 20:30:32] 127.0.0.1 - GET /profile
+[2025-05-02 20:30:32] 127.0.0.1 - - [02/May/2025 20:30:32] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:30:32] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 20:30:32] 127.0.0.1 - - [02/May/2025 20:30:32] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:30:32] 127.0.0.1 - GET /home
+[2025-05-02 20:30:32] 127.0.0.1 - - [02/May/2025 20:30:32] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:30:32] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:30:32] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:30:32] 127.0.0.1 - - [02/May/2025 20:30:32] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:30:32] 127.0.0.1 - - [02/May/2025 20:30:32] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:30:33] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:30:33] 127.0.0.1 - - [02/May/2025 20:30:33] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:30:33] 127.0.0.1 - - [02/May/2025 20:30:33] "GET /socket.io/?EIO=4&transport=polling&t=PQJZKnI HTTP/1.1" 200 -
+[2025-05-02 20:30:33] 127.0.0.1 - - [02/May/2025 20:30:33] "POST /socket.io/?EIO=4&transport=polling&t=PQJZKo9&sid=4eoerU_0mbctXaj0AAAA HTTP/1.1" 200 -
+[2025-05-02 20:30:33] 127.0.0.1 - - [02/May/2025 20:30:33] "GET /socket.io/?EIO=4&transport=polling&t=PQJZKoC&sid=4eoerU_0mbctXaj0AAAA HTTP/1.1" 200 -
+[2025-05-02 20:30:33] 127.0.0.1 - - [02/May/2025 20:30:33] "GET /socket.io/?EIO=4&transport=polling&t=PQJZKou&sid=4eoerU_0mbctXaj0AAAA HTTP/1.1" 200 -
+[2025-05-03 00:34:38] 172.19.0.1 - - [03/May/2025 00:34:38] "GET /socket.io/?EIO=4&transport=polling&t=PQJaGnr HTTP/1.1" 200 -
+[2025-05-03 00:34:38] 172.19.0.1 - - [03/May/2025 00:34:38] "POST /socket.io/?EIO=4&transport=polling&t=PQJaGoK&sid=Q8dAHZ-DstlXIgKYAAAI HTTP/1.1" 200 -
+[2025-05-03 00:34:38] 172.19.0.1 - - [03/May/2025 00:34:38] "GET /socket.io/?EIO=4&transport=polling&t=PQJaGoM&sid=Q8dAHZ-DstlXIgKYAAAI HTTP/1.1" 200 -
+[2025-05-03 00:34:38] 172.19.0.1 - - [03/May/2025 00:34:38] "GET /socket.io/?EIO=4&transport=polling&t=PQJaGpZ&sid=Q8dAHZ-DstlXIgKYAAAI HTTP/1.1" 200 -
+[2025-05-03 00:34:42] 172.19.0.1 - - [03/May/2025 00:34:42] "GET /socket.io/?EIO=4&transport=websocket&sid=Q8dAHZ-DstlXIgKYAAAI HTTP/1.1" 200 -
+[2025-05-03 00:34:42] 172.19.0.1 - GET /home
+[2025-05-03 00:34:42] 172.19.0.1 - - [03/May/2025 00:34:42] "GET /home HTTP/1.1" 200 -
+[2025-05-03 00:34:42] 172.19.0.1 - GET /static/js/home.js
+[2025-05-03 00:34:42] 172.19.0.1 - GET /static/css/home.css
+[2025-05-03 00:34:42] 172.19.0.1 - - [03/May/2025 00:34:42] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-03 00:34:42] 172.19.0.1 - - [03/May/2025 00:34:42] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-05-03 00:34:42] 172.19.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-03 00:34:42] 172.19.0.1 - - [03/May/2025 00:34:42] "GET /socket.io/?EIO=4&transport=polling&t=PQJaHn- HTTP/1.1" 200 -
+[2025-05-03 00:34:42] 172.19.0.1 - - [03/May/2025 00:34:42] "GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1" 200 -
+[2025-05-03 00:34:43] 172.19.0.1 - - [03/May/2025 00:34:43] "POST /socket.io/?EIO=4&transport=polling&t=PQJaHoj&sid=wrHBFMJy-Gax-qrPAAAK HTTP/1.1" 200 -
+[2025-05-03 00:34:43] 172.19.0.1 - - [03/May/2025 00:34:43] "GET /socket.io/?EIO=4&transport=polling&t=PQJaHol&sid=wrHBFMJy-Gax-qrPAAAK HTTP/1.1" 200 -
+[2025-05-03 00:34:43] 172.19.0.1 - - [03/May/2025 00:34:43] "GET /socket.io/?EIO=4&transport=polling&t=PQJaHqR&sid=wrHBFMJy-Gax-qrPAAAK HTTP/1.1" 200 -
+[2025-05-03 00:34:56] 172.19.0.1 - - [03/May/2025 00:34:56] "GET /socket.io/?EIO=4&transport=websocket&sid=wrHBFMJy-Gax-qrPAAAK HTTP/1.1" 200 -
+[2025-05-03 00:34:56] 172.19.0.1 - GET /profile
+[2025-05-03 00:34:56] 172.19.0.1 - - [03/May/2025 00:34:56] "GET /profile HTTP/1.1" 200 -
+[2025-05-03 00:34:56] 172.19.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-03 00:34:56] 172.19.0.1 - - [03/May/2025 00:34:56] "GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1" 200 -
+[2025-05-03 00:34:57] 172.19.0.1 - GET /home
+[2025-05-03 00:34:57] 172.19.0.1 - - [03/May/2025 00:34:57] "GET /home HTTP/1.1" 200 -
+[2025-05-03 00:34:57] 172.19.0.1 - GET /static/css/home.css
+[2025-05-03 00:34:57] 172.19.0.1 - GET /static/js/home.js
+[2025-05-03 00:34:57] 172.19.0.1 - - [03/May/2025 00:34:57] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-03 00:34:57] 172.19.0.1 - - [03/May/2025 00:34:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-03 00:34:57] 172.19.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-03 00:34:57] 172.19.0.1 - - [03/May/2025 00:34:57] "GET /socket.io/?EIO=4&transport=polling&t=PQJaLNT HTTP/1.1" 200 -
+[2025-05-03 00:34:57] 172.19.0.1 - - [03/May/2025 00:34:57] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-03 00:34:57] 172.19.0.1 - - [03/May/2025 00:34:57] "POST /socket.io/?EIO=4&transport=polling&t=PQJaLPA&sid=eyT489jJmEj8rCiQAAAM HTTP/1.1" 200 -
+[2025-05-03 00:34:57] 172.19.0.1 - - [03/May/2025 00:34:57] "GET /socket.io/?EIO=4&transport=polling&t=PQJaLPC&sid=eyT489jJmEj8rCiQAAAM HTTP/1.1" 200 -
+[2025-05-03 00:34:57] 172.19.0.1 - - [03/May/2025 00:34:57] "GET /socket.io/?EIO=4&transport=polling&t=PQJaLQ2&sid=eyT489jJmEj8rCiQAAAM HTTP/1.1" 200 -
+[2025-05-02 20:35:53] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:35:53] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:35:53]  * Restarting with stat
+[2025-05-02 20:35:54]  * Debugger is active!
+[2025-05-02 20:35:54]  * Debugger PIN: 128-255-662
+[2025-05-03 00:35:54] 172.19.0.1 - - [03/May/2025 00:35:54] "GET /socket.io/?EIO=4&transport=websocket&sid=eyT489jJmEj8rCiQAAAM HTTP/1.1" 200 -
+[2025-05-02 20:35:54] 127.0.0.1 - GET /home
+[2025-05-02 20:35:54] 127.0.0.1 - - [02/May/2025 20:35:54] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:35:54] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:35:54] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:35:54] 127.0.0.1 - - [02/May/2025 20:35:54] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:35:54] 127.0.0.1 - - [02/May/2025 20:35:54] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-05-02 20:35:54] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:35:54] 127.0.0.1 - - [02/May/2025 20:35:54] "GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1" 200 -
+[2025-05-02 20:35:54] 127.0.0.1 - - [02/May/2025 20:35:54] "GET /socket.io/?EIO=4&transport=polling&t=PQJaZJN HTTP/1.1" 200 -
+[2025-05-02 20:35:54] 127.0.0.1 - - [02/May/2025 20:35:54] "POST /socket.io/?EIO=4&transport=polling&t=PQJaZJs&sid=2l-dhbZI2H-zq_erAAAA HTTP/1.1" 200 -
+[2025-05-02 20:35:54] 127.0.0.1 - - [02/May/2025 20:35:54] "GET /socket.io/?EIO=4&transport=polling&t=PQJaZJu&sid=2l-dhbZI2H-zq_erAAAA HTTP/1.1" 200 -
+[2025-05-02 20:35:54] 127.0.0.1 - - [02/May/2025 20:35:54] "GET /socket.io/?EIO=4&transport=polling&t=PQJaZKZ&sid=2l-dhbZI2H-zq_erAAAA HTTP/1.1" 200 -
+[2025-05-02 20:36:46] 127.0.0.1 - - [02/May/2025 20:36:46] "GET /socket.io/?EIO=4&transport=websocket&sid=2l-dhbZI2H-zq_erAAAA HTTP/1.1" 200 -
+[2025-05-02 20:36:46] 127.0.0.1 - GET /profile
+[2025-05-02 20:36:46] 127.0.0.1 - - [02/May/2025 20:36:46] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:36:46] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 20:36:46] 127.0.0.1 - - [02/May/2025 20:36:46] "GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1" 200 -
+[2025-05-02 20:36:46] 127.0.0.1 - GET /home
+[2025-05-02 20:36:46] 127.0.0.1 - - [02/May/2025 20:36:46] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:36:47] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:36:47] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:36:47] 127.0.0.1 - - [02/May/2025 20:36:47] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:36:47] 127.0.0.1 - - [02/May/2025 20:36:47] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:36:47] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:36:47] 127.0.0.1 - - [02/May/2025 20:36:47] "GET /socket.io/?EIO=4&transport=polling&t=PQJam7l HTTP/1.1" 200 -
+[2025-05-02 20:36:47] 127.0.0.1 - - [02/May/2025 20:36:47] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:36:47] 127.0.0.1 - - [02/May/2025 20:36:47] "POST /socket.io/?EIO=4&transport=polling&t=PQJam8_&sid=ZlAmbkNEwT6LxmflAAAC HTTP/1.1" 200 -
+[2025-05-02 20:36:47] 127.0.0.1 - - [02/May/2025 20:36:47] "GET /socket.io/?EIO=4&transport=polling&t=PQJam92&sid=ZlAmbkNEwT6LxmflAAAC HTTP/1.1" 200 -
+[2025-05-02 20:36:47] 127.0.0.1 - - [02/May/2025 20:36:47] "GET /socket.io/?EIO=4&transport=polling&t=PQJam9X&sid=ZlAmbkNEwT6LxmflAAAC HTTP/1.1" 200 -
+[2025-05-03 00:36:50] 172.19.0.1 - - [03/May/2025 00:36:50] "GET /socket.io/?EIO=4&transport=polling&t=PQJamyO HTTP/1.1" 200 -
+[2025-05-03 00:36:50] 172.19.0.1 - - [03/May/2025 00:36:50] "POST /socket.io/?EIO=4&transport=polling&t=PQJamyu&sid=t0PxtdXK7CziUvFUAAAO HTTP/1.1" 200 -
+[2025-05-03 00:36:50] 172.19.0.1 - - [03/May/2025 00:36:50] "GET /socket.io/?EIO=4&transport=polling&t=PQJamyz&sid=t0PxtdXK7CziUvFUAAAO HTTP/1.1" 200 -
+[2025-05-03 00:36:50] 172.19.0.1 - - [03/May/2025 00:36:50] "GET /socket.io/?EIO=4&transport=polling&t=PQJamzu&sid=t0PxtdXK7CziUvFUAAAO HTTP/1.1" 200 -
+[2025-05-02 20:36:52] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:36:52] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:36:52]  * Restarting with stat
+[2025-05-02 20:36:53]  * Debugger is active!
+[2025-05-02 20:36:53]  * Debugger PIN: 128-255-662
+[2025-05-03 00:36:57] 172.19.0.1 - - [03/May/2025 00:36:57] "GET /socket.io/?EIO=4&transport=websocket&sid=t0PxtdXK7CziUvFUAAAO HTTP/1.1" 200 -
+[2025-05-02 20:36:57] 127.0.0.1 - GET /profile
+[2025-05-02 20:36:57] 127.0.0.1 - - [02/May/2025 20:36:57] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 20:36:57] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 20:36:57] 127.0.0.1 - - [02/May/2025 20:36:57] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:36:57] 127.0.0.1 - GET /home
+[2025-05-02 20:36:57] 127.0.0.1 - - [02/May/2025 20:36:57] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:36:57] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:36:57] 127.0.0.1 - - [02/May/2025 20:36:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:36:57] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:36:57] 127.0.0.1 - - [02/May/2025 20:36:57] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 20:36:58] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:36:58] 127.0.0.1 - - [02/May/2025 20:36:58] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:36:58] 127.0.0.1 - - [02/May/2025 20:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PQJaom2 HTTP/1.1" 200 -
+[2025-05-02 20:36:58] 127.0.0.1 - - [02/May/2025 20:36:58] "POST /socket.io/?EIO=4&transport=polling&t=PQJaooe&sid=DFCM7dCb_h_PIZn0AAAA HTTP/1.1" 200 -
+[2025-05-02 20:36:58] 127.0.0.1 - - [02/May/2025 20:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PQJaooi&sid=DFCM7dCb_h_PIZn0AAAA HTTP/1.1" 200 -
+[2025-05-02 20:36:58] 127.0.0.1 - - [02/May/2025 20:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PQJaoqE&sid=DFCM7dCb_h_PIZn0AAAA HTTP/1.1" 200 -
+[2025-05-03 00:40:36] 172.19.0.1 - - [03/May/2025 00:40:36] "GET /socket.io/?EIO=4&transport=polling&t=PQJbe1g HTTP/1.1" 200 -
+[2025-05-03 00:40:36] 172.19.0.1 - - [03/May/2025 00:40:36] "POST /socket.io/?EIO=4&transport=polling&t=PQJbe2G&sid=Y43YP_lmVNzbFVInAAAQ HTTP/1.1" 200 -
+[2025-05-03 00:40:36] 172.19.0.1 - - [03/May/2025 00:40:36] "GET /socket.io/?EIO=4&transport=polling&t=PQJbe2K&sid=Y43YP_lmVNzbFVInAAAQ HTTP/1.1" 200 -
+[2025-05-03 00:40:36] 172.19.0.1 - - [03/May/2025 00:40:36] "GET /socket.io/?EIO=4&transport=polling&t=PQJbe3l&sid=Y43YP_lmVNzbFVInAAAQ HTTP/1.1" 200 -
+[2025-05-02 20:40:38] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:40:38] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:40:38]  * Restarting with stat
+[2025-05-02 20:40:39]  * Debugger is active!
+[2025-05-02 20:40:39]  * Debugger PIN: 128-255-662
+[2025-05-03 00:40:55] 172.19.0.1 - - [03/May/2025 00:40:55] "GET /socket.io/?EIO=4&transport=websocket&sid=Y43YP_lmVNzbFVInAAAQ HTTP/1.1" 200 -
+[2025-05-03 00:40:55] 172.19.0.1 - GET /home
+[2025-05-03 00:40:55] 172.19.0.1 - - [03/May/2025 00:40:55] "GET /home HTTP/1.1" 200 -
+[2025-05-03 00:40:55] 172.19.0.1 - GET /static/css/home.css
+[2025-05-03 00:40:55] 172.19.0.1 - GET /static/js/home.js
+[2025-05-03 00:40:55] 172.19.0.1 - - [03/May/2025 00:40:55] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-03 00:40:55] 172.19.0.1 - - [03/May/2025 00:40:55] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-05-03 00:40:56] 172.19.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-03 00:40:56] 172.19.0.1 - - [03/May/2025 00:40:56] "GET /socket.io/?EIO=4&transport=polling&t=PQJbit_ HTTP/1.1" 200 -
+[2025-05-03 00:40:56] 172.19.0.1 - - [03/May/2025 00:40:56] "GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1" 200 -
+[2025-05-03 00:40:56] 172.19.0.1 - - [03/May/2025 00:40:56] "POST /socket.io/?EIO=4&transport=polling&t=PQJbivR&sid=RY0b0EAzFaZtbLS5AAAS HTTP/1.1" 200 -
+[2025-05-03 00:40:56] 172.19.0.1 - - [03/May/2025 00:40:56] "GET /socket.io/?EIO=4&transport=polling&t=PQJbivT&sid=RY0b0EAzFaZtbLS5AAAS HTTP/1.1" 200 -
+[2025-05-03 00:40:56] 172.19.0.1 - - [03/May/2025 00:40:56] "GET /socket.io/?EIO=4&transport=polling&t=PQJbiwn&sid=RY0b0EAzFaZtbLS5AAAS HTTP/1.1" 200 -
+[2025-05-03 00:40:58] 172.19.0.1 - - [03/May/2025 00:40:58] "GET /socket.io/?EIO=4&transport=websocket&sid=RY0b0EAzFaZtbLS5AAAS HTTP/1.1" 200 -
+[2025-05-03 00:40:58] 172.19.0.1 - GET /home
+[2025-05-03 00:40:58] 172.19.0.1 - - [03/May/2025 00:40:58] "GET /home HTTP/1.1" 200 -
+[2025-05-03 00:40:58] 172.19.0.1 - GET /static/css/home.css
+[2025-05-03 00:40:58] 172.19.0.1 - GET /static/js/home.js
+[2025-05-03 00:40:58] 172.19.0.1 - - [03/May/2025 00:40:58] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-03 00:40:58] 172.19.0.1 - - [03/May/2025 00:40:58] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-03 00:40:58] 172.19.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-03 00:40:58] 172.19.0.1 - - [03/May/2025 00:40:58] "GET /socket.io/?EIO=4&transport=polling&t=PQJbjX3 HTTP/1.1" 200 -
+[2025-05-03 00:40:58] 172.19.0.1 - - [03/May/2025 00:40:58] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-03 00:40:58] 172.19.0.1 - - [03/May/2025 00:40:58] "POST /socket.io/?EIO=4&transport=polling&t=PQJbjYK&sid=94FX7a8G4T0gPjaJAAAU HTTP/1.1" 200 -
+[2025-05-03 00:40:58] 172.19.0.1 - - [03/May/2025 00:40:58] "GET /socket.io/?EIO=4&transport=polling&t=PQJbjYM&sid=94FX7a8G4T0gPjaJAAAU HTTP/1.1" 200 -
+[2025-05-03 00:40:58] 172.19.0.1 - - [03/May/2025 00:40:58] "GET /socket.io/?EIO=4&transport=polling&t=PQJbjZN&sid=94FX7a8G4T0gPjaJAAAU HTTP/1.1" 200 -
+[2025-05-02 20:41:03] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:41:03] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:41:03]  * Restarting with stat
+[2025-05-02 20:41:04]  * Debugger is active!
+[2025-05-02 20:41:04]  * Debugger PIN: 128-255-662
+[2025-05-03 00:41:04] 172.19.0.1 - - [03/May/2025 00:41:04] "GET /socket.io/?EIO=4&transport=websocket&sid=94FX7a8G4T0gPjaJAAAU HTTP/1.1" 200 -
+[2025-05-02 20:41:04] 127.0.0.1 - GET /home
+[2025-05-02 20:41:04] 127.0.0.1 - - [02/May/2025 20:41:04] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:41:04] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:41:04] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:41:04] 127.0.0.1 - - [02/May/2025 20:41:04] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-05-02 20:41:04] 127.0.0.1 - - [02/May/2025 20:41:04] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:41:05] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:41:05] 127.0.0.1 - - [02/May/2025 20:41:05] "GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1" 200 -
+[2025-05-02 20:41:05] 127.0.0.1 - - [02/May/2025 20:41:05] "GET /socket.io/?EIO=4&transport=polling&t=PQJbl3Z HTTP/1.1" 200 -
+[2025-05-02 20:41:05] 127.0.0.1 - - [02/May/2025 20:41:05] "POST /socket.io/?EIO=4&transport=polling&t=PQJbl45&sid=N-Wm1VyOOPXcUm5gAAAA HTTP/1.1" 200 -
+[2025-05-02 20:41:05] 127.0.0.1 - - [02/May/2025 20:41:05] "GET /socket.io/?EIO=4&transport=polling&t=PQJbl47&sid=N-Wm1VyOOPXcUm5gAAAA HTTP/1.1" 200 -
+[2025-05-02 20:41:05] 127.0.0.1 - - [02/May/2025 20:41:05] "GET /socket.io/?EIO=4&transport=polling&t=PQJbl4u&sid=N-Wm1VyOOPXcUm5gAAAA HTTP/1.1" 200 -
+[2025-05-02 20:49:26] 127.0.0.1 - - [02/May/2025 20:49:26] "GET /socket.io/?EIO=4&transport=websocket&sid=N-Wm1VyOOPXcUm5gAAAA HTTP/1.1" 200 -
+[2025-05-02 20:49:26] 127.0.0.1 - GET /home
+[2025-05-02 20:49:26] 127.0.0.1 - - [02/May/2025 20:49:26] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:49:26] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:49:26] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:49:26] 127.0.0.1 - - [02/May/2025 20:49:26] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:49:26] 127.0.0.1 - - [02/May/2025 20:49:26] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 20:49:26] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:49:26] 127.0.0.1 - - [02/May/2025 20:49:26] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:49:26] 127.0.0.1 - - [02/May/2025 20:49:26] "GET /socket.io/?EIO=4&transport=polling&t=PQJdfZN HTTP/1.1" 200 -
+[2025-05-02 20:49:26] 127.0.0.1 - - [02/May/2025 20:49:26] "POST /socket.io/?EIO=4&transport=polling&t=PQJdfaE&sid=pq35egl6mzaML7hDAAAC HTTP/1.1" 200 -
+[2025-05-02 20:49:26] 127.0.0.1 - - [02/May/2025 20:49:26] "GET /socket.io/?EIO=4&transport=polling&t=PQJdfaG&sid=pq35egl6mzaML7hDAAAC HTTP/1.1" 200 -
+[2025-05-02 20:49:33] 127.0.0.1 - - [02/May/2025 20:49:33] "GET /socket.io/?EIO=4&transport=websocket&sid=pq35egl6mzaML7hDAAAC HTTP/1.1" 200 -
+[2025-05-02 20:49:33] 127.0.0.1 - GET /home
+[2025-05-02 20:49:33] 127.0.0.1 - - [02/May/2025 20:49:33] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:49:33] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:49:33] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:49:33] 127.0.0.1 - - [02/May/2025 20:49:33] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:49:33] 127.0.0.1 - - [02/May/2025 20:49:33] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 20:49:33] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:49:33] 127.0.0.1 - - [02/May/2025 20:49:33] "GET /socket.io/?EIO=4&transport=polling&t=PQJdhBv HTTP/1.1" 200 -
+[2025-05-02 20:49:33] 127.0.0.1 - - [02/May/2025 20:49:33] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:49:33] 127.0.0.1 - - [02/May/2025 20:49:33] "POST /socket.io/?EIO=4&transport=polling&t=PQJdhDg&sid=7YZ6m3dVHMQSwxUfAAAE HTTP/1.1" 200 -
+[2025-05-02 20:49:33] 127.0.0.1 - - [02/May/2025 20:49:33] "GET /socket.io/?EIO=4&transport=polling&t=PQJdhDh&sid=7YZ6m3dVHMQSwxUfAAAE HTTP/1.1" 200 -
+[2025-05-02 20:49:33] 127.0.0.1 - - [02/May/2025 20:49:33] "GET /socket.io/?EIO=4&transport=polling&t=PQJdhEx&sid=7YZ6m3dVHMQSwxUfAAAE HTTP/1.1" 200 -
+[2025-05-02 20:49:49] 127.0.0.1 - - [02/May/2025 20:49:49] "GET /socket.io/?EIO=4&transport=websocket&sid=7YZ6m3dVHMQSwxUfAAAE HTTP/1.1" 200 -
+[2025-05-02 20:49:49] 127.0.0.1 - GET /home
+[2025-05-02 20:49:49] 127.0.0.1 - - [02/May/2025 20:49:49] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:49:49] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:49:49] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:49:49] 127.0.0.1 - - [02/May/2025 20:49:49] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:49:49] 127.0.0.1 - - [02/May/2025 20:49:49] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 20:49:49] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png
+[2025-05-02 20:49:49] 127.0.0.1 - - [02/May/2025 20:49:49] "GET /socket.io/?EIO=4&transport=polling&t=PQJdlAc HTTP/1.1" 200 -
+[2025-05-02 20:49:49] 127.0.0.1 - - [02/May/2025 20:49:49] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a-20.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:49:49] 127.0.0.1 - - [02/May/2025 20:49:49] "POST /socket.io/?EIO=4&transport=polling&t=PQJdlBY&sid=rivnONGghopd9hZpAAAG HTTP/1.1" 200 -
+[2025-05-02 20:49:49] 127.0.0.1 - - [02/May/2025 20:49:49] "GET /socket.io/?EIO=4&transport=polling&t=PQJdlBY.0&sid=rivnONGghopd9hZpAAAG HTTP/1.1" 200 -
+[2025-05-02 20:52:32]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\app.py', reloading
+[2025-05-02 20:52:32]  * Restarting with stat
+[2025-05-02 20:52:33]  * Debugger is active!
+[2025-05-02 20:52:33]  * Debugger PIN: 128-255-662
+[2025-05-02 20:52:34] 127.0.0.1 - - [02/May/2025 20:52:34] "GET /socket.io/?EIO=4&transport=polling&t=PQJeNH5 HTTP/1.1" 200 -
+[2025-05-02 20:52:34] 127.0.0.1 - - [02/May/2025 20:52:34] "POST /socket.io/?EIO=4&transport=polling&t=PQJeNHQ&sid=BkRIl2y2CydTtQkqAAAA HTTP/1.1" 200 -
+[2025-05-02 20:52:34] 127.0.0.1 - - [02/May/2025 20:52:34] "GET /socket.io/?EIO=4&transport=polling&t=PQJeNHV&sid=BkRIl2y2CydTtQkqAAAA HTTP/1.1" 200 -
+[2025-05-02 20:52:34] 127.0.0.1 - - [02/May/2025 20:52:34] "GET /socket.io/?EIO=4&transport=polling&t=PQJeNI4&sid=BkRIl2y2CydTtQkqAAAA HTTP/1.1" 200 -
+[2025-05-03 00:54:49] 172.19.0.1 - - [03/May/2025 00:54:49] "GET /socket.io/?EIO=4&transport=polling&t=PQJeuPH HTTP/1.1" 200 -
+[2025-05-03 00:54:49] 172.19.0.1 - - [03/May/2025 00:54:49] "POST /socket.io/?EIO=4&transport=polling&t=PQJeuPk&sid=Vn3mequn8k-N4LLgAAAW HTTP/1.1" 200 -
+[2025-05-03 00:54:49] 172.19.0.1 - - [03/May/2025 00:54:49] "GET /socket.io/?EIO=4&transport=polling&t=PQJeuPs&sid=Vn3mequn8k-N4LLgAAAW HTTP/1.1" 200 -
+[2025-05-03 00:54:49] 172.19.0.1 - - [03/May/2025 00:54:49] "GET /socket.io/?EIO=4&transport=polling&t=PQJeuQO&sid=Vn3mequn8k-N4LLgAAAW HTTP/1.1" 200 -
+[2025-05-02 20:54:52] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:54:52] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:54:52]  * Restarting with stat
+[2025-05-02 20:54:53]  * Debugger is active!
+[2025-05-02 20:54:53]  * Debugger PIN: 128-255-662
+[2025-05-03 00:54:57] 172.19.0.1 - - [03/May/2025 00:54:57] "GET /socket.io/?EIO=4&transport=websocket&sid=Vn3mequn8k-N4LLgAAAW HTTP/1.1" 200 -
+[2025-05-02 20:54:57] 127.0.0.1 - GET /home
+[2025-05-02 20:54:57] 127.0.0.1 - - [02/May/2025 20:54:57] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:54:57] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:54:57] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:54:57] 127.0.0.1 - - [02/May/2025 20:54:57] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:54:57] 127.0.0.1 - - [02/May/2025 20:54:57] "GET /static/css/home.css HTTP/1.1" 200 -
+[2025-05-02 20:54:58] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 20:54:58] 127.0.0.1 - - [02/May/2025 20:54:58] "GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1" 200 -
+[2025-05-02 20:54:58] 127.0.0.1 - - [02/May/2025 20:54:58] "GET /socket.io/?EIO=4&transport=polling&t=PQJewRC HTTP/1.1" 200 -
+[2025-05-02 20:54:58] 127.0.0.1 - - [02/May/2025 20:54:58] "POST /socket.io/?EIO=4&transport=polling&t=PQJewRd&sid=UjUo2N_JpaQiv66vAAAA HTTP/1.1" 200 -
+[2025-05-02 20:54:58] 127.0.0.1 - - [02/May/2025 20:54:58] "GET /socket.io/?EIO=4&transport=polling&t=PQJewRd.0&sid=UjUo2N_JpaQiv66vAAAA HTTP/1.1" 200 -
+[2025-05-02 20:54:58] 127.0.0.1 - GET /favicon.ico
+[2025-05-02 20:54:58] 127.0.0.1 - - [02/May/2025 20:54:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-02 20:54:58] 127.0.0.1 - - [02/May/2025 20:54:58] "GET /socket.io/?EIO=4&transport=polling&t=PQJewS1&sid=UjUo2N_JpaQiv66vAAAA HTTP/1.1" 200 -
+[2025-05-03 00:55:33] 172.19.0.1 - - [03/May/2025 00:55:33] "GET /socket.io/?EIO=4&transport=polling&t=PQJf32P HTTP/1.1" 200 -
+[2025-05-03 00:55:33] 172.19.0.1 - - [03/May/2025 00:55:33] "POST /socket.io/?EIO=4&transport=polling&t=PQJf32t&sid=3sWPWb54FMOgKp4WAAAY HTTP/1.1" 200 -
+[2025-05-03 00:55:33] 172.19.0.1 - - [03/May/2025 00:55:33] "GET /socket.io/?EIO=4&transport=polling&t=PQJf32u&sid=3sWPWb54FMOgKp4WAAAY HTTP/1.1" 200 -
+[2025-05-03 00:55:33] 172.19.0.1 - - [03/May/2025 00:55:33] "GET /socket.io/?EIO=4&transport=polling&t=PQJf33n&sid=3sWPWb54FMOgKp4WAAAY HTTP/1.1" 200 -
+[2025-05-02 20:55:36] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:55:36] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:55:36]  * Restarting with stat
+[2025-05-02 20:55:37]  * Debugger is active!
+[2025-05-02 20:55:37]  * Debugger PIN: 128-255-662
+[2025-05-03 00:55:38] 172.19.0.1 - - [03/May/2025 00:55:38] "GET /socket.io/?EIO=4&transport=websocket&sid=3sWPWb54FMOgKp4WAAAY HTTP/1.1" 200 -
+[2025-05-02 20:55:38] 127.0.0.1 - GET /home
+[2025-05-02 20:55:38] 127.0.0.1 - - [02/May/2025 20:55:38] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:55:38] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:55:38] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:55:38] 127.0.0.1 - - [02/May/2025 20:55:38] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:55:38] 127.0.0.1 - - [02/May/2025 20:55:38] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:55:38] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 20:55:38] 127.0.0.1 - - [02/May/2025 20:55:38] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:55:38] 127.0.0.1 - - [02/May/2025 20:55:38] "GET /socket.io/?EIO=4&transport=polling&t=PQJf4Lc HTTP/1.1" 200 -
+[2025-05-02 20:55:38] 127.0.0.1 - - [02/May/2025 20:55:38] "POST /socket.io/?EIO=4&transport=polling&t=PQJf4Lq&sid=lUt8ZwIE7YiP_qc3AAAA HTTP/1.1" 200 -
+[2025-05-02 20:55:38] 127.0.0.1 - - [02/May/2025 20:55:38] "GET /socket.io/?EIO=4&transport=polling&t=PQJf4Lr&sid=lUt8ZwIE7YiP_qc3AAAA HTTP/1.1" 200 -
+[2025-05-02 20:55:38] 127.0.0.1 - - [02/May/2025 20:55:38] "GET /socket.io/?EIO=4&transport=polling&t=PQJf4MD&sid=lUt8ZwIE7YiP_qc3AAAA HTTP/1.1" 200 -
+[2025-05-03 00:57:30] 172.19.0.1 - - [03/May/2025 00:57:30] "GET /socket.io/?EIO=4&transport=polling&t=PQJfVm3 HTTP/1.1" 200 -
+[2025-05-03 00:57:30] 172.19.0.1 - - [03/May/2025 00:57:30] "POST /socket.io/?EIO=4&transport=polling&t=PQJfVmN&sid=F5n9s5hZU5LNgzkxAAAa HTTP/1.1" 200 -
+[2025-05-03 00:57:30] 172.19.0.1 - - [03/May/2025 00:57:30] "GET /socket.io/?EIO=4&transport=polling&t=PQJfVmQ&sid=F5n9s5hZU5LNgzkxAAAa HTTP/1.1" 200 -
+[2025-05-03 00:57:30] 172.19.0.1 - - [03/May/2025 00:57:30] "GET /socket.io/?EIO=4&transport=polling&t=PQJfVmr&sid=F5n9s5hZU5LNgzkxAAAa HTTP/1.1" 200 -
+[2025-05-02 20:57:31] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:57:31] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:57:31]  * Restarting with stat
+[2025-05-02 20:57:32]  * Debugger is active!
+[2025-05-02 20:57:32]  * Debugger PIN: 128-255-662
+[2025-05-03 00:57:37] 172.19.0.1 - - [03/May/2025 00:57:37] "GET /socket.io/?EIO=4&transport=websocket&sid=F5n9s5hZU5LNgzkxAAAa HTTP/1.1" 200 -
+[2025-05-02 20:57:37] 127.0.0.1 - GET /home
+[2025-05-02 20:57:37] 127.0.0.1 - - [02/May/2025 20:57:37] "GET /home HTTP/1.1" 200 -
+[2025-05-02 20:57:37] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 20:57:37] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 20:57:37] 127.0.0.1 - - [02/May/2025 20:57:37] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 20:57:37] 127.0.0.1 - - [02/May/2025 20:57:37] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 20:57:37] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 20:57:37] 127.0.0.1 - - [02/May/2025 20:57:37] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 20:57:37] 127.0.0.1 - - [02/May/2025 20:57:37] "GET /socket.io/?EIO=4&transport=polling&t=PQJfXMe HTTP/1.1" 200 -
+[2025-05-02 20:57:37] 127.0.0.1 - - [02/May/2025 20:57:37] "POST /socket.io/?EIO=4&transport=polling&t=PQJfXMv&sid=o_WBKaXGYAvyHn8QAAAA HTTP/1.1" 200 -
+[2025-05-02 20:57:37] 127.0.0.1 - - [02/May/2025 20:57:37] "GET /socket.io/?EIO=4&transport=polling&t=PQJfXMw&sid=o_WBKaXGYAvyHn8QAAAA HTTP/1.1" 200 -
+[2025-05-02 20:57:37] 127.0.0.1 - - [02/May/2025 20:57:37] "GET /socket.io/?EIO=4&transport=polling&t=PQJfXNO&sid=o_WBKaXGYAvyHn8QAAAA HTTP/1.1" 200 -
+[2025-05-03 00:59:54] 172.19.0.1 - - [03/May/2025 00:59:54] "GET /socket.io/?EIO=4&transport=polling&t=PQJg2q3 HTTP/1.1" 200 -
+[2025-05-03 00:59:54] 172.19.0.1 - - [03/May/2025 00:59:54] "POST /socket.io/?EIO=4&transport=polling&t=PQJg2qt&sid=eTmSN6tcQwb8DrWjAAAc HTTP/1.1" 200 -
+[2025-05-03 00:59:54] 172.19.0.1 - - [03/May/2025 00:59:54] "GET /socket.io/?EIO=4&transport=polling&t=PQJg2qw&sid=eTmSN6tcQwb8DrWjAAAc HTTP/1.1" 200 -
+[2025-05-03 00:59:54] 172.19.0.1 - - [03/May/2025 00:59:54] "GET /socket.io/?EIO=4&transport=polling&t=PQJg2rr&sid=eTmSN6tcQwb8DrWjAAAc HTTP/1.1" 200 -
+[2025-05-02 20:59:56] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 20:59:56] [33mPress CTRL+C to quit[0m
+[2025-05-02 20:59:56]  * Restarting with stat
+[2025-05-02 20:59:56]  * Debugger is active!
+[2025-05-02 20:59:56]  * Debugger PIN: 128-255-662
+[2025-05-02 21:01:01] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 21:01:01] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:01:01]  * Restarting with stat
+[2025-05-02 21:01:02]  * Debugger is active!
+[2025-05-02 21:01:02]  * Debugger PIN: 128-255-662
+[2025-05-03 01:01:06] 172.19.0.1 - - [03/May/2025 01:01:06] "GET /socket.io/?EIO=4&transport=websocket&sid=eTmSN6tcQwb8DrWjAAAc HTTP/1.1" 200 -
+[2025-05-02 21:01:06] 127.0.0.1 - GET /home
+[2025-05-02 21:01:06] 127.0.0.1 - - [02/May/2025 21:01:06] "GET /home HTTP/1.1" 200 -
+[2025-05-02 21:01:06] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 21:01:06] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 21:01:06] 127.0.0.1 - - [02/May/2025 21:01:06] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 21:01:06] 127.0.0.1 - - [02/May/2025 21:01:06] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 21:01:06] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 21:01:06] 127.0.0.1 - - [02/May/2025 21:01:06] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 21:01:06] 127.0.0.1 - - [02/May/2025 21:01:06] "GET /socket.io/?EIO=4&transport=polling&t=PQJgKOA HTTP/1.1" 200 -
+[2025-05-02 21:01:06] 127.0.0.1 - - [02/May/2025 21:01:06] "POST /socket.io/?EIO=4&transport=polling&t=PQJgKOY&sid=06cdtI1s5KFPPlMpAAAA HTTP/1.1" 200 -
+[2025-05-02 21:01:06] 127.0.0.1 - - [02/May/2025 21:01:06] "GET /socket.io/?EIO=4&transport=polling&t=PQJgKOZ&sid=06cdtI1s5KFPPlMpAAAA HTTP/1.1" 200 -
+[2025-05-02 21:01:06] 127.0.0.1 - - [02/May/2025 21:01:06] "GET /socket.io/?EIO=4&transport=polling&t=PQJgKPI&sid=06cdtI1s5KFPPlMpAAAA HTTP/1.1" 200 -
+[2025-05-03 01:01:49] 172.19.0.1 - - [03/May/2025 01:01:49] "GET /socket.io/?EIO=4&transport=polling&t=PQJgUyG HTTP/1.1" 200 -
+[2025-05-03 01:01:49] 172.19.0.1 - - [03/May/2025 01:01:49] "POST /socket.io/?EIO=4&transport=polling&t=PQJgUy_&sid=iYF1QEqlWWQRTJ9EAAAe HTTP/1.1" 200 -
+[2025-05-03 01:01:49] 172.19.0.1 - - [03/May/2025 01:01:49] "GET /socket.io/?EIO=4&transport=polling&t=PQJgUz1&sid=iYF1QEqlWWQRTJ9EAAAe HTTP/1.1" 200 -
+[2025-05-03 01:01:49] 172.19.0.1 - - [03/May/2025 01:01:49] "GET /socket.io/?EIO=4&transport=polling&t=PQJgU_2&sid=iYF1QEqlWWQRTJ9EAAAe HTTP/1.1" 200 -
+[2025-05-02 21:01:50] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 21:01:50] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:01:50]  * Restarting with stat
+[2025-05-02 21:01:51]  * Debugger is active!
+[2025-05-02 21:01:51]  * Debugger PIN: 128-255-662
+[2025-05-03 01:02:24] 172.19.0.1 - - [03/May/2025 01:02:24] "GET /socket.io/?EIO=4&transport=websocket&sid=iYF1QEqlWWQRTJ9EAAAe HTTP/1.1" 200 -
+[2025-05-02 21:02:24] 127.0.0.1 - GET /profile
+[2025-05-02 21:02:24] 127.0.0.1 - - [02/May/2025 21:02:24] "GET /profile HTTP/1.1" 200 -
+[2025-05-02 21:02:24] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 21:02:24] 127.0.0.1 - - [02/May/2025 21:02:24] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 21:03:01] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 21:03:01] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:03:01]  * Restarting with stat
+[2025-05-02 21:03:02]  * Debugger is active!
+[2025-05-02 21:03:02]  * Debugger PIN: 128-255-662
+[2025-05-02 21:03:03] 127.0.0.1 - GET /home
+[2025-05-02 21:03:03] 127.0.0.1 - - [02/May/2025 21:03:03] "GET /home HTTP/1.1" 200 -
+[2025-05-02 21:03:03] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 21:03:03] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 21:03:03] 127.0.0.1 - - [02/May/2025 21:03:03] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 21:03:03] 127.0.0.1 - - [02/May/2025 21:03:03] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 21:03:03] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 21:03:03] 127.0.0.1 - - [02/May/2025 21:03:03] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 21:03:03] 127.0.0.1 - - [02/May/2025 21:03:03] "GET /socket.io/?EIO=4&transport=polling&t=PQJgn4A HTTP/1.1" 200 -
+[2025-05-02 21:03:03] 127.0.0.1 - - [02/May/2025 21:03:03] "POST /socket.io/?EIO=4&transport=polling&t=PQJgn4O&sid=PWM783ItOyUPIBAzAAAA HTTP/1.1" 200 -
+[2025-05-02 21:03:03] 127.0.0.1 - - [02/May/2025 21:03:03] "GET /socket.io/?EIO=4&transport=polling&t=PQJgn4O.0&sid=PWM783ItOyUPIBAzAAAA HTTP/1.1" 200 -
+[2025-05-02 21:03:03] 127.0.0.1 - - [02/May/2025 21:03:03] "GET /socket.io/?EIO=4&transport=polling&t=PQJgn4r&sid=PWM783ItOyUPIBAzAAAA HTTP/1.1" 200 -
+[2025-05-02 21:03:05] 127.0.0.1 - - [02/May/2025 21:03:05] "GET /socket.io/?EIO=4&transport=websocket&sid=PWM783ItOyUPIBAzAAAA HTTP/1.1" 200 -
+[2025-05-02 21:03:05] 127.0.0.1 - GET /home
+[2025-05-02 21:03:05] 127.0.0.1 - - [02/May/2025 21:03:05] "GET /home HTTP/1.1" 200 -
+[2025-05-02 21:03:05] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 21:03:05] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 21:03:05] 127.0.0.1 - - [02/May/2025 21:03:05] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 21:03:05] 127.0.0.1 - - [02/May/2025 21:03:05] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 21:03:05] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 21:03:05] 127.0.0.1 - - [02/May/2025 21:03:05] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 21:03:05] 127.0.0.1 - - [02/May/2025 21:03:05] "GET /socket.io/?EIO=4&transport=polling&t=PQJgnN- HTTP/1.1" 200 -
+[2025-05-02 21:03:05] 127.0.0.1 - - [02/May/2025 21:03:05] "POST /socket.io/?EIO=4&transport=polling&t=PQJgnOG&sid=PU-UgTZhokBfd5ptAAAC HTTP/1.1" 200 -
+[2025-05-02 21:03:05] 127.0.0.1 - - [02/May/2025 21:03:05] "GET /socket.io/?EIO=4&transport=polling&t=PQJgnOI&sid=PU-UgTZhokBfd5ptAAAC HTTP/1.1" 200 -
+[2025-05-02 21:03:05] 127.0.0.1 - - [02/May/2025 21:03:05] "GET /socket.io/?EIO=4&transport=polling&t=PQJgnOw&sid=PU-UgTZhokBfd5ptAAAC HTTP/1.1" 200 -
+[2025-05-03 01:04:24] 172.19.0.1 - - [03/May/2025 01:04:24] "GET /socket.io/?EIO=4&transport=polling&t=PQJh4lE HTTP/1.1" 200 -
+[2025-05-03 01:04:24] 172.19.0.1 - - [03/May/2025 01:04:24] "POST /socket.io/?EIO=4&transport=polling&t=PQJh4lh&sid=b-YeuSz3mEI9CA-jAAAg HTTP/1.1" 200 -
+[2025-05-03 01:04:24] 172.19.0.1 - - [03/May/2025 01:04:24] "GET /socket.io/?EIO=4&transport=polling&t=PQJh4lk&sid=b-YeuSz3mEI9CA-jAAAg HTTP/1.1" 200 -
+[2025-05-03 01:04:24] 172.19.0.1 - - [03/May/2025 01:04:24] "GET /socket.io/?EIO=4&transport=polling&t=PQJh4n-&sid=b-YeuSz3mEI9CA-jAAAg HTTP/1.1" 200 -
+[2025-05-02 21:04:25] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.193:8080
+[2025-05-02 21:04:25] [33mPress CTRL+C to quit[0m
+[2025-05-02 21:04:25]  * Restarting with stat
+[2025-05-02 21:04:26]  * Debugger is active!
+[2025-05-02 21:04:26]  * Debugger PIN: 128-255-662
+[2025-05-03 01:04:32] 172.19.0.1 - - [03/May/2025 01:04:32] "GET /socket.io/?EIO=4&transport=websocket&sid=b-YeuSz3mEI9CA-jAAAg HTTP/1.1" 200 -
+[2025-05-02 21:04:32] 127.0.0.1 - GET /home
+[2025-05-02 21:04:32] 127.0.0.1 - - [02/May/2025 21:04:32] "GET /home HTTP/1.1" 200 -
+[2025-05-02 21:04:32] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 21:04:32] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 21:04:32] 127.0.0.1 - - [02/May/2025 21:04:32] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 21:04:32] 127.0.0.1 - - [02/May/2025 21:04:32] "GET /static/js/home.js HTTP/1.1" 200 -
+[2025-05-02 21:04:32] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 21:04:32] 127.0.0.1 - - [02/May/2025 21:04:32] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 21:04:32] 127.0.0.1 - - [02/May/2025 21:04:32] "GET /socket.io/?EIO=4&transport=polling&t=PQJh6gw HTTP/1.1" 200 -
+[2025-05-02 21:04:32] 127.0.0.1 - - [02/May/2025 21:04:32] "POST /socket.io/?EIO=4&transport=polling&t=PQJh6iR&sid=-zQF39WmHM7wp-_BAAAA HTTP/1.1" 200 -
+[2025-05-02 21:04:32] 127.0.0.1 - - [02/May/2025 21:04:32] "GET /socket.io/?EIO=4&transport=polling&t=PQJh6iU&sid=-zQF39WmHM7wp-_BAAAA HTTP/1.1" 200 -
+[2025-05-02 21:04:32] 127.0.0.1 - - [02/May/2025 21:04:32] "GET /socket.io/?EIO=4&transport=polling&t=PQJh6lJ&sid=-zQF39WmHM7wp-_BAAAA HTTP/1.1" 200 -
+[2025-05-02 21:04:35] 127.0.0.1 - - [02/May/2025 21:04:35] "GET /socket.io/?EIO=4&transport=websocket&sid=-zQF39WmHM7wp-_BAAAA HTTP/1.1" 200 -
+[2025-05-02 21:04:35] 127.0.0.1 - GET /home
+[2025-05-02 21:04:35] 127.0.0.1 - - [02/May/2025 21:04:35] "GET /home HTTP/1.1" 200 -
+[2025-05-02 21:04:35] 127.0.0.1 - GET /static/css/home.css
+[2025-05-02 21:04:35] 127.0.0.1 - GET /static/js/home.js
+[2025-05-02 21:04:35] 127.0.0.1 - - [02/May/2025 21:04:35] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-02 21:04:35] 127.0.0.1 - - [02/May/2025 21:04:35] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-02 21:04:35] 127.0.0.1 - GET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png
+[2025-05-02 21:04:35] 127.0.0.1 - - [02/May/2025 21:04:35] "[36mGET /static/avatar/1e4055b4-b97f-4d51-9fc1-421d82e5a34a.png HTTP/1.1[0m" 304 -
+[2025-05-02 21:04:35] 127.0.0.1 - - [02/May/2025 21:04:35] "GET /socket.io/?EIO=4&transport=polling&t=PQJh7L9 HTTP/1.1" 200 -
+[2025-05-02 21:04:35] 127.0.0.1 - - [02/May/2025 21:04:35] "POST /socket.io/?EIO=4&transport=polling&t=PQJh7LY&sid=ANhzfTcQ5bB07FfdAAAC HTTP/1.1" 200 -
+[2025-05-02 21:04:35] 127.0.0.1 - - [02/May/2025 21:04:35] "GET /socket.io/?EIO=4&transport=polling&t=PQJh7LZ&sid=ANhzfTcQ5bB07FfdAAAC HTTP/1.1" 200 -
+[2025-05-02 21:04:35] 127.0.0.1 - - [02/May/2025 21:04:35] "GET /socket.io/?EIO=4&transport=polling&t=PQJh7MG&sid=ANhzfTcQ5bB07FfdAAAC HTTP/1.1" 200 -
+[2025-05-02 21:04:53] 127.0.0.1 - - [02/May/2025 21:04:53] "GET /socket.io/?EIO=4&transport=websocket&sid=ANhzfTcQ5bB07FfdAAAC HTTP/1.1" 200 -
+[2025-05-02 21:04:53] 127.0.0.1 - POST /logout
+[2025-05-02 21:04:53] 127.0.0.1 - - [02/May/2025 21:04:53] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[2025-05-02 21:04:53] 127.0.0.1 - GET /
+[2025-05-02 21:04:53] 127.0.0.1 - - [02/May/2025 21:04:53] "[32mGET / HTTP/1.1[0m" 302 -
+[2025-05-02 21:04:53] 127.0.0.1 - GET /register
+[2025-05-02 21:04:53] 127.0.0.1 - - [02/May/2025 21:04:53] "GET /register HTTP/1.1" 200 -
+[2025-05-02 21:05:39]  * Detected change in 'C:\\Users\\tkasn\\PycharmProjects\\312-mmo\\util\\avatar.py', reloading
+[2025-05-02 21:05:39]  * Restarting with stat

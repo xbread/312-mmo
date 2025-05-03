@@ -74,8 +74,10 @@ def home():
     username = get_username_from_request(request)
     if not username:
         return redirect('/login')
+    user = user_collection.find_one({"username": username})
+    image_url = user["imageURL"]
     # print("token: ", auth_token)
-    return render_template('home.html', username=username, auth_token=auth_token)
+    return render_template('home.html', username=username, auth_token=auth_token, imageURL=image_url)
 
 @app.route('/profile')
 def profile():
@@ -110,14 +112,6 @@ def file_upload():
 @app.route("/gameboard")
 def gameboard():
     return render_template("gameboard.html")
-
-@app.route("/api/get-user-avatar")
-def handle_get_avatar():
-    username = user_valid(request)
-    user = user_collection.find_one({"username": username})
-    image_url = user["imageURL"]
-    print(image_url)
-    return jsonify({"imageURL": image_url})
 
 @socketio.on('connect')
 def handle_connect(auth_token):
@@ -317,4 +311,4 @@ def broadcast_users_update():
     
 
 if __name__ == "__main__":
-    socketio.run(app, host="0.0.0.0", port=8080, allow_unsafe_werkzeug=True)
+    socketio.run(app, debug=True, host="0.0.0.0", port=8080, allow_unsafe_werkzeug=True)

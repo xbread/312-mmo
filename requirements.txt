@@ -4,4 +4,3 @@ gunicorn==21.2.0
 bcrypt
 pymongo
 flask-socketio
-

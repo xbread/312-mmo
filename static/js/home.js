@@ -13,44 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Clear and draw background
     ctx.fillStyle = '#ffffff';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
+
 // Example: Draw a simple snake (start with 1 block)
-const snakeHeadImage = new Image();
-// Fetch the avatar image URL from the backend
-    fetch(window.origin + '/api/get-user-avatar')
-    .then(response => response.json())
-    .then(data => {
-
-        // Load the image from the URL fetched from the backend
-        snakeHeadImage.src = data.imageURL;
-
-        // Wait until the image is loaded before starting the game loop
-        snakeHeadImage.onload = function () {
-            // Calculate the correct width and height to maintain the aspect ratio
-                let imageWidth = snakeHeadImage.width;
-                let imageHeight = snakeHeadImage.height;
-
-                const aspectRatio = imageWidth / imageHeight;
-
-                // Resize the image to fit within the blockSize, maintaining the aspect ratio
-                if (aspectRatio > 1) {
-                    // If the width is larger than the height (landscape)
-                    imageWidth = blockSize;
-                    imageHeight = blockSize / aspectRatio;
-                } else {
-                    // If the height is larger than the width (portrait)
-                    imageHeight = blockSize;
-                    imageWidth = blockSize * aspectRatio;
-                }
-
-                // Set the new image dimensions
-                snakeHeadImage.width = imageWidth;
-                snakeHeadImage.height = imageHeight;
-                gameLoop()
-        };
-    })
-    .catch(err => {
-        console.error('Error fetching avatar image:', err);
-    });
 const snake = [{ x: 5, y: 5 }];
 const blockSize = 20;
 const otherPlayers = {};  // username -> snake body
@@ -89,12 +53,15 @@ function updateSnake() {
         y: snake[0].y + velocity.y 
     };
 
+    console.log(snake.length)
+    console.log(snake)
+    //* blockSize
     // Check wall collision
     if (
         head.x < 0 || 
         head.y < 0 || 
-        head.x * blockSize >= canvas.width || 
-        head.y * blockSize >= canvas.height
+        head.x >= canvas.width ||
+        head.y >= canvas.height
     ) {
         console.log("You hit the wall! Game over.");
         resetGame();
@@ -176,16 +143,37 @@ function resetGame() {
 }
 
 function drawSnake() {
-    ctx.drawImage(snakeHeadImage, snake[0].x, snake[0].y, blockSize, blockSize)
+    let imageWidth = imgURL.width;
+    let imageHeight = imgURL.height;
 
-    ctx.fillStyle = myColor;
-    for (let i = 1; i < snake.length; i++) {
-        ctx.fillRect(i.x * blockSize, i.y * blockSize, blockSize, blockSize);
+    const aspectRatio = imageWidth / imageHeight;
 
-        // Draw a small black outline
-        ctx.strokeStyle = 'black';
-        ctx.lineWidth = 2;  // You can tweak this if needed
-        ctx.strokeRect(i.x * blockSize, i.y * blockSize, blockSize, blockSize);
+    // Resize the image to fit within the blockSize, maintaining the aspect ratio
+    if (aspectRatio > 1) {
+        // If the width is larger than the height (landscape)
+        imageWidth = blockSize;
+        imageHeight = blockSize / aspectRatio;
+    } else if (aspectRatio < 1) {
+        // If the height is larger than the width (portrait)
+        imageHeight = blockSize;
+        imageWidth = blockSize * aspectRatio;
+    }
+    // Set the new image dimensions
+    imgURL.width = imageWidth
+    imgURL.height = imageHeight
+
+    ctx.drawImage(imgURL, snake[0].x * blockSize, snake[0].y * blockSize, blockSize, blockSize);
+
+    if (snake.length > 1) {
+        ctx.fillStyle = myColor;
+        for (let i = 1; i < snake.length; i++) {
+            ctx.fillRect(snake[i].x * blockSize, snake[i].y * blockSize, blockSize, blockSize);
+
+            // Draw a small black outline
+            ctx.strokeStyle = 'black';
+            ctx.lineWidth = 2;  // You can tweak this if needed
+            ctx.strokeRect(snake[i].x * blockSize, snake[i].y * blockSize, blockSize, blockSize);
+        }
     }
 }
 

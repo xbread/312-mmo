@@ -5,6 +5,7 @@ import uuid
 import hashlib
 from app import ALLOWED_EXTENSIONS, UPLOAD_FOLDER
 
+
 ALLOWED_TYPES = ["image/png", "image/jpeg"]
 
 Ext_Map = {"image/png" : "png", "image/jpeg": "jpg"}
