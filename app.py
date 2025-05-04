@@ -337,9 +337,16 @@ def handle_self_death():
     if username:
         user_collection.update_one(
             {"username": username},
-            {"$inc": {"stats.deaths": 1}}
+            {"$inc": {"stats.deaths": 1}},
+
         )
         check_and_award_achievements(username)
+        user = user_collection.find_one({"username": username})
+        if "self_elim" not in user.get("achievements", []):
+            user_collection.update_one(
+                {"username": username},
+                {"$addToSet": {"achievements": "self_elim"}}
+            )
         socketio.emit("player_death_announcement", {"username": username})
     socketio.emit('update_players', player_snakes)
     check_for_game_end()
