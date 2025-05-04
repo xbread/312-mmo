@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <style>
+        .leaderboard-wrapper {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .leaderboard-title {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .leaderboard-list {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .leaderboard-entry {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #f8f8f8;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .rank-number {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-right: 15px;
+            width: 30px;
+        }
+
+        .leaderboard-entry img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .username {
+            flex-grow: 1;
+            font-size: 1.1em;
+        }
+
+        .wins {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .first-place {
+            background-color: gold;
+            color: black;
+            font-weight: bold;
+        }
+        
+        .second-place {
+            background-color: silver;
+            color: black;
+            font-weight: bold;
+        }
+        
+        .third-place {
+            background-color: #cd7f32; /* Bronze */
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div id="top-message-container">
+            <span id="welcome-text">Welcome: {{ username }}</span>
+        </div>
+        <form method="POST" action="/logout" style="margin: 0;">
+            <button class="logout-button" type="submit">Logout</button>
+        </form>
+    </div>
+
+    <div id="main-layout">
+        <!-- Navbar reused from home -->
+        <div id="navbar">
+            <h2>Navbar</h2>
+            <a href="/home">Home</a>
+            <a href="/profile">Profile</a>
+            <a href="/achievements">Achievements</a>
+            <a href="/player_stats">Player Stats</a>
+            <a href="/leaderboard">Leaderboard</a>
+        </div>
+
+        <div id="game-container">
+            <div class="leaderboard-wrapper">
+                <div class="leaderboard-title">🏆 Leaderboard: Games Won</div>
+                <div class="leaderboard-list">
+                    {% for player in leaderboard %}
+                    <div class="leaderboard-entry 
+                        {% if loop.index == 1 %}first-place{% elif loop.index == 2 %}second-place{% elif loop.index == 3 %}third-place{% endif %}">
+                        <div class="rank-number">{{ loop.index }}</div>
+                        <img src="{{ player.imageURL }}" alt="Avatar">
+                        <div class="username">
+                            {{ player.username }}
+                            {% if loop.index == 1 %}🥇{% elif loop.index == 2 %}🥈{% elif loop.index == 3 %}🥉{% endif %}
+                        </div>
+                        <div class="wins">{{ player.stats.games_won }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

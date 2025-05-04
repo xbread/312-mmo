@@ -8,6 +8,8 @@ from util.avatar import *
 import threading
 import time
 import random
+from util.database import user_collection
+from util.achievements import achievements_list
 
 #For images
 ALLOWED_EXTENSIONS = ["png", "jpg", "jpeg"]
@@ -113,6 +115,63 @@ def file_upload():
 def gameboard():
     return render_template("gameboard.html")
 
+@app.route('/player_stats')
+def player_stats():
+    username = get_username_from_request(request)
+    if not username:
+        return redirect('/login')
+
+    user = user_collection.find_one({"username": username}) or {}
+    stats = user.get("stats", {})
+    image_url = user.get("imageURL", "public/avatar/default_avatar.png")
+
+    return render_template("player_stats.html", username=username, stats=stats, image_url=image_url)
+
+@app.route('/achievements')
+def achievements():
+    username = get_username_from_request(request)
+    if not username:
+        return redirect('/login')
+
+    user = user_collection.find_one({"username": username})
+    image_url = user.get("imageURL", "public/avatar/default_avatar.png")
+    unlocked = set(user.get("achievements", []))
+
+    # Copy the global list and add `unlocked` status to each
+    user_achievements = []
+    for key, a in achievements_list.items():
+        entry = a.copy()
+        entry["id"] = key
+        entry["unlocked"] = key in unlocked  # <-- this line is critical
+        user_achievements.append(entry)
+
+    return render_template("achievements.html", username=username, image_url=image_url, achievements=user_achievements)
+
+@app.route('/leaderboard')
+def leaderboard():
+    username = get_username_from_request(request)
+    if not username:
+        return redirect('/login')
+
+    players = list(user_collection.find())
+    players.sort(key=lambda u: u.get("stats", {}).get("games_won", 0), reverse=True)
+
+    leaderboard_data = []
+    for user in players:
+        leaderboard_data.append({
+            "username": user["username"],
+            "imageURL": user.get("imageURL", "public/avatar/default_avatar.png"),
+            "stats": {
+                "games_won": user.get("stats", {}).get("games_won", 0),
+                "games_played": user.get("stats", {}).get("games_played", 0),
+                "longest_length": user.get("stats", {}).get("longest_length", 0)
+            }
+        })  
+
+    return render_template("leaderboard.html", username=username, leaderboard=leaderboard_data)
+
+
+
 @socketio.on('connect')
 def handle_connect(auth_token):
     username = get_username(auth_token)
@@ -170,7 +229,14 @@ def handle_move_user(data):
 def handle_player_update(data):
     sid = request.sid
     player_snakes[sid] = data['snake']  # store the snake list
-
+    username = user_sessions.get(sid)
+    if username:
+        snake_length = len(data['snake'])
+        user_collection.update_one(
+            {"username": username},
+            {"$max": {"stats.longest_length": snake_length}}
+        )
+        check_and_award_achievements(username)
     # Broadcast updated positions to everyone
     emit('update_players', player_snakes, broadcast=True)
 
@@ -206,22 +272,94 @@ def handle_food_eaten(data):
             current_food.append({'x': x, 'y': y})
             break
 
+    username = user_sessions.get(request.sid)
+    if username:
+        user_collection.update_one(
+            {"username": username},
+            {"$inc": {"stats.food_eaten": 1}}
+        )
+        check_and_award_achievements(username)
     # Broadcast updated food list
     emit('food_update', current_food, broadcast=True)
 
     
 @socketio.on('player_died')
-def handle_player_died():
+def handle_player_died(data):
     sid = request.sid
     if sid in player_snakes:
         del player_snakes[sid]
 
     if sid in player_ready:
         player_ready[sid] = False  # Not ready anymore
+    username = user_sessions.get(request.sid)
+    
+    if username:
+        user_collection.update_one(
+            {"username": username},
+            {"$inc": {"stats.deaths": 1}}
+        )
+        check_and_award_achievements(username)
+        socketio.emit("player_death_announcement", {"username": username})
+
+    if data and 'killedBy' in data:
+        killer_sid = data['killedBy']
+        killer_username = user_sessions.get(killer_sid)
+        if killer_username:
+            user_collection.update_one(
+                {"username": killer_username},
+                {"$inc": {"stats.kills": 1}}
+            )
 
     socketio.emit('update_players', player_snakes)
     
-    check_for_game_end()    
+    check_for_game_end()  
+     
+@socketio.on('player_kill')
+def handle_player_kill(data):
+    killer_username = user_sessions.get(request.sid)
+    if killer_username:
+        user_collection.update_one(
+            {"username": killer_username},
+            {"$inc": {"stats.kills": 1}}
+        )
+ 
+@socketio.on('self_death')
+def handle_self_death():
+    sid = request.sid
+    username = user_sessions.get(sid)
+
+    if sid in player_snakes:
+        del player_snakes[sid]
+
+    if sid in player_ready:
+        player_ready[sid] = False
+
+    if username:
+        user_collection.update_one(
+            {"username": username},
+            {"$inc": {"stats.deaths": 1}}
+        )
+        check_and_award_achievements(username)
+        socketio.emit("player_death_announcement", {"username": username})
+    socketio.emit('update_players', player_snakes)
+    check_for_game_end()
+
+
+def check_and_award_achievements(username):
+    user = user_collection.find_one({"username": username})
+    stats = user.get("stats", {})
+    unlocked = set(user.get("achievements", []))
+    newly_unlocked = []
+
+    for key, data in achievements_list.items():
+        if key not in unlocked and data["check"](stats):
+            user_collection.update_one(
+                {"username": username},
+                {"$addToSet": {"achievements": key}}
+            )
+            newly_unlocked.append(key)
+
+    return newly_unlocked
         
 def check_for_game_end():
     alive_players = [sid for sid in player_snakes if player_snakes[sid]]
@@ -237,6 +375,18 @@ def check_for_game_end():
         if alive_players:
             winner_sid = alive_players[0]
             winner_username = user_sessions.get(winner_sid)
+        for sid in user_sessions:
+            username = user_sessions[sid]
+            user_collection.update_one(
+                {"username": username},
+                {"$inc": {"stats.games_played": 1}}
+            )
+        if winner_username:
+            user_collection.update_one(
+                {"username": winner_username},
+                {"$inc": {"stats.games_won": 1}}
+            )
+            check_and_award_achievements(username)
         socketio.emit('game_over', {'winner': winner_username})    
         
 def spawn_new_food(start_countdown=False):

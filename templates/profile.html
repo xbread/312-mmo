@@ -107,13 +107,25 @@
         .update-button:hover {
             background-color: #2563eb;
         }
+        .logout-button {
+            padding: 5px 10px;
+            background-color: #ef4444;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .logout-button:hover {
+            background-color: #dc2626;
+        }
     </style>
 </head>
 <body>
     <div class="top-bar">
         <div>Welcome: {{ username }}</div>
         <form method="POST" action="/logout" style="margin: 0;">
-            <button class="update-button" type="submit">Logout</button>
+            <button class="logout-button" type="submit">Logout</button>
         </form>
     </div>
 
@@ -122,9 +134,9 @@
             <h2>Navbar</h2>
             <a href="/home">Home</a>
             <a href="/profile">Profile</a>
-            <a href="#">Achievements</a>
-            <a href="#">Player Stats</a>
-            <a href="#">Leaderboard</a>
+            <a href="/achievements">Achievements</a>
+            <a href="/player_stats">Player Stats</a>
+            <a href="/leaderboard">Leaderboard</a>
         </div>
 
         <div class="main-content">

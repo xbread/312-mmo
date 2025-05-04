@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Achievements</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <style>
+        .stats-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .achievement-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .achievement-card {
+            border: 2px solid #ccc;
+            padding: 15px;
+            width: 200px;
+            border-radius: 10px;
+            background-color: #f7f7f7;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .achievement-card.locked {
+            opacity: 0.4;
+        }
+
+        .achievement-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .achievement-description {
+            font-size: 0.9em;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div id="top-message-container">
+            <span id="welcome-text">Welcome: {{ username }}</span>
+        </div>
+        <form method="POST" action="/logout" style="margin: 0;">
+            <button class="logout-button" type="submit">Logout</button>
+        </form>
+    </div>
+
+    <div id="main-layout">
+        <!-- Navbar reused from home -->
+        <div id="navbar">
+            <h2>Navbar</h2>
+            <a href="/home">Home</a>
+            <a href="/profile">Profile</a>
+            <a href="/achievements">Achievements</a>
+            <a href="/player_stats">Player Stats</a>
+            <a href="/leaderboard">Leaderboard</a>
+        </div>
+
+        <div class="stats-container">
+            <div class="profile-section">
+                <img class="profile-pic" src="{{ image_url }}" alt="Profile Picture">
+                <h2>{{ username }}</h2>
+            </div>
+
+            <div class="achievement-container">
+                {% for achievement in achievements %}
+                <div class="achievement-card {% if not achievement.unlocked %}locked{% endif %}">
+                    <div class="achievement-title">{{ achievement.title }}</div>
+                    <div class="achievement-description">{{ achievement.description }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

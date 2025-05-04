@@ -21,7 +21,7 @@ const otherPlayers = {};  // username -> snake body
 const otherPlayerColors = {};  // sid -> color
 
 let velocity = { x: 1, y: 0 };  // Start moving to the right
-let moveDelay = 100; // milliseconds between moves (100ms = 10 moves per second)
+let moveDelay = 75; // milliseconds between moves (100ms = 10 moves per second)
 let lastMoveTime = 0;
 let food = [];  // List of food objects
 let score = 0;
@@ -61,6 +61,7 @@ function updateSnake() {
         (head.y * blockSize) >= canvas.height
     ) {
         console.log("You hit the wall! Game over.");
+        socket.emit('self_death');
         resetGame();
         return;
     }
@@ -69,6 +70,7 @@ function updateSnake() {
     for (let i = 0; i < snake.length; i++) {
         if (head.x === snake[i].x && head.y === snake[i].y) {
             console.log("You ran into yourself! Game over.");
+            socket.emit('self_death');
             resetGame();
             return;
         }
@@ -86,19 +88,24 @@ function updateSnake() {
                     // Head collision
                     if (snake.length > enemySnake.length) {
                         console.log("You defeated another player (longer snake)!");
+                        socket.emit('player_kill', { victim: sid });
+                        return
                         // You win the collision, maybe you grow or do nothing
                     } else if (snake.length < enemySnake.length) {
                         console.log("You hit a bigger snake's head! You die.");
+                        socket.emit('player_died', { killedBy: sid });
                         resetGame();
                         return;
                     } else {
                         console.log("Same size head collision. Both should die maybe?");
+                        socket.emit('player_died', { killedBy: sid });
                         resetGame();
                         return;
                     }
                 } else {
                     // Body collision
                     console.log("You hit someone's body! You die.");
+                    socket.emit('player_died', { killedBy: sid });
                     resetGame();
                     return;
                 }
@@ -130,9 +137,9 @@ function updateSnake() {
 }
 
 function resetGame() {
-    if (socket && socket.connected) {
-        socket.emit('player_died');
-    }
+    // if (socket && socket.connected) {
+    //     socket.emit('player_died');
+    // }
     snake.length = 1;                // Reset to length 1
     snake[0] = { x: 5, y: 5 };        // Reset position
     velocity.x = 1;                  // Move right by default
@@ -295,6 +302,16 @@ gameLoop(performance.now());
         
         socket.on('disconnect', () => {
             console.log('Disconnected from WebSocket server.');
+        });
+
+        socket.on('player_death_announcement', (data) => {
+            const deadPlayer = data.username;
+            setTopMessage(`${deadPlayer} died!`);
+        
+            // Clear the message after 3 seconds
+            setTimeout(() => {
+                setTopMessage('');
+            }, 3000);
         });
 
         socket.on('start_countdown', (data) => {
