@@ -62,7 +62,7 @@ function updateSnake() {
     ) {
         console.log("You hit the wall! Game over.");
         socket.emit('self_death');
-        resetGame();
+        // resetGame();
         return;
     }
 
@@ -71,7 +71,7 @@ function updateSnake() {
         if (head.x === snake[i].x && head.y === snake[i].y) {
             console.log("You ran into yourself! Game over.");
             socket.emit('self_death');
-            resetGame();
+            // resetGame();
             return;
         }
     }
@@ -94,19 +94,19 @@ function updateSnake() {
                     } else if (snake.length < enemySnake.length) {
                         console.log("You hit a bigger snake's head! You die.");
                         socket.emit('player_died', { killedBy: sid });
-                        resetGame();
+                        // resetGame();
                         return;
                     } else {
                         console.log("Same size head collision. Both should die maybe?");
                         socket.emit('player_died', { killedBy: sid });
-                        resetGame();
+                        // resetGame();
                         return;
                     }
                 } else {
                     // Body collision
                     console.log("You hit someone's body! You die.");
                     socket.emit('player_died', { killedBy: sid });
-                    resetGame();
+                    // resetGame();
                     return;
                 }
             }
