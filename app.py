@@ -299,7 +299,7 @@ def handle_player_died(data):
             {"$inc": {"stats.deaths": 1}}
         )
         check_and_award_achievements(username)
-        socketio.emit("player_death_announcement", {"username": username})
+        # socketio.emit("player_death_announcement", {"username": username})
 
     if data and 'killedBy' in data:
         killer_sid = data['killedBy']
@@ -347,7 +347,7 @@ def handle_self_death():
                 {"username": username},
                 {"$addToSet": {"achievements": "self_elim"}}
             )
-        socketio.emit("player_death_announcement", {"username": username})
+        # socketio.emit("player_death_announcement", {"username": username})
     socketio.emit('update_players', player_snakes)
     check_for_game_end()
 
