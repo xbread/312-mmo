@@ -20,6 +20,11 @@
             max-width: 400px;
             margin: 0 auto;
             text-align: left;
+
+            /* ← NEW: */
+            max-height: calc(100vh - 200px);   /* adjust 200px to account for top‑bar + navbar spacing */
+            overflow-y: auto;
+            padding-right: 10px;               /* avoid avatar getting cut off under scrollbar */
         }
 
         .leaderboard-entry {
