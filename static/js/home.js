@@ -267,6 +267,14 @@ gameLoop(performance.now());
         });
 
         socket.on('update_players', (allSnakes) => {
+
+            if (!(socket.id in allSnakes)) {
+                // You’ve died: stop the game and hide your snake
+                gameRunning = false;
+                snake.length = 0;        // clear your body
+                return;
+              }
+
             // Clear previous otherPlayers
             for (const id in otherPlayers) {
                 delete otherPlayers[id];
