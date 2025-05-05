@@ -305,8 +305,15 @@ gameLoop(performance.now());
         });
 
         socket.on('player_death_announcement', (data) => {
-            const deadPlayer = data.username;      
-            setTopMessage(`${deadPlayer} died!`);
+            const msg = `${data.username} died!`;
+            setTopMessage(msg);
+            // clear any previous timeout so messages don't flip
+            if (deathTimeout) clearTimeout(deathTimeout);
+            // remove message after 3s
+            deathTimeout = setTimeout(() => {
+                setTopMessage('');
+                deathTimeout = null;
+            }, 3000);
         });
 
         socket.on('start_countdown', (data) => {

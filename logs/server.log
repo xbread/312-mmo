@@ -22868,3 +22868,27 @@ FileNotFoundError: [Errno 2] No such file or directory: 'bd634048-a23c-4165-9fc2
 [2025-05-04 20:43:59] 127.0.0.1 - - [04/May/2025 20:43:59] "POST /socket.io/?EIO=4&transport=polling&t=PQTvb2O&sid=ng4woGXA0b7YAwk-AAAK HTTP/1.1" 200 -
 [2025-05-04 20:43:59] 127.0.0.1 - - [04/May/2025 20:43:59] "GET /socket.io/?EIO=4&transport=polling&t=PQTvb2P&sid=ng4woGXA0b7YAwk-AAAK HTTP/1.1" 200 -
 [2025-05-04 20:43:59] 127.0.0.1 - - [04/May/2025 20:43:59] "GET /socket.io/?EIO=4&transport=polling&t=PQTvb2Y&sid=ng4woGXA0b7YAwk-AAAK HTTP/1.1" 200 -
+[2025-05-04 21:02:57] 127.0.0.1 - - [04/May/2025 21:02:57] "GET /socket.io/?EIO=4&transport=websocket&sid=qjfJ_hkFTzLCxj6fAAAA HTTP/1.1" 200 -
+[2025-05-04 21:02:57] 127.0.0.1 - GET /home
+[2025-05-04 21:02:57] 127.0.0.1 - - [04/May/2025 21:02:57] "GET /home HTTP/1.1" 200 -
+[2025-05-04 21:02:57] 127.0.0.1 - GET /static/css/home.css
+[2025-05-04 21:02:57] 127.0.0.1 - GET /static/js/home.js
+[2025-05-04 21:02:57] 127.0.0.1 - - [04/May/2025 21:02:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[2025-05-04 21:02:57] 127.0.0.1 - - [04/May/2025 21:02:57] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+[2025-05-04 21:02:57] 127.0.0.1 - GET /static/avatar/751bfa45-b24f-46a5-8b7f-5759713fd997.jpg
+[2025-05-04 21:02:57] 127.0.0.1 - - [04/May/2025 21:02:57] "[36mGET /static/avatar/751bfa45-b24f-46a5-8b7f-5759713fd997.jpg HTTP/1.1[0m" 304 -
+[2025-05-04 21:02:57] 127.0.0.1 - - [04/May/2025 21:02:57] "GET /socket.io/?EIO=4&transport=polling&t=PQTzww3 HTTP/1.1" 200 -
+[2025-05-04 21:02:57] 127.0.0.1 - - [04/May/2025 21:02:57] "POST /socket.io/?EIO=4&transport=polling&t=PQTzww6&sid=29MLyMgpWdRsMuhkAAAM HTTP/1.1" 200 -
+[2025-05-04 21:02:57] 127.0.0.1 - - [04/May/2025 21:02:57] "GET /socket.io/?EIO=4&transport=polling&t=PQTzww8&sid=29MLyMgpWdRsMuhkAAAM HTTP/1.1" 200 -
+[2025-05-04 21:02:57] 127.0.0.1 - - [04/May/2025 21:02:57] "GET /socket.io/?EIO=4&transport=polling&t=PQTzwwG&sid=29MLyMgpWdRsMuhkAAAM HTTP/1.1" 200 -
+[2025-05-04 21:03:00] 127.0.0.1 - - [04/May/2025 21:03:00] "GET /socket.io/?EIO=4&transport=websocket&sid=29MLyMgpWdRsMuhkAAAM HTTP/1.1" 200 -
+[2025-05-04 21:03:27] 127.0.0.1 - - [04/May/2025 21:03:27] "GET /socket.io/?EIO=4&transport=websocket&sid=ng4woGXA0b7YAwk-AAAK HTTP/1.1" 200 -
+[2025-05-04 21:18:32] 127.0.0.1 - - [04/May/2025 21:18:32] "GET /socket.io/?EIO=4&transport=websocket&sid=3YiVGwQLHRAJjr-zAAAE HTTP/1.1" 200 -
+[2025-05-04 21:39:34] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.84.64.234:8080
+[2025-05-04 21:39:34] [33mPress CTRL+C to quit[0m
+[2025-05-04 21:39:34]  * Restarting with watchdog (fsevents)
+[2025-05-04 21:39:34]  * Debugger is active!
+[2025-05-04 21:39:34]  * Debugger PIN: 379-446-816
