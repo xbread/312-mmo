@@ -210,6 +210,7 @@ function drawOtherPlayers(allSnakes) {
 }
 
 function startGame() {
+    snake.length = 1
     gameRunning = true;  // Allow snake to move
     console.log("Game Started!");
 }
