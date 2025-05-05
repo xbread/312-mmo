@@ -1,6 +1,6 @@
 from dns.message import make_response
 from flask import Flask, request, render_template, redirect, flash, jsonify
-from flask_socketio import SocketIO, emit
+from flask_socketio import SocketIO, emit, disconnect
 from util.Logging import log_request
 from util.Authentication import registration, login, logout, get_username_from_request
 from util.websocket_functions import *
@@ -177,15 +177,17 @@ def handle_connect(auth_token):
     username = get_username(auth_token)
     if username is not None:
         
-        # if this user is already connected, disconnect their old socket
         for old_sid, old_user in list(user_sessions.items()):
             if old_user == username:
-                socketio.server.disconnect(old_sid)
-                # clean up any state for the old socket
-                del user_sessions[old_sid]
+                # remove old session data
+                user_sessions.pop(old_sid, None)
                 player_ready.pop(old_sid, None)
                 player_snakes.pop(old_sid, None)
-                break
+                try:
+                    # forcefully disconnect the old connection
+                    disconnect(sid=old_sid)
+                except Exception:
+                    pass
         
         user_sessions[request.sid] = username
         user_list.append(username)
