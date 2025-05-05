@@ -305,13 +305,8 @@ gameLoop(performance.now());
         });
 
         socket.on('player_death_announcement', (data) => {
-            const deadPlayer = data.username;
+            const deadPlayer = data.username;      
             setTopMessage(`${deadPlayer} died!`);
-        
-            // Clear the message after 3 seconds
-            setTimeout(() => {
-                setTopMessage('');
-            }, 3000);
         });
 
         socket.on('start_countdown', (data) => {
@@ -349,6 +344,13 @@ gameLoop(performance.now());
                         otherPlayerColors[id] = data.player_colors[id];
                     }
                 }
+            }
+
+            const mine = data.initial_velocities[socket.id];
+            if (mine) {
+                velocity.x = mine[0];
+                velocity.y = mine[1];
+                console.log("Initial velocity set to:", velocity);
             }
 
             let countdown = 5;

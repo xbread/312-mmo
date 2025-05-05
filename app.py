@@ -400,6 +400,7 @@ def spawn_new_food(start_countdown=False):
     global current_food
     grid_width = 50
     grid_height = 40
+    buffer = 3
 
     if start_countdown:
         # Reset current food
@@ -412,8 +413,8 @@ def spawn_new_food(start_countdown=False):
 
         for sid in user_sessions.keys():
             while True:
-                x = random.randint(0, grid_width - 1)
-                y = random.randint(0, grid_height - 1)
+                x = random.randint(buffer, grid_width - buffer - 1)
+                y = random.randint(buffer, grid_height - buffer - 1)
                 if (x, y) not in used_positions:
                     used_positions.add((x, y))
                     starting_positions[sid] = {"x": x, "y": y}
@@ -423,17 +424,31 @@ def spawn_new_food(start_countdown=False):
         # Spawn 1 food per player
         for _ in range(len(user_sessions)):
             while True:
-                x = random.randint(0, grid_width - 1)
-                y = random.randint(0, grid_height - 1)
+                x = random.randint(buffer, grid_width - buffer - 1)
+                y = random.randint(buffer, grid_height - buffer - 1)
                 if (x, y) not in used_positions:
                     used_positions.add((x, y))
                     current_food.append({'x': x, 'y': y})
                     break
+                
+        initial_velocities = {}
+        possible_dirs = [(1,0),(-1,0),(0,1),(0,-1)]
+        for sid, pos in starting_positions.items():
+            legal = []
+            for dx, dy in possible_dirs:
+                nx = pos["x"] + dx * buffer
+                ny = pos["y"] + dy * buffer
+                # stays inside the buffered rectangle?
+                if buffer <= nx < grid_width - buffer and buffer <= ny < grid_height - buffer:
+                    legal.append((dx, dy))
+            # if for some reason nothing is legal (shouldn’t happen), default right
+            initial_velocities[sid] = legal[random.randrange(len(legal))] if legal else (1,0)        
 
         emit('start_countdown', 
              {'food': current_food, 
               'starting_positions': starting_positions,
-              'player_colors': player_colors},
+              'player_colors': player_colors,
+              'initial_velocities': initial_velocities},
              broadcast=True)
     else:
         # During normal gameplay, spawn 1 food
